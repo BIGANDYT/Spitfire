@@ -1,0 +1,21 @@
+﻿---
+ID: eb364541-8898-470f-b483-f675efe2fc43
+Parent: bfe83f11-02e0-4d16-b2e8-f1d6c4949f7d
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/footer
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: footer
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: {BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151102T073730Z

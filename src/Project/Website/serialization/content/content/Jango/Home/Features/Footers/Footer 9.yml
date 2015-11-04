@@ -1,0 +1,16 @@
+﻿---
+ID: 6d870f29-98a2-4e66-954d-45e1cadc58c3
+Parent: a3e9b924-cccf-4c44-9f46-63eedeb4df01
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Features/Footers/Footer 9
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173638Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

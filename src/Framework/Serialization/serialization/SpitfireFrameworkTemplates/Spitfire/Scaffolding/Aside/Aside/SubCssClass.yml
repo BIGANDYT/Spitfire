@@ -1,0 +1,20 @@
+﻿---
+ID: b138e613-bc89-4f98-839c-3d0a0a521a1d
+Parent: 43722dbb-1370-4dae-97d1-7ac77a6e6921
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Scaffolding/Aside/Aside/SubCssClass
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151101T173601Z

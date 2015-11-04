@@ -1,0 +1,13 @@
+﻿---
+ID: c1255a8e-84b9-4d39-8009-f804e3dd6850
+Parent: e0ce7a7b-8b00-4b62-ac42-788da8c4b348
+Template: 239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b
+Path: /sitecore/templates/Spitfire/Pages
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T090907Z

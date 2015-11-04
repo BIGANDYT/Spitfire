@@ -1,0 +1,26 @@
+﻿---
+ID: 0e3d068b-b6c0-4d2a-9140-3a4672ed06b0
+Parent: 335fcf65-61b0-4dcc-b29d-7a72a17e71f4
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Scaffolding/section
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/Website/Sublayouts/Scaffolding/section.cshtml
+- ID: 7d24e54f-5c16-4314-90c9-6051aa1a7da1
+  # Parameters Template
+  Value: {8D6F576E-2B25-4001-A89B-4C16F4F31B81}
+- ID: ddab263e-b42e-419a-aa6f-081b7393ca38
+  # Model
+  Value: /sitecore/layout/Models/Spitfire/Section
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T081332Z

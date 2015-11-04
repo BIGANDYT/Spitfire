@@ -1,0 +1,8 @@
+﻿@model Habitat.Framework.SitecoreExtensions.Model.Aside
+@using Sitecore
+@using Sitecore.Support
+<aside d="@Model.Id" class="cta-quote @Model.CssClass" style="background-image:url('@Model.BackgroundImgUrl');@Model.CssStyle">
+    <div class="@Model.SubCssClass">
+        @Html.Sitecore().DynamicPlaceholder("aside")
+    </div>
+</aside>

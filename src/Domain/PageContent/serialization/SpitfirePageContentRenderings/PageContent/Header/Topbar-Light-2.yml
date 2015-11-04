@@ -1,0 +1,20 @@
+﻿---
+ID: de75b3f5-5291-4e29-a0d1-35c4972d2995
+Parent: f712777a-5846-40bc-b303-c05eb99d11e4
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Header/Topbar-Light-2
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Header/Topbar-Light-2.cshtml
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151104T184410Z

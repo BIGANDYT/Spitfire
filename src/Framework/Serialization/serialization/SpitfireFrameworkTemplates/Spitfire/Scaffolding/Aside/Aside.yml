@@ -1,0 +1,16 @@
+﻿---
+ID: 43722dbb-1370-4dae-97d1-7ac77a6e6921
+Parent: e8d0c797-90d6-475d-8f69-3c9805f806c8
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Scaffolding/Aside/Aside
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151101T173601Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

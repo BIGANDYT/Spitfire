@@ -1,0 +1,29 @@
+﻿---
+ID: e8d0c797-90d6-475d-8f69-3c9805f806c8
+Parent: 9d2c71c7-9873-4e3b-a09e-9215c6ffc8e4
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Scaffolding/Aside
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/form_blue.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {8CA06D6A-B353-44E8-BC31-B528C7306971}
+    {65BABA02-C72B-4757-9A30-DB768D225395}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {09D2C7D7-DCE4-4DB5-A51D-CF40E156CC9F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T095327Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

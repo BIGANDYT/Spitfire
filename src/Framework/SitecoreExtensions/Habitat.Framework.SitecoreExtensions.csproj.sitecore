@@ -1,5 +1,20 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="habitat.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Model\Spitfire\Aside.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CE0870AA-3AB5-4FAD-97BE-55C9A03F0C08}</Item>
+  </File>
+  <File Include="Model\Spitfire\Col.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1EFA663D-D5D1-4F8C-A9D0-1B683F9E90A5}</Item>
+  </File>
+  <File Include="Model\Spitfire\Row.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{3D6B48A2-E079-467F-82B9-CCA005143AD4}</Item>
+  </File>
+  <File Include="Model\Spitfire\Section.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5EDB8CFC-CF58-4C7D-A709-72B86583F4CC}</Item>
+  </File>
+  <File Include="Model\Spitfire\Style.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{31028CFE-B4D8-4640-A45B-76FF7A18293D}</Item>
+  </File>
 </Project>

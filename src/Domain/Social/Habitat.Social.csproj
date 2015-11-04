@@ -108,10 +108,10 @@
     <Content Include="App_Config\Include\Habitat\Habitat.Social.Serialization.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="README.md" />
+    <Content Include="Views\Social\OpenGraph.cshtml" />
     <Content Include="Views\Social\SocialLinks.cshtml" />
     <Content Include="Views\Social\TwitterFeed.cshtml" />
     <None Include="Views\Web.config" />
-    <Content Include="Views\Social\OpenGraph.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -126,6 +126,7 @@
       <Name>Habitat.Framework.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

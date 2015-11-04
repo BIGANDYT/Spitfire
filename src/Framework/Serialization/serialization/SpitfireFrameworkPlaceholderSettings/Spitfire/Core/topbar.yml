@@ -1,0 +1,25 @@
+﻿---
+ID: 6134f4d1-1202-4be8-8fbf-f0392098a835
+Parent: bfe83f11-02e0-4d16-b2e8-f1d6c4949f7d
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/topbar
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: topbar
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {956A127A-60D0-4D3E-9ED2-AECE6FF2AAFA}
+    {1CA5AC86-55C7-4F43-9562-47FB1540343D}
+    {80EE812C-8DF7-4231-B21C-2B12D68B7102}
+    {DE75B3F5-5291-4E29-A0D1-35C4972D2995}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151104T183409Z

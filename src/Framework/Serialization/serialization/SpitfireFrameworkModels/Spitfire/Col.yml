@@ -1,0 +1,20 @@
+﻿---
+ID: 1efa663d-d5d1-4f8c-a9d0-1b683f9e90a5
+Parent: 68775efe-f938-481a-abd6-c964b488f7c5
+Template: fed6a14f-0d05-4e18-b160-17c0588a2005
+Path: /sitecore/layout/Models/Spitfire/Col
+SharedFields:
+- ID: ee9e23d2-181d-4172-a929-0e0b8d10313c
+  # Model Type
+  Value: Habitat.Framework.SitecoreExtensions.Model.Col, Habitat.Framework.SitecoreExtensions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151101T200506Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,8 +1,8 @@
 module.exports = function() {
     var config = {
-        websiteRoot: "C:\\websites\\Habitat.local\\Website",
-        sitecoreLibraries: "C:\\websites\\Habitat.local\\Website\\bin",
-        solutionName: "Habitat"
+        websiteRoot: "C:\\websites\\habitat.jango\\Website",
+        sitecoreLibraries: "C:\\websites\\habitat.jango\\Website\\bin",
+        solutionName: "habitat.jango"
     }
     return config;
 }

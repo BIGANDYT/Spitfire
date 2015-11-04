@@ -1,0 +1,26 @@
+﻿---
+ID: 31128656-4d65-40cc-b683-ecf8e7f12921
+Parent: 165c7710-8529-4524-8377-61d85f543237
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Features/Headers/Home Header V5 - Extended
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{47558547-C759-4F2E-AB32-C34407ADFDB6}" p:before="r[@uid='{ED8B0043-E803-49FC-8B34-B5D85978C9BA}']" s:id="{DE75B3F5-5291-4E29-A0D1-35C4972D2995}" s:ph="/header/topbar" />
+            <r uid="{ED8B0043-E803-49FC-8B34-B5D85978C9BA}" s:id="{772AFA6F-CF15-44E7-89A4-1D1A0672EA89}" s:ph="header" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173207Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

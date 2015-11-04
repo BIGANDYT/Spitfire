@@ -1,0 +1,20 @@
+﻿---
+ID: 8899391f-d246-44b3-9c6f-c643f83d003b
+Parent: 376c1b58-fad2-4fb8-b108-c33cf23e4ac8
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Pages/Gallery Pages/Gallery Index
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T184023Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

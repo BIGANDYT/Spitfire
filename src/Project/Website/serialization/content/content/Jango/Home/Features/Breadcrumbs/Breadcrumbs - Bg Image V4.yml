@@ -1,0 +1,20 @@
+﻿---
+ID: c24ff26b-25e3-4ce8-b2c4-dccae35eccc1
+Parent: 813637fd-63e9-464a-a498-fd9f968d0993
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Features/Breadcrumbs/Breadcrumbs - Bg Image V4
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T174023Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

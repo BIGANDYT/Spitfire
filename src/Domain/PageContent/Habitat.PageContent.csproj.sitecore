@@ -1,23 +1,77 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="habitat.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\PageContent\PageTitle.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{45B8E1D9-D522-49E0-B9B7-04C965CC7089}</Item>
+  <File Include="Views\PageContent\Jango\Header\Header-4.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D9840C19-F04E-4C9F-834E-92EEED5343C7}</Item>
   </File>
-  <File Include="Views\PageContent\PageBody.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{914673DC-FC44-4660-B6EB-FF421FAAC2F9}</Item>
+  <File Include="Views\PageContent\Jango\Footer6.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}</Item>
   </File>
-  <File Include="Views\PageContent\PageImage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{359A65BB-0A2C-44E5-8C34-DF3ACDBB42A7}</Item>
+  <File Include="Views\PageContent\Jango\Latest-Items-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{788976AB-A6B5-4462-93D6-88EC5A53F234}</Item>
   </File>
-  <File Include="Views\PageContent\PageSummary.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{616956DF-9471-4934-9CAE-AAAF342A7E1C}</Item>
+  <File Include="Views\PageContent\Jango\Features-11.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{477A75EF-D902-4A5F-B177-C64245A19B6D}</Item>
   </File>
-  <File Include="Views\PageContent\ReferenceTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{07AB411C-F894-4144-B069-48EF67431D32}</Item>
+  <File Include="Views\PageContent\Jango\Features-9.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{242EC183-8B17-4D46-9474-B6563CF7B581}</Item>
   </File>
-  <File Include="Views\PageContent\ChildPageList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{84924ABF-F983-4AF5-9002-EA0237A53DA9}</Item>
+  <File Include="Views\PageContent\Jango\Bar-5.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{97DE3287-649F-428B-9E74-2172096863D6}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Subscribe-Form-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1181BC10-4D8C-449F-8351-E59C618AB70B}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Testimonials-6-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C05DFB98-DC9F-4D8C-BE5C-AE57F6BE53E4}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Product-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5885C2B0-7111-4470-A394-6C327989F882}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Pricing-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{131721EB-04F2-4F3A-9AFB-74E88C8EF1AD}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Client-Logos-2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{16564E7B-BA50-4444-8058-2962188F249B}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C4DF0789-5CB7-4ED5-9F34-73C953EB8BC9}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E76E1739-624B-43D2-9ACC-F109BFB2B7EC}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-3.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{772AFA6F-CF15-44E7-89A4-1D1A0672EA89}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar-Light-2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0617338A-9856-4F25-B0B0-D1410FB002B9}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar-Light.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{29BB6F86-BBFF-4CB5-A098-46C716521574}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-5.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6C2F7C84-61E1-498B-93DD-34C3050DD492}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-6.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4B12C91D-42CC-4744-8CC9-C58B91B7F622}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-7.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E159A2A8-3FC5-4563-A0B4-C014D70DF7DA}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar-Dark.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1CA5AC86-55C7-4F43-9562-47FB1540343D}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar-Light.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{80EE812C-8DF7-4231-B21C-2B12D68B7102}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar-Light-2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DE75B3F5-5291-4E29-A0D1-35C4972D2995}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Topbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{956A127A-60D0-4D3E-9ED2-AECE6FF2AAFA}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Header\Header-8.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A30451FE-A414-4843-AE67-99B05AD3BA8A}</Item>
   </File>
 </Project>

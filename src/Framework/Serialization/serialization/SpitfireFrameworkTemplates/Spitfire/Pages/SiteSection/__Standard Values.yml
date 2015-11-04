@@ -1,0 +1,22 @@
+﻿---
+ID: 8b6cb921-a3a3-494a-bf00-64909232570d
+Parent: b33c9f41-4c04-4e6c-8a54-6b4e4be25aab
+Template: b33c9f41-4c04-4e6c-8a54-6b4e4be25aab
+Path: /sitecore/templates/Spitfire/Pages/SiteSection/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: $name
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T172121Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: $name

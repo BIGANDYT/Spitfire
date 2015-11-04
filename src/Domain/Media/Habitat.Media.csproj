@@ -112,12 +112,13 @@
     <Content Include="README.md" />
     <Content Include="Scripts\Media\ekko-lightbox.js" />
     <Content Include="Scripts\Media\ekko-lightbox.min.js" />
-    <Content Include="Views\Media\LightboxImage.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Media\LightboxVideo.cshtml" />
-    <Content Include="Views\Media\Carousel.cshtml" />
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Habitat\Habitat.Media.Serialization.config" />
+    <Content Include="Views\Media\Carousel.cshtml" />
+    <Content Include="Views\Media\LightboxImage.cshtml" />
+    <Content Include="Views\Media\LightboxVideo.cshtml" />
+    <Content Include="Views\Media\Jango\Revo-Slider-4.cshtml" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <None Include="Web.Debug.config">

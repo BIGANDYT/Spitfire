@@ -1,0 +1,13 @@
+﻿---
+ID: 09d2c7d7-dce4-4db5-a51d-cf40e156cc9f
+Parent: e8d0c797-90d6-475d-8f69-3c9805f806c8
+Template: e8d0c797-90d6-475d-8f69-3c9805f806c8
+Path: /sitecore/templates/Spitfire/Scaffolding/Aside/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T095744Z

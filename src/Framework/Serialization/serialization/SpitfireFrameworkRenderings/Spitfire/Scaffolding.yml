@@ -1,0 +1,16 @@
+﻿---
+ID: 335fcf65-61b0-4dcc-b29d-7a72a17e71f4
+Parent: 324f31cb-6d56-49f2-996e-a617691a9929
+Template: 7ee0975b-0698-493e-b3a2-0b2ef33d0522
+Path: /sitecore/layout/Renderings/Spitfire/Scaffolding
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150503T173138Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

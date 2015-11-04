@@ -1,0 +1,26 @@
+﻿---
+ID: 23f59bb3-19d6-47eb-b708-613605c31895
+Parent: 165c7710-8529-4524-8377-61d85f543237
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Features/Headers/Inner Header V4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{F3E69F3C-06B1-4415-9559-F190211DBC4A}" p:before="r[@uid='{F5705421-615A-49F5-B290-6C3E87B03DE6}']" s:id="{F240D3CE-B89E-4EF9-980D-DFC6B28BE88C}" s:ph="header" />
+            <r uid="{F5705421-615A-49F5-B290-6C3E87B03DE6}" s:id="{FC2DC32A-3762-4DE4-B960-4E42F9CE333C}" s:ph="content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173521Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

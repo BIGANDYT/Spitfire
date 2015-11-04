@@ -1,0 +1,13 @@
+﻿@model Habitat.Framework.SitecoreExtensions.Model.Section
+@using Sitecore
+@using Sitecore.Support
+<section id="@Model.Id" class="@Model.CssClass" style="background-image: url('@Model.BackgroundImgUrl'); @Model.CssStyle">
+    @{ var animation = ""; }
+    @if (!string.IsNullOrEmpty(@Model.AnimationClass))
+    {
+        animation = "wow " + @Model.AnimationClass;
+    }
+    <div class="@Model.SubCssClass @animation">
+        @Html.Sitecore().DynamicPlaceholder("section")
+    </div>
+</section>

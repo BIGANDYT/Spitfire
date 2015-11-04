@@ -1,0 +1,29 @@
+﻿---
+ID: fedc3e28-2559-40f8-a08b-76bc7b42bb61
+Parent: c5050f8a-10a9-4fc0-adbd-8cea4a26e5e1
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Scaffolding/Presets/TwoColumnRow
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/Core/Scaffolding/Presets/TwoColumnRow.cshtml
+- ID: 7d24e54f-5c16-4314-90c9-6051aa1a7da1
+  # Parameters Template
+  Value: {0D6297FE-608B-4131-ABF2-A53B14CE2CCB}
+- ID: e441abe7-2ca3-4640-ae26-3789967925d7
+  # Compatible Renderings
+  Type: Treelist
+  Value: |
+    {53C4C7C6-98E3-49B8-9FF8-39AC963228C2}
+    {01B234F0-4EC9-408C-9C5F-2319D1465678}
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150629T142701Z

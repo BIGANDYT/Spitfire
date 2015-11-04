@@ -104,8 +104,8 @@
     <Content Include="App_Config\Include\Habitat\Habitat.Metadata.Serialization.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="README.md" />
-    <None Include="Views\Web.config" />
     <Content Include="Views\Metadata\PageMetadata.cshtml" />
+    <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -127,6 +127,7 @@
       <Name>Habitat.Framework.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

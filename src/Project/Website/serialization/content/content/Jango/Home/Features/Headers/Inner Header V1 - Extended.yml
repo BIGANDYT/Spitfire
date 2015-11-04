@@ -1,0 +1,27 @@
+﻿---
+ID: 8c3c1de7-8caf-4712-b71d-205e893511a2
+Parent: 165c7710-8529-4524-8377-61d85f543237
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Jango/Home/Features/Headers/Inner Header V1 - Extended
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{198EEFC0-8481-4CB1-B05B-954CDF63A2E9}" p:before="r[@uid='{45B5ED93-39D1-407F-8931-ABDDC2B965B2}']" s:id="{DE75B3F5-5291-4E29-A0D1-35C4972D2995}" s:ph="/header/topbar" />
+            <r uid="{45B5ED93-39D1-407F-8931-ABDDC2B965B2}" p:before="r[@uid='{94759B93-B382-4E81-9711-FCABE0010B65}']" s:id="{772AFA6F-CF15-44E7-89A4-1D1A0672EA89}" s:ph="header" />
+            <r uid="{94759B93-B382-4E81-9711-FCABE0010B65}" s:id="{EC85F344-CC40-4E56-B1A0-E9B748995F11}" s:ph="content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173521Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

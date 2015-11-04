@@ -104,10 +104,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\PageContent\PageSummary.cshtml" />
-    <Content Include="Views\PageContent\PageImage.cshtml" />
-    <Content Include="Views\PageContent\PageBody.cshtml" />
-    <Content Include="Views\PageContent\PageTitle.cshtml" />
     <Content Include="App_Config\Include\Habitat\Habitat.PageContent.config">
       <SubType>Designer</SubType>
     </Content>
@@ -115,8 +111,39 @@
     <Content Include="App_Config\Include\Habitat\Habitat.PageContent.Serialization.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="README.md" />
-    <Content Include="Views\PageContent\ReferenceTeaser.cshtml" />
     <Content Include="Views\PageContent\ChildPageList.cshtml" />
+    <Content Include="Views\PageContent\PageBody.cshtml" />
+    <Content Include="Views\PageContent\PageImage.cshtml" />
+    <Content Include="Views\PageContent\PageSummary.cshtml" />
+    <Content Include="Views\PageContent\PageTitle.cshtml" />
+    <Content Include="Views\PageContent\ReferenceTeaser.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-4.cshtml" />
+    <Content Include="Views\PageContent\Jango\Footer6.cshtml" />
+    <Content Include="Views\PageContent\Jango\Tab-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Tile-3.cshtml" />
+    <Content Include="Views\PageContent\Jango\Features-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Accordion-Why-Us-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Latest-Items-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Features-11.cshtml" />
+    <Content Include="Views\PageContent\Jango\Features-9.cshtml" />
+    <Content Include="Views\PageContent\Jango\Bar-5.cshtml" />
+    <Content Include="Views\PageContent\Jango\Subscribe-Form-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Testimonials-6-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Product-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Pricing-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Client-Logos-2.cshtml" />
+    <Content Include="Views\PageContent\Jango\Home\Home1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-1.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-2.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-5.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Topbar-Light.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-3.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Topbar-Light-2.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-6.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-7.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Topbar-Dark.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Topbar.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Header-8.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -143,6 +170,7 @@
       <Name>Habitat.Framework.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

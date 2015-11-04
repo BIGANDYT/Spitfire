@@ -1,0 +1,20 @@
+﻿---
+ID: 5272d463-9332-42ba-b021-b91c6a56a759
+Parent: b24cc95c-dabf-47cd-aa4f-7d5bf897f752
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Scaffolding/Style/Style/CssStyle
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151101T173756Z

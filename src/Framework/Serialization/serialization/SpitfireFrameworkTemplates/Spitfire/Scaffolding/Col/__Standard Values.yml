@@ -1,0 +1,20 @@
+﻿---
+ID: f7968d00-4d4e-4c3c-a853-ba93e7998074
+Parent: 1340124b-9b0e-46bf-9141-a7bac559234e
+Template: 1340124b-9b0e-46bf-9141-a7bac559234e
+Path: /sitecore/templates/Spitfire/Scaffolding/Col/__Standard Values
+SharedFields:
+- ID: 3094d236-5985-4c4f-ae6a-e30740885532
+  # Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: e42027f4-766d-45a7-8cf4-29e5c94326f7
+  # Placeholder
+  Value: /content/section_1d6ab88d-97bf-4cf6-aeea-c75e3a64b863/row_b7e4e83d-1ebc-437f-99b7-ae4ecb48a3a2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150403T202124Z

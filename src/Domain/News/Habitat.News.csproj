@@ -106,7 +106,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\News\LatestNews.cshtml" />
     <Content Include="App_Config\Include\Habitat\Habitat.News.config">
       <SubType>Designer</SubType>
     </Content>
@@ -114,6 +113,9 @@
     <Content Include="App_Config\Include\Habitat\Habitat.News.Serialization.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="README.md" />
+    <Content Include="Views\News\LatestNews.cshtml" />
+    <Content Include="Views\News\NewsArticle.cshtml" />
+    <Content Include="Views\News\NewsList.cshtml" />
     <Content Include="Views\News\NewsTeaser.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
@@ -124,8 +126,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\News\NewsList.cshtml" />
-    <Content Include="Views\News\NewsArticle.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +146,7 @@
       <Name>Habitat.Framework.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,13 @@
+﻿---
+ID: e90b2d27-53cb-41be-b377-93b4229940ed
+Parent: 0d6297fe-608b-4131-abf2-a53b14ce2ccb
+Template: 0d6297fe-608b-4131-abf2-a53b14ce2ccb
+Path: /sitecore/templates/Spitfire/Scaffolding/Row/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150403T202124Z

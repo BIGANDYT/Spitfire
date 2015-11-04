@@ -1,0 +1,29 @@
+﻿---
+ID: be158c82-ac99-4e9d-937d-1fdb6dc6f14d
+Parent: bfe83f11-02e0-4d16-b2e8-f1d6c4949f7d
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/header
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: header
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {C4DF0789-5CB7-4ED5-9F34-73C953EB8BC9}
+    {E76E1739-624B-43D2-9ACC-F109BFB2B7EC}
+    {772AFA6F-CF15-44E7-89A4-1D1A0672EA89}
+    {D9840C19-F04E-4C9F-834E-92EEED5343C7}
+    {6C2F7C84-61E1-498B-93DD-34C3050DD492}
+    {4B12C91D-42CC-4744-8CC9-C58B91B7F622}
+    {F240D3CE-B89E-4EF9-980D-DFC6B28BE88C}
+    {A30451FE-A414-4843-AE67-99B05AD3BA8A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151102T073717Z

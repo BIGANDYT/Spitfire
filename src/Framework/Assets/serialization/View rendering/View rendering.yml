@@ -6,7 +6,7 @@ Path: /sitecore/templates/System/Layout/Renderings/View rendering
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   # __Icon
-  Value: Software/16x16/element.png
+  Value: Software/32x32/element.png
 - ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
   # __Base template
   Type: tree list
@@ -14,7 +14,6 @@ SharedFields:
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
     {E8D2DD19-1347-4562-AE3F-310DC0B21A6C}
     {D1592226-3898-4CE2-B190-090FD5F84A4C}
-    {7CEAC341-B953-4C69-B907-EE44302BF6AE}
 Languages:
 - Language: da
   Versions:

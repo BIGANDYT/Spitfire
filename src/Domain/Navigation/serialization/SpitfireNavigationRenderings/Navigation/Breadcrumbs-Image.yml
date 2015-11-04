@@ -1,0 +1,17 @@
+﻿---
+ID: fc2dc32a-3762-4de4-b960-4e42f9ce333c
+Parent: 7268ea02-ebc4-46c3-94c3-efa78b5e33b7
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/Navigation/Breadcrumbs-Image
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/Navigation/Jango/Breadcrumbs-Image.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151104T213357Z

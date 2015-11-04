@@ -1,0 +1,13 @@
+﻿---
+ID: ddb7b334-a5a1-4321-a343-401ce4c48564
+Parent: 65baba02-c72b-4757-9a30-db768d225395
+Template: 65baba02-c72b-4757-9a30-db768d225395
+Path: /sitecore/templates/Spitfire/Scaffolding/Style/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T171525Z

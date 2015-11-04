@@ -1,8 +1,11 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="habitat.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\Navigation\LinkMenu.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{69B9C355-004B-4268-BB1E-2F725B8752B7}</Item>
+  <File Include="Views\Navigation\Jango\Breadcrumbs.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{EC85F344-CC40-4E56-B1A0-E9B748995F11}</Item>
+  </File>
+  <File Include="Views\Navigation\Jango\Breadcrumbs-Image.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{FC2DC32A-3762-4DE4-B960-4E42F9CE333C}</Item>
   </File>
 </Project>

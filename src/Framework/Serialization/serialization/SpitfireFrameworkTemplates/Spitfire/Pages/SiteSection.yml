@@ -1,0 +1,27 @@
+﻿---
+ID: b33c9f41-4c04-4e6c-8a54-6b4e4be25aab
+Parent: c1255a8e-84b9-4d39-8009-f804e3dd6850
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Pages/SiteSection
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/32x32/elements_cascade.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {8B6CB921-A3A3-494A-BF00-64909232570D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T171018Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

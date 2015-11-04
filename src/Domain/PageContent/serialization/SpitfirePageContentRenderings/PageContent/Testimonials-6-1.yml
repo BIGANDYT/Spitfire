@@ -1,0 +1,17 @@
+﻿---
+ID: c05dfb98-dc9f-4d8c-be5c-ae57f6be53e4
+Parent: 1918b848-f9c7-4d4d-bb1a-6fd1d821c5f0
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Testimonials-6-1
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Testimonials-6-1.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T140714Z

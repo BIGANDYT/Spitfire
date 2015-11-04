@@ -1,0 +1,41 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var isFullWidth = Model.Rendering.Parameters["FullWidth"] == "1";
+    var showTitle = Model.Rendering.Parameters["ShowTitle"] == "1";
+    var showBreadcrumb = Model.Rendering.Parameters["ShowBreadcrumb"] == "1";
+
+    string containerClass, rowClass;
+    if (isFullWidth)
+    {
+        containerClass = "container-fluid";
+        rowClass = "row-fluid";
+    }
+    else
+    {
+        containerClass = "container";
+        rowClass = "row";
+    }
+}
+
+<div class="@containerClass">
+    @if (showBreadcrumb)
+    {
+        @Html.Sitecore().Rendering("{C2928AA1-9DFC-488D-AC3E-5E0744C4FF68}") @* Breadcrumb *@
+    }
+    <div class="@rowClass margin-bottom-40">
+        <!-- BEGIN CONTENT -->
+        <div class="col-md-12">
+            @if (showTitle)
+            {
+                <h1>@Html.Sitecore().Field("title")</h1>
+            }
+
+            <div class="content-page">
+                @Html.Sitecore().DynamicPlaceholder("column1")
+            </div>
+        </div>
+        <!-- END CONTENT -->
+    </div>
+</div>

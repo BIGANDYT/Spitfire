@@ -1,0 +1,38 @@
+﻿---
+ID: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Parent: c1255a8e-84b9-4d39-8009-f804e3dd6850
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Pages/_BasePage
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Apps/16x16/page.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {A28A44A6-0DF1-49BF-83AD-CD21ABB9AF7E}
+    {AF74A00B-8CA7-4C9A-A5C1-156A68590EE2}
+    {F15AFC99-281E-48DF-B333-91033622651A}
+    {640B55DD-405B-489C-A4AF-E328588EFE05}
+    {91962B60-25F6-428F-8D10-02AA1E49D6A5}
+    {A1CBA309-D22B-46D5-80F8-2972C185363F}
+    {BDD24F35-05E8-4466-8798-7D3DD6A6C991}
+    {5E5E0FEA-CCFD-4668-9BB4-63A32510CBF8}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 50
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {E43F375A-24BB-49AD-9E19-16DFDAA96825}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140305T093912
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
