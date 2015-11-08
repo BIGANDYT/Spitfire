@@ -51,8 +51,8 @@
     @RenderAssetsService.Current.RenderStyles()
     @Html.Sitecore().VisitorIdentification()
 
-</head> 
-    <body class="c-layout-header-fixed c-layout-header-mobile-fixed @(!Sitecore.Context.PageMode.IsPageEditor ? "top-zero" : "")">
+</head>
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed @(!Sitecore.Context.PageMode.IsPageEditor ? "top-zero" : "")">
     @Html.Sitecore().Placeholder("header")
     <!-- BEGIN: CONTENT/USER/FORGET-PASSWORD-FORM -->
     <div class="modal fade c-content-login-form" id="forget-password-form" role="dialog">
@@ -225,7 +225,6 @@
                     <span class="c-color c-brown3" data-color="brown3"></span>
                     <span class="c-color c-dark1" data-color="dark1"></span>
                     <span class="c-color c-dark2" data-color="dark2"></span>
-                    <span class="c-color c-dark3" data-color="dark3"></span>
                 </div>
             </div>
             <div class="c-section">
@@ -262,10 +261,10 @@
     <!-- BEGIN: PAGE CONTAINER -->
     <div class="c-layout-page">
         <!-- BEGIN: PAGE CONTENT -->
-        @Html.Sitecore().Placeholder("content") 
+        @Html.Sitecore().Placeholder("content")
         <!-- END: PAGE CONTENT -->
     </div>
-    <!-- END: PAGE CONTAINER -->    
+    <!-- END: PAGE CONTAINER -->
     <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
     <div class="c-layout-go2top">
         <i class="icon-arrow-up"></i>
@@ -299,47 +298,45 @@
     <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
     <script src="assets/base/js/app.js" type="text/javascript"></script>
     <script>
-            $(document).ready(function()
-            {
-                App.init(); // init core
-            });
+        $(document).ready(function () {
+            App.init(); // init core
+        });
     </script>
     <!-- END: THEME SCRIPTS -->
     <!-- BEGIN: PAGE SCRIPTS -->
     <script>
-            $(document).ready(function()
+        $(document).ready(function () {
+            var slider = $('.c-layout-revo-slider .tp-banner');
+            var cont = $('.c-layout-revo-slider .tp-banner-container');
+            var height = (App.getViewPort().width < App.getBreakpoint('md') ? 1024 : 620);
+            var api = slider.show().revolution(
             {
-                var slider = $('.c-layout-revo-slider .tp-banner');
-                var cont = $('.c-layout-revo-slider .tp-banner-container');
-                var height = (App.getViewPort().width < App.getBreakpoint('md') ? 1024 : 620);
-                var api = slider.show().revolution(
-                {
-                    delay: 15000,
-                    startwidth: 1170,
-                    startheight: height,
-                    navigationType: "hide",
-                    navigationArrows: "solo",
-                    touchenabled: "on",
-                    onHoverStop: "on",
-                    keyboardNavigation: "off",
-                    navigationStyle: "circle",
-                    navigationHAlign: "center",
-                    navigationVAlign: "center",
-                    fullScreenAlignForce: "off",
-                    shadow: 0,
-                    fullWidth: "on",
-                    fullScreen: "off",
-                    spinner: "spinner2",
-                    forceFullWidth: "on",
-                    hideTimerBar: "on",
-                    hideThumbsOnMobile: "on",
-                    hideNavDelayOnMobile: 1500,
-                    hideBulletsOnMobile: "on",
-                    hideArrowsOnMobile: "on",
-                    hideThumbsUnderResolution: 0,
-                    videoJsPath: "rs-plugin/videojs/",
-                });
-            }); //ready
+                delay: 15000,
+                startwidth: 1170,
+                startheight: height,
+                navigationType: "hide",
+                navigationArrows: "solo",
+                touchenabled: "on",
+                onHoverStop: "on",
+                keyboardNavigation: "off",
+                navigationStyle: "circle",
+                navigationHAlign: "center",
+                navigationVAlign: "center",
+                fullScreenAlignForce: "off",
+                shadow: 0,
+                fullWidth: "on",
+                fullScreen: "off",
+                spinner: "spinner2",
+                forceFullWidth: "on",
+                hideTimerBar: "on",
+                hideThumbsOnMobile: "on",
+                hideNavDelayOnMobile: 1500,
+                hideBulletsOnMobile: "on",
+                hideArrowsOnMobile: "on",
+                hideThumbsUnderResolution: 0,
+                videoJsPath: "rs-plugin/videojs/",
+            });
+        }); //ready
     </script>
     <!-- END: PAGE SCRIPTS -->
     <!-- END: LAYOUT/BASE/BOTTOM -->

@@ -42,9 +42,9 @@ namespace Habitat.Navigation.Repositories
 
         public NavigationItems GetPrimaryMenu()
         {
-            var navItems = GetChildNavigationItems(NavigationRoot, 0, 1);
+            var navItems = GetChildNavigationItems(NavigationRoot, 0, 2);
 
-            AddRootToPrimaryMenu(navItems);
+            //AddRootToPrimaryMenu(navItems);
             return navItems;
         }
 

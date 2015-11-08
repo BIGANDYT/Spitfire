@@ -2,4 +2,7 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\Accounts\Jango\SignIn.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{FD79E80F-A107-42C2-ABC6-AD952D5CA467}</Item>
+  </File>
 </Project>

@@ -103,6 +103,8 @@
   <ItemGroup>
     <Compile Include="Infrastructure\Models\CarouselElement.cs" />
     <Compile Include="Infrastructure\Repositories\CarouselElementsRepository.cs" />
+    <Compile Include="Model\Carousel.cs" />
+    <Compile Include="Model\Slide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
@@ -119,6 +121,8 @@
     <Content Include="Views\Media\LightboxImage.cshtml" />
     <Content Include="Views\Media\LightboxVideo.cshtml" />
     <Content Include="Views\Media\Jango\Revo-Slider-4.cshtml" />
+    <Content Include="Views\Media\Jango\Revo-Slider-1.cshtml" />
+    <Content Include="Views\Media\Jango\Slide.cshtml" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <None Include="Web.Debug.config">

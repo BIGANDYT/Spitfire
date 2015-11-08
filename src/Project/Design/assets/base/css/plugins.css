@@ -732,16 +732,16 @@ label.control-label {
     background: #ffffff; }
 
 .c-btn-green {
-  border-color: #32c5d2;
+  border-color: #FF5601;
   border-width: 1px;
   color: #ffffff;
-  background: #32c5d2;
-  border-color: #32c5d2; }
+  background: #FF5601;
+  border-color: #FF5601; }
   .c-btn-green.btn-no-focus:focus,
   .c-btn-green.btn-no-focus.focus {
     color: #ffffff;
-    background: #32c5d2;
-    border-color: #32c5d2; }
+    background: #FF5601;
+    border-color: #FF5601; }
   .c-btn-green.btn-no-focus:hover,
   .c-btn-green:hover,
   .c-btn-green.btn-no-focus:active,
@@ -773,10 +773,10 @@ label.control-label {
   fieldset[disabled] .c-btn-green:not(.btn-no-focus).focus,
   fieldset[disabled] .c-btn-green:active,
   fieldset[disabled] .c-btn-green.active {
-    background: #32c5d2;
-    border-color: #32c5d2; }
+    background: #FF5601;
+    border-color: #FF5601; }
   .c-btn-green .badge {
-    color: #32c5d2;
+    color: #FF5601;
     background: #ffffff; }
 
 .c-btn-green-1 {
@@ -2415,17 +2415,17 @@ label.control-label {
     background: #7f8c97; }
 
 .c-btn-border-1x.c-btn-green {
-  border-color: #32c5d2;
-  color: #32c5d2;
+  border-color: #FF5601;
+  color: #FF5601;
   background: none;
-  border-color: #32c5d2; }
+  border-color: #FF5601; }
   .c-btn-border-1x.c-btn-green.c-btn-border-opacity-04 {
     border-color: rgba(50, 197, 210, 0.4); }
   .c-btn-border-1x.c-btn-green.btn-no-focus:focus,
   .c-btn-border-1x.c-btn-green.btn-no-focus.focus {
-    color: #32c5d2;
+    color: #FF5601;
     background: none;
-    border-color: #32c5d2; }
+    border-color: #FF5601; }
   .c-btn-border-1x.c-btn-green.btn-no-focus:hover,
   .c-btn-border-1x.c-btn-green:hover,
   .c-btn-border-1x.c-btn-green.btn-no-focus:active,
@@ -2433,8 +2433,8 @@ label.control-label {
   .c-btn-border-1x.c-btn-green.active,
   .open > .c-btn-border-1x.c-btn-green.dropdown-toggle {
     color: #ffffff;
-    background: #32c5d2;
-    border-color: #32c5d2; }
+    background: #FF5601;
+    border-color: #FF5601; }
   .c-btn-border-1x.c-btn-green:active,
   .c-btn-border-1x.c-btn-green.active,
   .open > .c-btn-border-1x.c-btn-green.dropdown-toggle {
@@ -2458,10 +2458,10 @@ label.control-label {
   fieldset[disabled] .c-btn-border-1x.c-btn-green:active,
   fieldset[disabled] .c-btn-border-1x.c-btn-green.active {
     background: none;
-    border-color: #32c5d2; }
+    border-color: #FF5601; }
   .c-btn-border-1x.c-btn-green .badge {
     color: none;
-    background: #32c5d2; }
+    background: #FF5601; }
 
 .c-btn-border-1x.c-btn-green-1 {
   border-color: #52c9ba;
@@ -4124,15 +4124,15 @@ label.control-label {
     background: #7f8c97; }
 
 .c-btn-border-2x.c-btn-green {
-  border-color: #32c5d2;
-  color: #32c5d2;
+  border-color: #FF5601;
+  color: #FF5601;
   background: none;
-  border-color: #32c5d2; }
+  border-color: #FF5601; }
   .c-btn-border-2x.c-btn-green.btn-no-focus:focus,
   .c-btn-border-2x.c-btn-green.btn-no-focus.focus {
-    color: #32c5d2;
+    color: #FF5601;
     background: none;
-    border-color: #32c5d2; }
+    border-color: #FF5601; }
   .c-btn-border-2x.c-btn-green.btn-no-focus:hover,
   .c-btn-border-2x.c-btn-green:hover,
   .c-btn-border-2x.c-btn-green.btn-no-focus:active,
@@ -4140,8 +4140,8 @@ label.control-label {
   .c-btn-border-2x.c-btn-green.active,
   .open > .c-btn-border-2x.c-btn-green.dropdown-toggle {
     color: #ffffff;
-    background: #32c5d2;
-    border-color: #32c5d2; }
+    background: #FF5601;
+    border-color: #FF5601; }
   .c-btn-border-2x.c-btn-green:active,
   .c-btn-border-2x.c-btn-green.active,
   .open > .c-btn-border-2x.c-btn-green.dropdown-toggle {
@@ -4165,10 +4165,10 @@ label.control-label {
   fieldset[disabled] .c-btn-border-2x.c-btn-green:active,
   fieldset[disabled] .c-btn-border-2x.c-btn-green.active {
     background: none;
-    border-color: #32c5d2; }
+    border-color: #FF5601; }
   .c-btn-border-2x.c-btn-green .badge {
     color: none;
-    background: #32c5d2; }
+    background: #FF5601; }
 
 .c-btn-border-2x.c-btn-green-1 {
   border-color: #52c9ba;
@@ -5700,8 +5700,8 @@ label.control-label {
       background: #6a7883; }
 
 .btn.c-btn-icon.c-btn-green {
-  background: #32c5d2;
-  border-color: #32c5d2;
+  background: #FF5601;
+  border-color: #FF5601;
   color: #ffffff; }
   .btn.c-btn-icon.c-btn-green > i {
     background: #2ab4c0;

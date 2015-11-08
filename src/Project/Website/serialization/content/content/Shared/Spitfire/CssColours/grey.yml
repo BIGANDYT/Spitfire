@@ -1,0 +1,16 @@
+﻿---
+ID: 3d64deeb-97e2-4c7e-ba14-b1d8adf333b2
+Parent: 43b92e1f-fa94-442a-b478-bc46557ae2fc
+Template: b174990b-37b1-4a60-9c7d-891b521e1b76
+Path: /sitecore/content/Shared/Spitfire/CssColours/grey
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T141226Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

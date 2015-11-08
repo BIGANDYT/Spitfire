@@ -12,23 +12,23 @@
 				transition: all 0.2s;
 
 				&:hover {
-					color: #32c5d2; 
+					color: #FF5601; 
 					transition: all 0.2s;
 				}
 			}
 
 			&:hover {
 				> a {
-					color: #32c5d2;
+					color: #FF5601;
 				}
 			}
 
 			&.active {
 				> a {
-					color: #32c5d2;
+					color: #FF5601;
 
 					&:hover {
-						color: #32c5d2;
+						color: #FF5601;
 					}
 				}
 

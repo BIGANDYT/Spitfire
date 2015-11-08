@@ -1,0 +1,23 @@
+﻿---
+ID: 89f0a97f-7f20-48d8-b744-9028f88b37f3
+Parent: e001ab1c-3882-4184-81be-5fbb1a8f8267
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Components/TeaserGroup/TeaserGroup/Teasers
+SharedFields:
+- ID: 1eb8ae32-e190-44a6-968d-ed904c794ebf
+  # Source
+  Value: /sitecore/content/Shared/Spitfire/Teasers
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Multilist
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T121235Z

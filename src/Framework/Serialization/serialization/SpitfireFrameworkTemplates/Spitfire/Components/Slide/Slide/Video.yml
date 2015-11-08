@@ -1,0 +1,20 @@
+﻿---
+ID: 3299b841-afa1-48d3-ba4a-de5fe9de9d6d
+Parent: 62f2b8cc-554a-42f0-806b-590a53bc9fbc
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Components/Slide/Slide/Video
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: File
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T160531Z

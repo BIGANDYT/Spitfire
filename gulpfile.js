@@ -1,4 +1,4 @@
-/// <binding AfterBuild='Publish-Assemblies' ProjectOpened='Auto-Publish-Css, Auto-Publish-Views' />
+/// <binding AfterBuild='Publish-Assemblies' />
 var gulp = require("gulp");
 var msbuild = require("gulp-msbuild");
 var debug = require("gulp-debug");

@@ -1,0 +1,31 @@
+﻿---
+ID: 38e2b863-ae8f-4aa0-acf7-ba74371b7015
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Car Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T152719Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{71844A85-2309-4C8F-8810-B721BD573A00}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: Do you want protection against uninsured drivers? A courtesy car while we repair yours? And a lifetime guarantee on repairs?
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Car Insurance
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediapath=\"\" alt=\"London Bus\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{0C90B1F5-459B-4DE9-9D8A-8E3DB6EC9269}\" />"
+    - ID: a3fb17df-ab94-4881-a381-1ed1e630f7a9
+      # ClassColour
+      Value: green

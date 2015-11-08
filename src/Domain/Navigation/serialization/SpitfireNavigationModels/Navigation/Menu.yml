@@ -1,0 +1,20 @@
+﻿---
+ID: 93cb577d-c233-48a5-9f00-fdb918f45f3d
+Parent: b0af4653-1028-43d8-ac1d-6ac7ffce96ea
+Template: fed6a14f-0d05-4e18-b160-17c0588a2005
+Path: /sitecore/layout/Models/Spitfire/Domain/Navigation/Menu
+SharedFields:
+- ID: ee9e23d2-181d-4172-a929-0e0b8d10313c
+  # Model Type
+  Value: Habitat.Navigation.Models.Jango.Menu, Habitat.Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151105T175621Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

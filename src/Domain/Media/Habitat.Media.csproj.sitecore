@@ -5,4 +5,16 @@
   <File Include="Views\Media\Jango\Revo-Slider-4.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{E7079EFA-14CA-4823-8974-3E8FF368F08D}</Item>
   </File>
+  <File Include="Views\Media\Jango\Revo-Slider-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{78EC92D4-37E2-4D2E-83C4-CA9B8C1C1603}</Item>
+  </File>
+  <File Include="Model\Carousel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C84F1903-CFCE-4073-8CA7-836385933CD2}</Item>
+  </File>
+  <File Include="Model\Slide.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{70DFEBC1-5023-4384-B589-6E6AE7BF71F9}</Item>
+  </File>
+  <File Include="Views\Media\Jango\Slide.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{53900FFE-5FCB-42CC-89AB-D682F0949E24}</Item>
+  </File>
 </Project>

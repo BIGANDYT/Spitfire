@@ -1,0 +1,54 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Navigation
+@using Sitecore.Mvc.Presentation
+@model Habitat.Navigation.Models.Jango.Menu
+<!-- BEGIN: HOR NAV -->
+<!-- BEGIN: LAYOUT/HEADERS/MEGA-MENU -->
+<!-- BEGIN: MEGA MENU -->
+<!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
+<nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-theme c-fonts-uppercase c-fonts-bold">
+    <ul class="nav navbar-nav c-theme-nav">
+        @foreach (var item in Model.MenuItems)
+        {
+            var hasChildren = item.Children != null && item.Children.Items.Any();
+            <li>
+                <a href="@item.Url" class="c-link dropdown-toggle">
+                    @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item.Item)
+                    <span class="c-arrow c-toggler"></span>
+                </a>
+                @if (hasChildren)
+                {
+                    <div class="dropdown-menu c-menu-type-mega c-menu-type-fullwidth" style="min-width: auto">
+                        <div class="row">
+                            @foreach (var titleItem in item.Children.Items)
+                            {
+                                var hasSubChildren = titleItem.Children != null && titleItem.Children.Items.Any();
+                                <div class="col-md-3">
+                                    <ul class="dropdown-menu c-menu-type-inline">
+                                        <li>
+                                            <h3>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), titleItem.Item)</h3>
+                                        </li>
+                                        @if (hasSubChildren)
+                                        {
+                                            foreach (var subitem in titleItem.Children.Items)
+                                            {
+                                                <li>
+                                                    <a href="@subitem.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), subitem.Item)</a>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </li>
+        }
+        @Html.Sitecore().Placeholder("menu-widgets")
+    </ul>
+</nav>
+<!-- END: MEGA MENU -->
+<!-- END: LAYOUT/HEADERS/MEGA-MENU -->
+<!-- END: HOR NAV -->

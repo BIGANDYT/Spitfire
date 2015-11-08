@@ -1,0 +1,31 @@
+﻿---
+ID: a6bfb560-8495-4296-9f2e-b6fb3eddd1b5
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Holiday Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T153912Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{364464EC-93CB-4506-AF58-7472EA008487}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy nibh euismod tincidunt.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Travel Insurance
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediapath=\"\" alt=\"People\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{7A9D3B27-F67C-4755-BA16-1BCA4F756ACF}\" />"
+    - ID: a3fb17df-ab94-4881-a381-1ed1e630f7a9
+      # ClassColour
+      Value: green

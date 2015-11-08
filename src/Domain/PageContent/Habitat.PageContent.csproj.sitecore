@@ -74,4 +74,10 @@
   <File Include="Views\PageContent\Jango\Header\Header-8.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{A30451FE-A414-4843-AE67-99B05AD3BA8A}</Item>
   </File>
+  <File Include="Views\PageContent\Jango\Header\Menu-Toggle.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5ABEAD4D-A364-4205-A11D-54A68DAE9545}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\TitleBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{2B5E9CFE-C64B-4962-AA3B-51FCF46F9759}</Item>
+  </File>
 </Project>

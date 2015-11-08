@@ -1,0 +1,20 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model  Habitat.PageContent.Model.TeaserGroup
+<!-- BEGIN: CONTENT/TILES/TILE-3 -->
+<div class="c-content-box c-size-md c-bg-white">
+    <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">        
+        <div class="row wow animate fadeInUp">
+            @if (Model.Teasers != null)
+            {
+                foreach (var teaser in Model.Teasers)
+                {
+                    @Html.Sitecore().Rendering("{DE03C1EE-5016-4A66-AE14-70E56AD470AD}", new { DataSource = teaser.ID.ToString() })
+                }
+            }
+        </div>
+    </div>
+</div>
+<!-- END: CONTENT/TILES/TILE-3 -->

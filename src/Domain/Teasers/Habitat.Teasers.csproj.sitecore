@@ -2,4 +2,16 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\Teasers\Jango\TileTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DE03C1EE-5016-4A66-AE14-70E56AD470AD}</Item>
+  </File>
+  <File Include="Models\Jango\TeaserModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F4E54FA7-98B1-446F-9E94-DF41668D4410}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\ImageLinkTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6BD0C3AC-EF82-4110-BBA4-39398E39091B}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\TextLinkTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0AF99576-9BC3-435B-B10E-E033D0E4750D}</Item>
+  </File>
 </Project>

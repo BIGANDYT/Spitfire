@@ -1,0 +1,16 @@
+﻿---
+ID: 7f10c0b6-b1d9-4c79-a1e3-708a8fd68d30
+Parent: 68775efe-f938-481a-abd6-c964b488f7c5
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/layout/Models/Spitfire/Domain
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151105T175608Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

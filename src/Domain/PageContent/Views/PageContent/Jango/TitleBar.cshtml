@@ -1,0 +1,8 @@
+﻿@using Habitat.PageContent
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-box c-size-sm c-bg-white">
+    <div class="c-content-title-1 wow animate fadeInDown">
+        <h3 class="c-font-uppercase c-center c-font-bold">@Html.Sitecore().Field("Title", @Model.Item)</h3>
+        <div class="c-line-center c-content-box c-no-bottom-padding"></div>
+    </div>
+</div>

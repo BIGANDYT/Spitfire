@@ -2,4 +2,7 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\Commerce\Jango\Cart-Menu.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8B9FE579-81DB-440F-9F9E-0074BE508E9C}</Item>
+  </File>
 </Project>

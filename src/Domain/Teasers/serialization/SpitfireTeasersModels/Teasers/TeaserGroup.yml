@@ -1,0 +1,20 @@
+﻿---
+ID: 5f7cffc3-ac36-4436-961d-21b4a7e15064
+Parent: 2f6f03c1-3513-4da5-8e24-5945a2869753
+Template: fed6a14f-0d05-4e18-b160-17c0588a2005
+Path: /sitecore/layout/Models/Spitfire/Domain/Teasers/TeaserGroup
+SharedFields:
+- ID: ee9e23d2-181d-4172-a929-0e0b8d10313c
+  # Model Type
+  Value: Habitat.Teasers.Model.TeaserGroup, Habitat.Teasers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T132603Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

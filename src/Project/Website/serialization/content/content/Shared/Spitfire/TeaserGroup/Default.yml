@@ -1,0 +1,24 @@
+﻿---
+ID: 1b6a1a89-ef07-4a3b-a6d9-11be4d5ceff2
+Parent: 97328513-256d-49b2-a0b8-aa52485fce02
+Template: 327468ab-0a78-4eb1-9113-34592ce923d0
+Path: /sitecore/content/Shared/Spitfire/TeaserGroup/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T121442Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 89f0a97f-7f20-48d8-b744-9028f88b37f3
+      # Teasers
+      Type: Multilist
+      Value: |
+        {1F63DA87-5B43-4250-AB46-97E4E571BC40}
+        {38E2B863-AE8F-4AA0-ACF7-BA74371B7015}
+        {A6BFB560-8495-4296-9F2E-B6FB3EDDD1B5}
+        {120FBFC6-C398-4DDD-BBE0-583638F9054C}

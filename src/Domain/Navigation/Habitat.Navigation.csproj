@@ -123,6 +123,8 @@
     <Content Include="Views\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Navigation\Jango\Breadcrumbs.cshtml" />
     <Content Include="Views\Navigation\Jango\Breadcrumbs-Image.cshtml" />
+    <Content Include="Views\Navigation\Jango\MegaMenu-Dark.cshtml" />
+    <Content Include="Views\Navigation\Jango\MegaMenu-Light.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -136,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Models\Jango\Menu.cs" />
     <Compile Include="Models\NavigationItem.cs" />
     <Compile Include="Models\NavigationItems.cs" />
     <Compile Include="Repositories\INavigationRepository.cs" />

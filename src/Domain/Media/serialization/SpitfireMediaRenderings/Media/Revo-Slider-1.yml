@@ -1,0 +1,23 @@
+﻿---
+ID: 78ec92d4-37e2-4d2e-83c4-ca9b8c1c1603
+Parent: 45a08dd5-2a18-427d-aab7-00c00205439c
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/Media/Revo-Slider-1
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/Spitfire/Components/Carousel
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/Media/Jango/Revo-Slider-1.cshtml
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: /sitecore/content/Shared/Spitfire/Carousels
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151105T155239Z

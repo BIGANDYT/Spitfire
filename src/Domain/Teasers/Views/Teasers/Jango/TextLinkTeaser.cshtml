@@ -1,0 +1,14 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="col-sm-6">
+    <div class="c-tile-content c-content-v-center" data-height="height" style="height: 262px;">
+        <div class="c-wrapper">
+            <div class="c-body c-center">
+                <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> @Html.Sitecore().Field("Title", @Model.Item) </h3>
+                <p class="c-tile-body c-font-white">@Html.Sitecore().Field("Description", @Model.Item)</p>
+                @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square" })
+            </div>
+        </div>
+    </div>
+</div>

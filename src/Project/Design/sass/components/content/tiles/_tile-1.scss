@@ -57,7 +57,7 @@
 
 		// arrow colors
 		&.c-arrow-green {
-			@include arrow-color(#32c5d2)
+			@include arrow-color(#FF5601)
 		}
 
 		&.c-arrow-red-2 {
@@ -70,6 +70,10 @@
 
 		&.c-arrow-blue-3 {
 			@include arrow-color(#57bfe1)
+		}
+
+        &.c-arrow-dark-1 {
+			@include arrow-color(#525e64)
 		}
 
 		.btn {
@@ -132,7 +136,7 @@
 			}
 
 			&.c-arrow-green {
-				@include arrow-color(#32c5d2, true)
+				@include arrow-color(#FF5601, true)
 			}
 
 			&.c-arrow-red-2 {
@@ -145,6 +149,10 @@
 
 			&.c-arrow-blue-3 {
 				@include arrow-color(#57bfe1, true)
+			}
+
+            &.c-arrow-dark-1 {
+				@include arrow-color(#525e64, true)
 			}
 
 		}

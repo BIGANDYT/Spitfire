@@ -1,0 +1,24 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+@if (Model.Item != null)
+{
+    int right;
+    var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+    if (rc != null)
+    {
+        var parms = rc.Rendering.Parameters;
+        right = Int32.Parse(parms["right"]);
+
+        <div class="col-sm-6">
+            <div class="c-tile-content c-arrow-@(right % 2 == 0 ? "left" : "right") c-arrow-@Model.ClassColour c-content-overlay">
+                <div class="c-overlay-wrapper">
+                    <div class="c-overlay-content">
+                        @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square" })
+                    </div>
+                </div>
+                <div class="c-image c-overlay-object" data-height="height" style="height: 262px; @(Model.ImageUrl != string.Empty ? "background-image: url('" + Model.ImageUrl + "')" : string.Empty)"></div>
+            </div>
+        </div>
+    }
+}

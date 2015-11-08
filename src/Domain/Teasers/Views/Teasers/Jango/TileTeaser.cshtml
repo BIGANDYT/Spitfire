@@ -1,0 +1,29 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="col-md-6">
+    <div class="c-content-tile-1 c-bg-@Model.ClassColour">
+        <div class="row">
+            @if (Model.Item != null)
+            {
+                int right;
+                var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+                if (rc != null)
+                {
+                    var parms = rc.Rendering.Parameters;
+                    right = Int32.Parse(parms["right"]);
+                    if ((right & 2) == 0)
+                    {
+                        @Html.Sitecore().Rendering("{0AF99576-9BC3-435B-B10E-E033D0E4750D}", new { DataSource = Model.Item.ID.ToString() })
+                        @Html.Sitecore().Rendering("{6BD0C3AC-EF82-4110-BBA4-39398E39091B}", new { DataSource = Model.Item.ID.ToString(), Parameters = "right=" + right })
+                    }
+                    else
+                    {
+                        @Html.Sitecore().Rendering("{6BD0C3AC-EF82-4110-BBA4-39398E39091B}", new { DataSource = Model.Item.ID.ToString(), Parameters = "right=" + right })
+                        @Html.Sitecore().Rendering("{0AF99576-9BC3-435B-B10E-E033D0E4750D}", new { DataSource = Model.Item.ID.ToString() })
+                    }
+                }
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿---
+ID: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Parent: ec983dcb-1a5c-47af-9304-b37119515d1b
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Shared/Spitfire/Teasers
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {3FC1259D-2BFD-4F4D-9B4C-BC1CFB13EB1A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T095948Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -8,4 +8,13 @@
   <File Include="Views\Navigation\Jango\Breadcrumbs-Image.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{FC2DC32A-3762-4DE4-B960-4E42F9CE333C}</Item>
   </File>
+  <File Include="Views\Navigation\Jango\MegaMenu-Dark.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{668E785F-7884-43BF-AFE2-1F3830EBE078}</Item>
+  </File>
+  <File Include="Views\Navigation\Jango\MegaMenu-Light.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A8C0A950-4534-4037-9AD2-999F5FEAEE62}</Item>
+  </File>
+  <File Include="Models\Jango\Menu.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{93CB577D-C233-48A5-9F00-FDB918F45F3D}</Item>
+  </File>
 </Project>

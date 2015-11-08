@@ -1330,6 +1330,7 @@
     <Content Include="assets\base\media\video\video-1.mp4" />
     <Content Include="assets\base\media\video\video-2.mp4" />
     <Content Include="assets\base\media\video\video-3.mp4" />
+    <Content Include="assets\base\media\video\video-4.mp4" />
     <Content Include="assets\livecss.js" />
     <Content Include="assets\plugins\animate\animate.css" />
     <Content Include="assets\plugins\animate\animate.min.css" />

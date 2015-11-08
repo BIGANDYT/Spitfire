@@ -2,4 +2,7 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\Search\Jango\Search.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}</Item>
+  </File>
 </Project>

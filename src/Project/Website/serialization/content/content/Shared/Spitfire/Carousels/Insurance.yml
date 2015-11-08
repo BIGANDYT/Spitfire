@@ -1,0 +1,23 @@
+﻿---
+ID: c0ff830d-1dad-48c5-aa04-eb59a5174ec4
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: |
+        {AC95FF9A-713D-455C-ACDC-4A1ED5D87677}
+        {CEA2A74B-A6B5-4F1F-A419-26E1219C3DD6}
+        {4674ADA3-89CF-4B75-B346-F861ADC6E15A}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T175726Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

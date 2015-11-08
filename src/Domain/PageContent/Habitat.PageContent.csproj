@@ -120,7 +120,7 @@
     <Content Include="Views\PageContent\Jango\Header\Header-4.cshtml" />
     <Content Include="Views\PageContent\Jango\Footer6.cshtml" />
     <Content Include="Views\PageContent\Jango\Tab-1.cshtml" />
-    <Content Include="Views\PageContent\Jango\Tile-3.cshtml" />
+    <Content Include="Views\PageContent\Jango\Tile-Teaser-Group.cshtml" />
     <Content Include="Views\PageContent\Jango\Features-1.cshtml" />
     <Content Include="Views\PageContent\Jango\Accordion-Why-Us-1.cshtml" />
     <Content Include="Views\PageContent\Jango\Latest-Items-1.cshtml" />
@@ -144,6 +144,8 @@
     <Content Include="Views\PageContent\Jango\Header\Topbar-Dark.cshtml" />
     <Content Include="Views\PageContent\Jango\Header\Topbar.cshtml" />
     <Content Include="Views\PageContent\Jango\Header\Header-8.cshtml" />
+    <Content Include="Views\PageContent\Jango\Header\Menu-Toggle.cshtml" />
+    <Content Include="Views\PageContent\Jango\TitleBar.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -170,7 +172,9 @@
       <Name>Habitat.Framework.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
