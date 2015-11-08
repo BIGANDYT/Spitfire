@@ -10,7 +10,7 @@
     {
         <div class="caption fulllscreenvideo tp-videolayer hidden-xs" data-x="0" data-y="0" data-speed="600" data-start="1000" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeOut" data-autoplay="true"
              data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-videowidth="100%" data-videoheight="100%" data-videopreload="meta" data-videomp4="@Model.VideoPath" data-videowebm="" data-videocontrols="none"
-             data-forcecover="1" data-forcerewind="on" data-aspectratio="16:9" data-volume="mute" data-videoposter="assets/base/img/layout/sliders/revo-slider/base/blank.png">
+             data-forcecover="1" data-forcerewind="on" data-aspectratio="16:9" data-volume="mute" data-videoposter="@Model.ImageUrl">
         </div>
     }
     <div class="caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-30" data-speed="500" data-start="1000" data-customin="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -21,7 +21,7 @@
         </h3>
     </div>
     <div class="caption lft" data-x="center" data-y="center" data-voffset="130" data-speed="900" data-start="2000" data-easing="easeOutExpo">
-        @Html.Sitecore().Field("Link", new { @class = "c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase" })
+        @Html.Sitecore().Field("Link", new { @class = "btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" })
     </div>
     @if (Model.VideoPath != null)
     {

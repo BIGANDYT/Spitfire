@@ -1,0 +1,21 @@
+﻿---
+ID: 60a5ea3e-35ee-4160-b06e-d7e3e1d2b684
+Parent: 63ccb09a-74a5-4c3a-b7e5-39bdf8d720fa
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/Insurance/QuoteMainTab
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: QuoteMainTab
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: {E7079EFA-14CA-4823-8974-3E8FF368F08D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151108T224409Z

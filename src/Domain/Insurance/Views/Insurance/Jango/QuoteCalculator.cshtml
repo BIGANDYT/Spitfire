@@ -1,0 +1,387 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="c-content-tab-2 c-theme c-opt-1">
+                <ul class="nav c-tab-icon-stack c-font-sbold c-font-uppercase">
+                    <li class="active">
+                        <a href="#c-tab2-opt1-6" data-toggle="tab" aria-expanded="true">
+                            <i class="fa fa-arrow-circle-o-right"></i>
+                            <span class="c-title">Start a Quote</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                    <li class="">
+                        <a href="#c-tab2-opt1-1" data-toggle="tab" aria-expanded="false">
+                            <i class="fa fa-user"></i>
+                            <span class="c-title">Your Details</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                    <li class="">
+                        <a href="#c-tab2-opt1-2" data-toggle="tab" aria-expanded="false">
+                            <i class="fa fa-car"></i>
+                            <span class="c-title">Your Vehicle</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                    <li class="">
+                        <a href="#c-tab2-opt1-3" data-toggle="tab" aria-expanded="false">
+                            <i class="fa fa-users"></i>
+                            <span class="c-title">Drivers</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                    <li class="">
+                        <a href="#c-tab2-opt1-4" data-toggle="tab" aria-expanded="false">
+                            <i class="fa fa-pencil-square-o"></i>
+                            <span class="c-title">Final Details</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                    <li class="">
+                        <a href="#c-tab2-opt1-5" data-toggle="tab" aria-expanded="false">
+                            <i class="fa fa-file-text-o"></i>
+                            <span class="c-title">Your Quote</span>
+                        </a>
+                        <div class="c-arrow"></div>
+                    </li>
+                </ul>
+                <div class="c-tab-content c-bg-parallax" style="background-image: url(http://www.encyclauto.com/Media/Img/Blog/97/cc11930daa62c9e3efb331b243670be6.jpeg)">
+                    <div class="container">
+                        <div class="tab-content" style="padding: 0px;overflow: inherit;">
+                            <div class="tab-pane fade active in" id="c-tab2-opt1-6">
+                                @Html.Sitecore().Placeholder("QuoteMainTab")
+                            </div>
+                            <div class="tab-pane fade" id="c-tab2-opt1-1">
+                                <div class="c-tab-pane">
+                                    <div class="c-content-panel">
+                                        <div class="c-body">
+                                            <form class="form-horizontal">
+                                                <div class="form-group form-c-radios">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="col-md-4 control-label c-font-bold c-font-white">Inline Radios</label>
+                                                            <div class="c-radio-inline">
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio4-112" class="c-radio" name="radios2">
+                                                                    <label for="radio4-112" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> Mr
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio5-112" class="c-radio" checked="" name="radios2">
+                                                                    <label for="radio5-112" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> Mrs
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio6-112" class="c-radio" name="radios2">
+                                                                    <label for="radio6-112" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> Miss
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio7-112" class="c-radio" name="radios2">
+                                                                    <label for="radio7-112" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> Ms
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio8-112" class="c-radio" name="radios2">
+                                                                    <label for="radio8-112" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> Dr
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="inputForename3-55" class="col-md-4 control-label c-font-bold c-font-white">Forename</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputForename3-55" placeholder="Forename">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="inputSurname3-55" class="col-md-4 control-label c-font-bold c-font-white">Surname</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputSurname3-55" placeholder="Surname">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="inputDob1-55" class="col-md-4 control-label c-font-bold c-font-white">Date of birth</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputDob1-55" placeholder="DD">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputDob2-55" placeholder="MM">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputDob3-55" placeholder="YYYY">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <!-- Postcode field -->
+                                                            <label for="opc_input" class="col-md-4 control-label c-font-bold c-font-white">Lookup Address</label>
+                                                            <div class="col-md-6">
+                                                                <div id="postcode_lookup"></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add to your existing form -->
+                                                        <div class="form-group">
+                                                            <label for="line1" class="col-md-4 control-label c-font-bold c-font-white">First Address Line</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="line1" placeholder="Address Line 1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="line2" class="col-md-4 control-label c-font-bold c-font-white">Second Address Line</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="line2" placeholder="Address Line 2">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="line3" class="col-md-4 control-label c-font-bold c-font-white">Third Address Line</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="line3" placeholder="Address Line 3">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="town" class="col-md-4 control-label c-font-bold c-font-white">Town</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="town" placeholder="Town">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="county" class="col-md-4 control-label c-font-bold c-font-white">County</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="county" placeholder="County">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="postcode" class="col-md-4 control-label c-font-bold c-font-white">Postcode</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="postcode" placeholder="Postcode">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-md-4 control-label c-font-bold c-font-white">Marital status</label>
+                                                            <div class="col-md-6">
+                                                                <select class="form-control c-square c-theme">
+                                                                    <option value="1">Please select...</option>
+                                                                    <option value="2">Single</option>
+                                                                    <option value="3">Married</option>
+                                                                    <option value="4">Common Law</option>
+                                                                    <option value="5">Divorced</option>
+                                                                    <option value="5">Widowed</option>
+                                                                    <option value="5">Civil Partner</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="inputEmail3-55" class="col-md-4 control-label c-font-bold c-font-white">Email</label>
+                                                            <div class="col-md-6">
+                                                                <input type="email" class="form-control  c-square c-border-2px c-theme" id="inputEmail3-55" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="inputTelephone3-55" class="col-md-4 control-label c-font-bold c-font-white">Telephone</label>
+                                                            <div class="col-md-6">
+                                                                <input type="Text" class="form-control  c-square c-border-2px c-theme" id="inputTelephone3-55" placeholder="Telephone">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-md-4 control-label c-font-bold c-font-white">How many cars at this address</label>
+                                                            <div class="c-radio-inline">
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio4-12" class="c-radio" name="radios2">
+                                                                    <label for="radio4-12" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> 1
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio5-12" class="c-radio" checked="" name="radios2">
+                                                                    <label for="radio5-12" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> 2
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio6-12" class="c-radio" name="radios2">
+                                                                    <label for="radio6-12" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> 3
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio7-12" class="c-radio" name="radios2">
+                                                                    <label for="radio7-12" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> 4
+                                                                    </label>
+                                                                </div>
+                                                                <div class="c-radio">
+                                                                    <input type="radio" id="radio8-12" class="c-radio" name="radios2">
+                                                                    <label for="radio8-12" class="c-font-bold c-font-white">
+                                                                        <span class="inc"></span>
+                                                                        <span class="check"></span>
+                                                                        <span class="box"></span> 5+
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-md-4 control-label c-font-bold c-font-white">Employment type</label>
+                                                            <div class="col-md-6">
+                                                                <select class="form-control c-square c-theme">
+                                                                    <option value="1">Please select...</option>
+                                                                    <option value="2">Employed</option>
+                                                                    <option value="3">Self-employed</option>
+                                                                    <option value="4">Retired</option>
+                                                                    <option value="5">Not Employed due to disability</option>
+                                                                    <option value="6">Household duties</option>
+                                                                    <option value="7">Full/Part time education</option>
+                                                                    <option value="8">Voluntary Worker</option>
+                                                                    <option value="9">Unemployed</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group c-margin-t-40">
+                                                    <div class="col-sm-offset-4 col-md-8">
+                                                        <button type="submit" class="btn c-theme-btn c-btn-square c-btn-uppercase c-btn-bold">Submit</button>
+                                                        <button type="submit" class="btn btn-default c-btn-square c-btn-uppercase c-btn-bold">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="c-tab2-opt1-2">
+                                <div class="c-tab-pane">
+                                    <img class="img-responsive" src="assets/base/img/content/stock2/04.jpg" alt="">
+                                    <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Optimzied For All Screen Sizes &amp; Types</h4>
+                                    <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit
+                                        lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold">
+                                        EXPLORE
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="c-tab2-opt1-3">
+                                <div class="c-tab-pane">
+                                    <img class="img-responsive" src="assets/base/img/content/stock2/5.jpg" alt="">
+                                    <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Dedicated Support To All Customers</h4>
+                                    <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit
+                                        enim ad minim veniam lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold">
+                                        EXPLORE
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="c-tab2-opt1-4">
+                                <div class="c-tab-pane">
+                                    <img class="img-responsive" src="assets/base/img/content/stock2/06.jpg" alt="">
+                                    <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Coded By Developers For Developers</h4>
+                                    <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed enim ad minim veniam diam nonummy nibh euismod tincidunt ut enim ad minim veniam laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                        enim ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold"> EXPLORE </button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="c-tab2-opt1-5">
+                                <div class="c-tab-pane">
+                                    <div class="col-md-4">
+                                        <!-- BEGIN: PAGE CONTENT -->
+                                        <!-- BEGIN: CONTENT/STATS/COUNTER-3 -->
+                                        <div class="c-content-box c-size-md c-bg-parallax">
+                                            <div class="container">
+                                                <div class="c-content-counter-1">
+                                                    <div class="c-content-title-1">
+                                                        <h3 class="c-center c-font-uppercase c-font-white c-font-bold">Your Quote</h3>
+                                                        <div class="c-line-center c-bg-white"></div>
+                                                    </div>
+                                                    <div class="row c-margin-t-60">
+                                                        <div class="col-md-4">
+                                                            <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">&#163;200</div>
+                                                            <h4 class="c-title c-first c-font-white c-font-uppercase c-font-bold">Annual Premium</h4>
+                                                            <p class="c-content c-font-white c-opacity-08">Save &#163;40 by paying annually</p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">&#163;20</div>
+                                                            <h4 class="c-title c-font-white c-font-uppercase c-font-bold">Monthly</h4>
+                                                            <p class="c-content c-font-white c-opacity-08">Pay by direct debit monthly</p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">&#163;240</div>
+                                                            <h4 class="c-title c-font-white c-font-uppercase c-font-bold">Monthly Total</h4>
+                                                            <p class="c-content c-font-white c-opacity-08">Save money by paying annually</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- END: CONTENT/STATS/COUNTER-3 -->
+                                        <!-- END: PAGE CONTENT -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Include plugin file -->
+<script src="https://getaddress.io/js/jquery.getAddress-2.0.1.min.js"></script>
+
+<!-- Add after your form -->
+<script>
+    $('#postcode_lookup').getAddress({
+        api_key: 'hzMvNTEeKE6RJ4gSqNyDzQ2138',
+        output_fields: {
+            line_1: '#line1',
+            line_2: '#line2',
+            line_3: '#line3',
+            post_town: '#town',
+            county: '#county',
+            postcode: '#postcode'
+        },
+        button_class: 'btn c-theme-btn c-btn-square c-btn-uppercase c-btn-bold',
+        input_class: 'form-control  c-square c-border-2px c-theme',
+        dropdown_class: "form-control c-square c-theme",
+
+        onLookupSuccess: function (data) {/* Your custom code */ },
+        onLookupError: function () {/* Your custom code */ },
+        onAddressSelected: function (elem, index) {/* Your custom code */ }
+    });
+</script>
+<script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script>
+            $(document).ready(function()
+            {
+                App.init(); // init core
+            });
+</script>

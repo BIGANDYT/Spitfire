@@ -100,6 +100,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Serialization", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Commerce", "src\Domain\Commerce\Habitat.Commerce.csproj", "{A9331F91-8352-444E-A424-D8312D6012A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Insurance", "src\Domain\Insurance\Habitat.Insurance.csproj", "{45131906-F048-4FB3-97D7-7DC7CE9C59C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B535703F-8D07-4F23-A533-2974BB4CC7B1} = {B535703F-8D07-4F23-A533-2974BB4CC7B1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -394,6 +399,14 @@ Global
 		{A9331F91-8352-444E-A424-D8312D6012A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9331F91-8352-444E-A424-D8312D6012A8}.Release|x64.ActiveCfg = Release|Any CPU
 		{A9331F91-8352-444E-A424-D8312D6012A8}.Release|x64.Build.0 = Release|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Debug|x64.Build.0 = Debug|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -438,5 +451,6 @@ Global
 		{984266D0-1626-45B2-81AA-E4D2FCEE2E2A} = {6C9ABA71-CF6B-47A6-A052-051E59352CE3}
 		{EDF063A2-2DC2-47EA-9B1B-7AA9246C4FFC} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 		{A9331F91-8352-444E-A424-D8312D6012A8} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{45131906-F048-4FB3-97D7-7DC7CE9C59C4} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 	EndGlobalSection
 EndGlobal

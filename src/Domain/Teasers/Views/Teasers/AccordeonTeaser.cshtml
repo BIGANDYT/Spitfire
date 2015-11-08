@@ -1,9 +1,6 @@
-﻿@using Sitecore
+﻿@@using Habitat.Framework.SitecoreExtensions.Extensions
 @using Habitat.Teasers
-@using Habitat.Teasers.Repositories
-@using Habitat.Teasers.Services
-@using Sitecore.Support
-@model Habitat.Teasers.Models.AccordeonModel
+@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="panel-group teaser" id="@Model.Id" role="tablist" aria-multiselectable="true">
     @{
         var index = 0;

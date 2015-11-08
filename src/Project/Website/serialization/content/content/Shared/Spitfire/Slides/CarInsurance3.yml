@@ -13,7 +13,7 @@ Languages:
       Value: 20151107T175305Z
     - ID: 3299b841-afa1-48d3-ba4a-de5fe9de9d6d
       # Video
-      Value: "<file mediaid=\"{675A87A2-87A3-47A0-A7A6-7E107AE09ED0}\" src=\"-/media/675A87A287A347A0A7A67E107AE09ED0.ashx\" />"
+      Value: "<file mediaid=\"{72A7B5B9-1CC9-4C3D-BC52-E9E8F7C1F871}\" src=\"-/media/72A7B5B91CC94C3DBC52E9E8F7C1F871.ashx\" />"
     - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
       # Link
       Value: "<link text=\"Home\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{7F3C4B4F-87AD-4821-B679-5E6916BCF24D}\" />"
@@ -23,3 +23,6 @@ Languages:
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
       Value: Worry free motoring
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{F426BBE4-6C7A-412D-AAEB-4C9FF436A819}\" />"
