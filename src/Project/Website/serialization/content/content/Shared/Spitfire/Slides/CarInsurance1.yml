@@ -16,7 +16,7 @@ Languages:
       Value: 5 Star car insurance from £150
     - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
       # Link
-      Value: "<link text=\"Get a car quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{71844A85-2309-4C8F-8810-B721BD573A00}\" />"
+      Value: "<link text=\"Start a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{71844A85-2309-4C8F-8810-B721BD573A00}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin
