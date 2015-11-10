@@ -1,0 +1,22 @@
+﻿---
+ID: 042234b3-d41b-4fe7-a26c-2fe026526b97
+Parent: a413536f-af88-4b4a-8df1-3813f656b197
+Template: 587bcbc8-6506-4816-9d9e-73b2b642874f
+Path: /sitecore/content/Shared/Spitfire/QuoteCalculators/CarInsurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151109T083824Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: CarInsurance
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{578F9976-459F-4987-98C8-B369C99D14D4}\" />"
+    - ID: c57a227c-f480-426e-8b63-67ae837689b0
+      # BlurredImage
+      Value: "<image mediaid=\"{E2FB0AF8-E677-4FE4-8BDD-F3808ECDE7CF}\" />"
