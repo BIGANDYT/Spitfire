@@ -2,7 +2,7 @@
 ID: e27aa41e-d3e5-4a08-a3c9-3735cc16243e
 Parent: bfe83f11-02e0-4d16-b2e8-f1d6c4949f7d
 Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
-Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/content
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/page-content
 SharedFields:
 - ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
   # Placeholder Key
