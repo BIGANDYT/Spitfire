@@ -1,0 +1,22 @@
+﻿---
+ID: 3931004e-067f-4f66-89f3-a66fb8f354e8
+Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
+Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
+Path: /sitecore/content/Shared/Spitfire/Slides/Home Insurance 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151114T224308Z
+    - ID: 3299b841-afa1-48d3-ba4a-de5fe9de9d6d
+      # Video
+      Value: "<file mediaid=\"{A5F3F272-D7C8-4CE6-892E-35427D301D8E}\" src=\"-/media/A5F3F272D7C84CE6892E35427D301D8E.ashx\" />"
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6648661B-D262-4F30-BA35-DFEF1CF6D4B8}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -3,6 +3,10 @@ ID: 9155919e-3cec-4aed-90ef-0a9c3c8d51d0
 Parent: 7f3c4b4f-87ad-4821-b679-5e6916bcf24d
 Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
 Path: /sitecore/content/Insurance/Home/Health Insurance
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/32x32/doctor.png
 Languages:
 - Language: en
   Versions:
@@ -11,71 +15,7 @@ Languages:
     - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
       # __Final Renderings
       Type: Layout
-      Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
-          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{DF9D127F-B388-4746-89E7-7E6D78D35186}">
-            <r uid="{E6CA18D8-321D-4105-9C38-0622E94BE400}">
-              <p:d />
-            </r>
-            <r uid="{EF51B238-7CE2-4E39-AB87-D05424735160}">
-              <p:d />
-            </r>
-            <r uid="{05FFB7B4-377C-4C00-9520-0ED7735CADCA}">
-              <p:d />
-            </r>
-            <r uid="{FBDB4313-35B5-4C26-A586-17F48FD2DC41}">
-              <p:d />
-            </r>
-            <r uid="{7BD25BD6-C6C4-4FBE-9828-D29A39A2FEC9}">
-              <p:d />
-            </r>
-            <r uid="{3555E24E-FBE9-4D81-AAC7-50408AA45EF0}">
-              <p:d />
-            </r>
-            <r uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}">
-              <p:d />
-            </r>
-            <r uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}">
-              <p:d />
-            </r>
-            <r uid="{630F4515-1F19-49A8-B986-D46ADD5CE024}">
-              <p:d />
-            </r>
-            <r uid="{1DF746C3-2D29-43E6-9DE2-05622DED6F97}">
-              <p:d />
-            </r>
-            <r uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}">
-              <p:d />
-            </r>
-            <r uid="{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}">
-              <p:d />
-            </r>
-            <r uid="{E2040FB7-4151-456D-9315-5973E4EB4D9D}">
-              <p:d />
-            </r>
-            <r uid="{A14830ED-238A-4E96-BF1A-83EC5AE20800}">
-              <p:d />
-            </r>
-            <r uid="{A4AD2DA4-136E-466A-BC85-F02C9205869D}">
-              <p:d />
-            </r>
-            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
-              <p:d />
-            </r>
-            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
-              <p:d />
-            </r>
-            <r uid="{84124EE2-E678-4144-8316-0D6874866604}">
-              <p:d />
-            </r>
-            <r uid="{47F5A079-6F63-4219-BC45-1A221B200906}">
-              <p:d />
-            </r>
-            <r uid="{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}">
-              <p:d />
-            </r>
-          </d>
-        </r>
+      Value: "<r xmlns:p=\"p\" xmlns:s=\"s\" p:p=\"1\" s:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       # NavigationTitle
       Value: Health

@@ -3,11 +3,59 @@ ID: 6648661b-d262-4f30-ba35-dfef1cf6d4b8
 Parent: 7f3c4b4f-87ad-4821-b679-5e6916bcf24d
 Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
 Path: /sitecore/content/Insurance/Home/Home Insurance
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/32x32/home_fire.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{44851BA0-C134-4863-85C3-67C462CB1B99}">
+          <p:d />
+        </r>
+        <r uid="{D010121E-232C-4E82-9D4F-A4EED73DC199}">
+          <p:d />
+        </r>
+        <r uid="{C9D992DD-A469-464E-89CC-7F0BBA23668C}">
+          <p:d />
+        </r>
+        <r uid="{585B1323-5023-46C2-97F4-9F478FA58FD7}">
+          <p:d />
+        </r>
+        <r uid="{AA20FBCF-942A-4765-8894-820BD0B78BAC}">
+          <p:d />
+        </r>
+        <r uid="{9141C05F-89B9-4835-AC12-C6C5CDE81317}">
+          <p:d />
+        </r>
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{0B4D2CC0-19B7-4E34-81A1-9CA16AB4D90D}" p:before="r[@uid='{1B55F732-3895-4AA7-9DA3-5E692D657C5C}']" s:ds="{2852DB92-2521-480B-8AA2-E23E19221BD4}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content" />
+            <r uid="{1B55F732-3895-4AA7-9DA3-5E692D657C5C}" p:before="r[@uid='{93C5A246-681E-48EC-8A84-BF0C54611013}']" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="page-content" />
+            <r uid="{93C5A246-681E-48EC-8A84-BF0C54611013}" p:before="r[@uid='{C8120193-A63E-4C33-949D-E45455F9A1A0}']" s:ds="{90608FC3-D35B-49EB-A377-5F92A921032D}" s:id="{CF3B2E86-B462-4158-95E7-D239F2AEB8C8}" s:ph="page-content" />
+            <r uid="{C8120193-A63E-4C33-949D-E45455F9A1A0}" p:before="r[@uid='{44851BA0-C134-4863-85C3-67C462CB1B99}']" s:ds="{1B6A1A89-EF07-4A3B-A6D9-11BE4D5CEFF2}" s:id="{CF3B2E86-B462-4158-95E7-D239F2AEB8C8}" s:ph="page-content" />
+            <r uid="{44851BA0-C134-4863-85C3-67C462CB1B99}" p:before="r[@uid='{D010121E-232C-4E82-9D4F-A4EED73DC199}']" s:id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" s:ph="footer" />
+            <r uid="{D010121E-232C-4E82-9D4F-A4EED73DC199}" p:before="r[@uid='{C9D992DD-A469-464E-89CC-7F0BBA23668C}']" s:id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{C9D992DD-A469-464E-89CC-7F0BBA23668C}" p:before="r[@uid='{585B1323-5023-46C2-97F4-9F478FA58FD7}']" s:id="{FD79E80F-A107-42C2-ABC6-AD952D5CA467}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{585B1323-5023-46C2-97F4-9F478FA58FD7}" p:before="r[@uid='{AA20FBCF-942A-4765-8894-820BD0B78BAC}']" s:id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{AA20FBCF-942A-4765-8894-820BD0B78BAC}" p:before="r[@uid='{9141C05F-89B9-4835-AC12-C6C5CDE81317}']" s:id="{A8C0A950-4534-4037-9AD2-999F5FEAEE62}" s:ph="/header/menu" />
+            <r uid="{9141C05F-89B9-4835-AC12-C6C5CDE81317}" s:id="{D9840C19-F04E-4C9F-834E-92EEED5343C7}" s:ph="header" />
+          </d>
+        </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       # NavigationTitle
       Value: Home

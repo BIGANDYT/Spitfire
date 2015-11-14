@@ -1,0 +1,24 @@
+﻿---
+ID: 90608fc3-d35b-49eb-a377-5f92a921032d
+Parent: 97328513-256d-49b2-a0b8-aa52485fce02
+Template: 327468ab-0a78-4eb1-9113-34592ce923d0
+Path: /sitecore/content/Shared/Spitfire/TeaserGroup/Home Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151114T225226Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 89f0a97f-7f20-48d8-b744-9028f88b37f3
+      # Teasers
+      Type: Multilist
+      Value: |
+        {1F63DA87-5B43-4250-AB46-97E4E571BC40}
+        {5576D3D9-2D4A-47FC-9379-7A67781D85AE}
+        {604624FE-8633-465A-BBAE-DB44FD9496C5}
+        {05FCAAC3-5AC4-473E-9CE1-DEC89619C394}

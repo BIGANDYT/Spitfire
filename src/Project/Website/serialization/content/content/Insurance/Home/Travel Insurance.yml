@@ -3,6 +3,10 @@ ID: 364464ec-93cb-4506-af58-7472ea008487
 Parent: 7f3c4b4f-87ad-4821-b679-5e6916bcf24d
 Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
 Path: /sitecore/content/Insurance/Home/Travel Insurance
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/32x32/airplane.png
 Languages:
 - Language: en
   Versions:
