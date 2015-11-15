@@ -427,6 +427,17 @@ var LayoutThemeSettings = function () {
 			$(this).addClass('active');
 		});
 
+		$('.c-setting_body-style').on('click', function () {
+		    var val = $(this).attr('data-value');
+		    if (val == 'boxed') {
+		        $('body').removeClass('c-layout-header-fullscreen');
+		    } else {
+		        $('body').addClass('c-layout-header-fullscreen');
+		    }
+		    $('.c-setting_body-style').removeClass('active');
+		    $(this).addClass('active');
+		});
+
 	};
 
 	return {

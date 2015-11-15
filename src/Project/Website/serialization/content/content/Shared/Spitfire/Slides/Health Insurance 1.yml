@@ -1,0 +1,28 @@
+﻿---
+ID: 1c3e7fa3-eca9-4d51-a25b-28df2e843736
+Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
+Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
+Path: /sitecore/content/Shared/Spitfire/Slides/Health Insurance 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151115T103257Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{9155919E-3CEC-4AED-90EF-0A9C3C8D51D0}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: Our Defaqto 5 Star Rated private health insurance helps you access treatment quickly and get expert care from leading health professionals. See which policy is right for you and your budget.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Health insurance and protection
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{FBA7129B-C3D3-45D3-8D20-A74A8E43CC39}\" alt=\"Health Insurance\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"

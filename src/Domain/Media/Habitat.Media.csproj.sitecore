@@ -17,4 +17,7 @@
   <File Include="Views\Media\Jango\Slide.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{53900FFE-5FCB-42CC-89AB-D682F0949E24}</Item>
   </File>
+  <File Include="Views\Media\Jango\Slide Full Screen.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{25E8FC0C-3EDB-4E6F-82EA-785B03DCCF8F}</Item>
+  </File>
 </Project>

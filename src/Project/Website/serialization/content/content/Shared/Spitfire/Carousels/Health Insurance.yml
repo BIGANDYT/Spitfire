@@ -1,0 +1,23 @@
+﻿---
+ID: be883e9a-eb83-4612-90b6-c22d2df7575b
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/Health Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: |
+        {1C3E7FA3-ECA9-4D51-A25B-28DF2E843736}
+        {D59BF4BB-D4C5-41BB-A766-23883FC9099F}
+        {A87D542B-E1FE-4CF5-A561-C6C6F2866B8E}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151115T104209Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
