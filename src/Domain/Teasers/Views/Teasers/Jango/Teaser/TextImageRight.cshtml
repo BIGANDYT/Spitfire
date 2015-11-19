@@ -1,0 +1,15 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="row">
+    <div class="col-md-7">
+        <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">@Html.Sitecore().Field("Title", @Model.Item)</h4>
+        <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
+            @Html.Sitecore().Field("Description", @Model.Item)
+        </p>
+        @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-theme-btn c-btn-square c-btn-bol" })
+    </div>
+    <div class="col-md-5">
+        @Html.Sitecore().Field("Image", new { @class = "img-responsive" })
+    </div>
+</div>

@@ -8,6 +8,9 @@ SharedFields:
   # __Masters
   Type: TreelistEx
   Value: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:

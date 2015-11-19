@@ -25,6 +25,7 @@ Languages:
             <r uid="{44851BA0-C134-4863-85C3-67C462CB1B99}">
               <p:d />
             </r>
+            <r uid="{135A5EDD-EF8A-40F5-B02E-958A9481682E}" p:before="r[@uid='{F335B20B-D52C-47EC-B3B6-9B3697F67873}']" s:id="{947BE6C5-4457-440C-944B-74F12D9A5B75}" s:ph="/page-content/teaser_74c53308-075a-423e-9a78-8ea5a0efcccd" />
             <r uid="{F335B20B-D52C-47EC-B3B6-9B3697F67873}" p:before="r[@uid='{D010121E-232C-4E82-9D4F-A4EED73DC199}']" s:ds="{C0FF830D-1DAD-48C5-AA04-EB59A5174EC4}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
@@ -61,8 +62,7 @@ Languages:
             <r uid="{DD41D1AE-8C67-4746-B81D-3ACCF911FE1E}" p:before="r[@uid='{D12DDA6B-9862-4AE6-8DFC-4162C3983F73}']" s:id="{5885C2B0-7111-4470-A394-6C327989F882}" s:ph="page-content" />
             <r uid="{D12DDA6B-9862-4AE6-8DFC-4162C3983F73}" p:before="r[@uid='{9F7EEAEE-84CB-4830-9373-F1954AB27D83}']" s:id="{131721EB-04F2-4F3A-9AFB-74E88C8EF1AD}" s:ph="page-content" />
             <r uid="{9F7EEAEE-84CB-4830-9373-F1954AB27D83}" p:before="r[@uid='{3FB3B4F6-B9A2-43EC-BC47-DD2FE2270908}']" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="content" />
-            <r uid="{3FB3B4F6-B9A2-43EC-BC47-DD2FE2270908}" p:before="r[@uid='{BC76FBB5-4AEA-462C-A0E9-F33B1AA9CA2B}']" s:id="{C82A600D-2E42-4E7D-9ACB-401FEA0BF7EA}" s:ph="content" />
-            <r uid="{BC76FBB5-4AEA-462C-A0E9-F33B1AA9CA2B}" p:before="r[@uid='{438DC0A6-194A-48B0-BC77-3F86EAFFF976}']" s:id="{CC5E415B-ECA3-4AFF-9DDD-842F904F4871}" s:ph="content" />
+            <r uid="{3FB3B4F6-B9A2-43EC-BC47-DD2FE2270908}" p:before="r[@uid='{438DC0A6-194A-48B0-BC77-3F86EAFFF976}']" s:id="{C82A600D-2E42-4E7D-9ACB-401FEA0BF7EA}" s:ph="content" />
             <r uid="{438DC0A6-194A-48B0-BC77-3F86EAFFF976}" p:before="r[@uid='{9A401930-97D9-4C30-A2D0-3CCF1BB362D5}']" s:id="{CF3B2E86-B462-4158-95E7-D239F2AEB8C8}" s:ph="content" />
             <r uid="{9A401930-97D9-4C30-A2D0-3CCF1BB362D5}" p:before="r[@uid='{17070F02-E74A-46E0-BC4D-853C692C4794}']" s:id="{2500BC70-9CF8-44D4-84FE-3F30F5707203}" s:ph="content" />
             <r uid="{17070F02-E74A-46E0-BC4D-853C692C4794}" p:before="r[@uid='{E7263170-DF3B-44FA-8D3E-F79FAD1479C5}']" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="content" />

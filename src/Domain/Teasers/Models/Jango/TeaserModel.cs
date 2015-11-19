@@ -3,6 +3,7 @@ using Sitecore.Mvc.Presentation;
 using Sitecore.Web;
 using Sitecore.Data.Fields;
 using Sitecore.Resources.Media;
+using System;
 
 namespace Habitat.Teasers.Models.Jango
 {
@@ -17,6 +18,7 @@ namespace Habitat.Teasers.Models.Jango
         /// Set class colour
         /// </summary>
         public string ClassColour { get; private set; }
+        
 
         public override void Initialize(Rendering rendering)
         {
@@ -30,7 +32,7 @@ namespace Habitat.Teasers.Models.Jango
                     ImageUrl = MediaManager.GetMediaUrl(mediaItem);
                 }
             }
-            ClassColour = rendering.Item.Fields["ClassColour"].Value;
+            ClassColour = rendering?.Item?.Fields["ClassColour"]?.Value;
         }
     }
 }

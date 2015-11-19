@@ -1,0 +1,14 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="c-content-feature-5">
+    <div class="c-content-title-1 wow amimate fadeInDown">
+        <h3 class="c-text c-left c-font-dark c-font-uppercase c-font-bold">
+           @Html.Sitecore().Field("Title", @Model.Item)
+        </h3>
+        <div class="c-line-left c-bg-blue-3 c-theme-bg"></div>
+    </div>
+    <div class="c-text wow animate fadeInLeft">@Html.Sitecore().Field("Description", @Model.Item)</div>
+    @Html.Sitecore().Field("Link", new { @class = "btn c-btn-uppercase btn-md c-btn-bold c-btn-square c-theme-btn wow animate fadeIn" })
+    @Html.Sitecore().Field("Image", new { @class = "c-photo img-responsive wow animate fadeInUp", mw=420 })
+</div>

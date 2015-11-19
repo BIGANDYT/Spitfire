@@ -9476,7 +9476,7 @@ h1 {
 
 .c-content-tab-2 > .c-tab-content .tab-content {
   padding: 80px 0;
-  overflow: auto; }
+  overflow: hidden; }
 
 .c-content-tab-2 > .c-tab-content .c-tab-pane > h4 {
   margin-bottom: 16px; }

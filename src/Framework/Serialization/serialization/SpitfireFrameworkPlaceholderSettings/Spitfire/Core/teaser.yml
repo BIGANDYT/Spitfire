@@ -1,0 +1,28 @@
+﻿---
+ID: cdf3a392-8138-4961-b9be-3c48c6296bdc
+Parent: bfe83f11-02e0-4d16-b2e8-f1d6c4949f7d
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Core/teaser
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: teaser
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {6BD0C3AC-EF82-4110-BBA4-39398E39091B}
+    {AA3D54BB-408B-4CE4-9140-728745B6F6FC}
+    {947BE6C5-4457-440C-944B-74F12D9A5B75}
+    {0AF99576-9BC3-435B-B10E-E033D0E4750D}
+    {A643D577-F9CB-4124-87CA-C711C52E53C1}
+    {EF7136B0-1F3D-4C83-926A-A0FD4831DDAD}
+    {88F1C87E-B258-4B75-A20B-4AD5AB8052A2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151117T174457Z

@@ -1,0 +1,8 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="c-content-feature-1 wow animate fadeInUp">
+    <div class="c-content-line-icon c-theme c-icon-screen-chart"></div>
+    <h3 class="c-font-uppercase c-font-bold">@Html.Sitecore().Field("Title", @Model.Item)</h3>
+    <p class="c-font-thin">@Html.Sitecore().Field("Description", @Model.Item)</p>
+</div>

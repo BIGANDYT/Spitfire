@@ -1,6 +1,6 @@
 ﻿@using System.Web.Mvc.Html
 @using Habitat.Framework.SitecoreExtensions.Extensions
-@using Habitat.Teasers
+@using Habitat.PageContent
 @using Sitecore.Mvc.Presentation
 @model Sitecore.Mvc.Presentation.RenderingModel
 <!-- BEGIN: CONTENT/TABS/TAB-1 -->
@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="c-content-title-1">
-                    <h3 class="c-font-34 c-font-center c-font-bold c-font-uppercase c-margin-b-30"> JANGO'S Main Features </h3>
+                    <h3 class="c-font-34 c-font-center c-font-bold c-font-uppercase c-margin-b-30"> Main Features </h3>
                     <div class="c-line-center c-theme-bg"></div>
                 </div>
             </div>
@@ -60,62 +60,27 @@
                                 <div class="tab-content">
                                     <div class="tab-pane fade in active" id="c-tab2-opt1-1">
                                         <div class="c-tab-pane">
-                                            <img class="img-responsive" src="assets/base/img/content/stock2/3.jpg" alt="" />
-                                            <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Modern Design Trends</h4>
-                                            <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                                                veniam, exerci tation suscipit ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut laoreet dolore magna aliquam ut
-                                                aliquip ex ea commodo consequat.
-                                            </p>
-                                            <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold"> EXPLORE </button>
+                                            @Html.Sitecore().DynamicPlaceholder("teaser")
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="c-tab2-opt1-2">
                                         <div class="c-tab-pane">
-                                            <img class="img-responsive" src="assets/base/img/content/stock2/04.jpg" alt="" />
-                                            <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Optimzied For All Screen Sizes & Types</h4>
-                                            <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit
-                                                lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            </p>
-                                            <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold">
-                                                EXPLORE
-                                            </button>
+                                            @Html.Sitecore().DynamicPlaceholder("teaser")
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="c-tab2-opt1-3">
                                         <div class="c-tab-pane">
-                                            <img class="img-responsive" src="assets/base/img/content/stock2/5.jpg" alt="" />
-                                            <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Dedicated Support To All Customers</h4>
-                                            <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, exerci tation suscipit
-                                                enim ad minim veniam lobortis nisl ut aliquip ex ea commodo consequat exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            </p>
-                                            <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold">
-                                                EXPLORE
-                                            </button>
+                                            @Html.Sitecore().DynamicPlaceholder("teaser")
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="c-tab2-opt1-4">
                                         <div class="c-tab-pane">
-                                            <img class="img-responsive" src="assets/base/img/content/stock2/06.jpg" alt="" />
-                                            <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Coded By Developers For Developers</h4>
-                                            <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed enim ad minim veniam diam nonummy nibh euismod tincidunt ut enim ad minim veniam laoreet dolore magna aliquam erat volutpat. Ut wisi
-                                                enim ad minim veniam, exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            </p>
-                                            <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold"> EXPLORE </button>
+                                            @Html.Sitecore().DynamicPlaceholder("teaser")
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="c-tab2-opt1-5">
                                         <div class="c-tab-pane">
-                                            <img class="img-responsive" src="assets/base/img/content/stock2/6.jpg" alt="" />
-                                            <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">Unlimited Flexible Multi-purpose Layouts & Components</h4>
-                                            <p class="c-font-17 c-margin-b-20 c-margin-t-20 c-font-thin ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed enim ad minim veniam diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                                                exerci tation suscipit lobortis nisl ut aliquip ex ea commodo consequat enim ad minim veniam.
-                                            </p>
-                                            <button class="btn btn-sm c-theme-btn c-btn-square c-btn-bold"> EXPLORE </button>
+                                            @Html.Sitecore().DynamicPlaceholder("teaser")
                                         </div>
                                     </div>
                                 </div>

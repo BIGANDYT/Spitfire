@@ -1,0 +1,15 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="c-tile-content c-arrow-right c-arrow-@Model.ClassColour c-content-overlay">
+    <div class="c-overlay-wrapper">
+        <div class="c-overlay-content">
+            <a href="#">
+                <i class="icon-link"></i>
+            </a>
+            @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square" })
+            <!--<a href="assets/base/img/content/stock/79.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">-->
+        </div>
+    </div>
+    <div class="c-image c-overlay-object" data-height="height"style="@(Model.ImageUrl != string.Empty ? "background-image: url('" + Model.ImageUrl + "')" : string.Empty)"></div>
+</div>

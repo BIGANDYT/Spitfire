@@ -1,0 +1,37 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@using Sitecore.Mvc.Presentation
+@model  Habitat.Teasers.Model.TeaserGroup
+<!-- BEGIN: CONTENT/TILES/TILE-3 -->
+<div class="c-content-box c-size-md c-bg-white">
+    <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+        <div class="row wow animate fadeInUp">
+            <div class="col-md-6">
+                <div class="c-content-tile-1 c-bg-green">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            @Html.Sitecore().DynamicPlaceholder("teaser", true)
+                        </div>
+                        <div class="col-sm-6">
+                            @Html.Sitecore().DynamicPlaceholder("teaser", true)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="c-content-tile-1 c-bg-brown-2">
+                    <div class="row">
+                        <div class="col-sm-6">
+                           @Html.Sitecore().DynamicPlaceholder("teaser", true)
+                        </div>
+                        <div class="col-sm-6">
+                            @Html.Sitecore().DynamicPlaceholder("teaser",true)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: CONTENT/TILES/TILE-3 -->
