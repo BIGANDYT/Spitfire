@@ -21,12 +21,5 @@ namespace Habitat.Framework.SitecoreExtensions.Extensions
             var frame = new EditFrameRendering(helper.ViewContext.Writer, dataSource, buttons);
             return frame;
         }
-
-        public static HtmlString DynamicPlaceholder(this SitecoreHelper helper, string placeholderName, bool useStaticPlaceholderNames = false)
-        {
-            if (useStaticPlaceholderNames)
-                return helper.Placeholder(placeholderName);
-            return Sitecore.Support.DynamicPlaceholderExtension.DynamicPlaceholder(helper, placeholderName);
-        }
     }
 }

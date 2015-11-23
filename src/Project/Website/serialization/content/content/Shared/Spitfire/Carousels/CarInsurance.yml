@@ -3,6 +3,10 @@ ID: c0ff830d-1dad-48c5-aa04-eb59a5174ec4
 Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
 Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
 Path: /sitecore/content/Shared/Spitfire/Carousels/CarInsurance
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:

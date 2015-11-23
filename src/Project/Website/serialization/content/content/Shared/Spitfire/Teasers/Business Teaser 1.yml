@@ -1,0 +1,30 @@
+﻿---
+ID: 7404a84f-1af8-4791-a8a9-f9c25ac18f42
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Business Teaser 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T130246Z
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{7B52A5A3-9A6E-4F51-982D-F08D26C9BA4E}\" alt=\"summer\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+  - Version: 2
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T132657Z
+    - ID: 4c346442-e859-4efd-89b2-44aedf467d21
+      # __Valid to
+      Value: 20160330T233000Z
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{0EFC7CC4-6908-47B0-A624-3C72996B47CF}\" alt=\"snow\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20151201T132600Z

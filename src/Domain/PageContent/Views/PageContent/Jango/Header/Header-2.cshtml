@@ -5,7 +5,7 @@
 @model Sitecore.Mvc.Presentation.RenderingModel
 <!-- BEGIN: LAYOUT/HEADERS/HEADER-2 -->
 <!-- BEGIN: HEADER -->
-<header class="c-layout-header c-layout-header-2 c-layout-header-dark-mobile c-header-transparent-dark @(!Sitecore.Context.PageMode.IsPageEditor ? "header-live" : "") style="@(Sitecore.Context.PageMode.IsPageEditor ? "position:relative;" : "")" data-minimize-offset="80">
+<header class="c-layout-header c-layout-header-2 c-layout-header-dark-mobile c-header-transparent-dark @(!Sitecore.Context.PageMode.IsPageEditor ? "header-live" : "")" style="@(Sitecore.Context.PageMode.IsPageEditor ? "position:relative;" : "")" data-minimize-offset="80">
     @Html.Sitecore().Placeholder("topbar")
     <div class="c-navbar">
         <div class="container">

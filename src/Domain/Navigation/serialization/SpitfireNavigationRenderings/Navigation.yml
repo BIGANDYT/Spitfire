@@ -3,6 +3,10 @@ ID: 7268ea02-ebc4-46c3-94c3-efa78b5e33b7
 Parent: a6ba46a8-a7af-4037-afc5-98651924a3a6
 Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
 Path: /sitecore/layout/Renderings/Spitfire/Domain/Navigation
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 600
 Languages:
 - Language: en
   Versions:

@@ -7,6 +7,9 @@ SharedFields:
 - ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
   # Path
   Value: /Views/PageContent/Jango/Product-1.cshtml
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1000
 - ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
   # Open Properties after Add
   Value: -

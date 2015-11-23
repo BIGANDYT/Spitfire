@@ -3,6 +3,10 @@ ID: eeb8ebc9-e38f-428d-b0a0-b6ab6082376f
 Parent: a6ba46a8-a7af-4037-afc5-98651924a3a6
 Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
 Path: /sitecore/layout/Renderings/Spitfire/Domain/Search
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 900
 Languages:
 - Language: en
   Versions:

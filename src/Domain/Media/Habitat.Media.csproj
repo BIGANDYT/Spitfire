@@ -60,6 +60,12 @@
       <HintPath>..\..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="SitecoreExperienced.Pipelines.GetPlaceholderRenderings">
+      <HintPath>..\..\..\lib\Sitecore\SitecoreExperienced.Pipelines.GetPlaceholderRenderings.dll</HintPath>
+    </Reference>
+    <Reference Include="SitecoreExperienced.SitecoreControls">
+      <HintPath>..\..\..\lib\Sitecore\SitecoreExperienced.SitecoreControls.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />

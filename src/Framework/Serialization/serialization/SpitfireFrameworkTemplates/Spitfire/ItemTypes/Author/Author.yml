@@ -1,0 +1,16 @@
+﻿---
+ID: 74c16962-9d26-437c-bd67-8f6c4ede2257
+Parent: a19ba474-d04e-41ea-9005-ba36376ee857
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/ItemTypes/Author/Author
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T102532Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

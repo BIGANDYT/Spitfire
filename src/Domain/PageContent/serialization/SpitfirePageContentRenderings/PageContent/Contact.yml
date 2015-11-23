@@ -1,0 +1,20 @@
+﻿---
+ID: ad71a83c-94ab-4c28-a926-56770749b799
+Parent: 1918b848-f9c7-4d4d-bb1a-6fd1d821c5f0
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Contact
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: -50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151121T140347Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

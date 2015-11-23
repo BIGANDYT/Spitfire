@@ -1,0 +1,25 @@
+﻿---
+ID: 9e8ce3d2-da54-442e-a3c9-45d6921e3820
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Water Back 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T173400Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p>SAVE WATER<span class="Apple-tab-span" style="white-space: pre;"></span></p>
+        <p>SAVE ENERGY</p><p><br></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><span style="font-family: inherit;">SAVE MONEY</span><br></p>
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{41F524BF-46C0-448B-84B8-F45CFB2AC68F}\" />"

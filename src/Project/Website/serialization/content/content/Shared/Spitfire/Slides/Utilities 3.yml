@@ -1,0 +1,22 @@
+﻿---
+ID: 976b6941-f8e8-494c-a51e-15411cc7f867
+Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
+Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
+Path: /sitecore/content/Shared/Spitfire/Slides/Utilities 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T175636Z
+    - ID: 3299b841-afa1-48d3-ba4a-de5fe9de9d6d
+      # Video
+      Value: "<file mediaid=\"{35233C35-37AF-46BA-B2D3-A113B603FD9C}\" src=\"-/media/35233C3537AF46BAB2D3A113B603FD9C.ashx\" />"
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"external\" text=\"Donate to Water Aid\" url=\"https://donate.charitywater.org/donate/wayt\" anchor=\"\" target=\"\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

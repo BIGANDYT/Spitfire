@@ -32,4 +32,13 @@
   <File Include="Views\Teasers\Jango\Teaser\TextImageRight.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{88F1C87E-B258-4B75-A20B-4AD5AB8052A2}</Item>
   </File>
+  <File Include="Views\Teasers\Jango\Teaser\Teaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\Teaser\PosterTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DE61BFEF-FC07-4749-BF85-5957A3D24E77}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\Teaser\TeaserWide.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4250A359-6D68-46D9-89DF-65EB2734D5AF}</Item>
+  </File>
 </Project>

@@ -1,0 +1,19 @@
+﻿---
+ID: 0143f089-d495-4487-8989-15e1373b236c
+Parent: 50feff87-e979-4ed1-afac-4746a65913e6
+Template: a19ba474-d04e-41ea-9005-ba36376ee857
+Path: /sitecore/content/Shared/Spitfire/Authors/Andrew Thompson
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T102627Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b6ad00ba-c920-44fc-8fb6-96de85376133
+      # Author
+      Value: Andrew Thompson

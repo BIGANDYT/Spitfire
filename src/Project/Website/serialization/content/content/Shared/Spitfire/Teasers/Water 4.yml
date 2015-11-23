@@ -1,0 +1,25 @@
+﻿---
+ID: c4d8070e-8a49-480b-a199-1d309de07216
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Water 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T114559Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        Since 1992, Affinity water
+        customers have raised over
+        £9.3 million for wateraid,
+        transforming more than
+        622,030 lives
+        with clean water.
+        
+        thank you!
+        

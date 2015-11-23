@@ -1,0 +1,37 @@
+﻿---
+ID: 4e35ef07-a332-4963-9896-fb11facf0c46
+Parent: f3ef6f64-59bc-4442-82ef-3724b46250b0
+Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
+Path: /sitecore/content/Utilities/Home/For Schools
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{F0B223C8-6FB3-432C-A618-3FE2A04019DA}" p:before="r[@uid='{341BFD1A-EA13-420C-ACAE-99EBDCB40724}']" s:ds="{7E7916BA-ACFE-4607-A8C8-08E4456F34E9}" s:id="{88F1C87E-B258-4B75-A20B-4AD5AB8052A2}" s:ph="/page-content/teaser_SCEXP2" />
+            <r uid="{341BFD1A-EA13-420C-ACAE-99EBDCB40724}" p:before="r[@uid='{ABFA6126-AA56-4DB7-99C9-41A94A18EC47}']" s:ds="{38E2B863-AE8F-4AA0-ACF7-BA74371B7015}" s:id="{947BE6C5-4457-440C-944B-74F12D9A5B75}" s:ph="/page-content/teaser_SCEXP1" />
+            <r uid="{ABFA6126-AA56-4DB7-99C9-41A94A18EC47}" p:before="r[@uid='{957F2589-F891-483C-9C9A-7E757444D6C1}']" s:ds="{A6BFB560-8495-4296-9F2E-B6FB3EDDD1B5}" s:id="{6BD0C3AC-EF82-4110-BBA4-39398E39091B}" s:ph="/page-content/teaser" />
+            <r uid="{957F2589-F891-483C-9C9A-7E757444D6C1}" p:before="r[@uid='{ED257A85-D7CD-4736-88C9-A1B0FDA9B5FA}']" s:ds="{7E7916BA-ACFE-4607-A8C8-08E4456F34E9}" s:id="{EF7136B0-1F3D-4C83-926A-A0FD4831DDAD}" s:ph="/page-content/teaser" />
+            <r uid="{ED257A85-D7CD-4736-88C9-A1B0FDA9B5FA}" p:before="r[@uid='{D487E43A-F7FC-4EDC-BD95-694AE303F47E}']" s:ds="{604624FE-8633-465A-BBAE-DB44FD9496C5}" s:id="{6BD0C3AC-EF82-4110-BBA4-39398E39091B}" s:ph="/page-content/teaser" />
+            <r uid="{D487E43A-F7FC-4EDC-BD95-694AE303F47E}" p:before="r[@uid='{47F485EA-EBCE-42D8-A190-AC70FA9652E3}']" s:ds="{1FEF2EC6-9015-469D-979D-033341E4ED56}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content" />
+            <r uid="{47F485EA-EBCE-42D8-A190-AC70FA9652E3}" p:before="r[@uid='{656622C6-2E7B-4410-A7D3-5CB724221EAE}']" s:ds="{5F62F9FD-98C6-41EE-BFD4-66389897D590}" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="page-content" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: For Schools
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T144443Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: For Schools
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: For Schools

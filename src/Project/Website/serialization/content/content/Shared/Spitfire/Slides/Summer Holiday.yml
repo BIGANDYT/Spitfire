@@ -1,0 +1,30 @@
+﻿---
+ID: a5f0ebff-a27c-4650-9909-ade9c8423270
+Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
+Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
+Path: /sitecore/content/Shared/Spitfire/Slides/Summer Holiday
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151122T105458Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link text=\"Use water wisely\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{9FCB5295-E71B-4423-99B2-7E8CC33789A8}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        There are high demands on water during this period<br>
+        this may cause lower water pressure at peak times
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Summer Holidays
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{CD6C6E6A-6214-4DA5-9968-3BD3C929AA8D}\" />"

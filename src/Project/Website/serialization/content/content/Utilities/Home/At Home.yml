@@ -1,0 +1,69 @@
+﻿---
+ID: 35c01c94-a8e4-477a-a44f-68223f669bde
+Parent: f3ef6f64-59bc-4442-82ef-3724b46250b0
+Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
+Path: /sitecore/content/Utilities/Home/At Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{DF9D127F-B388-4746-89E7-7E6D78D35186}">
+            <r uid="{A9A03A42-C0E5-4E04-BF0E-853CFAB9429C}" ds="{FAFB636D-1C55-412F-A1DC-9A24EF73BBF1}" id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" ph="/page-content/teaser_SCEXP5" />
+            <r uid="{FEF5D866-ACEF-47B3-97D1-7954FF4EBA72}" ds="{CD60A0B7-6A82-4F0F-AED7-9B09E72C138D}" id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" ph="/page-content/teaser_SCEXP4">
+              <rls>
+                <ruleset>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" name="Default">
+                    <conditions>
+                      <condition uid="A9911440207747EC8AE683629AC0AA54" id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{E7D4AC09-B2B6-4C0E-BD71-E11644BFC1B8}" ds="{C34A95D3-428A-4A69-8A07-D161830BCA16}" id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" ph="/page-content/teaser_SCEXP3" />
+            <r uid="{127BAF62-C6B4-488C-933A-8A8B8FF47DE4}" ds="{C4D8070E-8A49-480B-A199-1D309DE07216}" id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" ph="/page-content/teaser_SCEXP7" />
+            <r uid="{820EBA27-3018-4A1B-9B61-83D956F8D964}" ds="{BDCCE4EB-4F0D-468B-B771-BA5BC5E26961}" id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" ph="/page-content/teaser_SCEXP6" />
+            <r uid="{166804CD-12FD-4A01-86F5-8ED1DCADCBEE}" id="{A30451FE-A414-4843-AE67-99B05AD3BA8A}" ph="header" />
+            <r uid="{5D5984E6-8FDA-4661-AD28-643EADE2FA39}" id="{A8C0A950-4534-4037-9AD2-999F5FEAEE62}" ph="/header/menu" />
+            <r uid="{0680A79E-94C4-4D85-A271-B184061B35A0}" id="{DE75B3F5-5291-4E29-A0D1-35C4972D2995}" ph="/header/topbar" />
+            <r uid="{A1D71A2F-EE1F-4FAD-9E30-CA68DD911643}" ds="{9E8CE3D2-DA54-442E-A3C9-45D6921E3820}" id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" ph="/page-content/teaser_SCEXP2" />
+            <r uid="{03C522CD-2919-4AD2-A274-A1ECAC2F252A}" ds="{811C656A-0415-40F6-8444-33B72269BCD6}" id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" ph="/page-content/teaser" />
+            <r uid="{B47755A6-22A4-434E-A3BD-266A879E9CE4}" ds="{7E7916BA-ACFE-4607-A8C8-08E4456F34E9}" id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" ph="/page-content/teaser_SCEXP1" />
+            <r uid="{12DC1181-5CBB-434D-A8D9-C87D8D8A3933}" id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" ph="footer" />
+            <r uid="{55BDE9DF-2F22-4F5C-B900-F7EB61DC4207}" ds="{6B2A399B-4FC6-40C0-A7C7-7CEDD912E02E}" id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" ph="page-content" />
+            <r uid="{FA18C41F-CE2E-44FA-BD0D-75BF77E40170}" id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" name="Default">
+                    <conditions>
+                      <condition uid="00A80B8D9A3048A6A5FB156075A1ABE2" id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{FE14C965-219D-4E23-AF96-122C37FC994F}" id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" ph="/header/menu/menu-widgets" />
+            <r uid="{9FD84B58-298B-423B-AC13-559FD737D654}" id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" ph="/header/menu/menu-widgets" />
+            <r uid="{1AE1D818-5EE3-46B9-A730-5E46A5169F3C}" ds="{1F63DA87-5B43-4250-AB46-97E4E571BC40}" id="{6BD0C3AC-EF82-4110-BBA4-39398E39091B}" ph="/header/teaser" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: At Home
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T144353Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: At Home
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: At Home

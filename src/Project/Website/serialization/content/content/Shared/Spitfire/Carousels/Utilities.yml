@@ -1,0 +1,27 @@
+﻿---
+ID: 6b2a399b-4fc6-40c0-a7c7-7cedd912e02e
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/Utilities
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: |
+        {E9B626A7-A011-4CB0-B7FD-A86764F53BD8}
+        {C314121B-9CED-42A0-85CA-225409C2DEBC}
+        {976B6941-F8E8-494C-A51E-15411CC7F867}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T150023Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

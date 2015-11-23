@@ -1,0 +1,43 @@
+﻿---
+ID: d0274b21-b78f-4c66-a7b3-956f2d733ad8
+Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
+Template: 0643d9d4-f30b-4b07-91d0-289cc324c9cf
+Path: /sitecore/content/Utilities
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 2071192b-a37c-4e22-ad93-02a67675fc66
+      # Postcode
+      Value: AL10 9EZ
+    - ID: 235ae392-97ac-4822-be38-837da3e7724e
+      # SiteBrowserTitle
+      Value: Affinity Water
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T144313Z
+    - ID: 310a1e21-fbad-4cae-a413-8d1dd2918da4
+      # Theme
+      Value: blue-2
+    - ID: 40c3f779-52ef-44de-b4b0-dd2835bb174c
+      # Address Line 1
+      Value: Tamblin Way
+    - ID: 60f7e90d-a8ec-44d5-9ca2-5c7f18bf4bb0
+      # Town
+      Value: Hatfield
+    - ID: 8eeca36a-35ee-4e85-93d3-a0e46720f771
+      # Name
+      Value: Affinity Water
+    - ID: 9b957f89-d09d-47cb-8ac1-0790392b5f12
+      # Country
+      Value: UK
+    - ID: e498740a-f0bc-4023-8633-fd3a79d3dd9d
+      # County
+      Value: Hertfordshire
+    - ID: e748d808-64c1-4dec-9718-f35cf9689e4b
+      # Logo
+      Value: "<image mediaid=\"{4F4727E3-DB19-464E-9CCC-E194AACC9E65}\" alt=\"\" height=\"50\" width=\"139\" hspace=\"\" vspace=\"\"></image>"
+    - ID: f9cd3fd8-d9f8-4758-96e3-be719ac87ef1
+      # Home Phone
+      Value: 0345 357 2407

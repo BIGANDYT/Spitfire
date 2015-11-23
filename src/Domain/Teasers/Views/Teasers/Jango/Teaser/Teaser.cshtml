@@ -1,0 +1,18 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div>
+    <div class="c-content-media-1" data-height="height">
+        @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-theme-btn c-font-uppercase c-font-bold" })
+        <a href="#" class="c-title c-font-uppercase c-font-bold c-theme-on-hover">@Html.Sitecore().Field("Title", @Model.Item)</a>
+        <p>@Html.Sitecore().Field("Description", @Model.Item)</p>
+        @if (@Model.ImageUrl != null)
+        {
+            <div class="c-author">
+                <div class="c-portrait" style="background-image: url(@Model.ImageUrl)"></div>
+                <div class="c-name c-font-uppercase">@Html.Sitecore().Field("Author", @Model.Item)</div>
+                <div class="c-date">@Html.Sitecore().Field("Date", @Model.Item) </div>
+            </div>
+        }
+    </div>
+</div>

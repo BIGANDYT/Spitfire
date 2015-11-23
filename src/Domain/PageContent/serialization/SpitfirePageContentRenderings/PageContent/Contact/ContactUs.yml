@@ -1,0 +1,17 @@
+﻿---
+ID: c31ed086-8e06-4907-a41d-2636a9facda5
+Parent: ad71a83c-94ab-4c28-a926-56770749b799
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Contact/ContactUs
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Contact/ContactUs.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151121T140354Z

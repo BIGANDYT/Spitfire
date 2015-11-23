@@ -1,0 +1,17 @@
+﻿---
+ID: b6ad00ba-c920-44fc-8fb6-96de85376133
+Parent: 74c16962-9d26-437c-bd67-8f6c4ede2257
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/ItemTypes/Author/Author/Author
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T102533Z

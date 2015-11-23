@@ -3,6 +3,10 @@ ID: e0b9d57e-47f3-46ca-83a2-69f183c25614
 Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
 Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
 Path: /sitecore/content/Shared/Spitfire/Carousels/Travel Insurance
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:

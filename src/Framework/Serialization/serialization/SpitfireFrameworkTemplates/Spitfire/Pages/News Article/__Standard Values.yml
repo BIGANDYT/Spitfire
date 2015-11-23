@@ -1,0 +1,16 @@
+﻿---
+ID: 2d13a1fd-25ae-4385-af3f-645e80aae90e
+Parent: b3b2a02b-0ef5-4e71-8e39-a771745073be
+Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
+Path: /sitecore/templates/Spitfire/Pages/News Article/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151121T130457Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

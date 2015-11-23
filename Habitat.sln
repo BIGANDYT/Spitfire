@@ -57,6 +57,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Teasers", "src\Domain\Teasers\Habitat.Teasers.csproj", "{64C1C1EF-71CB-47BD-92F9-4E50CE35BD9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.PageContent", "src\Domain\PageContent\Habitat.PageContent.csproj", "{DA079E95-DB53-4A66-AB35-2DAB71D19276}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D0B809C-03AB-4EE1-898F-CFE28CF5B245} = {0D0B809C-03AB-4EE1-898F-CFE28CF5B245}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{741950C3-F0AB-49E3-8482-1457C04C206A}"
 EndProject

@@ -1,0 +1,16 @@
+﻿---
+ID: 85602bad-d6d9-4f03-950f-e8ae42afd8af
+Parent: 50feff87-e979-4ed1-afac-4746a65913e6
+Template: a19ba474-d04e-41ea-9005-ba36376ee857
+Path: /sitecore/content/Shared/Spitfire/Authors/Chris Lowndes
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151120T102712Z
+    - ID: b6ad00ba-c920-44fc-8fb6-96de85376133
+      # Author
+      Value: Chris Lowndes

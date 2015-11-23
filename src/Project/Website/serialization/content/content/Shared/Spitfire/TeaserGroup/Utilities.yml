@@ -1,0 +1,16 @@
+﻿---
+ID: 2bd5bf75-9b65-487d-83d5-6633f89d5714
+Parent: 97328513-256d-49b2-a0b8-aa52485fce02
+Template: 327468ab-0a78-4eb1-9113-34592ce923d0
+Path: /sitecore/content/Shared/Spitfire/TeaserGroup/Utilities
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151122T095159Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

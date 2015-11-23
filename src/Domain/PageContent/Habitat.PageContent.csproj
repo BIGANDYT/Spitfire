@@ -157,6 +157,8 @@
     <Content Include="Views\PageContent\Jango\Header\Header-8.cshtml" />
     <Content Include="Views\PageContent\Jango\Header\Menu-Toggle.cshtml" />
     <Content Include="Views\PageContent\Jango\TitleBar.cshtml" />
+    <Content Include="Views\PageContent\Jango\Faq\Faq.cshtml" />
+    <Content Include="Views\PageContent\Jango\Contact\ContactUs.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

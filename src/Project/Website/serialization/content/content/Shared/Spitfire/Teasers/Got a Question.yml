@@ -1,0 +1,30 @@
+﻿---
+ID: bdcce4eb-4f0d-468b-b771-ba5bc5e26961
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Got a Question
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151122T085558Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Got a Question?\" querystring=\"\" target=\"\" id=\"{B78952D1-60A9-400D-A4EE-6E040F0F2119}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <h2>
+        Commonly asked questions
+        </h2>
+        <ol>
+            <li><a>What are the new charges for 2015/16?</a></li>
+            <li><a>I am moving house, what do I need to do?</a></li>
+            <li><a>How is my water bill calculated?</a></li>
+            <li><a>How much does it cost to have a meter installed?</a></li>
+            <li><a>If I choose to have a water meter, how do I apply?</a></li>
+        </ol>
+        <p><a>Review all answers or ask a new question?</a></p>

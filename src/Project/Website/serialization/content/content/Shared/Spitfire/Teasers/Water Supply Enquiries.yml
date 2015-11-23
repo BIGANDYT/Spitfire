@@ -1,0 +1,26 @@
+﻿---
+ID: 8693fb3c-25c5-4cb9-95f0-6b0c293e47d9
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Water Supply Enquiries
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151122T095435Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Supply\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <ul>
+            <li><a href="your-bill.aspx">Bill enquiries</a></li>
+            <li><a href="commercial-metering.aspx">Commercial metering</a></li>
+            <li><a href="hydrant-licensing-central.aspx">Hydrant licensing</a></li>
+            <li><a href="developer-services.aspx">Developer Services</a></li>
+            <li><a href="commercial-forms.aspx">Online Business forms</a></li>
+        </ul>

@@ -117,6 +117,8 @@
     <Content Include="Views\News\NewsArticle.cshtml" />
     <Content Include="Views\News\NewsList.cshtml" />
     <Content Include="Views\News\NewsTeaser.cshtml" />
+    <Content Include="Views\News\Jango\NewsList.cshtml" />
+    <Content Include="Views\News\Jango\NewsArticle.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

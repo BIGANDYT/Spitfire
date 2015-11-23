@@ -3,6 +3,10 @@ ID: 08b90707-3c2f-46ca-a3af-dcd55d6d7534
 Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
 Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
 Path: /sitecore/content/Shared/Spitfire/Carousels/Life Insurance
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
 Languages:
 - Language: en
   Versions:

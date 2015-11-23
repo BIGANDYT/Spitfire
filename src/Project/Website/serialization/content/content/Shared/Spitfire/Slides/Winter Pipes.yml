@@ -1,0 +1,16 @@
+﻿---
+ID: d6d5a1c7-62cc-4e17-98ac-66604be362d8
+Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
+Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
+Path: /sitecore/content/Shared/Spitfire/Slides/Winter Pipes
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151122T110011Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
