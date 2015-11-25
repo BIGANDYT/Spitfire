@@ -11,6 +11,9 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151123T130246Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: <br><br><br><br><br><br><br><br>Summer holiday time&nbsp;brings high demand on water<br>this may cause lower water pressure <br>at peak times<br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # Image
       Value: "<image mediaid=\"{7B52A5A3-9A6E-4F51-982D-F08D26C9BA4E}\" alt=\"summer\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
@@ -22,6 +25,24 @@ Languages:
     - ID: 4c346442-e859-4efd-89b2-44aedf467d21
       # __Valid to
       Value: 20160330T233000Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <div class="c-content-media-1" style="margin: 0px 100px;background-color:rgba(0,0,0,0.5)">
+        <p class="c-font-white c-font-uppercase c-font-bold c-theme-on-hover">
+        Temperatures can drop to extremely low levels during winter,
+        <br>
+        causing the pipes in your home to freeze<br>
+        and sometimes even burst.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # Image
       Value: "<image mediaid=\"{0EFC7CC4-6908-47B0-A624-3C72996B47CF}\" alt=\"snow\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"

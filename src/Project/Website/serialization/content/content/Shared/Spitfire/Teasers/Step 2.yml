@@ -1,0 +1,18 @@
+﻿---
+ID: 5221a9bb-c072-48f5-8209-7c98a58f091f
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Step 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T200745Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p><span style="color: #0a427d; background-color: #ffffff;"><strong>Step 2:&nbsp;</strong></span></p>
+        <p><span style="font-size: 12px; color: #0a427d; background-color: #ffffff;">The nature of your business will also contribute to the total amount of water you use, e.g. a hairdressing salon would use more water than a newsagent. On average, a running tap will use 600 litres of water per hour.</span></p>

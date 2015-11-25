@@ -41,4 +41,7 @@
   <File Include="Views\Teasers\Jango\Teaser\TeaserWide.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{4250A359-6D68-46D9-89DF-65EB2734D5AF}</Item>
   </File>
+  <File Include="Views\Teasers\Jango\Group\2ColumnTeaserGroup.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{553A529A-8D88-4BBD-BE87-44ED5082831E}</Item>
+  </File>
 </Project>

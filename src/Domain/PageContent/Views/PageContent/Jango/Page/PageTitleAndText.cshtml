@@ -1,0 +1,32 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-blog-post-1">
+    <div class="c-title c-font-bold c-font-uppercase">
+        <a href="#">@Html.Sitecore().Field("Title")</a>
+    </div>
+    <div class="c-panel c-margin-b-30">
+        <div class="c-author">
+            <a href="#">
+                By
+                <span class="c-font-uppercase">Nick Strong</span>
+            </a>
+        </div>
+        <div class="c-date">
+            on
+            <span class="c-font-uppercase">20 May 2015, 10:30AM</span>
+        </div>
+        <ul class="c-tags c-theme-ul-bg">
+            <li>ux</li>
+            <li>marketing</li>
+            <li>events</li>
+        </ul>        
+    </div>
+    <div class="c-desc">
+        <p>
+            @Html.Sitecore().Field("Body")
+        </p>
+    </div>   
+</div>

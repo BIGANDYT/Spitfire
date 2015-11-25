@@ -1,0 +1,70 @@
+﻿@using System.Web.Mvc.Html
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-box c-size-lg c-no-bottom-padding c-overflow-hide">
+    <div class="c-container"> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="c-content-tab-2 c-theme c-opt-1">
+                    <ul class="nav c-tab-icon-stack c-font-sbold c-font-uppercase">
+                        <li class="active">
+                            <a href="#c-tab2-opt1-1" data-toggle="tab">
+                                <span class="c-content-line-icon c-icon-16"></span>
+                                <span class="c-title">Start</span>
+                            </a>
+                            <div class="c-arrow"></div>
+                        </li>
+                        <li>
+                            <a href="#c-tab2-opt1-2" data-toggle="tab">
+                                <span class="c-content-line-icon c-icon-22"></span>
+                                <span class="c-title">Water Usage</span>
+                            </a>
+                            <div class="c-arrow"></div>
+                        </li>
+                        <li>
+                            <a href="#c-tab2-opt1-3" data-toggle="tab">
+                                <span class="c-content-line-icon c-icon-49"></span>
+                                <span class="c-title">Questions</span>
+                            </a>
+                            <div class="c-arrow"></div>
+                        </li>   
+                        <li>
+                            <a href="#c-tab2-opt1-4" data-toggle="tab">
+                                <span class="c-content-line-icon c-icon-6"></span>
+                                <span class="c-title">Apply</span>
+                            </a>
+                            <div class="c-arrow"></div>
+                        </li>                        
+                    </ul>
+                    <div class="c-tab-content">
+                        <div class="c-bg-img-center1" style="background: url(/-/media/Images/Utilities/Banner/home-bg.jpg) no-repeat fixed; background-size:100% 100%;">
+                            <div class="container">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="c-tab2-opt1-1">
+                                        <div class="c-tab-pane" style="background: url(/-/media/Images/Utilities/Banner/home-bg-blur.jpg) no-repeat fixed; background-size:100% 100%;">
+                                            @Html.Sitecore().DynamicPlaceholder("tab-content")
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="c-tab2-opt1-2">
+                                        <div class="c-tab-pane" style="background: url(/-/media/Images/Utilities/Banner/home-bg-blur.jpg) no-repeat fixed; background-size:100% 100%;">
+                                            @Html.Sitecore().DynamicPlaceholder("tab-content")
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="c-tab2-opt1-3">
+                                        <div class="c-tab-pane">
+                                            @Html.Sitecore().DynamicPlaceholder("tab-content")
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="c-tab2-opt1-4">
+                                        <div class="c-tab-pane" style="background: url(/-/media/Images/Utilities/Banner/home-bg-blur.jpg) no-repeat fixed; background-size:100% 100%;">
+                                            @Html.Sitecore().DynamicPlaceholder("tab-content")
+                                        </div>
+                                    </div>                                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

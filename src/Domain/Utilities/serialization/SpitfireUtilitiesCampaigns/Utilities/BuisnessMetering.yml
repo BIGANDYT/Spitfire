@@ -1,0 +1,26 @@
+﻿---
+ID: da4da786-64a3-40da-8590-e7f774a66eff
+Parent: 0ecb1c82-2040-4e0e-b0d4-45cdf5dc91e7
+Template: 94fd1606-139e-46ee-86ff-bc5bf3c79804
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Spitfire/Domain/Utilities/BuisnessMetering
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1
+      # Title
+      Value: BuisnessMetering
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T211843Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: BuisnessMetering

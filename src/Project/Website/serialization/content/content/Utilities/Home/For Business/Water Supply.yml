@@ -1,0 +1,22 @@
+﻿---
+ID: 8e131c6a-aa79-45ac-ba44-a702a5053f11
+Parent: 9fcb5295-e71b-4423-99b2-7e8cc33789a8
+Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
+Path: /sitecore/content/Utilities/Home/For Business/Water Supply
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Water Supply
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T094832Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Water Supply
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Water Supply

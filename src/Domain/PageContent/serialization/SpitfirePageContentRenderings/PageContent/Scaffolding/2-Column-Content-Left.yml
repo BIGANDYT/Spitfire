@@ -1,0 +1,20 @@
+﻿---
+ID: 7d05d05d-26da-4018-93cc-589ad43e6ab6
+Parent: f0b89d2b-18ab-431f-ba06-15312efdd7f2
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Scaffolding/2-Column-Content-Left
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Scaffolding/2-Column-Content-Left.cshtml
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T145557Z

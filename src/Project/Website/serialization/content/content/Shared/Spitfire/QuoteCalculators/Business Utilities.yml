@@ -1,0 +1,16 @@
+﻿---
+ID: 7a014150-7cdc-4670-a90e-cb9efabbfd8f
+Parent: a413536f-af88-4b4a-8df1-3813f656b197
+Template: 587bcbc8-6506-4816-9d9e-73b2b642874f
+Path: /sitecore/content/Shared/Spitfire/QuoteCalculators/Business Utilities
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T154102Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Business Utilities

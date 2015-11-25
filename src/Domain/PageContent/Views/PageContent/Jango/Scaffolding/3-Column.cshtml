@@ -1,0 +1,22 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-box c-size-md c-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.Sitecore().DynamicPlaceholder("col-sidebar")
+                </div>
+                <div class="col-md-6">
+                    @Html.Sitecore().DynamicPlaceholder("col-content")
+                </div>
+                <div class="col-md-3">
+                    @Html.Sitecore().DynamicPlaceholder("col-sidebar")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

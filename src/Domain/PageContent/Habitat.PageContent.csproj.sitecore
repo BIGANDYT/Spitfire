@@ -86,4 +86,19 @@
   <File Include="Views\PageContent\Jango\Contact\ContactUs.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{C31ED086-8E06-4907-A41D-2636A9FACDA5}</Item>
   </File>
+  <File Include="Views\PageContent\Jango\Iframe.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{434DA1E9-36B5-4496-96C7-FDBAF81C699F}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Page\PageTitleAndText.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8355CEF1-BD86-43B4-B995-24EA6828CE4C}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Scaffolding\2-Column-Content-Right.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{96A0D722-703F-4958-B87C-5282BC492362}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Scaffolding\3-Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{014B5CBC-31BB-4041-AE80-BC02FC44B92E}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Scaffolding\2-Column-Content-Left.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{7D05D05D-26DA-4018-93CC-589AD43E6AB6}</Item>
+  </File>
 </Project>

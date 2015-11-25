@@ -1,0 +1,19 @@
+﻿---
+ID: f40320d8-64de-4c09-8192-a7c6c5fee1e5
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/landlord and letting
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T205550Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: <br>Landlord &amp; Letting Agents<br>manage multiple properties<br> and update tenancies<br>instantly!! In <br>My ACCOUNT<br><br><br><br>
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{1B6C1262-1F14-4F75-A3E5-4A90470D7297}\" />"

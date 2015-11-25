@@ -44,6 +44,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DynamicPlaceholders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\DynamicPlaceholders.1.1.0.0\lib\net45\DynamicPlaceholders.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DynamicPlaceholders.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\DynamicPlaceholders.Mvc.1.1.0.0\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -59,12 +67,6 @@
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="SitecoreExperienced.Pipelines.GetPlaceholderRenderings">
-      <HintPath>..\..\..\lib\Sitecore\SitecoreExperienced.Pipelines.GetPlaceholderRenderings.dll</HintPath>
-    </Reference>
-    <Reference Include="SitecoreExperienced.SitecoreControls">
-      <HintPath>..\..\..\lib\Sitecore\SitecoreExperienced.SitecoreControls.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
@@ -130,6 +132,7 @@
     <Content Include="Views\Media\Jango\Revo-Slider-1.cshtml" />
     <Content Include="Views\Media\Jango\Slide.cshtml" />
     <Content Include="Views\Media\Jango\Slide Full Screen.cshtml" />
+    <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <None Include="Web.Debug.config">

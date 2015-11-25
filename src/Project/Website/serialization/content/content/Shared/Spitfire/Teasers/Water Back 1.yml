@@ -14,12 +14,8 @@ Languages:
     - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
       # Description
       Value: |
-        <p>SAVE WATER<span class="Apple-tab-span" style="white-space: pre;"></span></p>
-        <p>SAVE ENERGY</p><p><br></p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p><span style="font-family: inherit;">SAVE MONEY</span><br></p>
+        <br>SAVE WATER
+        <br>SAVE ENERGY<br><br><br><br><br><br>SAVE MONEY<br><br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # Image
       Value: "<image mediaid=\"{41F524BF-46C0-448B-84B8-F45CFB2AC68F}\" />"

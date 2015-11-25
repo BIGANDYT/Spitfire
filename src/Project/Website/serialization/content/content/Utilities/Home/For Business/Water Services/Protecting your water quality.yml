@@ -1,0 +1,68 @@
+﻿---
+ID: 89abbabe-0c2a-4bb1-b4a4-948862972a4e
+Parent: a779f4ae-322e-4039-8973-a977504054c6
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Utilities/Home/For Business/Water Services/Protecting your water quality
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="andrew|100||">
+        <key name="Supply" value="0" />
+        <key name="Services" value="5" />
+        <key name="Saving" value="0" />
+        <key name="Charity" value="1" />
+        <key name="Self Service" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Protecting your water quality
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T095155Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Protecting your water quality
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Protecting your water quality
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <div>
+        <h1>Protect your water quality</h1>
+        <p><img alt="" class="align-right" width="250" height="167" src="https://www.affinitywater.co.uk//images/Business/lab(1).jpg" style="float: right;">We are committed to supplying our customers with the highest quality of drinking water with constant monitoring from water treatment works and throughout our distribution system.&nbsp;</p>
+        <p>However, once the water passes into your property, we are only responsible for certain aspects of it. Water may be subject to deterioration due to factors out of our control, such as storage conditions, corrosion of pipe materials and water temperature. Water supplies are also vulnerable to microbiological, chemical and metal contamination. Monitoring the quality of your water demonstrates an understanding of your water quality responsibilities, giving you peace of mind.</p>
+        <p>We offer a range of services to ensure your water supply is safe and secure. We can provide water supply experts who can help you manage your water, identify risks and areas for improvement and provide advice to remedy and manage the situation.&nbsp;</p>
+        <p>With our own UKAS-accredited laboratories and samplers trained to quality management standard ISO 9001:2000 we are able to provide a variety of sampling and analytical services including:&nbsp;</p>
+        <ul>
+            <li><a href="legionella-risk-assessments.aspx">Legionella</a> &ndash; risk assessments, implementing action plans, training, sampling and audits</li>
+            <li><a href="microbiological-analysis.aspx">Microbiological Analysis</a> &ndash; sampling and analysis of coliforms, total viable counts of bacteria and other public health related indicators</li>
+            <li><a href="private-supplies-risk-assessment.aspx">Private supplies</a> - risk assessments including cryptosporidium giardia, metals and chemicals</li>
+        </ul>
+        <p>We are able to carry out risk assessments, recommend control measures and monitoring programmes to ensure that the water on your site remains of the highest quality, whilst giving you the peace of mind that you need.</p>
+        <p>
+        <strong><img class="align-right" alt="tap.jpg" width="200" height="162" src="https://www.affinitywater.co.uk//images/tap.jpg" style="float: right; border-width: 0px; border-style: solid;">General Water Quality Data Reports</strong><br>
+        We can provide an annual water quality report free of charge, which shows results of our regulatory water quality data for the supply zone your property is situated in. You may need this report to satisfy your Quality Assurance requirements for the quality of water supplied to you. Please contact us for more details.</p>
+        <p>However, if the water we supply is part of your manufacturing process we recommend you contact us to discuss your requirements.</p>
+        <p>Monthly and quarterly water quality reports are also available but a cost will apply.</p>
+        <p>
+        For more information about our Water Quality services, please contact us on <strong>0345 357 2424 </strong>or email <a href="mailto:commercial.central@affinitywater.co.uk">commercial.central@affinitywater.co.uk</a>&nbsp;or have a look at the range of services we provide in the list on the left.<br>
+        &nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><img alt="" class="align-right" width="100" height="100" src="https://www.affinitywater.co.uk//images/SAFE-approved-contractor100.JPG" style="float: right;"></p>
+        <p><span style="font-size: smaller;">SAFEcontractor is an accreditation scheme that assesses the health and safety competency of contractors and service providers. </span></p>
+        <p><span style="font-size: smaller;">Companies have a legal obligation to ensure that external contractors and service providers working on their premises operate in a safe way and many of them are insisting on SAFEcontractor accreditation as a primary means of selecting contractors.</span></p>
+        <p><span style="font-size: smaller;">Veolia Water Central is accredited to the SAFEcontractor scheme for Water Quality Testing and RPZ Valve Testing &amp; Maintenance (certificate number: N00057758). </span><br>
+        &nbsp;</p>
+        </div>

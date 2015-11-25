@@ -1,0 +1,61 @@
+﻿---
+ID: 08ced812-6e11-4f5f-b88b-6089c912981b
+Parent: 8e131c6a-aa79-45ac-ba44-a702a5053f11
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Utilities/Home/For Business/Water Supply/Commercial metering
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="heidi|100||">
+        <key name="Supply" value="5" />
+        <key name="Services" value="0" />
+        <key name="Saving" value="2" />
+        <key name="Charity" value="1" />
+        <key name="Self Service" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Commercial metering
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T095012Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Commercial metering
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Commercial metering
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <div>
+        <p>Many of our business customers have already taken advantage of installing a water meter. As well as only paying for what you use, meters can help your business by</p>
+        <ul>
+            <li>Saving money</li>
+            <li>Identifying any leaks on your pipes or networks</li>
+            <li>Encouraging efficient use of water</li>
+        </ul>
+        <p>Step 1. <br>
+        Use the <a href="/commercial-metering-calculator.aspx">water usage calculator</a> to see if you could save money on your bill.</p>
+        <p>Step 2.<br>
+        If you have any questions about having a water meter fitted,&nbsp;use our online <a href="https://www.affinitywater.co.uk/got-a-question.aspx">knowledge base</a>&nbsp;to find the answer. (see Got a Question?)</p>
+        <p>Step 3.<br>
+        <a href="/business-water-meter.aspx">Apply for a meter.</a><br>
+        Installation is quick and easy and we will arrange a suitable time and date with you.</p>
+        <p>Do you need a printable version? <a target="_blank" href="/docs/commercial-meter-application-v2014.pdf">Click here</a></p>
+        <p>&nbsp;</p>
+        <div id="category-thumbs">
+        <ul>
+            <li><a id="cat02" href="business-water-meter.aspx">Click here to apply today</a></li>
+        </ul>
+        </div>
+        </div>

@@ -1,0 +1,19 @@
+﻿---
+ID: 71aed7e1-c8b5-43a6-8218-36b3fe9a5f83
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Proud Water Aid
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T205438Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: <br>proud supporters<br>of water aid<br><br><br><br><br><br><br>
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{1E971BF2-556D-4B3F-8E73-A6C59DB5CE4A}\" />"

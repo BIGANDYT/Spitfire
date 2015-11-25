@@ -1,0 +1,18 @@
+﻿---
+ID: a7ca6759-4bda-49f3-8c16-bfeea0525fcd
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Step 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T200842Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p><span style="color: #0a427d; background-color: #ffffff;"><strong>Step 3:</strong>&nbsp;</span></p>
+        <p><span style="font-size: 12px; color: #0a427d; background-color: #ffffff;">If you live on your business premises or have tenants then the volume of water will depend upon the number of people in residence.&nbsp;If you do not have residential accommodation, then please go straight to step 4.</span></p>

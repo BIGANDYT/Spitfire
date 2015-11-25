@@ -1,0 +1,18 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-box c-size-md c-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                @Html.Sitecore().DynamicPlaceholder("teaser")            
+            </div>
+            <div class="col-sm-4">
+                @Html.Sitecore().DynamicPlaceholder("teaser")
+            </div>
+        </div>
+    </div>
+</div>
+

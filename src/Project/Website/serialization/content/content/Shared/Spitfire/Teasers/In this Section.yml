@@ -1,0 +1,110 @@
+﻿---
+ID: 14368bae-d1d4-45ba-bc47-b1189af83eb5
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/In this Section
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T113316Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <h2>In this section</h2>
+        <div class="AspNet-TreeView" id="template_tvCatList">
+        <ul id="template_tvCatList_UL">
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="business-payonline.aspx">
+            Business pay online</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="business-ebilling.aspx">
+            Business e-billing</a>
+            </li>
+            <li class="AspNet-TreeView-Root">
+            <span class="AspNet-TreeView-Expand">&nbsp;</span>
+            <a href="how-we-charge-you.aspx">
+            How we charge you</a>
+            <ul class="AspNet-TreeView-Hide">
+                <li class="AspNet-TreeView-Leaf">
+                <a href="commercial-water-tariffs.aspx">
+                Business water tariffs</a>
+                </li>
+            </ul>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="billingchange.aspx">
+            Business sewerage bills</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="moving-your-business.aspx">
+            Moving your business</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="commercial-direct-debit.aspx">
+            Direct Debit</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="online-remittance-advice.aspx">
+            Online remittance advice</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="annotated-bills-commercial.aspx">
+            Your bill explained</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="other-ways-to-pay.aspx">
+            Other ways to pay</a>
+            </li>
+            <li class="AspNet-TreeView-Root">
+            <span class="AspNet-TreeView-Expand">&nbsp;</span>
+            <a href="hydrant-licensing-central.aspx">
+            Hydrant licensing</a>
+            <ul class="AspNet-TreeView-Hide">
+                <li class="AspNet-TreeView-Leaf">
+                <a href="hydrant-licence-form.aspx">
+                Hydrant licence form</a>
+                </li>
+                <li class="AspNet-TreeView-Leaf">
+                <a href="fire-hyrdrant.aspx">
+                Fire Hydrant Repairs &amp; Replacement</a>
+                </li>
+            </ul>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="my-waste-water.aspx">
+            My waste water</a>
+            </li>
+            <li class="AspNet-TreeView-Root AspNet-TreeView-Leaf">
+            <a href="vat-declaration.aspx">
+            VAT Declaration Form</a>
+            </li>
+            <li class="AspNet-TreeView-Root">
+            <span class="AspNet-TreeView-Expand">&nbsp;</span>
+            <a href="business-how-to-guides.aspx">
+            Business How to video guides</a>
+            <ul class="AspNet-TreeView-Hide">
+                <li class="AspNet-TreeView-Leaf">
+                <a href="how-to-high-consumption.aspx">
+                Is your bill higher than expected?</a>
+                </li>
+                <li class="AspNet-TreeView-Leaf">
+                <a href="how-to-leak-check.aspx">
+                How to do a Leak Check</a>
+                </li>
+                <li class="AspNet-TreeView-Leaf">
+                <a href="how-to-read-meter.aspx">
+                How to read your meter</a>
+                </li>
+                <li class="AspNet-TreeView-Leaf">
+                <a href="how-to-pay-bill.aspx">
+                How to pay your water bill</a>
+                </li>
+            </ul>
+            </li>
+        </ul>
+        </div>

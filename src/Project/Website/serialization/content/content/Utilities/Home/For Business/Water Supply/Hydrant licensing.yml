@@ -1,0 +1,67 @@
+﻿---
+ID: 0f01e757-3641-4064-899a-01c79a4767ca
+Parent: 8e131c6a-aa79-45ac-ba44-a702a5053f11
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Utilities/Home/For Business/Water Supply/Hydrant licensing
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="heidi|100||">
+        <key name="Supply" value="5" />
+        <key name="Services" value="0" />
+        <key name="Saving" value="2" />
+        <key name="Charity" value="1" />
+        <key name="Self Service" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Hydrant licensing
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T095013Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Hydrant licensing
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Hydrant licensing
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <div>
+        <h3>&nbsp;</h3>
+        <p>Our Hydrant Team can help if you need to draw water from a hydrant in any of the three regions in our network area.</p>
+        <h3>What area is covered by the Affinity Water network.</h3>
+        <p>You can see the area we cover by clicking on this link <a target="_blank" href="our-supply-area-moving-home.aspx">Our Supply Area</a>.</p>
+        <h3>Who is allowed to take water from an Affinity Water hydrant?</h3>
+        <p>Only holders of an Affinity Water issued licence may draw from our network.&nbsp; It is an offence under section 174 of the Water Industry Act 1991 to draw water without permission and legal proceedings may be taken against Illegal users.&nbsp; Illegal use increases the risk of contamination to our network on the public water supply, reduction in pressure, or even a mains failure.&nbsp;</p>
+        <h3>How long will it take to process my application?</h3>
+        <p>We require between 7 to 10 days for your licence to be processed fully.&nbsp; Please note applications cannot be fast tracked.</p>
+        <h3>What type of licence do I need?</h3>
+        <p>We can offer an Annual Hydrant licence or a Short Term Hydrant licence.&nbsp; You will need a licence for each standpipe you wish to use.</p>
+        <p><strong>An annual licence -&nbsp;</strong>provides access to over 280 pre-selected washout points throughout the Affinity Water (Central region) network.&nbsp; This option allows companies to fill up and transport water short distances to the required site.&nbsp; Companies licensed to use the Washout list must adhere to the points on the list.&nbsp; Licences run from the 1st April to 31st&nbsp;March&nbsp;the following&nbsp;year, though customers can apply at any time.&nbsp;</p>
+        <p><strong>A Short Term licence - </strong>allows customers to specify which particular hydrant they wish to access over any period of time shorter than a year.&nbsp; This option is more suited to companies who are working on a specific site.&nbsp; Please note not all hydrants are suitable for use and the hydrant would be checked before and after use by one of our Technicians.&nbsp; <strong>Please allow up to 10 days for your licence to be processed fully.</strong></p>
+        <p>Please note it is against our Terms and Conditions to access any hydrant point other than those listed on the licence, and such usage will be subject to an&nbsp;Unauthorised Use charge and possible legal proceedings taken.</p>
+        <h3>How do I become a hydrant licence holder?</h3>
+        <p><span style="font-size: larger; color: #ff0000;">If you need to draw water from a hydrant, you can apply for a licence by completing our </span><a href="/hydrant-licence-form.aspx"><span style="font-size: larger; color: #ff0000;">online form</span></a><span style="font-size: larger; color: #ff0000;">.</span><span style="color: #ff0000;"><br>
+        </span></p>
+        <p>To download a paper version of the Hydrant Licence Application form, please click on this link <a target="_blank" href="/docs/hydrant-licence-app-affinity.doc">Application for use of hydrant </a>(PDF opens in a new window).</p>
+        <p>You will receive confirmation of charges and an inspection of the hydrant will be arranged.</p>
+        <p>Your licence will be issued subject to:</p>
+        <ul>
+            <li>Satisfactory inspection of your equipment</li>
+            <li>Payment</li>
+            <li>Usage training</li>
+        </ul>
+        <p>For further information please contact the Hydrant Enforcement Team at:&nbsp; <a href="mailto:hydrant.licensing@affinitywater.co.uk">hydrant.licensing@affinitywater.co.uk</a></p>
+        <p>&nbsp;</p>
+        </div>

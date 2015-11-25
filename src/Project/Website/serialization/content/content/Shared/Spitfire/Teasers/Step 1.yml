@@ -1,0 +1,21 @@
+﻿---
+ID: 11ac445a-517a-4172-b9fc-981c5e71f4f0
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Step 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T200233Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p><span style="color: #0a427d; background-color: #ffffff;"><strong>Step 1:&nbsp;</strong></span></p>
+        <p><span style="font-size: 12px; color: #0a427d; background-color: #ffffff;">Each full time employee will use approximately 15 cubic metres of water per year (m3/yr). This will cover toilet flushing, hand washing, water for drinking and basic cleaning within the premises. (Note: 1 cubic metre = 1000 litres = 220 gallons).</span></p>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value:  Step 1:

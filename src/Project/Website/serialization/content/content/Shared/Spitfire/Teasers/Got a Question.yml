@@ -17,9 +17,6 @@ Languages:
     - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
       # Description
       Value: |
-        <h2>
-        Commonly asked questions
-        </h2>
         <ol>
             <li><a>What are the new charges for 2015/16?</a></li>
             <li><a>I am moving house, what do I need to do?</a></li>
@@ -28,3 +25,6 @@ Languages:
             <li><a>If I choose to have a water meter, how do I apply?</a></li>
         </ol>
         <p><a>Review all answers or ask a new question?</a></p>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Commonly asked questions

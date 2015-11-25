@@ -1,0 +1,17 @@
+﻿---
+ID: 8355cef1-bd86-43b4-b995-24ea6828ce4c
+Parent: e041f4ce-ac03-4683-890b-3b4ab04dfc6a
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Page/PageTitleAndText
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Page/PageTitleAndText.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T103632Z
