@@ -2,12 +2,6 @@
 @using Habitat.Media
 @model Habitat.Media.Model.Slide
 <li data-transition="fade" data-slotamount="1" data-masterspeed="700" data-delay="6000" data-thumb="">
-    @{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
-        {
-            @Html.Sitecore().Field("Image", @Model.Item, new { @class = "img-responsive" })
-        }
-    }
-    
     @if (Model.ImageUrl != null)
     {
         <img alt="" src="@Model.ImageUrl" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="visible-xs" />

@@ -3,6 +3,26 @@ ID: 0569f44b-ca63-4675-8e25-e98b2094c49b
 Parent: de205715-0dcc-4547-8006-619d9442e909
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Path: /sitecore/content/Utilities/Home/Blog/Our partnership with water aid
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="laura|100||">
+        <key name="Supply" value="1" />
+        <key name="Services" value="1" />
+        <key name="Saving" value="0" />
+        <key name="Charity" value="5" />
+        <key name="Self Service" value="0" />
+      </profile>
+    </tracking>
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 150
 Languages:
 - Language: en
   Versions:
@@ -11,18 +31,14 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151130T091459Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
     - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
       # Description
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
-        <p>&nbsp;</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
-        <p>&nbsp;</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
-        <p>&nbsp;</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
-        <div>&nbsp;</div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.
     - ID: 6c42ebec-b83f-4514-ad6c-5bebc3afc82f
       # Date
       Value: 20151130T000000Z
@@ -31,7 +47,7 @@ Languages:
       Value: Our partnership with water aid
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # Image
-      Value: "<image mediaid=\"{8F54E8AD-FCDE-4185-B8BA-5A55511F3B6B}\" />"
+      Value: "<image mediaid=\"{1E971BF2-556D-4B3F-8E73-A6C59DB5CE4A}\" />"
     - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
       # Summary
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur.&nbsp;

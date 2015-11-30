@@ -1,12 +1,28 @@
 ﻿---
-ID: f3f54d34-02ea-4a5f-8d8a-2c5bc3ce39de
+ID: ef3b4353-1fac-43ca-a761-782f2426d246
 Parent: de205715-0dcc-4547-8006-619d9442e909
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
-Path: /sitecore/content/Utilities/Home/Blog/Beat the big chill
+Path: /sitecore/content/Utilities/Home/Blog/Water Innovators 2015
 SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="laura|100||">
+        <key name="Supply" value="1" />
+        <key name="Services" value="1" />
+        <key name="Saving" value="0" />
+        <key name="Charity" value="5" />
+        <key name="Self Service" value="0" />
+      </profile>
+    </tracking>
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
-  Value: 300
+  Value: 175
 Languages:
 - Language: en
   Versions:
@@ -14,7 +30,10 @@ Languages:
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20151130T091458Z
+      Value: 20151130T203532Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
     - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
       # Description
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.
@@ -23,10 +42,10 @@ Languages:
       Value: 20151130T000000Z
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
-      Value: Beat the big chill
+      Value: Water Innovators 2015
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # Image
-      Value: "<image mediaid=\"{64AE7AAD-A7E6-4721-8149-09C8AF3F9655}\" />"
+      Value: "<image mediaid=\"{486C9114-7ED4-4B41-9C0D-DE074CE6A935}\" />"
     - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
       # Summary
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur.&nbsp;

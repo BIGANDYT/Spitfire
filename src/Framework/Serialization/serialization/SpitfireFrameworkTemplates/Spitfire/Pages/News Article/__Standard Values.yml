@@ -4,6 +4,12 @@ Parent: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Path: /sitecore/templates/Spitfire/Pages/News Article/__Standard Values
 SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+- ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
+  # __Default workflow
+  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
   # __Renderings
   Type: layout
@@ -38,6 +44,9 @@ Languages:
     - ID: 3c7a0205-b583-4b5f-8f02-47f1fc6a1aba
       # Author
       Value: Andrew Thompson
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin

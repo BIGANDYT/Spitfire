@@ -25,12 +25,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151008T041914Z
-    - ID: ac3fd4db-8266-476d-9635-67814d91e901
-      # Summary
-      Value: The News module contains news functionality including lists, articles and teasers.
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
-      Value: News
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       # BrowserTitle
       Value: News

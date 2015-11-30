@@ -42,7 +42,7 @@ Languages:
       # __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r uid="{6D50701B-8254-4289-8966-5B3CF18F4A4C}" p:before="r[@uid='{917D8247-4856-4072-A5A8-8E479397FCDE}']" s:ds="{CD60A0B7-6A82-4F0F-AED7-9B09E72C138D}" s:id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_4" />
             <r uid="{917D8247-4856-4072-A5A8-8E479397FCDE}" p:before="r[@uid='{EA91FEDC-A091-42B1-B52C-4F0983F80CED}']" s:ds="{C34A95D3-428A-4A69-8A07-D161830BCA16}" s:id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_3" />
@@ -51,10 +51,37 @@ Languages:
             <r uid="{B0440572-4DA2-4DAF-B050-FE7D1405085F}" p:before="r[@uid='{C57E66DE-6E68-44CD-B071-2E758B5111F7}']" s:ds="{811C656A-0415-40F6-8444-33B72269BCD6}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da" />
             <r uid="{C57E66DE-6E68-44CD-B071-2E758B5111F7}" p:before="r[@uid='{1A3B9CDB-C813-49A3-AD7D-44B2FCAF0C17}']" s:ds="{C4D8070E-8A49-480B-A199-1D309DE07216}" s:id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_6" />
             <r uid="{1A3B9CDB-C813-49A3-AD7D-44B2FCAF0C17}" p:before="r[@uid='{721A710F-979E-45F1-96CE-37BB2A554FCA}']" s:ds="{BDCCE4EB-4F0D-468B-B771-BA5BC5E26961}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_7" />
-            <r uid="{721A710F-979E-45F1-96CE-37BB2A554FCA}" p:before="r[@uid='{D310EA26-6A66-4DFB-8B25-8134EB23580D}']" s:ds="{9E8CE3D2-DA54-442E-A3C9-45D6921E3820}" s:id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_2" />
+            <r uid="{721A710F-979E-45F1-96CE-37BB2A554FCA}" p:before="r[@uid='{D310EA26-6A66-4DFB-8B25-8134EB23580D}']" s:ds="{9E8CE3D2-DA54-442E-A3C9-45D6921E3820}" s:id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_2">
+              <rls>
+                <ruleset>
+                  <rule uid="{F01E6676-B934-4DA2-88BD-05156495224D}" s:name="Charity">
+                    <conditions>
+                      <condition uid="2DD3FB0DA35B4079A0CB544702A6AD6C" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Water Interest" s:PatternName="Charity" />
+                    </conditions>
+                    <actions>
+                      <action uid="6CE57E16934F46F88E74F21CEAD64FA5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E2BA36C2-69E0-4B21-8ED9-1F76920E6D9C}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="FBA4C86E57874EB9984841BE23C27F90" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{D310EA26-6A66-4DFB-8B25-8134EB23580D}" p:before="r[@uid='{DD4C8745-979D-499C-B10C-B8A73FF9F0DA}']" s:ds="{6B2A399B-4FC6-40C0-A7C7-7CEDD912E02E}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
+                  <rule uid="{2B9471E8-F19C-42B1-B137-5C3450B1F469}" s:name="Charity">
+                    <actions>
+                      <action uid="4B1C2B65BDDD445B96501580E20C26B1" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{43CA25AA-308E-489A-B03B-4B1E6E769FE4}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="323AD34B220C4588B9BEC2A33AB9BD3B" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Water Interest" s:PatternName="Charity" />
+                    </conditions>
+                  </rule>
                   <rule uid="{BB0BEA99-B871-4C2A-AB00-717317A43480}" s:name="Water Supply">
                     <conditions>
                       <condition uid="129E0E25476E4C41A255E8032CF921F3" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Water Interest" s:PatternName="Water Supply" />

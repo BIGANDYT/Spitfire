@@ -7,6 +7,9 @@ SharedFields:
 - ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
   # Path
   Value: /Views/PageContent/Jango/Page/PageTitleAndText.cshtml
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{E997A00A-DAB9-4C09-8808-9AFF62D2E948}\" />"
 Languages:
 - Language: en
   Versions:

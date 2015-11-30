@@ -55,9 +55,6 @@ Languages:
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
-      Value: $name
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       # BrowserTitle
       Value: $name
