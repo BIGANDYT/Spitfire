@@ -1,0 +1,23 @@
+﻿---
+ID: a390b6f3-277e-4a68-af79-53e11ce9b313
+Parent: 45a08dd5-2a18-427d-aab7-00c00205439c
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/Media/Image
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/Media/Jango/Image.cshtml
+- ID: ddab263e-b42e-419a-aa6f-081b7393ca38
+  # Model
+  Value: /sitecore/layout/Models/Spitfire/Domain/Media/Image
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151130T132923Z

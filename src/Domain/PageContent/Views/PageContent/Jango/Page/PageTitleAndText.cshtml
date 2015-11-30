@@ -11,22 +11,20 @@
         <div class="c-author">
             <a href="#">
                 By
-                <span class="c-font-uppercase">Nick Strong</span>
+                <span class="c-font-uppercase">@Html.Sitecore().Field("Author")</span>
             </a>
         </div>
         <div class="c-date">
             on
-            <span class="c-font-uppercase">20 May 2015, 10:30AM</span>
+            <span class="c-font-uppercase">@Html.Sitecore().Field("Date")</span>
         </div>
         <ul class="c-tags c-theme-ul-bg">
             <li>ux</li>
             <li>marketing</li>
             <li>events</li>
-        </ul>        
+        </ul>
     </div>
     <div class="c-desc">
-        <p>
-            @Html.Sitecore().Field("Body")
-        </p>
-    </div>   
+        @Html.Sitecore().Field("Description")
+    </div>
 </div>

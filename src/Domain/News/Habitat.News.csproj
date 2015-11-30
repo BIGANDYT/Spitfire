@@ -44,11 +44,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DynamicPlaceholders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\DynamicPlaceholders.1.1.0.0\lib\net45\DynamicPlaceholders.dll</HintPath>
+      <HintPath>..\..\..\packages\DynamicPlaceholders.1.1.0.1\lib\net45\DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DynamicPlaceholders.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\DynamicPlaceholders.Mvc.1.1.0.0\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
+      <HintPath>..\..\..\packages\DynamicPlaceholders.Mvc.1.1.0.1\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -128,6 +128,9 @@
     <Content Include="Views\News\NewsTeaser.cshtml" />
     <Content Include="Views\News\Jango\NewsList.cshtml" />
     <Content Include="Views\News\Jango\NewsArticle.cshtml" />
+    <Content Include="Views\News\Jango\SearchNews.cshtml" />
+    <Content Include="Views\News\Jango\NewsCategories.cshtml" />
+    <Content Include="Views\News\Jango\RecentNews.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -141,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Indexing\NewsIndexContentProvider.cs" />
+    <Compile Include="Model\NewsList.cs" />
     <Compile Include="Repositories\INewsRepository.cs" />
     <Compile Include="Controller\NewsController.cs" />
     <Compile Include="Repositories\NewsRepository.cs" />

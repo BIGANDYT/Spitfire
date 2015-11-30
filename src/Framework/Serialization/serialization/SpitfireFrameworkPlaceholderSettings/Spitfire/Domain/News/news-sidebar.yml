@@ -1,0 +1,24 @@
+﻿---
+ID: 5377fee8-8b3a-4b58-899b-fbb81d1accd4
+Parent: 8832dee2-ada4-43e6-ba7c-ceccba6ef86b
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/Spitfire/Domain/News/news-sidebar
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: news-sidebar
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {F2671C8D-FB22-44E5-BA87-F5D7BC727073}
+    {E3937E4F-49E2-47B3-AD5D-D866B57E56BA}
+    {7ECAFBD7-B872-45CC-8E99-13D3738C4BC9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151130T113051Z

@@ -1,0 +1,20 @@
+﻿---
+ID: 2096222b-71c2-4037-830a-c661454527b2
+Parent: 3c8a4766-db9a-40c0-9a98-8fcd39a04b66
+Template: fed6a14f-0d05-4e18-b160-17c0588a2005
+Path: /sitecore/layout/Models/Spitfire/Domain/Media/Image
+SharedFields:
+- ID: ee9e23d2-181d-4172-a929-0e0b8d10313c
+  # Model Type
+  Value: Habitat.Media.Model.Image, Habitat.Media
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151130T133029Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

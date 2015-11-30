@@ -20,4 +20,16 @@
   <File Include="Views\Media\Jango\Slide Full Screen.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{25E8FC0C-3EDB-4E6F-82EA-785B03DCCF8F}</Item>
   </File>
+  <File Include="Views\Media\Jango\Image.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A390B6F3-277E-4A68-AF79-53E11CE9B313}</Item>
+  </File>
+  <File Include="Views\Media\Jango\Video.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{20D45655-BFE5-4521-ABD7-16324CC6F13A}</Item>
+  </File>
+  <File Include="Model\Video.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A1A36163-3D23-46D9-895F-1909918B3D16}</Item>
+  </File>
+  <File Include="Model\Image.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{2096222B-71C2-4037-830A-C661454527B2}</Item>
+  </File>
 </Project>

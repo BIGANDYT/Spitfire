@@ -2,4 +2,22 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\News\Jango\NewsList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B361CBEA-F906-4A40-8EB3-52AAB4052E09}</Item>
+  </File>
+  <File Include="Views\News\Jango\NewsArticle.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4AA50E91-823B-4B06-BAA0-71C30C220725}</Item>
+  </File>
+  <File Include="Model\NewsList.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4FAC1849-FD50-4A5E-BA7D-615A386791DD}</Item>
+  </File>
+  <File Include="Views\News\Jango\SearchNews.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F2671C8D-FB22-44E5-BA87-F5D7BC727073}</Item>
+  </File>
+  <File Include="Views\News\Jango\RecentNews.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{7ECAFBD7-B872-45CC-8E99-13D3738C4BC9}</Item>
+  </File>
+  <File Include="Views\News\Jango\NewsCategories.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E3937E4F-49E2-47B3-AD5D-D866B57E56BA}</Item>
+  </File>
 </Project>

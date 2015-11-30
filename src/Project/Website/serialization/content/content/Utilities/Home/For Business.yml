@@ -57,6 +57,22 @@ Languages:
                       <action uid="D76C51EEDF9E4264A687E8E590B83063" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
                     </actions>
                   </rule>
+                  <rule uid="{D94AB7B0-63FB-4FC0-9334-CE262CCE1828}" s:name="Supply">
+                    <actions>
+                      <action uid="660609E6D9E84AA9B094AA1ED44BBB50" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{4A35149D-2C57-431D-BDEC-F645184888FB}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="BD69ED691ED3427BBC1D119D8104AE87" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Water Interest" s:PatternName="Water Supply" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{31C0624D-4DFC-46D9-889D-9E4CCDCF5784}" s:name="Services">
+                    <conditions>
+                      <condition uid="2AFDEA904B0341E088ADB4E100E58851" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Water Interest" s:PatternName="Water Services" />
+                    </conditions>
+                    <actions>
+                      <action uid="6918618BE5B746F59EEFCFD73B143432" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{D25FA3F5-5231-474E-A29C-A7A1DF645E70}" />
+                    </actions>
+                  </rule>
                   <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
                     <conditions>
                       <condition uid="BEDF89A5D6524E7DA1CAB3D010624280" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />

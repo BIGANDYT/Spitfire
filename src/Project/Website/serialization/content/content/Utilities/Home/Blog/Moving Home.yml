@@ -1,0 +1,37 @@
+﻿---
+ID: ff1d9cd4-61d4-4420-b665-c8e50f7c7f46
+Parent: de205715-0dcc-4547-8006-619d9442e909
+Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
+Path: /sitecore/content/Utilities/Home/Blog/Moving Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151130T091459Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
+        <p>&nbsp;</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
+        <p>&nbsp;</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
+        <p>&nbsp;</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.</p>
+        <div>&nbsp;</div>
+    - ID: 6c42ebec-b83f-4514-ad6c-5bebc3afc82f
+      # Date
+      Value: 20151130T000000Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Moving Home
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{80983F52-D51E-4A40-B1F7-63637CBE3FED}\" />"
+    - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
+      # Summary
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.

@@ -1,0 +1,4 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Media
+@model Habitat.Media.Model.Image
+@Html.Sitecore().Field("Image", @Model.Item, new { @class = "img-responsive" })
