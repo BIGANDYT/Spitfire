@@ -3,6 +3,10 @@ ID: de205715-0dcc-4547-8006-619d9442e909
 Parent: f3ef6f64-59bc-4442-82ef-3724b46250b0
 Template: 4ba8db73-24b4-4e90-9ab5-3eaae832dc08
 Path: /sitecore/content/Utilities/Home/Blog
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 150
 Languages:
 - Language: en
   Versions:

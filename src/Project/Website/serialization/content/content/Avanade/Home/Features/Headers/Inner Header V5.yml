@@ -1,0 +1,31 @@
+﻿---
+ID: e55dc1a6-5786-4863-9549-f6fb34f0a8d0
+Parent: 165c7710-8529-4524-8377-61d85f543237
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Avanade/Home/Features/Headers/Inner Header V5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{3F3C7344-367F-4948-97D6-8B479B9520CE}" p:before="r[@uid='{C6434153-815E-4B3C-B82B-6BC5950BAB14}']" s:id="{8B9FE579-81DB-440F-9F9E-0074BE508E9C}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{C6434153-815E-4B3C-B82B-6BC5950BAB14}" p:before="r[@uid='{00873918-30FF-410C-B607-C5E61E503957}']" s:id="{FD79E80F-A107-42C2-ABC6-AD952D5CA467}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{00873918-30FF-410C-B607-C5E61E503957}" p:before="r[@uid='{82359CF1-BAE3-4C30-9D1F-3E14522E5963}']" s:id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{82359CF1-BAE3-4C30-9D1F-3E14522E5963}" p:before="r[@uid='{16851913-CDF7-4E79-9F93-C28518FBB8C0}']" s:id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{16851913-CDF7-4E79-9F93-C28518FBB8C0}" p:before="r[@uid='{C6EBA279-ED94-4919-AC32-59B394BCEDC4}']" s:id="{668E785F-7884-43BF-AFE2-1F3830EBE078}" s:ph="/header/menu" />
+            <r uid="{C6EBA279-ED94-4919-AC32-59B394BCEDC4}" p:before="r[@uid='{1EF8A9DB-4C4F-483E-89DC-FCB31159AAA5}']" s:id="{A30451FE-A414-4843-AE67-99B05AD3BA8A}" s:ph="header" />
+            <r uid="{1EF8A9DB-4C4F-483E-89DC-FCB31159AAA5}" s:id="{EC85F344-CC40-4E56-B1A0-E9B748995F11}" s:ph="content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173521Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

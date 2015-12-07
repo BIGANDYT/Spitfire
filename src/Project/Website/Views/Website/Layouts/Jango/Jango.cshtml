@@ -41,14 +41,6 @@
     <link href="/assets/base/css/custom.css" rel="stylesheet" type="text/css" />
     <!-- END THEME STYLES -->
     <link rel="shortcut icon" href="favicon.ico" />
-    @if (!Sitecore.Context.PageMode.IsPageEditor)
-    {
-        @Html.Sitecore().Placeholder("head")
-    }
-
-    <!-- Latest compiled and minified JavaScript -->
-    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
-    @RenderAssetsService.Current.RenderStyles()
     @Html.Sitecore().VisitorIdentification()
 
 </head>
@@ -311,44 +303,29 @@
         });
     </script>
     <!-- END: THEME SCRIPTS -->
-    <!-- BEGIN: PAGE SCRIPTS -->
-    <script>
-        $(document).ready(function () {
-            var slider = $('.c-layout-revo-slider .tp-banner');
-            var cont = $('.c-layout-revo-slider .tp-banner-container');
-            var height = (App.getViewPort().width < App.getBreakpoint('md') ? 1024 : 620);
-            var api = slider.show().revolution(
-            {
-                delay: 15000,
-                startwidth: 1170,
-                startheight: height,
-                navigationType: "hide",
-                navigationArrows: "solo",
-                touchenabled: "on",
-                onHoverStop: "on",
-                keyboardNavigation: "off",
-                navigationStyle: "circle",
-                navigationHAlign: "center",
-                navigationVAlign: "center",
-                fullScreenAlignForce: "off",
-                shadow: 0,
-                fullWidth: "on",
-                fullScreen: "off",
-                spinner: "spinner2",
-                forceFullWidth: "on",
-                hideTimerBar: "on",
-                hideThumbsOnMobile: "on",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "on",
-                hideArrowsOnMobile: "on",
-                hideThumbsUnderResolution: 0,
-                videoJsPath: "rs-plugin/videojs/",
-            });
-            $('#style_theme').attr('href', 'assets/base/css/themes/blue2.css');
-        }); //ready
-    </script>
+    
     <!-- END: PAGE SCRIPTS -->
     <!-- END: LAYOUT/BASE/BOTTOM -->
-    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+    @if (Sitecore.Context.PageMode.IsPageEditor || Sitecore.Context.PageMode.IsPreview)
+    {
+        <script>
+			if (typeof (Prototype) != "undefined" && Prototype.BrowserFeatures.ElementExtensions) {
+				var disablePrototypeJS = function (method, pluginsToDisable) {
+					var handler = function (event) {
+						event.target[method] = undefined;
+						setTimeout(function () {
+							delete event.target[method];
+						}, 0);
+					};
+					pluginsToDisable.each(function (plugin) {
+						jQuery(window).on(method + '.bs.' + plugin, handler);
+					});
+				},
+		        pluginsToDisable = ['collapse', 'dropdown', 'modal', 'tooltip', 'popover'];
+				disablePrototypeJS('show', pluginsToDisable);
+				disablePrototypeJS('hide', pluginsToDisable);
+			}
+        </script>
+    }
     </body>
 </html>

@@ -1,0 +1,20 @@
+﻿---
+ID: c7f84c94-4099-47a0-8c71-cd05b307a2be
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/Social
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: {9E5A8BCA-A7BD-4C9A-BD71-B3F05D665C5A}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151202T111237Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

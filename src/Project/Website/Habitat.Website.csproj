@@ -194,6 +194,7 @@
     <Content Include="Views\Website\Sublayouts\Scaffolding\row.cshtml" />
     <Content Include="Views\Website\Sublayouts\Scaffolding\section.cshtml" />
     <Content Include="Views\Form\Index.cshtml" />
+    <Content Include="Views\Website\Layouts\Jango\Bing.cshtml" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

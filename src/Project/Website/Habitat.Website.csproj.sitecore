@@ -5,4 +5,7 @@
   <File Include="Views\Website\Layouts\Jango\Jango.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DF9D127F-B388-4746-89E7-7E6D78D35186}</Item>
   </File>
+  <File Include="Views\Website\Layouts\Jango\Bing.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{09077855-7A0B-4B56-BA6D-E2B514157622}</Item>
+  </File>
 </Project>

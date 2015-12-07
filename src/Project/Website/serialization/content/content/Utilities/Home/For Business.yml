@@ -95,7 +95,7 @@ Languages:
                       <condition uid="A5005B0FD3ED440E9E4D92D739988801" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions>
-                      <action uid="ECBE04A7EC144060B61077FDF861028C" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                      <action uid="240A60933BA6405D96C62E02F476AEBF" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
                     </actions>
                   </rule>
                 </ruleset>

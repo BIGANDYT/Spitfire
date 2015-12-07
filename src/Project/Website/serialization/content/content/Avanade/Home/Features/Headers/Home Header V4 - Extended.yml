@@ -1,0 +1,31 @@
+﻿---
+ID: fb6d6e6b-fd94-4617-bd71-276cb0fa4cf1
+Parent: 165c7710-8529-4524-8377-61d85f543237
+Template: 99a1374e-2369-4732-bdf7-4bfc8cf6f0fa
+Path: /sitecore/content/Avanade/Home/Features/Headers/Home Header V4 - Extended
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{FDD94521-F081-4385-8AFE-64199C13CB66}" p:before="r[@uid='{88FB4751-2EE8-4B46-9386-88791F2476B0}']" s:id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{88FB4751-2EE8-4B46-9386-88791F2476B0}" p:before="r[@uid='{E1035314-4D25-4926-9BCB-6D0602175F62}']" s:id="{8B9FE579-81DB-440F-9F9E-0074BE508E9C}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{E1035314-4D25-4926-9BCB-6D0602175F62}" p:before="r[@uid='{11F230F5-8C24-498A-9924-0B9E19A5E642}']" s:id="{FD79E80F-A107-42C2-ABC6-AD952D5CA467}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{11F230F5-8C24-498A-9924-0B9E19A5E642}" p:before="r[@uid='{1298A312-9F29-4F77-8A1D-33C8DA1FBA23}']" s:id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{1298A312-9F29-4F77-8A1D-33C8DA1FBA23}" p:before="r[@uid='{382CA2FC-A1EF-4678-BE9A-C20B10F69F9A}']" s:id="{668E785F-7884-43BF-AFE2-1F3830EBE078}" s:ph="/header/menu" />
+            <r uid="{382CA2FC-A1EF-4678-BE9A-C20B10F69F9A}" p:before="r[@uid='{622665C4-7770-47F2-893B-B06BDB278FC8}']" s:id="{80EE812C-8DF7-4231-B21C-2B12D68B7102}" s:ph="/header/topbar" />
+            <r uid="{622665C4-7770-47F2-893B-B06BDB278FC8}" s:id="{D9840C19-F04E-4C9F-834E-92EEED5343C7}" s:ph="header" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T173352Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

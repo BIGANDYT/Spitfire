@@ -1,0 +1,20 @@
+﻿---
+ID: f3a89434-1aca-47dc-8296-049f81b7f728
+Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
+Template: 0643d9d4-f30b-4b07-91d0-289cc324c9cf
+Path: /sitecore/content/Avanade
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T091019Z
+    - ID: e748d808-64c1-4dec-9718-f35cf9689e4b
+      # Logo
+      Value: "<image mediaid=\"{1F724D83-3CFB-448F-8E69-41E530022A67}\" alt=\"\" height=\"40\" width=\"141\" hspace=\"\" vspace=\"\" />"

@@ -42,7 +42,7 @@ Languages:
       # __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1">
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r uid="{6D50701B-8254-4289-8966-5B3CF18F4A4C}" p:before="r[@uid='{917D8247-4856-4072-A5A8-8E479397FCDE}']" s:ds="{CD60A0B7-6A82-4F0F-AED7-9B09E72C138D}" s:id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_4" />
             <r uid="{917D8247-4856-4072-A5A8-8E479397FCDE}" p:before="r[@uid='{EA91FEDC-A091-42B1-B52C-4F0983F80CED}']" s:ds="{C34A95D3-428A-4A69-8A07-D161830BCA16}" s:id="{4250A359-6D68-46D9-89DF-65EB2734D5AF}" s:ph="/page-content/teaser_dd4c8745-979d-499c-b10c-b8a73ff9f0da_3" />
@@ -74,6 +74,14 @@ Languages:
             <r uid="{D310EA26-6A66-4DFB-8B25-8134EB23580D}" p:before="r[@uid='{DD4C8745-979D-499C-B10C-B8A73FF9F0DA}']" s:ds="{6B2A399B-4FC6-40C0-A7C7-7CEDD912E02E}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
+                  <rule uid="{4354794A-A78F-4A7D-8F94-ADD39A34C3C9}" s:name="Social">
+                    <conditions>
+                      <condition uid="662BC976F7B143DB8A21FD07D633CF52" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{9FA1CD20-70FD-4ADA-9C73-A31CF0A1B940}" />
+                    </conditions>
+                    <actions>
+                      <action uid="EC34E4E418D443CFB3F2AE5CF7611C7D" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{C7F84C94-4099-47A0-8C71-CD05B307A2BE}" />
+                    </actions>
+                  </rule>
                   <rule uid="{2B9471E8-F19C-42B1-B137-5C3450B1F469}" s:name="Charity">
                     <actions>
                       <action uid="4B1C2B65BDDD445B96501580E20C26B1" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{43CA25AA-308E-489A-B03B-4B1E6E769FE4}" />

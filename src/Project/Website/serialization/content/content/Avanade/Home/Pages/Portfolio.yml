@@ -1,0 +1,23 @@
+﻿---
+ID: 8c760cfb-1889-4360-b303-c0ab8beb5293
+Parent: 8f520475-fdd4-4e5e-bf20-0cdc6ae47876
+Template: b33c9f41-4c04-4e6c-8a54-6b4e4be25aab
+Path: /sitecore/content/Avanade/Home/Pages/Portfolio
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 94
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Portfolio
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150823T172447Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Portfolio
