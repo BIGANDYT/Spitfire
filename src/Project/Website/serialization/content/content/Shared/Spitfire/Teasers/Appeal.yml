@@ -1,0 +1,30 @@
+﻿---
+ID: 2efdbd7f-d1a7-433e-a911-50058d7cf3a3
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Appeal
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160121T144129Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Go\" querystring=\"\" target=\"\" id=\"{81EB3C92-44FD-459F-9DA4-7EEA0F95B466}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <div style="height: 100px;">
+        We accept appeals from:
+        the headteacher/principal of a school or college on behalf of a student or group of students
+        private candidates.
+        </div>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Submit an appeal            
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{65950F2C-CE8B-4B62-B2C9-7013A48D7B8D}\" ></image>"

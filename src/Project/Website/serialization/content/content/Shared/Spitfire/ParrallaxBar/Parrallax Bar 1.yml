@@ -1,0 +1,19 @@
+﻿---
+ID: ff8f6ab0-6471-4cf7-9a10-8b1a3c098143
+Parent: f5a01205-f3f5-439b-8f4b-8bad2d87dcb6
+Template: e129ed37-9673-4bce-8189-bb527f12e915
+Path: /sitecore/content/Shared/Spitfire/ParrallaxBar/Parrallax Bar 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151214T154142Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: INSURANCE
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{B84088A4-1B9C-47CC-9E69-5170108308D2}\" />"

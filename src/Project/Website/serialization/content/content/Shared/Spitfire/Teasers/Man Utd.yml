@@ -1,0 +1,19 @@
+﻿---
+ID: b99eb55f-6801-4c4c-8feb-ae3b055f5f87
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Man Utd
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160510T164731Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{FA3B078E-1148-4CD7-8C83-D0C3E4058210}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{DC9A515A-532E-4C98-9786-0DFD6FA7D88A}\" />"

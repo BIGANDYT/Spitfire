@@ -1,0 +1,52 @@
+﻿---
+ID: 360759ac-0e5b-4bdc-98da-bb4e06224dcb
+Parent: 8bf8efd4-0e6a-4f11-9c64-c16f79111552
+Template: 8bf8efd4-0e6a-4f11-9c64-c16f79111552
+Path: /sitecore/templates/Spitfire/Domain/Banking/Football Product/__Standard Values
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{91467993-9E62-41CE-8CF6-065CF443291A}" name="Card Interest" presets="henry|100||">
+        <key name="Football" value="5" />
+        <key name="Airline" value="0" />
+        <key name="Balance Transfer" value="1" />
+        <key name="Charity" value="0" />
+        <key name="Purchase" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r>
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{DF9D127F-B388-4746-89E7-7E6D78D35186}">
+            <r uid="{C2B9C7E6-3802-464F-92B8-744B39E67BA7}" id="{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}" ph="page-content" />
+            <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}" id="{CB2FD1C3-CDB1-4809-BB30-61AAF730644A}" ph="page-content" />
+            <r uid="{C6F3F0CB-425B-43CA-A316-7488F737620B}" ds="{D6CE4661-1634-433F-902A-1FAF707689ED}" id="{688B66F9-E692-4115-8D44-0F06A2F0327E}" ph="page-content" />
+            <r uid="{4BF3D46A-D503-4152-A526-77D9F1616424}" id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" ph="footer" />
+            <r uid="{9C9DB805-296E-4343-A183-85FE5DD21E6D}" id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" ph="/header/menu/menu-widgets" />
+            <r uid="{18D56424-F60C-42E5-B571-9EB7CBD6DFC9}" id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" ph="/header/menu/menu-widgets" />
+            <r uid="{365CFC84-1529-4926-8A23-4D19EF9FE654}" id="{668E785F-7884-43BF-AFE2-1F3830EBE078}" ph="/header/menu" />
+            <r uid="{684C5045-E8C6-4B39-9758-BAE1D9A31190}" id="{F240D3CE-B89E-4EF9-980D-DFC6B28BE88C}" ph="header" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T191252Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Lorem ipsum dolor sit amet, consectetuer
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: "<span style=\"color: #666666; background-color: #ffffff;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</span>"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: $name

@@ -1,0 +1,22 @@
+﻿---
+ID: f2a0de17-2d9b-4510-84e9-9b5381991eec
+Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
+Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
+Path: /sitecore/content/Shared/Spitfire/Section/Banking Features
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T223415Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: "<img alt=\"\" height=\"103\" width=\"160\" src=\"-/media/988BC0093D034C479F27A23A39943B15.ashx\">"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Why MBNA?
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{5C49C06C-5B64-4ED2-B51D-0895F157C74B}\" />"

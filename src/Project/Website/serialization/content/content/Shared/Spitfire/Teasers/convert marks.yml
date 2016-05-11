@@ -1,0 +1,104 @@
+﻿---
+ID: 28d1d542-3f6c-4097-94cc-7de72b94369a
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/convert marks
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T221618Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Convert marks to UMS (uniform mark scale)\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <h1 class="mainTitle"><span style="font-weight: lighter; font-size: 13px;">The marks on your results slip are&nbsp;</span><strong style="font-size: 13px;">already&nbsp;</strong><span style="font-weight: lighter; font-size: 13px;">UMS marks, so they won't work in this tool. Ask your teacher or exams officer for your raw marks.</span></h1>
+        <p>For help, see our main&nbsp;<a href="http://www.aqa.org.uk/exams-administration/about-results/uniform-mark-scale">UMS page</a>&nbsp;and <span class="icon iconPDF_File">&nbsp;</span><a title="UMS booklet pdf" href="http://store.aqa.org.uk/pdf/AQA-UMS-GUIDE.PDF" target="_blank">our UMS booklet</a>&nbsp;<span class="icon iconExternal">&nbsp;</span>.</p>
+        <div id="c">
+        </div>
+        <div class="pastPapers">
+        <div class="clearfix">
+        <form name="option" method="post" action="#">
+            <div class="formItem formSelect cl" id="qualselect">
+            <label for="qualifications">Qualification</label>
+            <select name="qualifications" id="qualifications" size="1">
+            <option value="#">What type of qualification?</option>
+            <option value="GCSE">GCSE</option>
+            <option value="IGCSE">AQA Certificate (iGCSE)</option>
+            <option value="AS">AS</option>
+            <option value="A2">A2</option>
+            </select>
+            <input type="submit" value="Go" id="getQualifications" class="search-submit" style="display: none;">
+            </div>
+            <div class="formItem formSelect cl" id="qualselect">
+            <!-- OPTION SERIES -->
+            <input type="text" id="seriesSel" name="seriesSel" style="display: none;">
+            <label for="seriesselect">Series</label>
+            <select name="seriesselect" id="seriesselect">
+            <option value="#">When was the exam?</option>
+            <!--Dropdown populated by jQuery-->
+            </select>
+            <input class="bttn bttnSubmit" type="submit" style="display: none;" value="Go" id="getSeries">
+            </div>
+            <!-- OPTION UNIT -->
+            <div class="formItem formSelect cl">
+            <input type="text" id="unitSel" name="unitSel" style="display: none;">
+            <label for="unitselect">Unit</label>
+            <select name="unitselect" id="unitselect">
+            <option value="#">Which unit?</option>
+            <!-- dropdown generated using jQuery -->
+            </select>
+            <div class="small-loader" style="display: none;">&nbsp;</div>
+            <div id="loading">&nbsp;</div>
+            <div class="formItem formSelect cl">
+            <div id="conversions" style="display: none;">
+            <p>
+            <input type="radio" id="raw" name="new_conversion" value="web">Convert one mark<br>
+            <input type="radio" id="bulk" name="new_conversion" value="bulk">Convert multiple marks
+            <input type="radio" id="hidden" name="new_conversion" value="null" style="display: none;"> &nbsp;
+            </p>
+            </div>
+            </div>
+            <div class="formItem formSelect cl">
+            <div id="Singleums" style="display: none;">
+            <!-- display the UMS box-->
+            </div>
+            </div>
+            <noscript>&amp;amp;amp;amp;amp;amp;lt;p class="important"&amp;amp;amp;amp;amp;amp;gt;
+            If you don&amp;amp;amp;amp;amp;amp;amp;#39;t have javascript enabled, the converter won't work. Please &amp;amp;amp;amp;amp;amp;lt;a href="mailto:Research@aqa.org.uk"&amp;amp;amp;amp;amp;amp;gt;contact us&amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;gt; for help with mark conversion.&amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;gt;
+            </noscript>
+            <div class="formItem formSelect cl">
+            <div id="bulk_area" style="display: none;">
+            <!-- display the appropriate bulk file here-->
+            </div>
+            <div id="Bulkums">
+            </div>
+            <!-- display the web conversion tables and diagrams-->
+            <div id="resultfield" style="display: none;">
+            <hr>
+            <h2>Results of conversion</h2>
+            <div id="rmplaceholder">&nbsp;</div>
+            <p id="hoverdata">&nbsp;</p>
+            <h2>Conversion graph</h2>
+            <div id="placeholder2" style="background: white;"> </div>
+            <div style="text-align: center;">
+            <!-- SPA: changed to test out error fix -->
+            <input type="button" id="new" class="bttn bttnSubmit" value="Print Tables">
+            </div>
+            <div>
+            <div id="conversion2">&nbsp;</div>
+            </div>
+            <div>
+            <div id="boundaries1">&nbsp;</div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </form>
+        </div>
+        </div>

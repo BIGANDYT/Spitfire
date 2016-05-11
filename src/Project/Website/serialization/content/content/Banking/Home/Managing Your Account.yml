@@ -1,0 +1,22 @@
+﻿---
+ID: 9a0e802b-7b8f-4ac4-98bb-8ab98303812d
+Parent: 105063f2-c600-46bc-95eb-15c7db8f6541
+Template: a46b7e45-26de-4fa9-8650-61ead2226b61
+Path: /sitecore/content/Banking/Home/Managing Your Account
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Managing Your Account
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T075007Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Managing Your Account
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Managing Your Account

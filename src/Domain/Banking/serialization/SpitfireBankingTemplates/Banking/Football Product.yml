@@ -1,0 +1,27 @@
+﻿---
+ID: 8bf8efd4-0e6a-4f11-9c64-c16f79111552
+Parent: e5c8b56b-0133-4b93-9020-93eb72a41be9
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Domain/Banking/Football Product
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/32x32/nav_plain.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {4B219152-BD98-4E3F-A625-74F050B5E699}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {360759AC-0E5B-4BDC-98DA-BB4E06224DCB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T190605Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

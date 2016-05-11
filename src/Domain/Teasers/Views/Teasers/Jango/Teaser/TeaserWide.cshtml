@@ -3,7 +3,7 @@
 @model Habitat.Teasers.Models.Jango.TeaserModel
 @{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
     {
-        @Html.Sitecore().Field("Image", @Model.Item, new { @class = "img-responsive" })
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
     }
 }  
 <div class="c-content-media-3 c-bg-img-center" style="background-image: url('@Model.ImageUrl'); min-height: 360px;">

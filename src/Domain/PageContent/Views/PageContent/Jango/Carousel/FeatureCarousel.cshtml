@@ -1,0 +1,33 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Habitat.PageContent.Model.ListModel
+<div class="c-content-box c-size-md c-bg-white">
+        <!-- Begin: Testimonals 1 component -->
+        <div class="c-content-person-1-slider" data-slider="owl" data-items="3" data-auto-play="3000">
+            <!-- Begin: Owlcarousel -->
+            <div class="owl-carousel owl-theme c-theme wow animated fadeInUp">
+                @foreach (var item in Model.Items)
+                {
+                <div class="item">
+                    <div class="c-content-person-1 c-option-2">
+                        <div class="c-caption c-content-overlay">
+                            <div class="c-overlay-wrapper">
+                                <div class="c-overlay-content">
+                                    <a href="@item.Url()">
+                                        <i class="icon-link"></i>
+                                    </a>                                    
+                                </div>
+                            </div>
+                            @Html.Sitecore().Field("ComponentImage", item, new { @class = "img-responsive c-overlay-object" })
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+            <!-- End-->
+        </div>
+        <!-- End-->
+</div>
+<!-- END: CONTENT/SLIDERS/TEAM-2 -->

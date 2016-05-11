@@ -1,0 +1,23 @@
+﻿---
+ID: 11936770-5bec-44a9-8cc5-ea400a17b05c
+Parent: 1918b848-f9c7-4d4d-bb1a-6fd1d821c5f0
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/4-Col-Portfolio
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/4-Col-Portfolio.cshtml
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediapath=\"\" alt=\"4ColPort\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{AF46F6E1-306E-4B06-98E8-A663ADE24A56}\" />"
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160124T114431Z

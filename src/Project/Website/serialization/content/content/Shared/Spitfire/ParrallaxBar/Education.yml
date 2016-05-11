@@ -1,0 +1,22 @@
+﻿---
+ID: 22475047-7dc6-495e-9939-b82259464200
+Parent: f5a01205-f3f5-439b-8f4b-8bad2d87dcb6
+Template: e129ed37-9673-4bce-8189-bb527f12e915
+Path: /sitecore/content/Shared/Spitfire/ParrallaxBar/Education
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160110T110645Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Sign Up\" querystring=\"\" target=\"\" id=\"{65A35E1D-1997-4572-AA79-AD7A8C692B7E}\" />"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: qualifications
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{C8619C6E-2FAA-4D89-9DC1-F1B1537CAECC}\" />"

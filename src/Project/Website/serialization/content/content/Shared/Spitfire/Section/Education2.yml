@@ -1,0 +1,16 @@
+﻿---
+ID: 5c03732c-8754-4c71-a1c3-6db6744ea27d
+Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
+Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
+Path: /sitecore/content/Shared/Spitfire/Section/Education2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160110T111407Z
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{78A99F04-63D5-4B21-9D4A-6DD4FF57FAD5}\" />"

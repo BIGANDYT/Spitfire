@@ -1,0 +1,26 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+@{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+    {
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+    }
+}
+<div class="col-md-3">
+    <div class="cbp-item-wrapper">
+        <div class="cbp-caption">
+            <div class="cbp-caption-defaultWrap">
+                @Html.Sitecore().Field("ComponentImage")                
+            </div>
+            <div class="cbp-caption-activeWrap">
+                <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                        @Html.Sitecore().Field("Link", new { @class = "cbp-singlePage cbp-l-caption-buttonLeft btn btn-sm c-btn-square c-btn-border-1x c-btn-white  c-btn-uppercase" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-l-grid-projects-title">@Html.Sitecore().Field("Title") </div>
+        <div class="cbp-l-grid-projects-desc">@Html.Sitecore().Field("Description") </div>
+    </div>
+</div>

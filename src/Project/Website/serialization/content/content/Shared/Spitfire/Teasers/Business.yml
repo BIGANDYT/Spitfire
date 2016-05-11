@@ -1,0 +1,25 @@
+﻿---
+ID: 069c0a77-9b86-4199-9efc-d44557b98d4d
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Business
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T082235Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"View Products\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: "<span style=\"color: rgb(85, 85, 85); font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px; font-style: italic; line-height: 20.8px;\">Business insurance to match your requirements. We can cover: commercial property, liability, tradesmen, vehicles &amp; more.</span>"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: business
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{A723D50E-E64B-4FAE-9BB6-F4F766AD8E21}\" alt=\"\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"

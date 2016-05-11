@@ -1,0 +1,22 @@
+﻿---
+ID: 93ea6457-eb51-4eec-ba56-81f71ca4521d
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/High net worth
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T124058Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"High Net Worth\" querystring=\"\" target=\"\" id=\"{B03046AC-A064-4176-B75D-86FE19BB6897}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: <br><br><br><br><br><br><br>
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{FAC24097-12EA-49B7-B4E3-D01AE6BA6CF7}\" />"

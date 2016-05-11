@@ -1,9 +1,9 @@
 /**
  Core Shop layout handlers and wrappers
  **/
-
+var $jq = jQuery.noConflict();
 // BEGIN: Layout Brand
-var LayoutQtySpinner = function () {
+var LayoutQtySpinner = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -22,11 +22,11 @@ var LayoutQtySpinner = function () {
 		}
 
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Checkbox Visibility Toggle
-var LayoutCheckboxVisibilityToggle = function () {
+var LayoutCheckboxVisibilityToggle = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -53,11 +53,11 @@ var LayoutCheckboxVisibilityToggle = function () {
 		}
 	};
 
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Shipping Calculator
-var LayoutShippingCalculator = function () {
+var LayoutShippingCalculator = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -76,11 +76,11 @@ var LayoutShippingCalculator = function () {
 		}
 	};
 
-}();
+}($jq);
 // END
 
 // PRODUCT GALLERY
-var LayoutProductGallery = function () {
+var LayoutProductGallery = function ($) {
 	return {
 		//main function to initiate the module
 		init: function () {
@@ -122,10 +122,10 @@ var LayoutProductGallery = function () {
 
 	    }
 	}
-}();
+}($jq);
 
 // BEGIN: Price Slider
-var PriceSlider = function () {
+var PriceSlider = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -135,11 +135,11 @@ var PriceSlider = function () {
 
 	};
 
-}();
+}($jq);
 // END
 
 // Main theme initialization
-$(document).ready(function () {
+$jq(document).ready(function () {
 	// init layout handlers
 	LayoutQtySpinner.init();
 	LayoutCheckboxVisibilityToggle.init();

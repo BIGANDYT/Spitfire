@@ -1,0 +1,62 @@
+﻿---
+ID: 7514dc23-680d-4ce4-b525-415a30138d19
+Parent: 430847be-b144-4d7c-828f-fbba853b311f
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Banking/Home/View Credit Cards/Airline Cards
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{1A3037CF-88B6-4895-91A8-438636520EF8}">
+          <p:d />
+        </r>
+        <r uid="{EC459A7A-42BC-4DAA-A1C0-EDECA92B81DD}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{1A3037CF-88B6-4895-91A8-438636520EF8}" p:before="r[@uid='{EC459A7A-42BC-4DAA-A1C0-EDECA92B81DD}']" s:id="{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}" s:ph="page-content" />
+            <r uid="{EC459A7A-42BC-4DAA-A1C0-EDECA92B81DD}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:id="{64F8F3A6-F8F1-48DA-BE8D-B72CC651F23B}" s:ph="page-content" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Airline Cards
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T173155Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Airlines credit cards from MBNA
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        With an MBNA airlines credit card, you can collect air miles, receive exclusive discounts and get great offers. We&rsquo;re behind some of the world&rsquo;s most recognisable airlines&rsquo; credit cards and have a number of fantastic rewards programmes with them.<br />
+        <br />
+        From flight and hotel upgrades to airline-themed rewards, an airlines credit card from MBNA could take you far.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Airlines Credit Cards
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{A06477E6-E1E5-48D0-B37C-76DFE742D94A}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{A06477E6-E1E5-48D0-B37C-76DFE742D94A}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"

@@ -1,0 +1,74 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@model Habitat.PageContent.Model.ListModel
+<!-- START: LISTING  -->
+<div class="c-content-box c-size-md c-bg-grey">
+    <div class="container c-bg-white">
+        <div class="c-layout-sidebar-content ">
+            <div class="c-shop-wishlist-1">
+                <div class="c-border-bottom hidden-sm hidden-xs">
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-6">
+                            <h3 class="c-font-uppercase c-font-16 c-theme-font c-font-bold">Balance Transfer</h3>
+                        </div>
+                        <div class="col-md-2">
+                            <h3 class="c-font-uppercase c-font-16 c-theme-font c-font-bold">Money Transfer</h3>
+                        </div>
+                        <div class="col-md-2">
+                            <h3 class="c-font-uppercase c-font-16 c-theme-font c-font-bold">Card Purchases</h3>
+                        </div>
+                    </div>
+                </div>
+                @foreach (var item in Model.Items)
+                {
+        <!-- BEGIN: PRODUCT ITEM ROW -->
+                    <div class="c-border-bottom c-row-item">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="c-content-overlay">
+                                    <div class="c-overlay-wrapper">
+                                        <div class="c-overlay-content">
+                                            <a href="@item.Url()" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Find out more</a>
+                                        </div>
+                                    </div>
+                                    <div class="c-bg-img-top-center c-overlay-object" data-height="height">
+                                        @Html.Sitecore().Field("Image", item, new { @class = "img-responsive" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <ul class="c-list list-unstyled">
+                                    <li class="c-margin-b-25">
+                                        <a href="shop-product-details-2.html" class="c-font-bold c-font-22 c-theme-font c-theme-link">@Html.Sitecore().Field("Title", item)</a>
+                                    </li>
+                                    <li class="c-margin-b-10">@Html.Sitecore().Field("Rewards", item)</li>
+                                    <li class="c-margin-t-30">
+                                        <div class="form-group" role="group">
+                                            <button onclick="location.href = '@item.Url()'" class="btn btn-sm c-theme-btn c-btn-square c-btn-uppercase c-btn-bold">
+                                                Find out more <i class="fa fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 col-sm-2">
+                                <p class="visible-xs-block c-theme-font c-font-uppercase c-font-bold">Balance Transfer</p>
+                                <p class="c-font-sbold c-font-18">@Html.Sitecore().Field("Balance Transfer", item)</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2">
+                                <p class="visible-xs-block c-theme-font c-font-uppercase c-font-bold">Money Transfer</p>
+                                <p class="c-font-sbold c-font-uppercase c-font-18">@Html.Sitecore().Field("Money Transfer", item)</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2">
+                                <p class="visible-xs-block c-theme-font c-font-uppercase c-font-bold">Card Purchases</p>
+                                <p class="c-font-sbold c-font-uppercase c-font-18">@Html.Sitecore().Field("Card Purchases", item)</p>
+                            </div>
+                        </div>
+                    </div>
+        <!-- END: PRODUCT ITEM ROW -->}
+            </div>
+            <!-- END: PAGE CONTENT -->
+        </div>
+    </div>
+</div>
+<!-- END: LISTING  -->

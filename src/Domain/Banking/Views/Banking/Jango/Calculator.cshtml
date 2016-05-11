@@ -1,0 +1,81 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<!-- style.css -->
+<link rel="stylesheet" type="text/css" href="/assets/css/mbnastyle.css">
+<!-- libraries.js -->
+<script type="text/javascript" src="/assets/js/mbnalibraries.js"></script>
+<!-- custom.js -->
+<script type="text/javascript" src="/assets/js/mbnacustom.js"></script>
+<div class="block" id="calculator" data-bt-period="40" data-bt-fee="0.0255" data-minimum-repayment="25" data-minimum-repayment-percent="0.01">
+    <div class="c-bg-white">
+        <div class="block-intro">
+            <div class="block-title">
+                <div>
+                    Could you save with the MBNA Platinum Credit Card Balance Transfer Offer?
+                </div>
+            </div>            
+        </div>
+        <div class="grid-row inputs">
+            <div class="col col-xs-12 col-md-4 balance-transfer">
+                <div class="title">
+                    Balance transfer amount
+                </div>
+                <div class="product-calculator-input-container">
+                    <span class="product-calculator-input-icon">&pound;</span>
+                    <input value="3,000" />
+                </div>
+                <div class="slider-container">
+                    <div class="calculator-slider"></div>
+                </div>
+            </div><!-- /col col-xs-12 col-md-4 -->
+            <div class="col col-xs-12 col-md-4 interest-rate border-bottom-mobile">
+                <div class="title">
+                    Current annual interest rate
+                </div>
+                <div class="product-calculator-input-container product-calculator-percent-container">
+                    <input value="17.8" />
+                    <span class="product-calculator-input-icon">%</span>
+                </div>
+                <div class="slider-container">
+                    <div class="calculator-slider"></div>
+                </div>
+            </div><!-- /col col-xs-12 col-md-4 -->
+            <div class="col col-xs-12 col-md-4">
+                <div class="title">
+                    Estimated saving of up to
+                    <span class="saving-caveat-mobile">
+                        (over 40 months after handling fees are deducted)
+                    </span>
+                </div>
+                <div class="product-calculator-input-container">
+                    <span class="product-calculator-input-icon">&pound;</span>
+                    <input class="saving" value="246" readonly />
+                </div>
+                <div class="saving-caveat">
+                    (over 40 months after handling fees are deducted)
+                </div>
+            </div><!-- /col col-xs-12 col-md-4 -->
+        </div><!-- /row -->
+
+        <div class="row">
+            <div class="c12">
+                <div class="calc-smallprint">
+                    <div>
+                        <div><strong>Representative 18.9%APR (variable)</strong></div>
+                        <div>Calculations are estimated savings only assuming you qualify for the offer shown above.</div>
+                        <div class="draw">
+                            <div>The estimated savings figure is calculated after deducting the handling fee, on the assumption that you make the minimum monthly repayments on time, that you qualify for the full promotional offer and that you have provided the current annual interest rate (effective rate) on the balance you are proposing to transfer. Promotional offers will no longer apply from the beginning of any statement period during which you have breached your terms and conditions.</div>
+
+                        </div>
+                        <a class="dropdown-toggle">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-buttons">
+            <a href="/compare-credit-cards/balance-transfer-credit-cards/mbna-platinum/" class="button" style="color: #FFFFFF; background-color: #4C9C3A;">Check eligibility <span class="icon icon-chevron"></span></a>
+        </div>
+    </div><!-- /container -->
+</div><!-- /block #product-calculator -->

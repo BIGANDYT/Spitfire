@@ -1,0 +1,19 @@
+﻿---
+ID: 3f717797-798f-4642-abfa-b2c3d24c3c91
+Parent: 4cb482a6-6dfd-4727-aa55-1da109ed6568
+Template: ff70edb1-aeb1-46a5-9318-413f43fa1aff
+Path: /sitecore/content/Shared/Spitfire/Titles/Eligibility
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160510T213205Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Unfortunately you are not eligible.  below are some products you are eligible for

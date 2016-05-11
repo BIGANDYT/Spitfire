@@ -8,6 +8,10 @@ a {
   a:focus {
     color: #6e8cd7; }
 
+ .c-layout-header.c-layout-header-6 {    
+     background-color:#6e8cd7;
+ }
+
 .c-theme-link:focus,
 .c-theme-link:active,
 .c-theme-link:hover {
@@ -25,7 +29,7 @@ a {
 .c-theme-nav li:focus > a:not(.btn),
 .c-theme-nav li:active > a:not(.btn),
 .c-theme-nav li:hover > a:not(.btn) {
-  color: #6e8cd7 !important; }
+  color: #000 !important; }
 
 .c-theme-nav li:focus > .c-quick-sidebar-toggler > .c-line,
 .c-theme-nav li:active > .c-quick-sidebar-toggler > .c-line,

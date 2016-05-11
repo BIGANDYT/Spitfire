@@ -1,0 +1,22 @@
+﻿---
+ID: a1cdd7d3-25c7-4699-bc9b-61824493b884
+Parent: 5aa0248c-f9e7-491b-ad4a-ba65556437e0
+Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
+Path: /sitecore/content/Education/Home/Subjects/Geography
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Geography
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T112700Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Geography
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Geography

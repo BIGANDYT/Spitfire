@@ -3,6 +3,10 @@ ID: d1cfc400-98fb-4e8c-95eb-52d650244000
 Parent: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
 Template: e269fbb5-3750-427a-9149-7aa950b49301
 Path: /sitecore/templates/Spitfire/Scaffolding/Section/Section
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:

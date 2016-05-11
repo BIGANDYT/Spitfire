@@ -1,0 +1,16 @@
+﻿---
+ID: 00841eed-1248-4901-843c-a7667a4fc800
+Parent: 185033f2-5567-46dd-acbb-778f920c52dc
+Template: 1826bf0a-8c7b-4c22-8b94-402aa89f7a14
+Path: /sitecore/content/Education/Settings/metadata/Science
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 047c9f3f-07d0-4a27-baf8-c01259686c94
+      # Title
+      Value: Science
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160125T072944Z

@@ -1,0 +1,16 @@
+﻿---
+ID: ae8e5dd5-f503-450d-872a-a383308d2efe
+Parent: f023e983-3c84-49b8-bdfd-fcddbf568157
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Domain/Banking/Category/Product Category
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T162608Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,20 @@
+﻿---
+ID: 5b1a6a35-1327-463c-bc2f-a8e106d30a0a
+Parent: 21456666-64e0-4ae4-aa3e-70119de40edc
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Components/TabGroup/TabGroup/BackgroundImage
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Image
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T152121Z

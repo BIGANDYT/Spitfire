@@ -195,6 +195,9 @@
     <Content Include="Views\Website\Sublayouts\Scaffolding\section.cshtml" />
     <Content Include="Views\Form\Index.cshtml" />
     <Content Include="Views\Website\Layouts\Jango\Bing.cshtml" />
+    <Content Include="Views\Website\Layouts\Jango\BingInsurance.cshtml" />
+    <Content Include="Views\Website\Layouts\Jango\BingEducation.cshtml" />
+    <Content Include="Views\Form\EditorTemplates\FormViewModel.cshtml" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

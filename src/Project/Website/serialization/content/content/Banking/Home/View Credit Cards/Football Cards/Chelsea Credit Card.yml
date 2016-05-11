@@ -1,0 +1,48 @@
+﻿---
+ID: 2ecd5541-61ef-434d-8cb1-c5f27a219356
+Parent: 47d27225-73fd-4015-b521-5786fbda4e8c
+Template: 8bf8efd4-0e6a-4f11-9c64-c16f79111552
+Path: /sitecore/content/Banking/Home/View Credit Cards/Football Cards/Chelsea Credit Card
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{91467993-9E62-41CE-8CF6-065CF443291A}" name="Card Interest" presets="henry|100||">
+        <key name="Football" value="5" />
+        <key name="Airline" value="0" />
+        <key name="Balance Transfer" value="1" />
+        <key name="Charity" value="0" />
+        <key name="Purchase" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T101823Z
+    - ID: 3601f9db-49e9-4e63-9f38-b4c05edf40ab
+      # Money Transfer
+      Value: 0% for up to 24 months (4% handling fee) Transfer terms
+    - ID: 43d167b4-236e-468e-9bd3-27fbe9c73656
+      # Card Purchases
+      Value: 0% for up to 3 months from account opening
+    - ID: 5f2e5ff6-f9fc-4dc7-8a9b-6769e2e731b6
+      # Balance Transfer
+      Value: 0% for up to 24 months (2.99% handling fee) Transfer terms
+    - ID: 670aeaf9-ed42-4b5c-b173-d78629c5aa55
+      # Rewards
+      Value: Great club rewards.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Chelsea Credit Card
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{9E58F19D-D86A-4C73-9148-EC0605D103A2}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediapath=\"\" alt=\"chelsea-Resize\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{55EE0B7A-75C9-40A3-9120-20DA8D49BBF9}\" />"

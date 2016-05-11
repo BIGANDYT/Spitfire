@@ -15,15 +15,20 @@ namespace Habitat.Teasers.Models.Jango
         public string ImageUrl { get; private set; }
 
         /// <summary>
+        /// Set link url
+        /// </summary>
+        public string LinkUrl { get; private set; }
+
+        /// <summary>
         /// Set class colour
         /// </summary>
         public string ClassColour { get; private set; }
-        
+
 
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            var background = (ImageField)rendering.Item.Fields["Image"];
+            var background = (ImageField)rendering.Item.Fields["ComponentImage"];
             if (background != null)
             {
                 var mediaItem = background.MediaItem;
@@ -32,7 +37,14 @@ namespace Habitat.Teasers.Models.Jango
                     ImageUrl = MediaManager.GetMediaUrl(mediaItem);
                 }
             }
+            Sitecore.Data.Fields.LinkField lf = rendering.Item.Fields["Link"];
+            if (lf != null)
+            {
+                LinkUrl = lf.GetFriendlyUrl();
+            }
+
             ClassColour = rendering?.Item?.Fields["ClassColour"]?.Value;
         }
+
     }
 }

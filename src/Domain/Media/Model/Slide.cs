@@ -37,7 +37,7 @@ namespace Habitat.Media.Model
             {
                 VideoPath = MediaManager.GetMediaUrl(videoItemField.MediaItem);
             }
-            var background = (ImageField)rendering.Item.Fields["Image"];
+            var background = (ImageField)rendering.Item.Fields["ComponentImage"];
             if (background != null)
             {
                 var mediaItem = background.MediaItem;

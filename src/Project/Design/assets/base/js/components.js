@@ -3,7 +3,8 @@
  **/
 
 // BEGIN: Layout Brand
-var LayoutBrand = function () {
+var $jq = jQuery.noConflict();
+var LayoutBrand = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -15,11 +16,11 @@ var LayoutBrand = function () {
 		}
 
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Brand
-var LayoutHeaderCart = function () {
+var LayoutHeaderCart = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -57,11 +58,11 @@ var LayoutHeaderCart = function () {
 			}
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Header
-var LayoutHeader = function () {
+var LayoutHeader = function ($) {
 	var offset = parseInt($('.c-layout-header').attr('data-minimize-offset') > 0 ? parseInt($('.c-layout-header').attr('data-minimize-offset')) : 0);
 	var _handleHeaderOnScroll = function () {
 		if ($(window).scrollTop() > offset) {
@@ -92,11 +93,11 @@ var LayoutHeader = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Mega Menu
-var LayoutMegaMenu = function () {
+var LayoutMegaMenu = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -127,11 +128,11 @@ var LayoutMegaMenu = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Mega Menu
-var LayoutSidebarMenu = function () {
+var LayoutSidebarMenu = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -142,11 +143,11 @@ var LayoutSidebarMenu = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Mega Menu
-var LayoutQuickSearch = function () {
+var LayoutQuickSearch = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -180,10 +181,10 @@ var LayoutQuickSearch = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
-var LayoutCartMenu = function () {
+var LayoutCartMenu = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -212,11 +213,11 @@ var LayoutCartMenu = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Mega Menu
-var LayoutQuickSidebar = function () {
+var LayoutQuickSidebar = function ($) {
 
 	return {
 		//main function to initiate the module
@@ -248,11 +249,11 @@ var LayoutQuickSidebar = function () {
 			});
 		}
 	};
-}();
+}($jq);
 // END
 
 // BEGIN: Layout Go To Top
-var LayoutGo2Top = function () {
+var LayoutGo2Top = function ($) {
 
 	var handle = function () {
 		var currentWindowPosition = $(window).scrollTop(); // current vertical position
@@ -289,11 +290,11 @@ var LayoutGo2Top = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: Layout Go To Top
 
 // BEGIN: Onepage Nav
-var LayoutOnepageNav = function () {
+var LayoutOnepageNav = function ($) {
 
 	var handle = function () {
 		var offset;
@@ -355,11 +356,11 @@ var LayoutOnepageNav = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: Onepage Nav
 
 // BEGIN: Handle Theme Settings
-var LayoutThemeSettings = function () {
+var LayoutThemeSettings = function ($) {
 
 	var handle = function () {
 
@@ -449,11 +450,11 @@ var LayoutThemeSettings = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: Handle Theme Settings
 
 // BEGIN: OwlCarousel
-var ContentOwlcarousel = function () {
+var ContentOwlcarousel = function ($) {
 
 	var _initInstances = function () {
 		$("[data-slider='owl'] .owl-carousel").each(function () {
@@ -509,11 +510,11 @@ var ContentOwlcarousel = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: OwlCarousel
 
 // BEGIN: ContentCubeLatestPortfolio
-var ContentCubeLatestPortfolio = function () {
+var ContentCubeLatestPortfolio = function ($) {
 
 	var _initInstances = function () {
 
@@ -620,11 +621,11 @@ var ContentCubeLatestPortfolio = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: ContentCubeLatestPortfolio
 
 // BEGIN: CounterUp
-var ContentCounterUp = function () {
+var ContentCounterUp = function ($) {
 
 	var _initInstances = function () {
 
@@ -643,11 +644,11 @@ var ContentCounterUp = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: CounterUp
 
 // BEGIN: Fancybox
-var ContentFancybox = function () {
+var ContentFancybox = function ($) {
 
 	var _initInstances = function () {
 		// init fancybox
@@ -662,11 +663,11 @@ var ContentFancybox = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: Fancybox
 
 // BEGIN: Twitter
-var ContentTwitter = function () {
+var ContentTwitter = function ($) {
 
 	var _initInstances = function () {
 		// init twitter
@@ -691,11 +692,11 @@ var ContentTwitter = function () {
 		}
 
 	};
-}();
+}($jq);
 // END: Twitter
 
 // Main theme initialization
-$(document).ready(function () {
+$jq(document).ready(function () {
 	// init layout handlers
 	LayoutBrand.init();
 	LayoutHeader.init();

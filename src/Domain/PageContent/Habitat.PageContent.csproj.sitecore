@@ -17,7 +17,7 @@
   <File Include="Views\PageContent\Jango\Features-9.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{242EC183-8B17-4D46-9474-B6563CF7B581}</Item>
   </File>
-  <File Include="Views\PageContent\Jango\Bar-5.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+  <File Include="Views\PageContent\Jango\ParrallaxBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{97DE3287-649F-428B-9E74-2172096863D6}</Item>
   </File>
   <File Include="Views\PageContent\Jango\Subscribe-Form-1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
@@ -100,5 +100,35 @@
   </File>
   <File Include="Views\PageContent\Jango\Scaffolding\2-Column-Content-Left.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{7D05D05D-26DA-4018-93CC-589AD43E6AB6}</Item>
+  </File>
+  <File Include="Model\PageContentModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{63B4C626-6618-4AF8-822B-DDF3D0213DE8}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Features-2-col.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{EFE928B0-0B78-4E25-A516-72A54C94C9C8}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\4-Col-Portfolio.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{11936770-5BEC-44A9-8CC5-EA400A17B05C}</Item>
+  </File>
+  <File Include="Model\TaggingModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F57B3E51-E2D2-4602-AFE0-0D85CA22AD5C}</Item>
+  </File>
+  <File Include="Model\TabGroupModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{02283C5E-EAFD-4B02-9BDE-810B9D261E79}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Features-8.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{688B66F9-E692-4115-8D44-0F06A2F0327E}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Page\PageTitleDescriptionImage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\List\ItemList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{64F8F3A6-F8F1-48DA-BE8D-B72CC651F23B}</Item>
+  </File>
+  <File Include="Model\ListModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0B6B767A-8A48-4701-827F-C071A499DA01}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Carousel\FeatureCarousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{029866DD-9778-4774-868B-9C550A09816F}</Item>
   </File>
 </Project>

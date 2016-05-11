@@ -1,0 +1,22 @@
+﻿---
+ID: 51f97409-8f0b-44a9-a0dc-edf7300dea58
+Parent: 5aa0248c-f9e7-491b-ad4a-ba65556437e0
+Template: 4a3326cc-22b3-43fe-9f09-62b8bae83c0c
+Path: /sitecore/content/Education/Home/Subjects/History
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: History
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T112649Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: History
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: History

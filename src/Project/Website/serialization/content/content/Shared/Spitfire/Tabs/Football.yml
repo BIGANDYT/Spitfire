@@ -1,0 +1,22 @@
+﻿---
+ID: ccaaf9e9-07a3-4ed0-9994-cacff9e63f4c
+Parent: 2d050e0a-ecd1-45b1-b642-780a37012752
+Template: 54f7309c-4b6b-4c31-92ee-4ebffe52c767
+Path: /sitecore/content/Shared/Spitfire/Tabs/Football
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T184017Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Football
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{348F01C2-DF1D-416E-B9E5-2E3277AA86F9}\" alt=\"\" height=\"50\" width=\"100\" hspace=\"\" vspace=\"\" />"

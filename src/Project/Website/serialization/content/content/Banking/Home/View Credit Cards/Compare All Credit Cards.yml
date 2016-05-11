@@ -1,0 +1,28 @@
+﻿---
+ID: 73097408-799a-4c71-95b0-43f83e17c620
+Parent: 430847be-b144-4d7c-828f-fbba853b311f
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Banking/Home/View Credit Cards/Compare All Credit Cards
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 275
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Compare All Credit Cards
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T173158Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        Pick from a great range of features and benefits.<br />
+        Use our Guided Search to find the right card for you
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: See our full range of credit cards.

@@ -1,0 +1,51 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Items;
+@model Habitat.PageContent.Models.TabGroupModel
+<!-- BEGIN: CONTENT/TABS/TAB-1 -->
+<div class="c-content-box c-size-xg c-no-bottom-padding c-overflow-hide">
+    <div class="c-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="c-content-tab-2 c-theme c-opt-1">
+                    <ul class="nav c-tab-icon-stack c-font-sbold c-font-uppercase">                       
+                        @foreach (var myItem in Model.Tabs.Select((value, i) => new { i, value }))
+                        {
+                            <li class="@(myItem.value.Name==Model.ActiveTab ? "active":"")">
+                                <a href="#c-tab2-opt1-@myItem.i" data-toggle="tab">
+                                    <span>@Html.Sitecore().Field("ComponentImage", @myItem.value, new { @class = "c-img-center" })</span>
+                                    <span class="c-title">@Html.Sitecore().Field("Title", @myItem.value)</span>                                   
+                                </a>
+                                <div class="c-arrow c-theme-bg"></div>
+                            </li>                            
+                        }
+                    </ul>
+                    <div class="c-tab-content c-theme-bg">
+                        @{ if (Sitecore.Context.PageMode.IsPageEditor && Model.BackgroundImageUrl == null)
+                            {
+                                @Html.Sitecore().Field("BackgroundImage", @Model.Item, new { @class = "img-responsive" })
+                            }
+                        }
+                        <div class="c-bg-img-center1" style="background-image: url(@Model.BackgroundImageUrl)">
+                            <div class="container">
+                                <div class="tab-content ">                                    
+                                    @foreach (var myItem in Model.Tabs.Select((value, i) => new { i, value }))
+                                    {
+                                        <div class="tab-pane fade in @(myItem.value.Name==Model.ActiveTab ? "active":"")" id="c-tab2-opt1-@myItem.i">
+                                            <div class="c-tab-pane c-bg-white ">
+                                                @Html.Sitecore().DynamicPlaceholder("tab-content")
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: CONTENT/TABS/TAB-1 -->

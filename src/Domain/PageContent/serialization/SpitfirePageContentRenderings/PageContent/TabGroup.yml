@@ -1,0 +1,35 @@
+﻿---
+ID: 2500bc70-9cf8-44d4-84fe-3f30f5707203
+Parent: 1918b848-f9c7-4d4d-bb1a-6fd1d821c5f0
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/TabGroup
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/Spitfire/Components/TabGroup
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/TabGroup.cshtml
+- ID: 7d24e54f-5c16-4314-90c9-6051aa1a7da1
+  # Parameters Template
+  Value: {C1B117E3-9320-4C08-9A77-2C7A67C02096}
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: /sitecore/content/Shared/Spitfire/TabGroups
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1200
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{164B9D42-1B82-4096-97E4-AE8A39DFB68B}\" />"
+- ID: ddab263e-b42e-419a-aa6f-081b7393ca38
+  # Model
+  Value: /sitecore/layout/Models/Spitfire/Domain/PageContent/TabGroupModel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T121815Z

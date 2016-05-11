@@ -1,0 +1,26 @@
+﻿---
+ID: 96a0d722-703f-4958-b87c-5282bc492362
+Parent: c5050f8a-10a9-4fc0-adbd-8cea4a26e5e1
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Scaffolding/Presets/2-Column-Content-Right
+SharedFields:
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Scaffolding/2-Column-Content-Right.cshtml
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{603535E1-D3B3-4823-83E5-29CBDCE760F3}\" />"
+- ID: e441abe7-2ca3-4640-ae26-3789967925d7
+  # Compatible Renderings
+  Type: Treelist
+  Value: |
+    {7D05D05D-26DA-4018-93CC-589AD43E6AB6}
+    {014B5CBC-31BB-4041-AE80-BC02FC44B92E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T104030Z

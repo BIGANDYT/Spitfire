@@ -1,0 +1,16 @@
+﻿---
+ID: f2cfa01d-48c5-4d3d-a261-51e14e936e1c
+Parent: 035d5495-092c-4875-8e21-b007bffe38f8
+Template: fe5dd826-48c6-436d-b87a-7c4210c7413b
+Path: /sitecore/media library/Images/Banking/Cards/Football
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T141412Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

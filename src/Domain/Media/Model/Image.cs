@@ -24,7 +24,7 @@ namespace Habitat.Media.Model
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);            
-            var background = (ImageField)rendering.Item.Fields["Image"];
+            var background = (ImageField)rendering.Item.Fields["ComponentImage"];
             if (background != null)
             {
                 var mediaItem = background.MediaItem;

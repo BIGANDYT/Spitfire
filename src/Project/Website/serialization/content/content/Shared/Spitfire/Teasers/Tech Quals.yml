@@ -1,0 +1,25 @@
+﻿---
+ID: a3c7d799-5052-464e-9920-1ee9d155be09
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Tech Quals
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160117T171641Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"See all our Tech-levels\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: We&rsquo;ve worked closely with employers and professional bodies on our Tech-levels &ndash; to make sure students get the skills they need for higher education or employment.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Tech-level qualifications
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{F2791869-4C00-4424-B9C8-B3E32DFEC7CC}\" />"

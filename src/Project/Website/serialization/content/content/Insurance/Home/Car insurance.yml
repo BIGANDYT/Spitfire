@@ -18,28 +18,49 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{3EA83E5B-01E5-45F1-8416-B5B3BC3082AE}" p:before="r[@uid='{07825295-3962-49C4-925B-FB76117DDE90}']" s:ds="{C0FF830D-1DAD-48C5-AA04-EB59A5174EC4}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
+            <r uid="{57CB4AC2-BC9A-4C46-A11A-5754A7F60451}">
+              <p:d />
+            </r>
+            <r uid="{5A4254F3-6179-4460-BF1D-544920F2F3AF}" p:before="r[@uid='{7B8540A8-6619-4C34-A072-99584A9B7826}']" s:ds="{C0FF830D-1DAD-48C5-AA04-EB59A5174EC4}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="/page-content/QuoteMainTab_48cc3e8b-679e-4a40-aba1-3049919b4e84" />
+            <r uid="{7B8540A8-6619-4C34-A072-99584A9B7826}" p:before="r[@uid='{48CC3E8B-679E-4A40-ABA1-3049919B4E84}']" s:ds="{C0FF830D-1DAD-48C5-AA04-EB59A5174EC4}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
-                  <rule uid="{ACDC307C-227B-4A25-B96A-15983B2BE852}" s:name="Car insurance quote">
-                    <conditions>
-                      <condition uid="3E2C773D1587420EBAE18266155E2700" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{31A09135-0737-4B1C-97D8-28B664711D11}" />
-                    </conditions>
+                  <rule uid="{9ECDDD30-353B-43BB-8FA6-20CCB7FE2CBB}" s:name="Car Insurance Quote">
                     <actions>
-                      <action uid="0FB5BC98C5C94D0AACD69E175FD43CBC" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{37130C3F-DDFB-46CF-8D01-AC59A48B869B}" />
-                      <action uid="26F34A94B78D498CA72F615CD4A797A8" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{042234B3-D41B-4FE7-A26C-2FE026526B97}" />
+                      <action uid="02B6F7507F9F4661B77060396D257407" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
                     </actions>
+                    <conditions>
+                      <condition uid="757965CF4BF04C9DACD3565F79459B05" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{31A09135-0737-4B1C-97D8-28B664711D11}" />
+                    </conditions>
                   </rule>
                   <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
                     <conditions>
-                      <condition uid="3B5C10B82E9A459289BDDBA0B5D64454" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                      <condition uid="4DA5253E1004475A986B71A2EFA6EAC0" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions />
                   </rule>
                 </ruleset>
               </rls>
             </r>
-            <r uid="{07825295-3962-49C4-925B-FB76117DDE90}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:ds="{2AC7CB17-DAA6-4499-813F-EC030473033D}" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="page-content" />
+            <r uid="{48CC3E8B-679E-4A40-ABA1-3049919B4E84}" p:before="r[@uid='{1101220C-29B0-412A-9556-031CBBA326ED}']" s:ds="{042234B3-D41B-4FE7-A26C-2FE026526B97}" s:id="{37130C3F-DDFB-46CF-8D01-AC59A48B869B}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{D374E7EC-99D8-45D5-8E5F-65193AB708F9}" s:name="Car Insurance">
+                    <conditions>
+                      <condition uid="D55C822660CA4DB39BB75A3A565D0B8E" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{31A09135-0737-4B1C-97D8-28B664711D11}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="03120794BA904999BF3337726EC58078" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="E0359FBFE085438388AB1550C98D7D48" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936

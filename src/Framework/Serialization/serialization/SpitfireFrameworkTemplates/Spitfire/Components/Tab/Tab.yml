@@ -1,0 +1,16 @@
+﻿---
+ID: 19080c38-4760-48b2-8442-3f84755ed0ae
+Parent: 54f7309c-4b6b-4c31-92ee-4ebffe52c767
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Components/Tab/Tab
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T170256Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

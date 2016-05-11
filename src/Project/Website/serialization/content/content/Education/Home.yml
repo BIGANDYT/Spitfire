@@ -1,0 +1,170 @@
+﻿---
+ID: 65a35e1d-1997-4572-aa79-ad7a8c692b7e
+Parent: 24fb3acf-3b8f-4608-bdfa-f5446331b752
+Template: 4a8822cc-b418-4452-ab0f-8bb6df2f2114
+Path: /sitecore/content/Education/Home
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {8EE208F9-A6A6-41E2-88A0-C188737A178C}
+    {4BA8DB73-24B4-4E90-9AB5-3EAAE832DC08}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{4BF3D46A-D503-4152-A526-77D9F1616424}">
+          <p:d />
+        </r>
+        <r uid="{9C9DB805-296E-4343-A183-85FE5DD21E6D}">
+          <p:d />
+        </r>
+        <r uid="{18D56424-F60C-42E5-B571-9EB7CBD6DFC9}">
+          <p:d />
+        </r>
+        <r uid="{365CFC84-1529-4926-8A23-4D19EF9FE654}">
+          <p:d />
+        </r>
+        <r uid="{684C5045-E8C6-4B39-9758-BAE1D9A31190}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{7DA1014B-88A4-481F-A84E-76590D418945}" p:before="r[@uid='{8FA7D42F-A932-4017-948E-E15FE1B195E5}']" s:ds="{498C7F64-8E94-4890-9D9B-A1902ABAA840}" s:id="{AA3D54BB-408B-4CE4-9140-728745B6F6FC}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_7" />
+            <r uid="{8FA7D42F-A932-4017-948E-E15FE1B195E5}" p:before="r[@uid='{F169418C-3054-428B-8B82-9701AC568EBF}']" s:ds="{008DE639-0ECB-473D-B4C0-5BD2BA18F9F7}" s:id="{AA3D54BB-408B-4CE4-9140-728745B6F6FC}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_6" />
+            <r uid="{F169418C-3054-428B-8B82-9701AC568EBF}" p:before="r[@uid='{3647FFA3-AB8C-4FB8-A979-6CA24266612A}']" s:ds="{A3C7D799-5052-464E-9920-1EE9D155BE09}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_5" />
+            <r uid="{3647FFA3-AB8C-4FB8-A979-6CA24266612A}" p:before="r[@uid='{B9FF97EA-34AA-4519-AB26-11989476CB73}']" s:ds="{6725E34B-B14B-4027-8EF7-B7BD7FCD77D8}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_4" />
+            <r uid="{B9FF97EA-34AA-4519-AB26-11989476CB73}" p:before="r[@uid='{87977B0C-83CF-4728-B7E6-686672BE6307}']" s:ds="{E3AC2EA0-4F24-44CD-8237-268550FC1C4A}" s:id="{DE61BFEF-FC07-4749-BF85-5957A3D24E77}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_3" />
+            <r uid="{87977B0C-83CF-4728-B7E6-686672BE6307}" p:before="r[@uid='{CA1B5250-83E4-4819-B9C9-B5E935253AC3}']" s:ds="{CA08D0FF-7B23-4CD3-8FE8-09AA36CC4315}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_2" />
+            <r uid="{CA1B5250-83E4-4819-B9C9-B5E935253AC3}" p:before="r[@uid='{F4022325-123A-4EAE-B938-9355F5052673}']" s:ds="{9279883D-C481-47D0-9017-642C380D7CD7}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628_1">
+              <rls>
+                <ruleset>
+                  <rule uid="{5FA9D95A-5F77-4131-8D67-8718B82F12F6}" s:name="History">
+                    <conditions>
+                      <condition uid="2C06290C838A4464905A5BA77C171873" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Subject Interest" s:PatternName="History" />
+                    </conditions>
+                    <actions>
+                      <action uid="BA3581022E5F48499D34979C1FCB3551" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{CF94D759-A3F5-4DD9-994C-E17B48980FA4}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{DF959CED-93ED-4499-A3B0-AA35D39DC6EA}" s:name="Languages">
+                    <conditions>
+                      <condition uid="DFA5D56E838B4BE1BB24EBBC3158A64D" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Subject Interest" s:PatternName="Languages" />
+                    </conditions>
+                    <actions>
+                      <action uid="542CEED62B5F45F0890F5D2952ABC9D4" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E1E61D02-5EFF-4EC3-831A-CE16162A8F8D}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="8A22BE7E234E4EC38EE0396603621EC5" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{F4022325-123A-4EAE-B938-9355F5052673}" p:before="r[@uid='{4ABC98E3-C791-4FB9-83C2-7908E55F67E6}']" s:ds="{D34BAD0D-556F-4622-9276-C96F04F309F3}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/teaser_cae04368-5cac-4c1d-b4db-afd969238628" />
+            <r uid="{4ABC98E3-C791-4FB9-83C2-7908E55F67E6}" p:before="r[@uid='{37003080-9A97-42B1-BD6A-F19B9B6CD1E8}']" s:ds="{9279883D-C481-47D0-9017-642C380D7CD7}" s:id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" s:ph="/page-content/col-sidebar_4396db5d-c0a0-48e7-8658-3be16f3a4865" />
+            <r uid="{37003080-9A97-42B1-BD6A-F19B9B6CD1E8}" p:before="r[@uid='{69DC1DAD-51F9-49C5-B69A-77A11BAC9A87}']" s:ds="{9815A42E-E4CD-4AA1-85EE-348FEED8ACFF}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-content/col-content_4396db5d-c0a0-48e7-8658-3be16f3a4865" />
+            <r uid="{69DC1DAD-51F9-49C5-B69A-77A11BAC9A87}" p:before="r[@uid='{4396DB5D-C0A0-48E7-8658-3BE16F3A4865}']" s:ds="{8501556F-2720-436A-AC64-424474E80EB5}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{00056D2A-6BC1-4867-B3E5-E6B8D855536B}" s:name="English Signed Up">
+                    <conditions>
+                      <condition uid="7BDC7A093290421BA88ADD93AD3756A8" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{783736CD-F06E-4665-B021-6FA1137F0961}" />
+                    </conditions>
+                    <actions>
+                      <action uid="F5E6156854674B10A8320FC79FDE58C6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{66EF7ECC-7EF1-40A2-A90E-8FAA52B884C8}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{51A689D5-E54A-48DB-93AA-B8744426A527}" s:name="Appeal Start">
+                    <conditions>
+                      <condition uid="D28BAF42AD724A8F95E8BAB455E7962F" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{88402A1E-40F2-4AB8-A2C3-5638B92FF2DF}" />
+                    </conditions>
+                    <actions>
+                      <action uid="52A5C4F1903140A6AD6CAD13B5EDB375" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{4306ECE7-3EB6-4073-9B62-FFF5DC6A9C16}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{4B49A310-A62E-4FB1-B6FD-E9A57FC2487E}" s:name="ConverToMarks">
+                    <actions>
+                      <action uid="98A25A75C3DE43F3991916B65041CFAD" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="492474C4B3464FE7903A108353FBC659" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{FE1A1063-35F1-415A-BB2F-75344AA427D5}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{D404D0F6-5931-4E91-8C9C-8BDCF892644E}" s:name="History">
+                    <conditions>
+                      <condition uid="74622C4873104E63A7C9DA790EF90999" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Subject Interest" s:PatternName="History" />
+                    </conditions>
+                    <actions>
+                      <action uid="A9588434961841F698455B9349B6AA58" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{6DAB3068-87C7-4179-8067-EF2B91DD5BCC}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{6D6CE342-712F-40F2-8BE9-ACDCF2D08826}" s:name="Languages">
+                    <conditions>
+                      <condition uid="F2AD733B9C6B463E9B1F9614CAA0F332" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Subject Interest" s:PatternName="Languages" />
+                    </conditions>
+                    <actions>
+                      <action uid="A69146F1EBBA44A68EB9E22FD2E44B3D" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{CDD694EB-AA85-4313-9FD6-17C8E3B3558A}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="BB5E3DDAA1834A2482E20B5A2C54E395" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{4396DB5D-C0A0-48E7-8658-3BE16F3A4865}" p:before="r[@uid='{CAE04368-5CAC-4C1D-B4DB-AFD969238628}']" s:id="{96A0D722-703F-4958-B87C-5282BC492362}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{A5A91ACF-DB81-4184-A4E2-F9DE31D3D9FA}" s:name="ConvertToMarks">
+                    <conditions>
+                      <condition uid="FEE2F1A8400C40A8A43E606E0EA9C2BF" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{FE1A1063-35F1-415A-BB2F-75344AA427D5}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="D979EBD41DEB47328EB07DB79D3F0CA3" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="20A397C14C4C45D9A6B3F3150613D726" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{CAE04368-5CAC-4C1D-B4DB-AFD969238628}" p:before="r[@uid='{5BFC4FF2-16E1-498F-BE6B-2E4EA606631A}']" s:ds="{652BD598-97F8-4F29-9101-1A0925FEB5F8}" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="page-content" />
+            <r uid="{5BFC4FF2-16E1-498F-BE6B-2E4EA606631A}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:id="{C05DFB98-DC9F-4D8C-BE5C-AE57F6BE53E4}" s:mvt="{B3CD4A0B-21D7-415E-BF2E-59C0D3034326}" s:ph="page-content" />
+            <r uid="{4BF3D46A-D503-4152-A526-77D9F1616424}" p:before="r[@uid='{9C9DB805-296E-4343-A183-85FE5DD21E6D}']" s:id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" s:ph="footer" />
+            <r uid="{9C9DB805-296E-4343-A183-85FE5DD21E6D}" p:before="r[@uid='{18D56424-F60C-42E5-B571-9EB7CBD6DFC9}']" s:id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{18D56424-F60C-42E5-B571-9EB7CBD6DFC9}" p:before="r[@uid='{365CFC84-1529-4926-8A23-4D19EF9FE654}']" s:id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" s:ph="/header/menu/menu-widgets" />
+            <r uid="{365CFC84-1529-4926-8A23-4D19EF9FE654}" p:before="r[@uid='{684C5045-E8C6-4B39-9758-BAE1D9A31190}']" s:id="{668E785F-7884-43BF-AFE2-1F3830EBE078}" s:ph="/header/menu" />
+            <r uid="{684C5045-E8C6-4B39-9758-BAE1D9A31190}" p:before="r[@uid='{E0F4D7AD-963F-4BE5-B2B7-024B9ABFDF84}']" s:id="{F240D3CE-B89E-4EF9-980D-DFC6B28BE88C}" s:ph="header" />
+            <r uid="{E0F4D7AD-963F-4BE5-B2B7-024B9ABFDF84}" s:ds="{0B69660C-E2DB-4C9C-A991-52B2EE631DF4}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:par="FormID&amp;ReadQueryString" s:ph="/login" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151119T144320Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

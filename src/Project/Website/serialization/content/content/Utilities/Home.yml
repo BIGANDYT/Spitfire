@@ -71,7 +71,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
-            <r uid="{D310EA26-6A66-4DFB-8B25-8134EB23580D}" p:before="r[@uid='{DD4C8745-979D-499C-B10C-B8A73FF9F0DA}']" s:ds="{6B2A399B-4FC6-40C0-A7C7-7CEDD912E02E}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
+            <r uid="{D310EA26-6A66-4DFB-8B25-8134EB23580D}" p:before="r[@uid='{87FA749A-915D-40EE-98FD-34C43A2F4784}']" s:ds="{6B2A399B-4FC6-40C0-A7C7-7CEDD912E02E}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
                   <rule uid="{4354794A-A78F-4A7D-8F94-ADD39A34C3C9}" s:name="Social">
@@ -115,6 +115,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
+            <r uid="{87FA749A-915D-40EE-98FD-34C43A2F4784}" p:before="r[@uid='{DD4C8745-979D-499C-B10C-B8A73FF9F0DA}']" s:id="{97DE3287-649F-428B-9E74-2172096863D6}" s:ph="page-content" />
             <r uid="{DD4C8745-979D-499C-B10C-B8A73FF9F0DA}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:ds="{713CF62E-E106-4BB0-87CA-83CD3F90172F}" s:id="{788976AB-A6B5-4462-93D6-88EC5A53F234}" s:ph="page-content" />
             <r uid="{4BF3D46A-D503-4152-A526-77D9F1616424}" p:before="r[@uid='{9C9DB805-296E-4343-A183-85FE5DD21E6D}']" s:id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" s:ph="footer" />
             <r uid="{9C9DB805-296E-4343-A183-85FE5DD21E6D}" p:before="r[@uid='{18D56424-F60C-42E5-B571-9EB7CBD6DFC9}']" s:id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" s:ph="/header/menu/menu-widgets" />

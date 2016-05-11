@@ -1,0 +1,20 @@
+﻿---
+ID: 5bee2b99-0b1b-403a-bd9b-a97cc92df08a
+Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
+Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
+Path: /sitecore/content/Shared/Spitfire/Section/Insurance2
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151214T213055Z
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{99F86D96-B737-4755-8A93-B4767E040DDC}\" />"

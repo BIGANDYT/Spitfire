@@ -10,6 +10,9 @@ SharedFields:
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
   Value: 1300
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{1F9C93D9-830A-44DF-A32B-307FBF70CEC3}\" />"
 Languages:
 - Language: en
   Versions:

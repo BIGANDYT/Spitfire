@@ -1,0 +1,19 @@
+﻿---
+ID: 008de639-0ecb-473d-b4c0-5bd2ba18f9f7
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/GCSE 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160117T170349Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"GCSE and A-level changes\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{654B7AD6-C20B-4E5F-94F7-E39254B3BCA9}\" />"

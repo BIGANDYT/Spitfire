@@ -1,0 +1,35 @@
+﻿---
+ID: 1ee252e0-fa9b-4f88-a948-3d4ecf68ab66
+Parent: 2d4d67ea-7cb2-4aa2-8eed-277e6913ee59
+Template: 8e19649a-85d0-4a30-ba65-11613dc3a145
+Path: /sitecore/content/Education/Home/Subjects/Science/Chemistry
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Chemistry
+    - ID: 22317196-b316-41b5-960c-19a909b9b7b5
+      # Author
+      Value: Chris Lowndes
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T112835Z
+    - ID: 4841f528-4a5b-430f-a3db-0a0f2e819714
+      # Tagging
+      Type: Multilist
+      Value: |
+        {68777FD5-2D7C-46D1-9A14-8406A52E617D}
+        {00841EED-1248-4901-843C-A7667A4FC800}
+        {E891ED51-7FB7-43AE-9EBC-85B6C6F2D925}
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Chemistry
+    - ID: 888fd33b-c0e3-4007-a5de-ed55a8ab4260
+      # Date
+      Value: 20160125T000000Z
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Chemistry

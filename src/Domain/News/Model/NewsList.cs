@@ -22,7 +22,7 @@ namespace Habitat.News.Model
         {
             base.Initialize(rendering);
             Items = rendering.Item.Children.ToList();
-            var imgage = (ImageField)rendering.Item.Fields["Image"];
+            var imgage = (ImageField)rendering.Item.Fields["ComponentImage"];
             if (imgage != null)
             {
                 var mediaItem = imgage.MediaItem;

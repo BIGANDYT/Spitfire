@@ -1,0 +1,22 @@
+﻿---
+ID: 66ef7ecc-7ef1-40a2-a90e-8faa52b884c8
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/English Sign up
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: |
+        {2F66ADBF-4819-457F-9890-13E8881D2038}
+        {75FB2CAA-8C32-45D4-897A-9D7D03F038F1}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160122T082522Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

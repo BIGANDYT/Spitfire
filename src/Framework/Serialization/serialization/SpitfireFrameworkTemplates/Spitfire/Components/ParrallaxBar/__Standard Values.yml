@@ -1,0 +1,16 @@
+﻿---
+ID: 49cf43b7-71e6-425c-b372-e567ae6e950b
+Parent: e129ed37-9673-4bce-8189-bb527f12e915
+Template: e129ed37-9673-4bce-8189-bb527f12e915
+Path: /sitecore/templates/Spitfire/Components/ParrallaxBar/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151214T153801Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

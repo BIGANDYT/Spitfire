@@ -1,0 +1,16 @@
+﻿---
+ID: 4e161f35-342c-48b8-b0a7-4450e90048a0
+Parent: 3ebdeec2-678d-48e6-bab1-174a0e4c290e
+Template: fe5dd826-48c6-436d-b87a-7c4210c7413b
+Path: /sitecore/media library/Images/Education/QuoteCalculator
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151109T083859Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

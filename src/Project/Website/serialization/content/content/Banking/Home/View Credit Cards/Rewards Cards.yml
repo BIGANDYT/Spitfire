@@ -1,0 +1,38 @@
+﻿---
+ID: b04c2fcb-58a8-41c5-9545-6125295b73ac
+Parent: 430847be-b144-4d7c-828f-fbba853b311f
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Banking/Home/View Credit Cards/Rewards Cards
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 273
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Rewards Cards
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T173228Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Rewards credit cards from MBNA
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        An MBNA rewards credit card turns your spending into points. Whether you use your card for your weekly shopping, to grab your lunch when you&rsquo;re out and about or pay for a larger, one-off purchase, you&rsquo;ll add to your points tally. You can then use your points to get your hands on a huge range of items from our online catalogue, including the latest gadgets, pamper days and even cashback.<br />
+        <br />
+        Our airline rewards credit cards are perfect if you&rsquo;re a frequent flyer and fancy an upgrade or keep collecting and see how far your points can take you.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Rewards Credit Cards
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{5808B740-140C-47A7-BD78-636434F88D18}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{5808B740-140C-47A7-BD78-636434F88D18}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"

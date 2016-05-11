@@ -1,0 +1,23 @@
+﻿---
+ID: acfcba38-286f-4119-aee9-8f4929c55ac3
+Parent: 3edc9a1e-ad34-4e23-a13f-4bce53f36375
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Components/Parameter Templates/Active Tab/Active Tab/Active Tab
+SharedFields:
+- ID: 1eb8ae32-e190-44a6-968d-ed904c794ebf
+  # Source
+  Value: /sitecore/content/Shared/Spitfire/Tabs
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Droplist
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T082026Z

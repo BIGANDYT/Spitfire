@@ -1,0 +1,20 @@
+﻿---
+ID: 9bcfc088-de47-49b4-8102-85c2507a0960
+Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
+Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
+Path: /sitecore/content/Shared/Spitfire/Section/Insurance1
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151214T183009Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Our insurance categories

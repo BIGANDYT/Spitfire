@@ -7,6 +7,9 @@ SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   # __Icon
   Value: Office/32x32/monitor_width.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:

@@ -1,0 +1,16 @@
+﻿---
+ID: c72ad4fe-2f19-45c5-a5c4-38d73655a8a1
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Purchase
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160507T084832Z
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{9D1635C5-0A76-4D2A-A58E-A25AD3774F0F}\" ></image>"

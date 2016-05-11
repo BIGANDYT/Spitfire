@@ -8,4 +8,10 @@
   <File Include="Views\Website\Layouts\Jango\Bing.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{09077855-7A0B-4B56-BA6D-E2B514157622}</Item>
   </File>
+  <File Include="Views\Website\Layouts\Jango\BingInsurance.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{188DF95A-686D-4563-A4E3-6305C995CA50}</Item>
+  </File>
+  <File Include="Views\Website\Layouts\Jango\BingEducation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4FB31731-CE3A-40CA-87C3-84B3C45D2C9D}</Item>
+  </File>
 </Project>

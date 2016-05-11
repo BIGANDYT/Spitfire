@@ -44,4 +44,13 @@
   <File Include="Views\Teasers\Jango\Group\2ColumnTeaserGroup.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{553A529A-8D88-4BBD-BE87-44ED5082831E}</Item>
   </File>
+  <File Include="Views\Teasers\Jango\Teaser\IconTeaser2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F99B9D4C-4094-4C78-A3BF-A574F452524C}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\Teaser\ImageHoverTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B773CD76-F8F7-4C26-8097-39D73A24CFA9}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\Teaser\ImageTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{73D30326-07E1-4028-9D06-CCC414EC1170}</Item>
+  </File>
 </Project>

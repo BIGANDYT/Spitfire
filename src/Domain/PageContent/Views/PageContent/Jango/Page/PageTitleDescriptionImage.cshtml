@@ -1,0 +1,41 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="c-content-box c-size-md c-overflow-hide c-bs-grid-reset-space c-bg-grey">
+    <div class="c-content-title-1">
+        <h1 class="c-center c-title c-font-uppercase c-font-bold c-theme-font c-font-60">@Html.Sitecore().Field("Title", Model.Item)</h1> 
+    </div>
+</div>
+<div class="c-content-box c-size-md c-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                @Html.Sitecore().Field("Image", @Model.Item)
+            </div>
+            <div class="col-md-6">
+                <div class="c-content-title-1">
+                    <h3 class="c-font-uppercase c-font-bold c-left c-theme-font">@Html.Sitecore().Field("SubTitle", Model.Item)</h3>
+                    <div class="c-line-left c-theme-bg"></div>
+                </div>
+                <p class="c-left">
+                    @Html.Sitecore().Field("Description", Model.Item)
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,9 @@ SharedFields:
   # __Base template
   Type: tree list
   Value: {183C062E-190A-40AB-891E-4D9D09E9B6BF}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
 - ID: f7d48a55-2158-4f02-9356-756654404f73
   # __Standard values
   Value: {A18B26FB-FB76-494B-984C-C273C25A3832}

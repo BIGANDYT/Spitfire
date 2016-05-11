@@ -1,0 +1,20 @@
+﻿---
+ID: 5f2e5ff6-f9fc-4dc7-8a9b-6769e2e731b6
+Parent: 18426f81-171e-4789-998d-d2bc4726fb2d
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Domain/Banking/Product/Product/Balance Transfer
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T121025Z

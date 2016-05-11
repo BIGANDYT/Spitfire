@@ -1,0 +1,43 @@
+﻿---
+ID: dd22ec54-bd68-4cc1-8643-aa18da0b9229
+Parent: 430847be-b144-4d7c-828f-fbba853b311f
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Banking/Home/View Credit Cards/Credit Builder
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 263
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Credit Builder
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T173158Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Credit builder credit cards from MBNA
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; background-color: #ffffff;">A credit builder credit card from MBNA could be ideal if you’re new to credit, or have a limited but good credit history – giving you the convenience and security a credit card can offer, but with a lower credit limit that’s easier to manage.</p>
+        <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; background-color: #ffffff;">MBNA credit builder credit cards sometime feature promotional rates, helping you to organise your outgoings. You could consolidate existing credit or store card balances where you might be paying a high interest rate with a balance transfer, or use a money transfer to move funds to your current account when you need a little extra flexibility.<span style="margin: 0px; padding: 0px; border: 0px;">1</span></p>
+        <h3 style="color: #0060a9; margin: 0px 0px 20px; padding: 0px; border: 0px; background-color: #ffffff;">Only apply for this card if:</h3>
+        <ul style="margin: 0px 0px 30px; padding: 0px; border: 0px; list-style-type: none; list-style-image: initial; background-color: #ffffff;">
+            <li style="margin: 0px 0px 5px 20px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">You have a good record of managing credit and bill payments.&nbsp;</li>
+            <li style="margin: 0px 0px 5px 20px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">You’ve not been made bankrupt within the last 6 years (including having an Individual Voluntary Arrangement or Debt Relief Order).</li>
+            <li style="margin: 0px 0px 5px 20px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">You’ve not had any County Court Judgments (CCJs) or defaults registered against you within the last 6 years.</li>
+        </ul>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Credit Builder Credit Cards
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{77C83B54-B46F-485C-867D-4D3119422950}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{77C83B54-B46F-485C-867D-4D3119422950}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"

@@ -1,0 +1,51 @@
+﻿---
+ID: 4a6c2f11-2eea-4c09-8ce4-c8f7beb28c4a
+Parent: 7514dc23-680d-4ce4-b525-415a30138d19
+Template: 62230b9a-25d2-436f-adac-55c2fcbd0448
+Path: /sitecore/content/Banking/Home/View Credit Cards/Airline Cards/Emirates Skywards Elite Credit Card Account
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{91467993-9E62-41CE-8CF6-065CF443291A}" name="Card Interest" presets="heidi|100||">
+        <key name="Football" value="0" />
+        <key name="Airline" value="5" />
+        <key name="Balance Transfer" value="0" />
+        <key name="Charity" value="1" />
+        <key name="Purchase" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Emirates Skywards Elite Credit Card Account
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T101551Z
+    - ID: 3601f9db-49e9-4e63-9f38-b4c05edf40ab
+      # Money Transfer
+      Value: 0% for up to 6 months (3% handling fee) Transfer terms
+    - ID: 43d167b4-236e-468e-9bd3-27fbe9c73656
+      # Card Purchases
+      Value: 22.9%p.a (variable)
+    - ID: 5f2e5ff6-f9fc-4dc7-8a9b-6769e2e731b6
+      # Balance Transfer
+      Value: 0% for up to 6 months (3% handling fee) Transfer terms
+    - ID: 670aeaf9-ed42-4b5c-b173-d78629c5aa55
+      # Rewards
+      Value: Earn Skywards Miles for every pound you spend and get closer to your next reward flight.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Emirates Skywards Elite Credit Card Account
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{63591298-B855-416E-95B3-0A0078F65E12}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediapath=\"/Images/Banking/Cards/Airline/emirates-skywards-elite-dual-resize\" alt=\"\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/Images/Banking/Cards/Airline/emirates-skywards-elite-dual-resize\" mediaid=\"{63591298-B855-416E-95B3-0A0078F65E12}\" />"

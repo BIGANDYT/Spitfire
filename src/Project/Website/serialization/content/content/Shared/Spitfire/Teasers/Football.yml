@@ -1,0 +1,19 @@
+﻿---
+ID: c0280f84-dc15-46eb-b344-b327a25b5c98
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Football
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160507T090440Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{47D27225-73FD-4015-B521-5786FBDA4E8C}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{B98E5C25-536E-454D-A35D-F21F48E4671F}\" />"

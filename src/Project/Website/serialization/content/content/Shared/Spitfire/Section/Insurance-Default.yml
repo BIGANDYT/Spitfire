@@ -3,6 +3,10 @@ ID: 40886c6f-0f4f-4966-97e3-49de15ad7765
 Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
 Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
 Path: /sitecore/content/Shared/Spitfire/Section/Insurance-Default
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 800
 Languages:
 - Language: en
   Versions:
@@ -11,3 +15,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151203T082659Z
+    - ID: ef6954e4-70e4-4704-97b2-13c1a5d96efa
+      # CarouselItems
+      Value: /sitecore/media library/Images/Insurance/PartnerLogos

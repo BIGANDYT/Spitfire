@@ -1,0 +1,49 @@
+﻿---
+ID: f6590ac0-bccc-4cf0-88e8-a0a296224d8b
+Parent: 51f97409-8f0b-44a9-a0dc-edf7300dea58
+Template: 8e19649a-85d0-4a30-ba65-11613dc3a145
+Path: /sitecore/content/Education/Home/Subjects/History/History of Art
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{916CDA15-F865-4AB9-969E-56E6056C3126}" name="Subject Interest" presets="henry|100||">
+        <key name="History" value="5" />
+        <key name="Science" value="2" />
+        <key name="Computing" value="0" />
+        <key name="Geography" value="2" />
+        <key name="Languages" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: History of Art
+    - ID: 22317196-b316-41b5-960c-19a909b9b7b5
+      # Author
+      Value: Andrew Thompson
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T113037Z
+    - ID: 4841f528-4a5b-430f-a3db-0a0f2e819714
+      # Tagging
+      Type: Multilist
+      Value: |
+        {57B7A702-D447-435B-A06E-71A03E732699}
+        {E891ED51-7FB7-43AE-9EBC-85B6C6F2D925}
+        {68777FD5-2D7C-46D1-9A14-8406A52E617D}
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: History of Art
+    - ID: 888fd33b-c0e3-4007-a5de-ed55a8ab4260
+      # Date
+      Value: 20160125T000000Z
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: History of Art

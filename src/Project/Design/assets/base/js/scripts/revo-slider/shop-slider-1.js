@@ -1,7 +1,8 @@
-$(document).ready(function() {
-    var slider = $('.c-layout-revo-slider .tp-banner');
+var $jq = jQuery.noConflict();
+$jq(document).ready(function ($jq) {
+    var slider = $jq('.c-layout-revo-slider .tp-banner');
 
-    var cont = $('.c-layout-revo-slider .tp-banner-container');
+    var cont = $jq('.c-layout-revo-slider .tp-banner-container');
 
     var api = slider.show().revolution({
         delay: 15000,    

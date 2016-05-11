@@ -1369,6 +1369,7 @@
     <Content Include="assets\plugins\font-awesome\css\font-awesome.css" />
     <Content Include="assets\plugins\font-awesome\css\font-awesome.min.css" />
     <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\plugins\getaddress\jquery.getAddress-2.0.1.min.js" />
     <Content Include="assets\plugins\gmaps\gmaps.js" />
     <Content Include="assets\plugins\jquery-migrate.min.js" />
     <Content Include="assets\plugins\jquery.easing.min.js" />
@@ -1792,6 +1793,9 @@
     <Content Include="assets\plugins\socicon\font\socicon.woff" />
     <Content Include="assets\plugins\socicon\font\socicon.woff2" />
     <Content Include="assets\plugins\socicon\readme.md" />
+    <Content Include="sitecore modules\Web\Web Forms for Marketers\mvc\content\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="sitecore modules\Web\Web Forms for Marketers\mvc\main.js" />
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />

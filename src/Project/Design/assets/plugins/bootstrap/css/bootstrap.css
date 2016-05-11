@@ -5926,24 +5926,10 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1050;
+  /** at hack to avoid modal being hidden */
+  z-index: 9999;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-}
-.modal.fade .modal-dialog {
-  -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  -o-transform: translate(0, -25%);
-  transform: translate(0, -25%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-}
-.modal.in .modal-dialog {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
 }
 .modal-open .modal {
   overflow-x: hidden;

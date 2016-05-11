@@ -1,0 +1,25 @@
+﻿---
+ID: 6215786b-5106-4fd3-9415-1f3d1f91bc42
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Enhanced Results Analysis
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160121T155051Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" text=\"Go\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: "<div style=\"height: 100px;\">See how your school, subject, class and individual students have performed.</div>"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Enhanced results analysis
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # Image
+      Value: "<image mediaid=\"{65950F2C-CE8B-4B62-B2C9-7013A48D7B8D}\" ></image>"

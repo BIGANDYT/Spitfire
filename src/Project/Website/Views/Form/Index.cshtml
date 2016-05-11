@@ -5,11 +5,11 @@
 @{
     ViewContext.ViewData.TemplateInfo.HtmlFieldPrefix = Model.ClientId;
 
-    var main = string.Format("{0}main.js", Constants.ScriptsBaseUrl);
-    var requirejs = string.Format("{0}require-2.1.15.js", Constants.ScriptsBaseUrl);
-    var bootstrap = string.Format("{0}content/bootstrap.min.css", Constants.ScriptsBaseUrl);
-    var fieldsCss = string.Format("{0}content/Fields.css", Constants.ScriptsBaseUrl);
-    var jqueryui = string.Format("{0}content/themes/base/all.css", Constants.ScriptsBaseUrl);
+    var main = string.Format("{0}main.js", Sitecore.Forms.Mvc.Constants.ScriptsBaseUrl);
+    var requirejs = string.Format("{0}require-2.1.15.js", Sitecore.Forms.Mvc.Constants.ScriptsBaseUrl);
+    var bootstrap = string.Format("{0}content/bootstrap.min.css", Sitecore.Forms.Mvc.Constants.ScriptsBaseUrl);
+    var fieldsCss = string.Format("{0}content/Fields.css", Sitecore.Forms.Mvc.Constants.ScriptsBaseUrl);
+    var jqueryui = string.Format("{0}content/themes/base/all.css", Sitecore.Forms.Mvc.Constants.ScriptsBaseUrl);
 }
 
 @Html.RenderStyles(jqueryui, fieldsCss)

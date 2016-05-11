@@ -3,6 +3,10 @@ ID: 713cf62e-e106-4bb0-87ca-83cd3f90172f
 Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
 Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
 Path: /sitecore/content/Shared/Spitfire/Section/Water Aid
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1100
 Languages:
 - Language: en
   Versions:

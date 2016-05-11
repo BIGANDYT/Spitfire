@@ -1,0 +1,19 @@
+﻿---
+ID: f94e4866-f3f2-488b-ba89-ae700f0fcea2
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Airline
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160507T090345Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{7514DC23-680D-4CE4-B525-415A30138D19}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{C91A71D4-85F1-4C8A-B088-0EA7C06FB744}\" />"

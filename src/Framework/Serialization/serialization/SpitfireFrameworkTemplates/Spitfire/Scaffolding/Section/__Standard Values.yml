@@ -7,6 +7,9 @@ SharedFields:
 - ID: 3094d236-5985-4c4f-ae6a-e30740885532
   # Caching
   Value: 0|0|0|0|0|0|0|0
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
 - ID: e42027f4-766d-45a7-8cf4-29e5c94326f7
   # Placeholder
   Value: content

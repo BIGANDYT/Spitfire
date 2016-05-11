@@ -3,6 +3,10 @@ ID: 6a7dd613-a169-40aa-90bd-ff8915840f22
 Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
 Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
 Path: /sitecore/content/Shared/Spitfire/Section/Life Insurance
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 900
 Languages:
 - Language: en
   Versions:

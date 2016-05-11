@@ -1,0 +1,22 @@
+﻿---
+ID: 92ef4c69-5875-4f93-b8a0-b8cad542de94
+Parent: 7c35cced-9056-480f-bb8f-c674b67a53bf
+Template: 4a3326cc-22b3-43fe-9f09-62b8bae83c0c
+Path: /sitecore/content/Education/Home/Qualifications/Technical award
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Technical award
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160114T133532Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Technical award
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Technical award

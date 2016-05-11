@@ -1,0 +1,31 @@
+﻿---
+ID: f023e983-3c84-49b8-bdfd-fcddbf568157
+Parent: e5c8b56b-0133-4b93-9020-93eb72a41be9
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Domain/Banking/Category
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/16x16/credit_cards.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {183C062E-190A-40AB-891E-4D9D09E9B6BF}
+    {A1CBA309-D22B-46D5-80F8-2972C185363F}
+    {AF74A00B-8CA7-4C9A-A5C1-156A68590EE2}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {4E160BE5-EECD-4090-9461-1CC366D47AE0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T162443Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

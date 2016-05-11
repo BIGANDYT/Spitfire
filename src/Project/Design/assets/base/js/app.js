@@ -1,8 +1,8 @@
 /**
 Core script to handle the entire theme and core functions
 **/
-
-var App = function() {
+var $jq = jQuery.noConflict();
+var App = function($) {
 
     // IE mode
     var isRTL = false;
@@ -407,4 +407,4 @@ var App = function() {
         }
     };
 
-}();
+}($jq);

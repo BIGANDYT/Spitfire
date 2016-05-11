@@ -1,0 +1,95 @@
+﻿---
+ID: 1474b452-9f19-4519-a34c-28dffa6d380a
+Parent: c8fdfd1e-6d3b-4ad1-ba25-2faed9c9dbd3
+Template: 8e19649a-85d0-4a30-ba65-11613dc3a145
+Path: /sitecore/content/Education/Home/Subjects/Languages/English
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{916CDA15-F865-4AB9-969E-56E6056C3126}" name="Subject Interest" presets="heidi|100||">
+        <key name="History" value="0" />
+        <key name="Languages" value="5" />
+        <key name="Science" value="0" />
+        <key name="Computing" value="1" />
+        <key name="Geography" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{F34B0D51-FBB2-4A64-89E9-53E2EA7B6B4D}" p:before="r[@uid='{38EAD5E5-D398-4CD6-BBF1-0D0F14F6DCF3}']" s:ds="{0833C499-459B-4DD3-AE77-09E9DFA29116}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-content/col-sidebar_51e00275-058e-4ce8-95b1-1d4a47fce1b3" />
+            <r uid="{0AE60D20-91D6-4059-9B83-9F75C4106C04}">
+              <p:d />
+            </r>
+            <r uid="{9BE63908-3F31-43A2-ABBC-BC5DD39F51EF}" s:ds="{2EBAAC90-8CDE-494D-808F-E186DB50768A}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-content/col-sidebar_086ed505-01d8-490b-8a9d-f68ae14f47d7" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: English
+    - ID: 22317196-b316-41b5-960c-19a909b9b7b5
+      # Author
+      Value: Chris Lowndes
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160122T082055Z
+    - ID: 4841f528-4a5b-430f-a3db-0a0f2e819714
+      # Page Tagging
+      Type: Multilist
+      Value: |
+        {68777FD5-2D7C-46D1-9A14-8406A52E617D}
+        {F6B56A22-E3EA-4DC3-85B0-A147F39537AB}
+        {E891ED51-7FB7-43AE-9EBC-85B6C6F2D925}
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <div class="specIntroBG marginB20 clearfix" style="margin: -8px 0px 20px; padding: 10px 20px 20px; border: 0px currentColor; border-image: none; color: #4c4c4b;">
+        <div class="ptaBlockAssess clearfix" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;">
+        <div class="imgStuff" style="background: none; margin: -10px 0px 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 583.32px;">
+        <div class="codeIntroWrap" style="background: none; margin: 0px 0px 10px; padding: 0px; border: 0px currentColor; border-image: none; width: 373.32px; height: auto;">
+        <ul class="specCodesIntro new clearfix" style="background: none; margin: 18px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; list-style-type: none;">
+            <li class="first" style="background: #c94b34; margin: 0px; padding: 3px 5px 3px 8px; border: 1px solid #e4e4e4; border-image: none; color: #ffffff; list-style-type: none;">Teaching from: September 2015</li>
+            <li class=" " style="background: none; margin: 0px 5em 0px 0px; padding: 0px; border: 0px currentColor; border-image: none; list-style-type: none;">Exams from: June 2016 (AS), June 2017 (A-level)</li>
+            <li class=" " style="background: none; margin: 0px 5em 0px 0px; padding: 0px; border: 0px currentColor; border-image: none; list-style-type: none;">Specification code: 7701 7702</li>
+            <li class=" " style="background: none; margin: 0px 5em 0px 0px; padding: 0px; border: 0px currentColor; border-image: none; list-style-type: none;">QAN code: AS: 601/4846/9; A: 601/4640/0</li>
+        </ul>
+        </div>
+        <div class="coverImage" style="background: none; margin: 0px 0px 0px 11.65px; padding: 0px; border: 0px currentColor; border-image: none; width: 198.32px;">
+        <div class="coverImageWrap" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://filestore.aqa.org.uk/resources/english/specifications/AQA-7701-7702-SP-2015-V1-0.PDF" title="Specifications for first teaching in 2015 PDF opens in new window" class="no-icon darken" style="background: black; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 198.32px; color: #2f71ac;" target="_blank"><img class="cover right" style="background: none; margin: 0px; padding: 0px; border: 1px solid #e2e2e2; border-image: none; width: 198.32px;" alt="AS A Engl Language" src="http://static.aqa.org.uk/assets/image/0013/105304/CoversForWeb_FullLength_0006_Spec-Details-copy-14.png"></a></div>
+        <div class="coverImageWrap" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://filestore.aqa.org.uk/resources/english/specifications/AQA-7701-7702-SP-2015-V1-0.PDF" title="Specifications for first teaching in 2015 PDF opens in new window" class="no-icon darken" style="background: black; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 198.32px; color: #2f71ac;" target="_blank">&nbsp;</a></div>
+        <div class="coverImageWrap" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://filestore.aqa.org.uk/resources/english/specifications/AQA-7701-7702-SP-2015-V1-0.PDF" title="Specifications for first teaching in 2015 PDF" class="bttn downloadBttn bttnG no-icon" style="background: linear-gradient(to right, #006600 17%, #6fab6b 17%, #6fab6b 85%) #6fab6b; margin: 10px 0px; padding: 0.5em 30px 0.5em 10px; border: currentColor; border-image: none; width: 198.32px; text-align: center; color: #ffffff;" target="_blank">&nbsp;Download&nbsp;<span class="hideNoHide" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;">specification</span></a></div>
+        <p class="coverImageWrap" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;"><span class="hideNoHide" style="background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;"></span></p>
+        </div>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;">&nbsp;</p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;">Our AS and A-level English Language specifications will enable students to build on the skills they've developed at GCSE, by engaging creatively and critically with a wide range of texts and discourses.</p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;">Our flexible new specifications will give you the scope to bring your own unique skills and specialisms to the classroom, and get the best possible results for your students.</p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;">You'll use exciting and relevant text and data-based sources to teach what you enjoy and to inspire your students in their study of English Language.</p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;">Our English AS and A-levels provide strong stand-alone qualifications that are designed to be co-teachable. This gives you and your students valuable choice.</p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://www.aqa.org.uk/subjects/english/as-and-a-level/english-language-7701-7702/introduction" class="chevronLink" style="background: url('http://static.aqa.org.uk/assets/image/0015/474/arrow.gif?v=0.10.3') no-repeat 100% 50%; margin: 0px; padding: 0px 15px 0px 0px; border: 0px currentColor; border-image: none; color: #2f71ac;">Specification</a></p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://www.aqa.org.uk/subjects/english/as-and-a-level/english-language-7701-7702/specification-at-a-glance" class="chevronLink" style="background: url('http://static.aqa.org.uk/assets/image/0015/474/arrow.gif?v=0.10.3') no-repeat 100% 50%; margin: 0px; padding: 0px 15px 0px 0px; border: 0px currentColor; border-image: none; color: #2f71ac;">Specification at a glance</a></p>
+        <p style="background: none; margin: 0px 0px 1em; padding: 0px; border: 0px currentColor; border-image: none;"><a href="http://www.aqa.org.uk/subjects/english/as-and-a-level/english-language-7701-7702/assessment-resources" class="chevronLink" style="background: url('http://static.aqa.org.uk/assets/image/0015/474/arrow.gif?v=0.10.3') no-repeat 100% 50%; margin: 0px; padding: 0px 15px 0px 0px; border: 0px currentColor; border-image: none; color: #2f71ac;">Specimen papers and mark schemes</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="clearfix marginB20" style="background: #ffffff; margin: 0px 0px 20px; padding: 0px; border: 0px currentColor; border-image: none; color: #4c4c4b;">
+        </div>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: AS and A-level English Language
+    - ID: 888fd33b-c0e3-4007-a5de-ed55a8ab4260
+      # Date
+      Value: 20160125T000000Z
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: English

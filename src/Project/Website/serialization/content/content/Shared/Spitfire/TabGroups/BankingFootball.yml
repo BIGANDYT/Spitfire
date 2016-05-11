@@ -1,0 +1,30 @@
+﻿---
+ID: 2c900a84-c570-4b44-90d0-fb966b82b047
+Parent: ad61cc3f-abeb-4687-b861-2ea9c45937ba
+Template: f1a07e22-1319-4579-8ec2-2546755d5d13
+Path: /sitecore/content/Shared/Spitfire/TabGroups/BankingFootball
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 23be27f5-8d60-4d41-bfba-50f7897bf551
+      # Active Tab
+      Value: Football
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T170550Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: ba5ffac8-22e1-42f1-91d1-1ff265e2fb1e
+      # Tabs
+      Type: Multilist
+      Value: |
+        {AD3810BA-592E-4014-9BA6-D15065118E61}
+        {B561B8F9-0BB7-4021-AEAF-E99964AE1B84}
+        {CDB5F051-6812-491E-9463-0BB6473182ED}
+        {CCAAF9E9-07A3-4ED0-9994-CACFF9E63F4C}
+        {25E6D6F9-C4A0-4B0E-907D-F07DBB1E7E06}
+        {F662A4DC-18B4-4B58-B08D-E41EB732BAFD}
+        {1E4495B0-9E56-4317-A45B-712284D43F11}

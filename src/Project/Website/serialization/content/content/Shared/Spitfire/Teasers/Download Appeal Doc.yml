@@ -1,0 +1,22 @@
+﻿---
+ID: 03e727d4-8c16-4c2e-9f5d-d345c850bfa9
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Download Appeal Doc
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160122T084756Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"media\" text=\"Download results\" target=\"\" id=\"{64845D55-0E1A-4366-92DC-C239EA4BF232}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: We reviewed your submission and your appeal is successful you can download your candidates results by clicking the link above.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Your recent appeal (AP26262) has been accepted 

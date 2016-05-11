@@ -1,0 +1,20 @@
+﻿---
+ID: 188df95a-686d-4563-a4e3-6305c995ca50
+Parent: d5af188f-32e6-46e6-953b-2b19e821bbed
+Template: 3a45a723-64ee-4919-9d41-02fd40fd1466
+Path: /sitecore/layout/Layouts/Spitfire/Project/Website/BingInsurance
+SharedFields:
+- ID: a036b2bc-ba04-44f6-a75f-bae6cd242abf
+  # Path
+  Value: /Views/Website/Layouts/Jango/BingInsurance.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T130927Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

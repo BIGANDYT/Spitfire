@@ -1,0 +1,23 @@
+﻿---
+ID: 185033f2-5567-46dd-acbb-778f920c52dc
+Parent: 80567b7c-1f87-4d70-b3da-e6d9977e1414
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Education/Settings/metadata
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {1826BF0A-8C7B-4C22-8B94-402AA89F7A14}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160125T071747Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

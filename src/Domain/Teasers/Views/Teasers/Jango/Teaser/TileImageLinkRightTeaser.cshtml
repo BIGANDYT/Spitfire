@@ -1,7 +1,12 @@
 ﻿@using Habitat.Framework.SitecoreExtensions.Extensions
 @using Habitat.Teasers
 @model Habitat.Teasers.Models.Jango.TeaserModel
-<div class="c-tile-content c-arrow-right c-arrow-@Model.ClassColour c-content-overlay">
+@{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+    {
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+    }
+}
+<div class="c-tile-content c-arrow-right c-arrow-@Model.ClassColour c-content-overlay">    
     <div class="c-overlay-wrapper">
         <div class="c-overlay-content">
             <a href="#">

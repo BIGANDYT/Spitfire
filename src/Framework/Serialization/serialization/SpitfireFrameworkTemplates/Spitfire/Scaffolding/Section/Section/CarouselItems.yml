@@ -1,0 +1,20 @@
+﻿---
+ID: ef6954e4-70e4-4704-97b2-13c1a5d96efa
+Parent: d1cfc400-98fb-4e8c-95eb-52d650244000
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Scaffolding/Section/Section/CarouselItems
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Internal Link
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T100825Z

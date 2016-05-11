@@ -1,0 +1,16 @@
+﻿---
+ID: 3edc9a1e-ad34-4e23-a13f-4bce53f36375
+Parent: c1b117e3-9320-4c08-9a77-2c7a67c02096
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Components/Parameter Templates/Active Tab/Active Tab
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T082026Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

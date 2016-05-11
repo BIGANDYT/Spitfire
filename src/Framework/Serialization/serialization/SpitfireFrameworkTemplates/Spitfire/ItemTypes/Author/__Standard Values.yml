@@ -3,6 +3,10 @@ ID: 8da8d7f9-ca47-4962-a742-7e8b4293189f
 Parent: a19ba474-d04e-41ea-9005-ba36376ee857
 Template: a19ba474-d04e-41ea-9005-ba36376ee857
 Path: /sitecore/templates/Spitfire/ItemTypes/Author/__Standard Values
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: office/32x32/dude5.png
 Languages:
 - Language: en
   Versions:

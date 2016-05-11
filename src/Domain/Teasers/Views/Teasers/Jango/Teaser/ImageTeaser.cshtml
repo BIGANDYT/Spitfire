@@ -1,0 +1,20 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+@{ if (Sitecore.Context.PageMode.IsPageEditor && !Model.Item.Fields["Link"].HasValue)
+    {
+        <div class="c-bg-white">Set an Image Link: @Html.Sitecore().Field("Link", @Model.Item)</div>
+    }
+}
+<div class="c-content-person-1 c-option-2">
+    <div class="c-caption c-content-overlay">
+        <div class="c-overlay-wrapper">
+            <div class="c-overlay-content">
+                <a href="@Model.LinkUrl">
+                    <i class="icon-link"></i>
+                </a>
+            </div>
+        </div>
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive c-overlay-object" })
+    </div>
+</div>

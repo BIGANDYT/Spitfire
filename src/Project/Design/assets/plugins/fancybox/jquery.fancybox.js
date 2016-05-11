@@ -9,7 +9,7 @@
  * Copyright 2012 Janis Skarnelis - janis@fancyapps.com
  *
  */
-
+var $jq = jQuery.noConflict();
 (function (window, document, $, undefined) {
 	"use strict";
 
@@ -1924,7 +1924,8 @@
 		}
 	};
 
-	// jQuery plugin initialization
+    // jQuery plugin initialization
+
 	$.fn.fancybox = function (options) {
 		var index,
 			that     = $(this),
@@ -2017,4 +2018,4 @@
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + (w2 - w1) + "px;}</style>").appendTo("head");
 	});
 
-}(window, document, jQuery));
+}(window, document, $jq));

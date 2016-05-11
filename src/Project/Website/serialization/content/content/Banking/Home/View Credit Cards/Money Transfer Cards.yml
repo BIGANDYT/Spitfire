@@ -1,0 +1,38 @@
+﻿---
+ID: 6cbc604f-4785-4fb5-82ca-4a4731316c39
+Parent: 430847be-b144-4d7c-828f-fbba853b311f
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Banking/Home/View Credit Cards/Money Transfer Cards
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 272
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Money Transfer Cards
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T173154Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Money transfer credit cards from MBNA
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        If you need convenience, a money transfer credit card could be the answer. A money transfer is a way of getting funds sent to your bank account to help with unexpected bills, pay off expensive loans or overdrafts.1<br />
+        <br />
+        You can choose from a range of money transfer credit cards with introductory rates or longer term low interest rates that stay low. It&rsquo;s up to you. And transferring money to your current account is simple and fast. All you need are your bank details and the amount you want to transfer.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Money Transfer Credit Cards
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{9A4E7C94-3065-4373-A85A-9E46814B058A}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{9A4E7C94-3065-4373-A85A-9E46814B058A}\" alt=\"\" height=\"168\" width=\"336\" hspace=\"\" vspace=\"\" />"

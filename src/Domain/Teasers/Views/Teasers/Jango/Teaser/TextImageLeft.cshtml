@@ -3,7 +3,7 @@
 @model Habitat.Teasers.Models.Jango.TeaserModel
 <div class="row">
     <div class="col-md-5">
-        @Html.Sitecore().Field("Image", new { @class = "img-responsive" })
+        @Html.Sitecore().Field("ComponentImage", new { @class = "img-responsive" })
     </div>
     <div class="col-md-7">
         <h4 class="c-font-30 c-font-thin c-font-uppercase c-font-bold">@Html.Sitecore().Field("Title", @Model.Item)</h4>

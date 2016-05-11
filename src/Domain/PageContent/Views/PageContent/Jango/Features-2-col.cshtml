@@ -1,0 +1,41 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Habitat.PageContent.Models.PageContentModel
+<!--BEGIN: CONTENT / FEATURES / FEATURES - 9-->
+<div class="c-content-box c-size-xg c-bg-parallax" style="background-image: url(@Model.ImageUrl )">
+    @{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+        {
+            @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+        }
+    }    
+    <div class="container">
+        <div class="c-content-feature-9">
+            <!-- Begin: Title 1 component -->
+            <div class="c-content-title-1">
+                <h3 class="c-font-uppercase c-center c-font-bold">@Html.Sitecore().Field("Title", @Model.Item)</h3>
+                <div class="c-line-center c-theme-bg"></div>
+                <p class="c-font-center">@Html.Sitecore().Field("Description", @Model.Item)</p>
+            </div>
+            <!-- End-->
+            <ul class="c-list">
+                <li class="wow animate fadeInUp">
+                    @Html.Sitecore().DynamicPlaceholder("teaser")
+                </li>
+                <li class="wow animate fadeInUp">
+                    @Html.Sitecore().DynamicPlaceholder("teaser")
+                </li>
+            </ul>
+            <ul class="c-list">
+                <li class="wow animate fadeInUp">
+                    @Html.Sitecore().DynamicPlaceholder("teaser")
+                </li>
+                <li class="wow animate fadeInUp">
+                    @Html.Sitecore().DynamicPlaceholder("teaser")
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- END: CONTENT/FEATURES/FEATURES-9 -->

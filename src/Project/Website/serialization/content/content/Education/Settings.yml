@@ -1,0 +1,20 @@
+﻿---
+ID: 80567b7c-1f87-4d70-b3da-e6d9977e1414
+Parent: 24fb3acf-3b8f-4608-bdfa-f5446331b752
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Education/Settings
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151202T111946Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

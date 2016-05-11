@@ -1,0 +1,17 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\Banking\Jango\Calculator.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0BAE8A8B-730F-425F-8DBA-CFC67FA4C6EC}</Item>
+  </File>
+  <File Include="Views\Banking\Jango\Purchase.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{33CBA43D-87DE-4ABD-BF36-57259C220944}</Item>
+  </File>
+  <File Include="Views\Banking\Jango\Representative Example.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CB2FD1C3-CDB1-4809-BB30-61AAF730644A}</Item>
+  </File>
+  <File Include="Views\Banking\Layouts\Arsenal.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{56B2E633-3D15-4D56-ADAE-C1F03AC13F24}</Item>
+  </File>
+</Project>

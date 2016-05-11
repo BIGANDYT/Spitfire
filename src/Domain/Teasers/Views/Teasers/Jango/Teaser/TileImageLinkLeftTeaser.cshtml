@@ -1,14 +1,19 @@
 ﻿@using Habitat.Framework.SitecoreExtensions.Extensions
 @using Habitat.Teasers
 @model Habitat.Teasers.Models.Jango.TeaserModel
+@{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+    {
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+    }
+}
 <div class="c-tile-content c-arrow-left c-arrow-@Model.ClassColour c-content-overlay">
     <div class="c-overlay-wrapper">
         <div class="c-overlay-content">
             <a href="#">
                 <i class="icon-link"></i>
             </a>
-            @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square" })            
+            @Html.Sitecore().Field("Link", new { @class = "btn btn-sm c-btn-white c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square" })
         </div>
     </div>
-    <div class="c-image c-overlay-object" data-height="height" style="height: 262px; @(Model.ImageUrl != string.Empty ? "background-image: url('" + Model.ImageUrl + "')" : string.Empty)"></div>
+    <div class="c-image c-overlay-object" data-height="height" style="height: 262px; @(Model.ImageUrl != string.Empty ? "background-image: url('" + Model.ImageUrl + "')" : string.Empty);background-size: cover;"></div>
 </div>

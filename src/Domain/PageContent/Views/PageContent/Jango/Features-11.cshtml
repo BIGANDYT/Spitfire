@@ -2,9 +2,14 @@
 @using Habitat.Framework.SitecoreExtensions.Extensions
 @using Habitat.PageContent
 @using Sitecore.Mvc.Presentation
-@model Sitecore.Mvc.Presentation.RenderingModel
+@model Habitat.PageContent.Models.PageContentModel
 <!-- BEGIN: CONTENT/FEATURES/FEATURES-11 -->
-<div class="c-content-box c-size-md c-bg-parallax" style="background-image: url(-/media/Images/Utilities/Teaser/h2osecurity-background-h2o2.jpg)">
+<div class="c-content-box c-size-xg c-bg-parallax" style="background-image: url(@Model.ImageUrl)">
+    @{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+        {
+            @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+        }
+    }
     <div class="container">
         <div class="c-content-feature-8 c-opt-1">
             <ul class="c-grid">

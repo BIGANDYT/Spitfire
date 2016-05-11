@@ -1,0 +1,79 @@
+﻿---
+ID: 1a71822e-9d78-4393-81b6-00173b33f401
+Parent: 7514dc23-680d-4ce4-b525-415a30138d19
+Template: 62230b9a-25d2-436f-adac-55c2fcbd0448
+Path: /sitecore/content/Banking/Home/View Credit Cards/Airline Cards/Emirates Skywards Credit Card Account
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{91467993-9E62-41CE-8CF6-065CF443291A}" name="Card Interest" presets="heidi|100||">
+        <key name="Football" value="0" />
+        <key name="Airline" value="5" />
+        <key name="Balance Transfer" value="0" />
+        <key name="Charity" value="1" />
+        <key name="Purchase" value="1" />
+      </profile>
+    </tracking>
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{C2B9C7E6-3802-464F-92B8-744B39E67BA7}">
+          <p:d />
+        </r>
+        <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}">
+          <p:d />
+        </r>
+        <r uid="{C6F3F0CB-425B-43CA-A316-7488F737620B}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{C2B9C7E6-3802-464F-92B8-744B39E67BA7}" p:before="r[@uid='{2BDACA24-283B-4034-8870-B6E271A58EF7}']" s:id="{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}" s:ph="page-content" />
+            <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}" p:before="r[@uid='{C6F3F0CB-425B-43CA-A316-7488F737620B}']" s:id="{CB2FD1C3-CDB1-4809-BB30-61AAF730644A}" s:ph="page-content" />
+            <r uid="{C6F3F0CB-425B-43CA-A316-7488F737620B}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:ds="{D6CE4661-1634-433F-902A-1FAF707689ED}" s:id="{688B66F9-E692-4115-8D44-0F06A2F0327E}" s:ph="page-content" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Emirates Skywards Credit Card Account
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160509T101620Z
+    - ID: 3601f9db-49e9-4e63-9f38-b4c05edf40ab
+      # Money Transfer
+      Value: 6 months (3% handling fee) Transfer terms
+    - ID: 43d167b4-236e-468e-9bd3-27fbe9c73656
+      # Card Purchases
+      Value: 22.9%p.a (variable)
+    - ID: 5f2e5ff6-f9fc-4dc7-8a9b-6769e2e731b6
+      # Balance Transfer
+      Value: 6 months (3% handling fee)  Transfer terms
+    - ID: 670aeaf9-ed42-4b5c-b173-d78629c5aa55
+      # Rewards
+      Value: Earn Skywards Miles for every pound you spend and get closer to your next reward flight.
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Emirates Skywards Credit Card Account
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{C9693091-1ED9-45FF-9D22-E36A21683966}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediapath=\"/Images/Banking/Cards/Airline/emirates-skywards-dual-resize\" alt=\"\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/Images/Banking/Cards/Airline/emirates-skywards-dual-resize\" mediaid=\"{C9693091-1ED9-45FF-9D22-E36A21683966}\" ></image>"

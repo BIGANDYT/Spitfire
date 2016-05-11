@@ -1,0 +1,26 @@
+﻿---
+ID: 2d050e0a-ecd1-45b1-b642-780a37012752
+Parent: ec983dcb-1a5c-47af-9304-b37119515d1b
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Shared/Spitfire/Tabs
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {54F7309C-4B6B-4C31-92EE-4EBFFE52C767}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T151621Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

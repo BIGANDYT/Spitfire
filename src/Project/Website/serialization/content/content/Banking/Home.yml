@@ -1,0 +1,201 @@
+﻿---
+ID: 105063f2-c600-46bc-95eb-15c7db8f6541
+Parent: 83b521be-1586-49f1-83c7-4fbd79057c81
+Template: ec40cc6f-0c81-4e8f-ab43-27bb5c11a53e
+Path: /sitecore/content/Banking/Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{B13AEC38-677E-4DD2-AF5A-0562F113125E}" p:before="r[@uid='{34A168B8-84A6-4E8F-B939-BD9911746706}']" s:ds="{3F717797-798F-4642-ABFA-B2C3D24C3C91}" s:id="{2B5E9CFE-C64B-4962-AA3B-51FCF46F9759}" s:ph="/page-content/tab-content_7864aba5-a903-4941-bdb8-8c373c8b3486_2" />
+            <r uid="{34A168B8-84A6-4E8F-B939-BD9911746706}" p:before="r[@uid='{AA26834A-E1C7-424A-995C-F4587E04A91C}']" s:ds="{7514DC23-680D-4CE4-B525-415A30138D19}" s:id="{029866DD-9778-4774-868B-9C550A09816F}" s:ph="/page-content/tab-content_7864aba5-a903-4941-bdb8-8c373c8b3486_2" />
+            <r uid="{AA26834A-E1C7-424A-995C-F4587E04A91C}" p:before="r[@uid='{73BAFBD5-9847-402D-90C3-3A229452DD06}']" s:ds="{81F9183A-A5A5-4228-95E2-4017AE4FFEEF}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-content/tab-content_7864aba5-a903-4941-bdb8-8c373c8b3486_1" />
+            <r uid="{73BAFBD5-9847-402D-90C3-3A229452DD06}" p:before="r[@uid='{7F21ADD1-A114-41B6-9D70-3D25BFA71830}']" s:ds="{A561C923-DEB6-4A57-9540-5EEDE2A6B0F2}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-content/tab-content_7864aba5-a903-4941-bdb8-8c373c8b3486" />
+            <r uid="{7F21ADD1-A114-41B6-9D70-3D25BFA71830}" p:before="r[@uid='{6B3F1E20-3710-4773-A1BC-128380529CBB}']" s:ds="{F5B2C37E-EB35-4953-A854-51277DE8DCBC}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_6" />
+            <r uid="{6B3F1E20-3710-4773-A1BC-128380529CBB}" p:before="r[@uid='{1A84C622-1022-4543-8113-98F0D3FF9FD7}']" s:ds="{529881FD-7F2A-46BE-B4C3-F9FA577F6C22}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_5" />
+            <r uid="{1A84C622-1022-4543-8113-98F0D3FF9FD7}" p:before="r[@uid='{ED77B012-663C-4F09-86CC-27AC96E1C531}']" s:ds="{9D455F2E-AD92-4E78-8CA6-DF2EE4362661}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_4" />
+            <r uid="{ED77B012-663C-4F09-86CC-27AC96E1C531}" p:before="r[@uid='{2E1B51BD-5207-4C98-890B-BDFD62A2D439}']" s:ds="{C0280F84-DC15-46EB-B344-B327A25B5C98}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_3">
+              <rls>
+                <ruleset>
+                  <rule uid="{57B3A494-63E4-4E94-A024-881154C1A006}" s:name="Football">
+                    <conditions>
+                      <condition uid="9B5282A231604CFD98F2523BC486A570" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Football Interest" />
+                    </conditions>
+                    <actions>
+                      <action uid="27948683219C4C9FA3248FC886BCD03E" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{029866DD-9778-4774-868B-9C550A09816F}" />
+                      <action uid="1ADD0FF249FB477BB8B725C7BBA861D6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{47D27225-73FD-4015-B521-5786FBDA4E8C}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{A68AE80C-5226-4C62-86FE-E14D9712D60A}" s:name="Man Utd">
+                    <conditions>
+                      <condition uid="8AA9C6358D44430EAC18201E334039A7" s:id="{BE334DF8-9A0F-4FF3-A6D8-C396EC713809}" s:PageId="{FA3B078E-1148-4CD7-8C83-D0C3E4058210}" />
+                    </conditions>
+                    <actions>
+                      <action uid="71F016B0D5F6478D95D5818090C5AEF5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B99EB55F-6801-4C4C-8FEB-AE3B055F5F87}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="7D48D7010F9C4D7A8745AD583ACF45E1" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{2E1B51BD-5207-4C98-890B-BDFD62A2D439}" p:before="r[@uid='{E9C78781-9A13-43CD-AA3D-D9B8DFE7D71F}']" s:ds="{F94E4866-F3F2-488B-BA89-AE700F0FCEA2}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_2">
+              <rls>
+                <ruleset>
+                  <rule uid="{960929F8-66EF-4394-8782-8089135E6BE0}" s:name="Airline">
+                    <conditions>
+                      <condition uid="47BCCE8B0F3A409C947EE667F0806877" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Airline Interest" />
+                    </conditions>
+                    <actions>
+                      <action uid="822CD569BC2E48DA899CC9F2B4922BBC" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{029866DD-9778-4774-868B-9C550A09816F}" />
+                      <action uid="E684462204F64EB4858E2BCDCCCC304B" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{7514DC23-680D-4CE4-B525-415A30138D19}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="81731DE3A16C48C0B3DF80629451EC7B" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{E9C78781-9A13-43CD-AA3D-D9B8DFE7D71F}" p:before="r[@uid='{8DE35397-4682-4E7E-9000-0C68A2B815E6}']" s:ds="{C72AD4FE-2F19-45C5-A5C4-38D73655A8A1}" s:id="{73D30326-07E1-4028-9D06-CCC414EC1170}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_1" />
+            <r uid="{8DE35397-4682-4E7E-9000-0C68A2B815E6}" p:before="r[@uid='{4371CD53-A8F4-4A30-9E0C-53C091282B83}']" s:ds="{83D6FFAD-0ABD-403B-9B24-5F39860E4BDB}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42_5" />
+            <r uid="{4371CD53-A8F4-4A30-9E0C-53C091282B83}" p:before="r[@uid='{FC11C406-959E-4760-B73A-F37AD62C6705}']" s:ds="{934C18F7-9ACF-46D1-99B1-BBDD7BB59A4D}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42_4" />
+            <r uid="{FC11C406-959E-4760-B73A-F37AD62C6705}" p:before="r[@uid='{D9CB79C4-D319-463C-ACC1-BEA01E65732F}']" s:ds="{869B4314-0159-4617-8B7B-D771D1D1DE7A}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42_3" />
+            <r uid="{D9CB79C4-D319-463C-ACC1-BEA01E65732F}" p:before="r[@uid='{70AD1C03-AA0E-47F0-82A5-11299E749C69}']" s:ds="{B4993DAD-E66B-4468-B755-2E11EA1EADF1}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42_2" />
+            <r uid="{70AD1C03-AA0E-47F0-82A5-11299E749C69}" p:before="r[@uid='{7D539C6F-D3F7-4920-8447-49BB347E4650}']" s:ds="{041E29FD-2B12-44ED-804D-581C789F29DF}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42_1" />
+            <r uid="{7D539C6F-D3F7-4920-8447-49BB347E4650}" p:before="r[@uid='{A172389C-5E81-45D8-A74D-6A81BC8FFD38}']" s:ds="{BF24513F-B473-48A2-8099-57A04EE37CAE}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_cb8d7f60-c2f7-44b9-bf5c-fde40a3c3a42" />
+            <r uid="{A172389C-5E81-45D8-A74D-6A81BC8FFD38}" p:before="r[@uid='{EF848CEA-FCFB-4AF5-97B9-D40ACF8B756E}']" s:id="{0BAE8A8B-730F-425F-8DBA-CFC67FA4C6EC}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b" />
+            <r uid="{EF848CEA-FCFB-4AF5-97B9-D40ACF8B756E}" p:before="r[@uid='{7D9AA5C4-3390-473D-B97D-03934F1E0205}']" s:id="{33CBA43D-87DE-4ABD-BF36-57259C220944}" s:ph="/page-content/tab-content_6bc4f741-a2a1-46fd-aceb-43e1be14ec8b_7" />
+            <r uid="{7D9AA5C4-3390-473D-B97D-03934F1E0205}" p:before="r[@uid='{5F383EA0-C6F2-4AAB-9A43-79AEBBCD9B82}']" s:ds="{D9503E51-AB7D-4DF4-97E3-D53374AE8412}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{0C71FD3B-A3E1-4C5D-BBA2-7DF378EA3CAD}" s:name="Arsenal">
+                    <conditions>
+                      <condition uid="FABA75ED6A7F449F8C363A7EFB1C9E56" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{234B9336-9EEF-4B5C-94F5-092EF13F34F0}" />
+                    </conditions>
+                    <actions>
+                      <action uid="76859B68AEE24DB6AFC25E7C308B00CD" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{C4E391A2-9A28-489F-81C0-AD148AC33CF5}" s:name="Airline">
+                    <conditions>
+                      <condition uid="D39609661E7045F2AE9AA9E0452E80C3" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Airline Interest" />
+                    </conditions>
+                    <actions>
+                      <action uid="E3AF3AAC956D4AEBB8EDC55D6B008CCD" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{502D5AA5-6A13-4ABA-BB2B-FC26665BF8DD}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{3131FCE9-F3DE-4393-9688-0F85EAF5E584}" s:name="Football">
+                    <conditions>
+                      <condition uid="7968891798384B81869747CD78AF23B6" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Football Interest" />
+                    </conditions>
+                    <actions>
+                      <action uid="CB75BBF546484E22980A083DA108F5D8" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{10ACCDC9-E9A6-4ADB-AEE7-9A130E192D99}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{87561E44-63A8-46B1-90BF-2DEFF8599A9B}" s:name="Man Utd">
+                    <conditions>
+                      <condition uid="B3D33846C3CE4A78AA2251D0516AD9CE" s:id="{BE334DF8-9A0F-4FF3-A6D8-C396EC713809}" s:PageId="{FA3B078E-1148-4CD7-8C83-D0C3E4058210}" />
+                    </conditions>
+                    <actions>
+                      <action uid="0C9AB3F73B9543A2B7EF0419E64BE4D3" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BD0F3FFA-1846-4E67-A668-CC5355506230}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="CE08951D3C864C77816E2EAEAFC2EAE0" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{5F383EA0-C6F2-4AAB-9A43-79AEBBCD9B82}" p:before="r[@uid='{7864ABA5-A903-4941-BDB8-8C373C8B3486}']" s:ds="{17B38361-9337-45F5-8AA8-35FE65656D97}" s:id="{97DE3287-649F-428B-9E74-2172096863D6}" s:ph="page-content" />
+            <r uid="{7864ABA5-A903-4941-BDB8-8C373C8B3486}" p:before="r[@uid='{6BC4F741-A2A1-46FD-ACEB-43E1BE14EC8B}']" s:ds="{C09F50CE-D282-4510-88DA-959B85FE8574}" s:id="{2500BC70-9CF8-44D4-84FE-3F30F5707203}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{6AE0C5F2-4F9F-4B53-8386-B4F2D2AD7C01}" s:name="Arsenal">
+                    <conditions>
+                      <condition uid="56AB596B07E641DBBBA295C728B53731" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{234B9336-9EEF-4B5C-94F5-092EF13F34F0}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="D2710BFD5D0E43A690E2FB70D6D89095" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="D49DE38BF2F84AA1A783070709BC131A" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{6BC4F741-A2A1-46FD-ACEB-43E1BE14EC8B}" p:before="r[@uid='{CB8D7F60-C2F7-44B9-BF5C-FDE40A3C3A42}']" s:ds="{2C900A84-C570-4B44-90D0-FB966B82B047}" s:id="{2500BC70-9CF8-44D4-84FE-3F30F5707203}" s:par="Active Tab=Airline" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{CA54CCAE-A890-4222-8FF6-25F9B3F626D3}" s:name="Arsenal">
+                    <conditions>
+                      <condition uid="3040103C07054BECBC3F5F844D513019" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{234B9336-9EEF-4B5C-94F5-092EF13F34F0}" />
+                    </conditions>
+                    <actions>
+                      <action uid="C53A764E05D94FFA90C486BC8010A9F2" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2C900A84-C570-4B44-90D0-FB966B82B047}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{09E39317-382A-415F-A354-AC9951C8CD91}" s:name="Airline">
+                    <conditions>
+                      <condition uid="C7EFC3F588FF458CA27E12DD37A54004" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Airline Interest" />
+                    </conditions>
+                    <actions>
+                      <action uid="0233E5975AE84FCE9A88ED0BF263CC32" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{00323B0B-26C5-48C3-B25C-2CA04149C3A1}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{D54A5AF6-3D0B-4B47-AA3C-A31E64745DE8}" s:name="Football">
+                    <actions>
+                      <action uid="E3FE85839EB44E89977880B997FCB281" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2C900A84-C570-4B44-90D0-FB966B82B047}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="F9723A8A0F324177AA6274967A3A97BA" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Card Interest" s:PatternName="Football Interest" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{5E189BC5-980B-43AC-ADBD-B3B5C6D53B98}" s:name="Man Utd">
+                    <conditions>
+                      <condition uid="D71C3F5205DB44C4B7E3CA5B7C036A1E" s:id="{BE334DF8-9A0F-4FF3-A6D8-C396EC713809}" s:PageId="{FA3B078E-1148-4CD7-8C83-D0C3E4058210}" />
+                    </conditions>
+                    <actions>
+                      <action uid="3649BE752D7242F49B5332859067A9FA" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2C900A84-C570-4B44-90D0-FB966B82B047}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="4275035496D142B9BFB4AA9C898A8767" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="2EB0C31C0BAB45F8AEC74BE2D97A59F7" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{097F8E00-A236-4DBB-A13E-E79C5861FBCA}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{CB8D7F60-C2F7-44B9-BF5C-FDE40A3C3A42}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:ds="{F2A0DE17-2D9B-4510-84E9-9B5381991EEC}" s:id="{688B66F9-E692-4115-8D44-0F06A2F0327E}" s:ph="page-content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160505T072154Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

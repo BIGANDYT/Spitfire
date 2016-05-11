@@ -1,8 +1,8 @@
 "use strict";
 
 // CONTACT MAP
-
-var PageModals = function() {
+var $jq = jQuery.noConflict();
+var PageModals = function($) {
 
 	var _init = function() {
 		$('#exampleModal2').on('show.bs.modal', function (event) {
@@ -25,8 +25,8 @@ var PageModals = function() {
         }
 
     };
-}();
+}($jq);
 
-$(document).ready(function() {
+$jq(document).ready(function () {
     PageModals.init();
 });

@@ -2,27 +2,37 @@
 @using Habitat.Framework.SitecoreExtensions.Extensions
 @using Habitat.PageContent
 @using Sitecore.Mvc.Presentation
-@model Sitecore.Mvc.Presentation.RenderingModel
+@model Habitat.PageContent.Models.TaggingModel
 <div class="c-content-blog-post-1">
     <div class="c-title c-font-bold c-font-uppercase">
         <a href="#">@Html.Sitecore().Field("Title")</a>
     </div>
     <div class="c-panel c-margin-b-30">
-        <div class="c-author">
-            <a href="#">
-                By
-                <span class="c-font-uppercase">@Html.Sitecore().Field("Author")</span>
-            </a>
-        </div>
-        <div class="c-date">
-            on
-            <span class="c-font-uppercase">@Html.Sitecore().Field("Date")</span>
-        </div>
-        <ul class="c-tags c-theme-ul-bg">
-            <li>ux</li>
-            <li>marketing</li>
-            <li>events</li>
-        </ul>
+        @if (Model.Item.Fields["Author"] != null)
+        {
+            <div class="c-author">
+                <a href="#">
+                    By
+                    <span class="c-font-uppercase">@Html.Sitecore().Field("Author")</span>
+                </a>
+            </div>
+        }
+        @if (Model.Item.Fields["Date"] != null)
+            {
+            <div class="c-date">
+                on
+                <span class="c-font-uppercase">@Html.Sitecore().Field("Date")</span>
+            </div>
+        }
+        @if (Model.Tags != null)
+            {
+            <ul class="c-tags c-theme-ul-bg">
+                @foreach (var item in Model.Tags)
+                {
+                    <li>@Html.Sitecore().Field("Title", item)</li>
+                }
+            </ul>
+        }
     </div>
     <div class="c-desc">
         @Html.Sitecore().Field("Description")

@@ -1,0 +1,23 @@
+﻿---
+ID: 64adb278-c009-4c96-a47c-0994306b31e5
+Parent: f39f5569-1e3e-4c4c-9ee4-fb441797c799
+Template: 8d6f576e-2b25-4001-a89b-4c16f4f31b81
+Path: /sitecore/content/Shared/Spitfire/Section/Insurance Logos
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T103021Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: A selection of our trusted insurers
+    - ID: ef6954e4-70e4-4704-97b2-13c1a5d96efa
+      # CarouselItems
+      Value: /sitecore/media library/Images/Insurance/PartnerLogos

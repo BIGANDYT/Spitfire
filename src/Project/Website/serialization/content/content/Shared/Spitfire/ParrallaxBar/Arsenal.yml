@@ -1,0 +1,19 @@
+﻿---
+ID: 17b38361-9337-45f5-8aa8-35fe65656d97
+Parent: f5a01205-f3f5-439b-8f4b-8bad2d87dcb6
+Template: e129ed37-9673-4bce-8189-bb527f12e915
+Path: /sitecore/content/Shared/Spitfire/ParrallaxBar/Arsenal
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160511T065714Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: The arsenal Credit Card
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{9AB9A136-9A21-4CB6-A14D-BFDF9D065A00}\" />"
