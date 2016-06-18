@@ -1,0 +1,13 @@
+﻿---
+ID: 44892285-eb4e-42ed-9f73-38ef7fe54404
+Parent: bf24513f-b473-48a2-8099-57a04ee37cae
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Apple Pay/Apple Pay
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160511T151907Z

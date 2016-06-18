@@ -45,6 +45,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{9296C252-3F6B-4952-A4A9-389DFAA28BFE}" p:before="r[@uid='{C2B9C7E6-3802-464F-92B8-744B39E67BA7}']" s:ds="{BF24513F-B473-48A2-8099-57A04EE37CAE}" s:id="{0AF99576-9BC3-435B-B10E-E033D0E4750D}" s:ph="/page-content/teaser_c6f3f0cb-425b-43ca-a316-7488f737620b" />
             <r uid="{C2B9C7E6-3802-464F-92B8-744B39E67BA7}" p:before="r[@uid='{2BDACA24-283B-4034-8870-B6E271A58EF7}']" s:id="{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}" s:ph="page-content" />
             <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}" p:before="r[@uid='{C6F3F0CB-425B-43CA-A316-7488F737620B}']" s:id="{CB2FD1C3-CDB1-4809-BB30-61AAF730644A}" s:ph="page-content" />
             <r uid="{C6F3F0CB-425B-43CA-A316-7488F737620B}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:ds="{D6CE4661-1634-433F-902A-1FAF707689ED}" s:id="{688B66F9-E692-4115-8D44-0F06A2F0327E}" s:ph="page-content" />
@@ -70,7 +71,7 @@ Languages:
       Value: Earn Skywards Miles for every pound you spend and get closer to your next reward flight.
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
-      Value: Emirates Skywards Credit Card Account
+      Value: Emirates Skywards Credit Card Account Giles
     - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
       # Image
       Value: "<image mediaid=\"{C9693091-1ED9-45FF-9D22-E36A21683966}\" />"

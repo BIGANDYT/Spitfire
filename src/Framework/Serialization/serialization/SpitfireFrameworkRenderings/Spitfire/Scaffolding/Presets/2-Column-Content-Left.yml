@@ -14,8 +14,12 @@ SharedFields:
   # Compatible Renderings
   Type: Treelist
   Value: |
+    {E43E9454-DE61-4EEA-8041-F3D555AF40ED}
     {96A0D722-703F-4958-B87C-5282BC492362}
     {014B5CBC-31BB-4041-AE80-BC02FC44B92E}
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
 Languages:
 - Language: en
   Versions:

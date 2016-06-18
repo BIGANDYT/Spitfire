@@ -53,4 +53,10 @@
   <File Include="Views\Teasers\Jango\Teaser\ImageTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{73D30326-07E1-4028-9D06-CCC414EC1170}</Item>
   </File>
+  <File Include="Views\Teasers\Jango\Teaser\FreeTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B55D3B39-5B04-42E8-9C81-82577FBEC71E}</Item>
+  </File>
+  <File Include="Views\Teasers\Jango\Teaser\TestimonialTeaser.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{383EB267-D528-47C4-A364-8AB7B97AD205}</Item>
+  </File>
 </Project>

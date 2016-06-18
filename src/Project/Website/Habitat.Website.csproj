@@ -132,6 +132,9 @@
       <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\..\..\..\Websites\habitat.jango\Website\bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
       <Private>True</Private>
@@ -179,6 +182,7 @@
     <Content Include="sitecore modules\Web\Web Forms for Marketers\mvc\main.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="sitecore\shell\client\Sitecore\ExperienceEditor\Commands\OpenFlagContent.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -198,6 +202,7 @@
     <Content Include="Views\Website\Layouts\Jango\BingInsurance.cshtml" />
     <Content Include="Views\Website\Layouts\Jango\BingEducation.cshtml" />
     <Content Include="Views\Form\EditorTemplates\FormViewModel.cshtml" />
+    <Content Include="Views\Website\Layouts\Jango\BingWater.cshtml" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

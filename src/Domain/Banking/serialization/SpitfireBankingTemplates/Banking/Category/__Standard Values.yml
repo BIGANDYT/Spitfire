@@ -7,7 +7,10 @@ SharedFields:
 - ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
   # __Masters
   Type: TreelistEx
-  Value: {4B219152-BD98-4E3F-A625-74F050B5E699}
+  Value: |
+    {4B219152-BD98-4E3F-A625-74F050B5E699}
+    {62230B9A-25D2-436F-ADAC-55C2FCBD0448}
+    {8BF8EFD4-0E6A-4F11-9C64-C16F79111552}
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
   # __Renderings
   Type: layout

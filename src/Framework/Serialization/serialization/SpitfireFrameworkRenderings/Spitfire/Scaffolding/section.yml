@@ -10,6 +10,9 @@ SharedFields:
 - ID: 7d24e54f-5c16-4314-90c9-6051aa1a7da1
   # Parameters Template
   Value: {8D6F576E-2B25-4001-A89B-4C16F4F31B81}
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{71E46C3E-3676-400E-A53D-C0B4A32B06E7}\" />"
 - ID: ddab263e-b42e-419a-aa6f-081b7393ca38
   # Model
   Value: /sitecore/layout/Models/Spitfire/Section

@@ -1,0 +1,26 @@
+﻿---
+ID: 647e9c26-8289-4aae-8ef3-cde2837e1f9b
+Parent: de205715-0dcc-4547-8006-619d9442e909
+Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
+Path: /sitecore/content/Utilities/Home/Blog/News Article
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160614T121426Z
+    - ID: 3c7a0205-b583-4b5f-8f02-47f1fc6a1aba
+      # Author
+      Value: Chris Lowndes
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: News Article

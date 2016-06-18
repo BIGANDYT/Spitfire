@@ -6,7 +6,7 @@ Path: /sitecore/templates/Spitfire/Pages/News Article
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   # __Icon
-  Value: Office/16x16/document_orientation_portrait.png
+  Value: Network/16x16/news.png
 - ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
   # __Base template
   Type: tree list
@@ -14,6 +14,13 @@ SharedFields:
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
     {73B12910-F114-43DD-8010-ACF68E9A6062}
     {183C062E-190A-40AB-891E-4D9D09E9B6BF}
+    {B8DC8C47-FA04-4DF6-B84A-E82D84C208DA}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:write|+item:create|pd|+item:write|+item:create|
 - ID: f7d48a55-2158-4f02-9356-756654404f73
   # __Standard values
   Value: {2D13A1FD-25AE-4385-AF3F-645E80AAE90E}

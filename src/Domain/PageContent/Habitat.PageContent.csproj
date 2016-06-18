@@ -179,6 +179,8 @@
     <Content Include="Views\PageContent\Jango\Page\PageTitleDescriptionImage.cshtml" />
     <Content Include="Views\PageContent\Jango\List\ItemList.cshtml" />
     <Content Include="Views\PageContent\Jango\Carousel\FeatureCarousel.cshtml" />
+    <Content Include="Views\PageContent\Jango\GoogleMap.cshtml" />
+    <Content Include="Views\PageContent\Jango\Scaffolding\1-Column.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

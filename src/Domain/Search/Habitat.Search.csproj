@@ -96,6 +96,9 @@
       <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\..\..\..\Websites\habitat.jango\Website\bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
       <Private>True</Private>
@@ -121,14 +124,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\QueryRepository.cs" />
     <Compile Include="Controllers\SearchController.cs" />
-    <Compile Include="Models\SearchServiceRepository.cs" />
-    <Compile Include="Models\SearchSettingsRepository.cs" />
-    <Compile Include="Models\SearchSettings.cs" />
+    <Compile Include="Model\SearchModel.cs" />
+    <Compile Include="SearchService.cs" />
     <Compile Include="Templates.cs" />
-    <Compile Include="Models\SearchResult.cs" />
-    <Compile Include="Models\SearchResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -140,10 +139,8 @@
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="README.md" />
-    <Content Include="Views\Search\GlobalSearch.cshtml" />
-    <Content Include="Views\Search\SearchResults.cshtml" />
-    <Content Include="Views\Search\SearchSettings.cshtml" />
-    <Content Include="Views\Search\Jango\Search.cshtml" />
+    <Content Include="Views\Search\Jango\SearchButton.cshtml" />
+    <Content Include="Views\Search\Jango\QuickSearch.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

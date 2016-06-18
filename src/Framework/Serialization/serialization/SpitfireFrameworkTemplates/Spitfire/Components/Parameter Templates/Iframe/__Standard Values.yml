@@ -1,0 +1,13 @@
+﻿---
+ID: fbf1a1db-c985-462d-8342-ee3b5f32040b
+Parent: dea86580-c678-401c-934d-58c5164849b5
+Template: dea86580-c678-401c-934d-58c5164849b5
+Path: /sitecore/templates/Spitfire/Components/Parameter Templates/Iframe/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T082414Z

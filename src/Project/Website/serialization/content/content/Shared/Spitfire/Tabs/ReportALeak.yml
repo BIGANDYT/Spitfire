@@ -1,0 +1,22 @@
+﻿---
+ID: c3ea4e79-b827-4c02-b0bb-4e39a2bcee16
+Parent: 2d050e0a-ecd1-45b1-b642-780a37012752
+Template: 54f7309c-4b6b-4c31-92ee-4ebffe52c767
+Path: /sitecore/content/Shared/Spitfire/Tabs/ReportALeak
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160526T075800Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Report a Leak
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{276DBF0D-CA2E-4F94-A94D-227A8351FA8D}\" alt=\"\" height=\"90\" width=\"90\" hspace=\"\" vspace=\"\" />"

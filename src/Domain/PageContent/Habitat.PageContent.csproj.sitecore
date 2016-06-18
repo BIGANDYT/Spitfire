@@ -131,4 +131,10 @@
   <File Include="Views\PageContent\Jango\Carousel\FeatureCarousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{029866DD-9778-4774-868B-9C550A09816F}</Item>
   </File>
+  <File Include="Views\PageContent\Jango\GoogleMap.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D758B534-5996-4160-AED9-24A7B56AFCAE}</Item>
+  </File>
+  <File Include="Views\PageContent\Jango\Scaffolding\1-Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E43E9454-DE61-4EEA-8041-F3D555AF40ED}</Item>
+  </File>
 </Project>

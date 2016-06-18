@@ -1,0 +1,16 @@
+﻿---
+ID: dd953d1c-b5a7-4d65-b2ef-d24130151ce6
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/carvideo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160615T101128Z
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oGvZsB5AuaQ\" frameborder=\"0\"></iframe>"

@@ -1,0 +1,22 @@
+﻿---
+ID: 46370793-abd3-4264-8e3a-63ece6771439
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Think I smell Gas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160526T082508Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{F3EF6F64-59BC-4442-82EF-3724B46250B0}\" />"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: I Think I smell Gas?
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{D7CB5C67-EC0F-4E6A-BBC3-30AA8F274705}\" />"

@@ -1,55 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Mvc;
-using Habitat.Framework.Indexing;
-using Habitat.Framework.Indexing.Models;
+﻿using System.Web.Mvc;
 using Habitat.Framework.SitecoreExtensions.Extensions;
-using Habitat.Search.Models;
-using Sitecore.Data.Items;
 using Sitecore.Mvc.Presentation;
+using Sitecore.Mvc.Controllers;
+using Habitat.Search.Model;
+using Sitecore.SecurityModel;
+using Sitecore.Data;
+using Sitecore.Data.Items;
+using System;
+using Sitecore.ContentSearch;
+using Sitecore.ContentSearch.SearchTypes;
+using Habitat.Search;
+using Sitecore.ContentSearch.Linq;
 
-namespace Habitat.Search.Controllers
+namespace Habitat.News.Controller
 {
-    public class SearchController : Controller
+    public class SearchController : SitecoreController
     {
-        public ActionResult SearchResults(string query)
-        {
-            return View("SearchResults", GetSearchResults(query));
-        }
 
-        public ActionResult GlobalSearch()
+        [HttpPost]
+        public ActionResult DoSearch(SearchModel commentModel)
         {
-            return View("GlobalSearch", GetSearchSettings());
-        }
-
-        public ActionResult SearchSettings(string query)
-        {
-            return View("SearchSettings", GetSearchSettings(query));
-        }
-
-        private ISearchResults GetSearchResults(string queryText)
-        {
-            var results = this.HttpContext.Items["SearchResults"] as ISearchResults;
-            if (results != null)
-                return results;
-
-            var query = CreateQuery(queryText);
-            results = SearchServiceRepository.Get().Search(query);
-            this.HttpContext.Items.Add("SearchResults", results);
-            return results;
-        }
-
-        private IQuery CreateQuery(string queryText)
-        {
-            return QueryRepository.Get(queryText);
-        }
-
-        private SearchSettings GetSearchSettings(string query = null)
-        {
-            return SearchSettingsRepository.Get(query);
+            SearchService ss = new SearchService();
+            Sitecore.Data.ID templateId = new Sitecore.Data.ID("{4E4C2EB4-F7A5-403B-A80E-44146C66A42A}");           
+            ss.TemplateRestrictions.Add(templateId);
+            // Add a facet
+            //peopleSearch.Facets.Add("role_sm");
+            // get results
+            SearchResults<SearchResultItem> searchResults = ss.Search(commentModel.SearchTerm);
+            //searchResults.Hits;
+            //hit.Document.Firstname
+            return base.Index();
         }
     }
 }

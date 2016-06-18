@@ -147,6 +147,8 @@
     <Content Include="Views\Teasers\Jango\Teaser\IconTeaser2.cshtml" />
     <Content Include="Views\Teasers\Jango\Teaser\ImageHoverTeaser.cshtml" />
     <Content Include="Views\Teasers\Jango\Teaser\ImageTeaser.cshtml" />
+    <Content Include="Views\Teasers\Jango\Teaser\FreeTeaser.cshtml" />
+    <Content Include="Views\Teasers\Jango\Teaser\TestimonialTeaser.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

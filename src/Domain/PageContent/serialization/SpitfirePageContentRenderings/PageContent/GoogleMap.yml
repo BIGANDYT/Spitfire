@@ -1,0 +1,26 @@
+﻿---
+ID: d758b534-5996-4160-aed9-24a7b56afcae
+Parent: 1918b848-f9c7-4d4d-bb1a-6fd1d821c5f0
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/GoogleMap
+SharedFields:
+- ID: 1084d3d2-0457-456a-abbc-eb4cc0966072
+  # VaryByQueryString
+  Value: 1
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/GoogleMap.cshtml
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediapath=\"\" alt=\"gmap\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{3DE8B8AB-74C8-48A6-A61C-C34D091D9B98}\" />"
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160613T142243Z

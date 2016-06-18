@@ -2,7 +2,13 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\Search\Jango\Search.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+  <File Include="Views\Search\Jango\SearchButton.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}</Item>
+  </File>
+  <File Include="Views\Search\Jango\QuickSearch.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CA474A46-8B0F-449A-A86F-541A1E82784F}</Item>
+  </File>
+  <File Include="Model\SearchModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{2F7A804D-4A3D-4A2E-9C34-2F4DA642A3A3}</Item>
   </File>
 </Project>

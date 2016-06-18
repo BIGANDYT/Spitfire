@@ -11,9 +11,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151122T105458Z
-    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
-      # Link
-      Value: "<link text=\"Use water wisely\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{9FCB5295-E71B-4423-99B2-7E8CC33789A8}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin
@@ -26,5 +23,5 @@ Languages:
       # Title
       Value: Summer Holidays
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{CD6C6E6A-6214-4DA5-9968-3BD3C929AA8D}\" />"

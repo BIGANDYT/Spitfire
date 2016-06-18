@@ -32,7 +32,7 @@ var PageContact = function() {
 
     };
 }();
-
-$(document).ready(function() {
+var $jq = jQuery.noConflict();
+$jq(document).ready(function() {
     PageContact.init();
 });

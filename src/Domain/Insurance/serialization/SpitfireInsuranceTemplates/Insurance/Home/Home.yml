@@ -1,0 +1,16 @@
+﻿---
+ID: 33686b15-3281-4e75-88bf-de1b4a415ec4
+Parent: 7fe23a7a-e6b7-4155-bb04-1815ce02249d
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Domain/Insurance/Home/Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160617T191039Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

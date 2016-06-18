@@ -1,0 +1,35 @@
+﻿---
+ID: efe928b0-0b78-4e25-a516-72a54c94c9c8
+Parent: 5cf336aa-5064-4b86-91e9-6336bf2d5a54
+Template: 99f8905d-4a87-4eb8-9f8b-a9bebfb3add6
+Path: /sitecore/layout/Renderings/Spitfire/Domain/PageContent/Features/Features-2-Col-Title
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/Spitfire/Scaffolding/Section
+- ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
+  # Path
+  Value: /Views/PageContent/Jango/Features-2-col.cshtml
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: /sitecore/content/Shared/Spitfire/Section
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{1DF6EA8A-B785-4C79-B85F-BB93280500A9}\" />"
+- ID: ddab263e-b42e-419a-aa6f-081b7393ca38
+  # Model
+  Value: /sitecore/layout/Models/Spitfire/Domain/PageContent/PageContentModel
+- ID: e441abe7-2ca3-4640-ae26-3789967925d7
+  # Compatible Renderings
+  Type: Treelist
+  Value: |
+    {477A75EF-D902-4A5F-B177-C64245A19B6D}
+    {242EC183-8B17-4D46-9474-B6563CF7B581}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151215T083052Z

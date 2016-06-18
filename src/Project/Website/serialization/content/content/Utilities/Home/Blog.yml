@@ -1,12 +1,19 @@
 ﻿---
 ID: de205715-0dcc-4547-8006-619d9442e909
 Parent: f3ef6f64-59bc-4442-82ef-3724b46250b0
-Template: 4ba8db73-24b4-4e90-9ab5-3eaae832dc08
+Template: d075a1ba-b5df-4780-85dd-7d9f178af68c
 Path: /sitecore/content/Utilities/Home/Blog
 SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {3CEDB495-B3F1-4D48-AD62-159BC17BB1B0}
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
   Value: 150
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: au|default\Anonymous|pe|+item:create|pd|+item:create|ar|sitecore\Sitecore Client Authoring|pe|+item:write|+item:create|pd|+item:write|+item:create|
 Languages:
 - Language: en
   Versions:

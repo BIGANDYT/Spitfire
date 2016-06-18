@@ -1,0 +1,13 @@
+﻿@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Teasers
+@model Habitat.Teasers.Models.Jango.TeaserModel
+<div class="c-content-testimonial-3 c-option-default">
+    <div class="c-content"> @Html.Sitecore().Field("Description", @Model.Item) </div>
+    <div class="c-person">
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+        <div class="c-person-detail c-font-uppercase">
+            <h4 class="c-name">@Html.Sitecore().Field("Title", @Model.Item)</h4>
+            <p class="c-position c-font-bold c-theme-font">@Html.Sitecore().Field("Author", @Model.Item)</p>
+        </div>
+    </div>
+</div>

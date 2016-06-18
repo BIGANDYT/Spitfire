@@ -6,7 +6,7 @@ Path: /sitecore/templates/Spitfire/ItemTypes/Faq
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   # __Icon
-  Value: Applications/32x32/form_blue.png
+  Value: Office/16x16/speech_balloon_question.png
 - ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
   # __Base template
   Type: tree list

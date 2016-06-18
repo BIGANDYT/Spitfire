@@ -1,0 +1,20 @@
+﻿---
+ID: 07b3d367-06ea-44b1-8fd2-2b144a25b7c3
+Parent: 5dd7515e-8a40-46bc-b31a-1535c1dbe8c7
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Components/Parameter Templates/Iframe/Iframe/Title
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160613T120657Z

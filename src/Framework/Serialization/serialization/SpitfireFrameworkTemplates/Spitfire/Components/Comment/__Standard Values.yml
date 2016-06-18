@@ -1,0 +1,26 @@
+﻿---
+ID: 1bd2987b-b650-440e-ac3b-82e333b8823d
+Parent: d8287d58-67bf-456f-b09e-6a1180819833
+Template: d8287d58-67bf-456f-b09e-6a1180819833
+Path: /sitecore/templates/Spitfire/Components/Comment/__Standard Values
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+- ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
+  # __Default workflow
+  Value: {E38D2FD6-61EA-489F-8E05-F7981B345287}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160614T100256Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {11111111-1111-1111-1111-111111111111}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

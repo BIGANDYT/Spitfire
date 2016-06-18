@@ -1,0 +1,20 @@
+﻿---
+ID: cfc2925d-878e-442a-886a-50e62844a26d
+Parent: 5283a0b4-458f-4c36-9c26-dead2a80673c
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Domain/Banking/Home/Home/Image
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Image
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160617T191105Z

@@ -1,0 +1,20 @@
+﻿---
+ID: be50c584-2350-4e4f-a1db-e3a808ab37f6
+Parent: dac24edd-44fb-42ef-9ecd-1e8daf706386
+Template: f023e983-3c84-49b8-bdfd-fcddbf568157
+Path: /sitecore/content/Habitat/Home/Airline Cards
+SharedFields:
+- ID: 19b597d3-2edd-4ae2-aefe-4a94c7f10e31
+  # __Source Item
+  Value: sitecore://master/{7514DC23-680D-4CE4-B525-415A30138D19}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b86697d-60ca-4d80-83fb-7555a2e6ce1c
+      # __Source
+      Value: sitecore://master/{7514DC23-680D-4CE4-B525-415A30138D19}?lang=en&ver=1
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160512T093658Z

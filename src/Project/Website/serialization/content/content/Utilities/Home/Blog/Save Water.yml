@@ -4,6 +4,19 @@ Parent: de205715-0dcc-4547-8006-619d9442e909
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Path: /sitecore/content/Utilities/Home/Blog/Save Water
 SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{DF790885-D80D-432C-A629-9B9A21922D2F}" name="Utilities Interest" presets="chris|100||">
+        <key name="Gas" value="1" />
+        <key name="Electricity" value="1" />
+        <key name="Charity" value="5" />
+        <key name="Land Owner" value="0" />
+        <key name="Property" value="0" />
+      </profile>
+    </tracking>
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
   Value: 700
@@ -25,7 +38,7 @@ Languages:
       # Title
       Value: Save Water
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{AED4ECF5-BB0A-4055-9FF4-386288D236F8}\" />"
     - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
       # Summary

@@ -4,6 +4,9 @@ Parent: 4b219152-bd98-4e3f-a625-74f050b5e699
 Template: 4b219152-bd98-4e3f-a625-74f050b5e699
 Path: /sitecore/templates/Spitfire/Domain/Banking/Product/__Standard Values
 SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B4C6626A-C69F-45E6-AE4C-F1156C30C1BA}
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
   # __Renderings
   Type: layout

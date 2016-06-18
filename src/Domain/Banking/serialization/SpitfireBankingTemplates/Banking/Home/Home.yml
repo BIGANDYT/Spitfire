@@ -1,0 +1,16 @@
+﻿---
+ID: 5283a0b4-458f-4c36-9c26-dead2a80673c
+Parent: ec40cc6f-0c81-4e8f-ab43-27bb5c11a53e
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Domain/Banking/Home/Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160617T191105Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

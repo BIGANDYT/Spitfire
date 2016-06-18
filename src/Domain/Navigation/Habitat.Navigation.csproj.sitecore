@@ -2,9 +2,6 @@
   <PropertyGroup>
     <Site Server="habitat.jango" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
-  <File Include="Views\Navigation\Jango\Breadcrumbs.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{EC85F344-CC40-4E56-B1A0-E9B748995F11}</Item>
-  </File>
   <File Include="Views\Navigation\Jango\Breadcrumbs-Image.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{FC2DC32A-3762-4DE4-B960-4E42F9CE333C}</Item>
   </File>
@@ -16,5 +13,14 @@
   </File>
   <File Include="Models\Jango\Menu.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{93CB577D-C233-48A5-9F00-FDB918F45F3D}</Item>
+  </File>
+  <File Include="Views\Navigation\Jango\Breadcrumbs.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1DADCD08-B7F0-4A7A-9C5E-DF1DB0E8EFF9}</Item>
+  </File>
+  <File Include="Models\NavigationItems.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{453F09BB-76BC-4830-93FA-EA7D04DA6E53}</Item>
+  </File>
+  <File Include="Models\Jango\Breadcrumb.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{73F66C49-E2D8-40B5-9830-AC2A2E95A95D}</Item>
   </File>
 </Project>

@@ -1,0 +1,22 @@
+﻿---
+ID: cdd488aa-5dfa-474b-b624-8958d28178aa
+Parent: f5a01205-f3f5-439b-8f4b-8bad2d87dcb6
+Template: e129ed37-9673-4bce-8189-bb527f12e915
+Path: /sitecore/content/Shared/Spitfire/ParrallaxBar/new parrlax bar
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160527T100955Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{ED54F30B-3810-410E-9AAA-EEF01878B935}\" />"
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: hello this is a new banner
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{B881C6F1-7E7E-44D8-B0DD-21C68F1CF970}\" />"

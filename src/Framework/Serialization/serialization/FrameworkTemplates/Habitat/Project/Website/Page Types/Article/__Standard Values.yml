@@ -34,11 +34,9 @@ Languages:
       Value: |
         <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{DF9D127F-B388-4746-89E7-7E6D78D35186}">
-            <r uid="{5358E404-BBC3-4D11-B68E-276886D2BA7A}" id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" ph="/page-content/col-content_086ed505-01d8-490b-8a9d-f68ae14f47d7" />
-            <r uid="{63674056-B12D-4121-92D4-2DD81DE61C62}" ds="{14368BAE-D1D4-45BA-BC47-B1189AF83EB5}" id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" ph="/page-content/col-sidebar_086ed505-01d8-490b-8a9d-f68ae14f47d7" />
+            <r uid="{CFC9C14F-A112-4D73-AEC4-84252420AFA2}" id="{3B04617D-4E9A-4210-BE56-BB8BB68F2B0F}" ph="page-content" />
             <r uid="{FADE63AA-F8D6-4A93-99CE-5D5A45B5129A}" ds="{14368BAE-D1D4-45BA-BC47-B1189AF83EB5}" id="{87304361-D27E-4D15-8AE6-23B9BE1B1DB4}" ph="/page-content/col-sidebar" />
             <r uid="{F8E470A1-2625-4E14-9526-C93043797960}" id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" ph="/page-content/col-content" />
-            <r uid="{086ED505-01D8-490B-8A9D-F68AE14F47D7}" id="{96A0D722-703F-4958-B87C-5282BC492362}" ph="page-content" />
             <r uid="{BC6BB3D1-9406-4437-A68D-1AACD47B290D}" id="{BB45BD7C-CE8E-4FED-B18F-2A1399EC9CCA}" ph="footer" />
             <r uid="{88543D28-D6C2-4BDE-94DD-C578717E3B79}" id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" ph="/header/menu/menu-widgets" />
             <r uid="{4C0ACE67-6EC0-4CB7-8D44-49C17BB28551}" id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" ph="/header/menu/menu-widgets" />

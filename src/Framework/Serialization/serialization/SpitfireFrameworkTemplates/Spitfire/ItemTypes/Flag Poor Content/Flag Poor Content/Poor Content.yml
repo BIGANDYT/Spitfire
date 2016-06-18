@@ -1,0 +1,20 @@
+﻿---
+ID: 36af5b94-dadb-4bbc-9174-fae360f1045f
+Parent: 97b5462f-f616-4957-8629-bf2f21bc6b92
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/ItemTypes/Flag Poor Content/Flag Poor Content/Poor Content
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Checkbox
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160613T200322Z

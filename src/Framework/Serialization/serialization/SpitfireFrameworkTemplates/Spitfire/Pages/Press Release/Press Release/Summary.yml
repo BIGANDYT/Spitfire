@@ -1,0 +1,20 @@
+﻿---
+ID: a45c1218-c050-4c60-bf25-06da4445cd5a
+Parent: 703a2f3c-b780-4e10-93ca-d69b1d21d8f6
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Spitfire/Pages/Press Release/Press Release/Summary
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Rich Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151130T085520Z

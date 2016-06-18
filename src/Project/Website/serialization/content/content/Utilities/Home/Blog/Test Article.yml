@@ -1,0 +1,16 @@
+﻿---
+ID: 79039497-b997-4e58-ab56-565bc9724618
+Parent: de205715-0dcc-4547-8006-619d9442e909
+Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
+Path: /sitecore/content/Utilities/Home/Blog/Test Article
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160614T121330Z
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Test Article

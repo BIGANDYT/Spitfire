@@ -1,0 +1,11 @@
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.Search
+@using Sitecore.Mvc.Presentation
+@model Habitat.Search.Model.SearchModel
+@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post, new { @class = "c-quick-search" }))
+{
+    @Html.Sitecore().FormHandler()
+    <input type="text" name="SearchTerm" placeholder="Type to search it..." value="" class="form-control" autocomplete="off">
+    <span class="c-theme-link">&times;</span>
+}

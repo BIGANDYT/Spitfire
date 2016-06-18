@@ -1,0 +1,16 @@
+﻿---
+ID: 32aa2e34-e10b-4994-a2f2-c97ed57acabb
+Parent: 4a8822cc-b418-4452-ab0f-8bb6df2f2114
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Domain/Utilities/Home/Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160617T190811Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1300,6 +1300,7 @@
     <Content Include="assets\base\js\components.js" />
     <Content Include="assets\base\js\scripts\pages\2col-portfolio.js" />
     <Content Include="assets\base\js\scripts\pages\4col-portfolio.js" />
+    <Content Include="assets\base\js\scripts\pages\routemap.js" />
     <Content Include="assets\base\js\scripts\pages\contact-2.js" />
     <Content Include="assets\base\js\scripts\pages\contact.js" />
     <Content Include="assets\base\js\scripts\pages\extended-portfolio.js" />

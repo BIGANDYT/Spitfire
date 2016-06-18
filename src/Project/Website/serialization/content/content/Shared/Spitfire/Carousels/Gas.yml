@@ -1,0 +1,20 @@
+﻿---
+ID: 5bd7ebb1-cdbd-4e65-b066-e03a649e99a9
+Parent: a54a2c37-73aa-4569-8fcb-594ef39a0187
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Shared/Spitfire/Carousels/Gas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: {5E486F23-EC3F-4EE7-B334-49CD57045C16}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160525T212225Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

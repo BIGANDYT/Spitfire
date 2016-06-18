@@ -7,6 +7,15 @@ SharedFields:
 - ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
   # Path
   Value: /Views/Navigation/Jango/Breadcrumbs-Image.cshtml
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediapath=\"\" alt=\"bread image\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{0F945A82-FA44-4346-8FB0-AA0765312CF4}\" />"
+- ID: ddab263e-b42e-419a-aa6f-081b7393ca38
+  # Model
+  Value: /sitecore/layout/Models/Spitfire/Domain/Navigation/Breadcrumb
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
 Languages:
 - Language: en
   Versions:

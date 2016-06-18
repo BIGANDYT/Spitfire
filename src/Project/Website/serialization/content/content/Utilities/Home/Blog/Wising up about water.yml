@@ -12,12 +12,12 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="laura|100||">
-        <key name="Supply" value="1" />
-        <key name="Services" value="1" />
-        <key name="Saving" value="0" />
+      <profile id="{DF790885-D80D-432C-A629-9B9A21922D2F}" name="Utilities Interest" presets="chris|100||">
+        <key name="Gas" value="1" />
+        <key name="Electricity" value="1" />
         <key name="Charity" value="5" />
-        <key name="Self Service" value="0" />
+        <key name="Land Owner" value="0" />
+        <key name="Property" value="0" />
       </profile>
     </tracking>
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
@@ -44,7 +44,7 @@ Languages:
       # Title
       Value: Wising up about water
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{B08BD30E-8E53-4A10-BA18-97E90CDE510B}\" />"
     - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
       # Summary

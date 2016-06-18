@@ -20,4 +20,10 @@
   <File Include="Views\News\Jango\NewsCategories.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{E3937E4F-49E2-47B3-AD5D-D866B57E56BA}</Item>
   </File>
+  <File Include="Views\News\Jango\Comments.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DDCC4FC7-7F04-48C5-BADD-0696A0376152}</Item>
+  </File>
+  <File Include="Model\CommentModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0529ED96-3311-4A3D-8A81-3704B8593093}</Item>
+  </File>
 </Project>

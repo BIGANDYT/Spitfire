@@ -83,6 +83,14 @@ Languages:
             <r uid="{7D9AA5C4-3390-473D-B97D-03934F1E0205}" p:before="r[@uid='{5F383EA0-C6F2-4AAB-9A43-79AEBBCD9B82}']" s:ds="{D9503E51-AB7D-4DF4-97E3-D53374AE8412}" s:id="{E7079EFA-14CA-4823-8974-3E8FF368F08D}" s:ph="page-content">
               <rls>
                 <ruleset>
+                  <rule uid="{F454CDC1-1730-4E41-93C1-A24FC383DAD0}" s:name="Everton Condition">
+                    <conditions>
+                      <condition uid="7E583812A7B54F20A4A114E5036869FB" s:id="{03558744-9EA4-43BD-81DD-A9D8B5D59474}" s:operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}" s:value="Liverpool" />
+                    </conditions>
+                    <actions>
+                      <action uid="1E8D0847B37643BCB61BDD0FB423F3D3" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B53F5A75-D204-42C1-AFD1-990C62F9DCF5}" />
+                    </actions>
+                  </rule>
                   <rule uid="{0C71FD3B-A3E1-4C5D-BBA2-7DF378EA3CAD}" s:name="Arsenal">
                     <conditions>
                       <condition uid="FABA75ED6A7F449F8C363A7EFB1C9E56" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{234B9336-9EEF-4B5C-94F5-092EF13F34F0}" />
@@ -124,7 +132,28 @@ Languages:
                 </ruleset>
               </rls>
             </r>
-            <r uid="{5F383EA0-C6F2-4AAB-9A43-79AEBBCD9B82}" p:before="r[@uid='{7864ABA5-A903-4941-BDB8-8C373C8B3486}']" s:ds="{17B38361-9337-45F5-8AA8-35FE65656D97}" s:id="{97DE3287-649F-428B-9E74-2172096863D6}" s:ph="page-content" />
+            <r uid="{5F383EA0-C6F2-4AAB-9A43-79AEBBCD9B82}" p:before="r[@uid='{7864ABA5-A903-4941-BDB8-8C373C8B3486}']" s:ds="{17B38361-9337-45F5-8AA8-35FE65656D97}" s:id="{97DE3287-649F-428B-9E74-2172096863D6}" s:ph="page-content">
+              <rls>
+                <ruleset>
+                  <rule uid="{575887A8-9333-4243-AA60-3D222443DC51}" s:name="Condition Name">
+                    <conditions>
+                      <condition uid="11D7D10CEFE441E6B715F81F9076FDCF" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{234B9336-9EEF-4B5C-94F5-092EF13F34F0}" />
+                    </conditions>
+                    <actions>
+                      <action uid="69820F6BA86046848539356B4EA14B2D" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{17B38361-9337-45F5-8AA8-35FE65656D97}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="A950BFB221934F5EB92465702D097C56" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="8F0214D84700440AAE1A657191C4DD14" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{7864ABA5-A903-4941-BDB8-8C373C8B3486}" p:before="r[@uid='{6BC4F741-A2A1-46FD-ACEB-43E1BE14EC8B}']" s:ds="{C09F50CE-D282-4510-88DA-959B85FE8574}" s:id="{2500BC70-9CF8-44D4-84FE-3F30F5707203}" s:ph="page-content">
               <rls>
                 <ruleset>
@@ -138,7 +167,7 @@ Languages:
                       <condition uid="D2710BFD5D0E43A690E2FB70D6D89095" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions>
-                      <action uid="D49DE38BF2F84AA1A783070709BC131A" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                      <action uid="BC4AF97B5F6344E796EB4B4BAB01EB6E" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
                     </actions>
                   </rule>
                 </ruleset>

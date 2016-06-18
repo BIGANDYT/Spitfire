@@ -1,12 +1,12 @@
 /**************************************************************************
- * jquery.themepunch.revolution.js - jQuery Plugin for Revolution Slider
+ * jquery.themepunch.revolution.js - $rjq Plugin for Revolution Slider
  * @version: 4.6.4 (26.11.2014)
- * @requires jQuery v1.7 or later (tested on 1.9)
+ * @requires $rjq v1.7 or later (tested on 1.9)
  * @author ThemePunch
 **************************************************************************/
 
-
-(function(jQuery,undefined){
+var $rjq = $jq.noConflict();
+(function($rjq){
 
 
 
@@ -15,7 +15,7 @@
 	// THE REVOLUTION PLUGIN STARTS HERE //
 	///////////////////////////////////////
 
-	jQuery.fn.extend({
+	$rjq.fn.extend({
 
 		// OUR PLUGIN HERE :)
 		revolution: function(options) {
@@ -109,7 +109,7 @@
 
 				};
 
-					options = jQuery.extend({}, defaults, options);
+					options = $rjq.extend({}, defaults, options);
 
 					return this.each(function() {
 
@@ -117,7 +117,7 @@
 						// REPORT SOME IMPORTAN INFORMATION ABOUT THE SLIDER
 						if (window.tplogs==true)
 						 try{
-								console.groupCollapsed("Slider Revolution 4.6.3 Initialisation on "+jQuery(this).attr('id'));
+								console.groupCollapsed("Slider Revolution 4.6.3 Initialisation on "+$rjq(this).attr('id'));
 								console.groupCollapsed("Used Options:");
 								console.info(options);
 								console.groupEnd();
@@ -154,7 +154,7 @@
 							} catch(e) {}
 
 
-						initSlider(jQuery(this),options)
+						initSlider($rjq(this),options)
 
 
 					})
@@ -164,17 +164,17 @@
 		// METHODE PAUSE
 		revscroll: function(oy) {
 					return this.each(function() {
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0)
-							jQuery('body,html').animate({scrollTop:(container.offset().top+(container.find('>ul >li').height())-oy)+"px"},{duration:400});
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0)
+							$rjq('body,html').animate({scrollTop:(container.offset().top+(container.find('>ul >li').height())-oy)+"px"},{duration:400});
 					})
 				},
 
 		// METHODE PAUSE
 		revredraw: function(oy) {
 					return this.each(function() {
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							var bt = container.parent().find('.tp-bannertimer');
 							var opt = bt.data('opt');
 							containerResized(container,opt);
@@ -185,9 +185,9 @@
 		revkill: function(oy) {
 
 						var self = this,
-							container=jQuery(this);
+							container=$rjq(this);
 
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 
 							container.data('conthover',1);
 							container.data('conthover-changed',1);
@@ -201,9 +201,9 @@
 							punchgs.TweenLite.killTweensOf(container,false);
 							container.unbind('hover, mouseover, mouseenter,mouseleave, resize');
 							var resizid = "resize.revslider-"+container.attr('id');
-							jQuery(window).off(resizid);
+							$rjq(window).off(resizid);
 							container.find('*').each(function() {
-									var el = jQuery(this);
+									var el = $rjq(this);
 
 									el.unbind('on, hover, mouseenter,mouseleave,mouseover, resize,restarttimer, stoptimer');
 									el.off('on, hover, mouseenter,mouseleave,mouseover, resize');
@@ -245,8 +245,8 @@
 		revpause: function(options) {
 
 					return this.each(function() {
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							container.data('conthover',1);
 							container.data('conthover-changed',1);
 							container.trigger('revolution.slide.onpause');
@@ -263,8 +263,8 @@
 		// METHODE RESUME
 		revresume: function(options) {
 					return this.each(function() {
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							container.data('conthover',0);
 							container.data('conthover-changed',1);
 							container.trigger('revolution.slide.onresume');
@@ -282,8 +282,8 @@
 					return this.each(function() {
 
 						// CATCH THE CONTAINER
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0)
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0)
 							container.parent().find('.tp-rightarrow').click();
 
 
@@ -295,8 +295,8 @@
 		revprev: function(options) {
 					return this.each(function() {
 						// CATCH THE CONTAINER
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0)
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0)
 							container.parent().find('.tp-leftarrow').click();
 					})
 
@@ -305,15 +305,15 @@
 		// METHODE LENGTH
 		revmaxslide: function(options) {
 						// CATCH THE CONTAINER
-						return jQuery(this).find('>ul:first-child >li').length;
+						return $rjq(this).find('>ul:first-child >li').length;
 				},
 
 
 		// METHODE CURRENT
 		revcurrentslide: function(options) {
 						// CATCH THE CONTAINER
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							var bt = container.parent().find('.tp-bannertimer');
 							var opt = bt.data('opt');
 							return opt.act;
@@ -323,8 +323,8 @@
 		// METHODE CURRENT
 		revlastslide: function(options) {
 						// CATCH THE CONTAINER
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							var bt = container.parent().find('.tp-bannertimer');
 							var opt = bt.data('opt');
 							return opt.lastslide;
@@ -336,8 +336,8 @@
 		revshowslide: function(slide) {
 					return this.each(function() {
 						// CATCH THE CONTAINER
-						var container=jQuery(this);
-						if (container!=undefined && container.length>0 && jQuery('body').find('#'+container.attr('id')).length>0) {
+						var container=$rjq(this);
+						if (container!=undefined && container.length>0 && $rjq('body').find('#'+container.attr('id')).length>0) {
 							container.data('showus',slide);
 							container.parent().find('.tp-rightarrow').click();
 						}
@@ -387,13 +387,13 @@
 						// SIMPLIFY ANIMATIONS ON OLD IOS AND IE8 IF NEEDED
 						if (opt.simplifyAll=="on" && (isIE(8) || iOSVersion())) {
 							container.find('.tp-caption').each(function() {
-								var tc = jQuery(this);
+								var tc = $rjq(this);
 								tc.removeClass("customin").removeClass("customout").addClass("fadein").addClass("fadeout");
 								tc.data('splitin',"");
 								tc.data('speed',400);
 							})
 							container.find('>ul>li').each(function() {
-								var li= jQuery(this);
+								var li= $rjq(this);
 								li.data('transition',"fade");
 								li.data('masterspeed',500);
 								li.data('slotamount',1);
@@ -438,14 +438,14 @@
 							container.parent().wrap('<div style="position:relative;width:100%;height:auto;margin-top:'+mt+';margin-bottom:'+mb+'" class="forcefullwidth_wrapper_tp_banner"></div>');
 							container.closest('.forcefullwidth_wrapper_tp_banner').append('<div class="tp-fullwidth-forcer" style="width:100%;height:'+container.height()+'px"></div>');
 							container.css({'backgroundColor':container.parent().css('backgroundColor'),'backgroundImage':container.parent().css('backgroundImage')});
-							//container.parent().css({'position':'absolute','width':jQuery(window).width()});
-							container.parent().css({'left':(0-loff)+"px",position:'absolute','width':jQuery(window).width()});
-							opt.width=jQuery(window).width();
+							//container.parent().css({'position':'absolute','width':$rjq(window).width()});
+							container.parent().css({'left':(0-loff)+"px",position:'absolute','width':$rjq(window).width()});
+							opt.width=$rjq(window).width();
 						}
 
 						// HIDE THUMBS UNDER RESOLUTION
 						try{
-							if (opt.hideThumbsUnderResolution>jQuery(window).width() && opt.hideThumbsUnderResolution!=0) {
+							if (opt.hideThumbsUnderResolution>$rjq(window).width() && opt.hideThumbsUnderResolution!=0) {
 								container.parent().find('.tp-bullets.tp-thumbs').css({display:"none"});
 							} else {
 								container.parent().find('.tp-bullets.tp-thumbs').css({display:"block"});
@@ -462,19 +462,19 @@
 
 
 									opt.firefox13 = false;
-									opt.ie = !jQuery.support.opacity;
+									opt.ie = !$rjq.support.opacity;
 									opt.ie9 = (document.documentMode == 9);
 
 									opt.origcd=opt.delay;
 
 									// CHECK THE jQUERY VERSION
-									var version = jQuery.fn.jquery.split('.'),
+									var version = $rjq.fn.jquery.split('.'),
 										versionTop = parseFloat(version[0]),
 										versionMinor = parseFloat(version[1]),
 										versionIncrement = parseFloat(version[2] || '0');
 
 									if (versionTop==1 && versionMinor < 7) {
-										container.html('<div style="text-align:center; padding:40px 0px; font-size:20px; color:#992222;"> The Current Version of jQuery:'+version+' <br>Please update your jQuery Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
+										container.html('<div style="text-align:center; padding:40px 0px; font-size:20px; color:#992222;"> The Current Version of $rjq:'+version+' <br>Please update your $rjq Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
 									}
 
 									if (versionTop>1) opt.ie=false;
@@ -482,19 +482,19 @@
 
 									// Delegate .transition() calls to .animate()
 									// if the browser can't do CSS transitions.
-									if (!jQuery.support.transition)
-										jQuery.fn.transition = jQuery.fn.animate;
+									if (!$rjq.support.transition)
+										$rjq.fn.transition = $rjq.fn.animate;
 
 									// CATCH THE CONTAINER
 
 
 									 // LOAD THE YOUTUBE API IF NECESSARY
 
-									container.find('.caption').each(function() { jQuery(this).addClass('tp-caption')});
+									container.find('.caption').each(function() { $rjq(this).addClass('tp-caption')});
 
 									if (is_mobile()) {
 										container.find('.tp-caption').each(function() {
-											var nextcaption = jQuery(this);
+											var nextcaption = $rjq(this);
 											if (nextcaption.data('autoplayonlyfirsttime') == true || nextcaption.data('autoplayonlyfirsttime')=="true")
 													nextcaption.data('autoplayonlyfirsttime',"false");
 											if (nextcaption.data('autoplay')==true || nextcaption.data('autoplay')=="true")
@@ -517,7 +517,7 @@
 
 										try {
 
-												if ((jQuery(this).data('ytid')!=undefined  || jQuery(this).find('iframe').attr('src').toLowerCase().indexOf('youtube')>0) && addedyt==0) {
+												if (($rjq(this).data('ytid')!=undefined  || $rjq(this).find('iframe').attr('src').toLowerCase().indexOf('youtube')>0) && addedyt==0) {
 													addedyt=1;
 													var s = document.createElement("script");
 													var httpprefix2 = "https";
@@ -525,8 +525,8 @@
 
 													var before = document.getElementsByTagName("script")[0];
 													var loadit = true;
-													jQuery('head').find('*').each(function(){
-														if (jQuery(this).attr('src') == httpprefix2+"://www.youtube.com/iframe_api")
+													$rjq('head').find('*').each(function(){
+														if ($rjq(this).attr('src') == httpprefix2+"://www.youtube.com/iframe_api")
 														   loadit = false;
 													});
 													if (loadit) {
@@ -538,15 +538,15 @@
 											} catch(e) {}
 
 										try{
-											   if ((jQuery(this).data('vimeoid')!=undefined || jQuery(this).find('iframe').attr('src').toLowerCase().indexOf('vimeo')>0) && addedvim==0) {
+											   if (($rjq(this).data('vimeoid')!=undefined || $rjq(this).find('iframe').attr('src').toLowerCase().indexOf('vimeo')>0) && addedvim==0) {
 													addedvim=1;
 													var f = document.createElement("script");
 													f.src = httpprefix+"://a.vimeocdn.com/js/froogaloop2.min.js"; /* Load Player API*/
 													var before = document.getElementsByTagName("script")[0];
 
 													var loadit = true;
-													jQuery('head').find('*').each(function(){
-														if (jQuery(this).attr('src') == httpprefix+"://a.vimeocdn.com/js/froogaloop2.min.js")
+													$rjq('head').find('*').each(function(){
+														if ($rjq(this).attr('src') == httpprefix+"://a.vimeocdn.com/js/froogaloop2.min.js")
 														   loadit = false;
 													});
 													if (loadit)
@@ -555,7 +555,7 @@
 											} catch(e) {}
 
 										try{
-											if ((jQuery(this).data('videomp4')!=undefined || jQuery(this).data('videowebm')!=undefined))  {
+											if (($rjq(this).data('videomp4')!=undefined || $rjq(this).data('videowebm')!=undefined))  {
 
 											}
 										} catch(e) {}
@@ -566,13 +566,13 @@
 
 									// REMOVE ANY VIDEO JS SETTINGS OF THE VIDEO  IF NEEDED
 									container.find('.tp-caption video').each(function(i) {
-										jQuery(this).removeClass("video-js").removeClass("vjs-default-skin");
-										jQuery(this).attr("preload","");
-										jQuery(this).css({display:"none"});
+										$rjq(this).removeClass("video-js").removeClass("vjs-default-skin");
+										$rjq(this).attr("preload","");
+										$rjq(this).css({display:"none"});
 									});
 
 									container.find('>ul:first-child >li').each(function() {
-											var t = jQuery(this);
+											var t = $rjq(this);
 											t.data('origindex',t.index());
 										})
 
@@ -724,12 +724,12 @@
 										-	FULLSCREEN CHANGE	-
 									********************************/
 									// FULLSCREEN MODE TESTING
-									jQuery("body").data('rs-fullScreenMode',false);
-									jQuery(window).on ('mozfullscreenchange webkitfullscreenchange fullscreenchange',function(){
-									     jQuery("body").data('rs-fullScreenMode',!jQuery("body").data('rs-fullScreenMode'));
-									     if (jQuery("body").data('rs-fullScreenMode')) {
+									$rjq("body").data('rs-fullScreenMode',false);
+									$rjq(window).on ('mozfullscreenchange webkitfullscreenchange fullscreenchange',function(){
+									     $rjq("body").data('rs-fullScreenMode',!$rjq("body").data('rs-fullScreenMode'));
+									     if ($rjq("body").data('rs-fullScreenMode')) {
 										     setTimeout(function() {
-										     	jQuery(window).trigger("resize");
+										     	$rjq(window).trigger("resize");
 
 										     },200);
 									     }
@@ -739,14 +739,14 @@
 									var resizid = "resize.revslider-"+container.attr('id');
 
 									// IF RESIZED, NEED TO STOP ACTUAL TRANSITION AND RESIZE ACTUAL IMAGES
-									jQuery(window).on(resizid,function() {
+									$rjq(window).on(resizid,function() {
 										if (container==undefined) return false;
-										if (jQuery('body').find(container)!=0)
+										if ($rjq('body').find(container)!=0)
 											if (opt.forceFullWidth=="on" ) {
 
 												var loff = opt.container.closest('.forcefullwidth_wrapper_tp_banner').offset().left;
-												//opt.container.parent().css({'width':jQuery(window).width()});
-												opt.container.parent().css({'left':(0-loff)+"px",'width':jQuery(window).width()});
+												//opt.container.parent().css({'width':$rjq(window).width()});
+												opt.container.parent().css({'left':(0-loff)+"px",'width':$rjq(window).width()});
 											}
 
 											if (container.outerWidth(true)!=opt.width || container.is(":hidden")) {
@@ -761,10 +761,10 @@
 									// HIDE THUMBS UNDER SIZE...
 									try{
 										if (opt.hideThumbsUnderResoluition!=0 && opt.navigationType=="thumb") {
-											if (opt.hideThumbsUnderResoluition>jQuery(window).width())
-												jQuery('.tp-bullets').css({display:"none"});
+											if (opt.hideThumbsUnderResoluition>$rjq(window).width())
+												$rjq('.tp-bullets').css({display:"none"});
 											 else
-											 	jQuery('.tp-bullets').css({display:"block"});
+											 	$rjq('.tp-bullets').css({display:"block"});
 										}
 									} catch(e) {}
 
@@ -775,14 +775,14 @@
 										container.find('.tp-scrollbelowslider').on('click',function() {
 												var off=0;
 												try{
-												 	off = jQuery('body').find(opt.fullScreenOffsetContainer).height();
+												 	off = $rjq('body').find(opt.fullScreenOffsetContainer).height();
 												 } catch(e) {}
 												try{
-												 	off = off - parseInt(jQuery(this).data('scrolloffset'),0);
+												 	off = off - parseInt($rjq(this).data('scrolloffset'),0);
 												 } catch(e) {}
 
 
-												jQuery('body,html').animate(
+												$rjq('body,html').animate(
 													{scrollTop:(container.offset().top+(container.find('>ul >li').height())-off)+"px"},{duration:400});
 											});
 									//}
@@ -791,7 +791,7 @@
 									// FIRST TIME STOP/START HIDE / SHOW SLIDER
 									//REMOVE AND SHOW SLIDER ON DEMAND
 									var contpar= container.parent();
-									if (jQuery(window).width()<opt.hideSliderAtLimit) {
+									if ($rjq(window).width()<opt.hideSliderAtLimit) {
 										container.trigger('stoptimer');
 										if (contpar.css('display')!="none")
 											contpar.data('olddisplay',contpar.css('display'));
@@ -843,7 +843,7 @@
 			if (notIE && !isChromium) {
 
 			    // checks for Firefox and other  NON IE Chrome versions
-			    jQuery(window).on("focusin", function () {
+			    $rjq(window).on("focusin", function () {
 					if (container==undefined) return false;
 
 			        setTimeout(function(){
@@ -925,23 +925,23 @@
 			// HIDE THUMBS UNDER SIZE...
 			try{
 				if (opt.hideThumbsUnderResoluition!=0 && opt.navigationType=="thumb") {
-					if (opt.hideThumbsUnderResoluition>jQuery(window).width())
-						jQuery('.tp-bullets').css({display:"none"});
+					if (opt.hideThumbsUnderResoluition>$rjq(window).width())
+						$rjq('.tp-bullets').css({display:"none"});
 					 else
-					 	jQuery('.tp-bullets').css({display:"block"});
+					 	$rjq('.tp-bullets').css({display:"block"});
 				}
 			} catch(e) {}
 
 
 
 			container.find('.defaultimg').each(function(i) {
-					setSize(jQuery(this),opt);
+					setSize($rjq(this),opt);
 			});
 
 
 			//REMOVE AND SHOW SLIDER ON DEMAND
 			var contpar= container.parent();
-			if (jQuery(window).width()<opt.hideSliderAtLimit) {
+			if ($rjq(window).width()<opt.hideSliderAtLimit) {
 				container.trigger('stoptimer');
 				if (contpar.css('display')!="none")
 					contpar.data('olddisplay',contpar.css('display'));
@@ -976,7 +976,7 @@
 			actsh.find('.defaultimg').css({'opacity':1});
 
 			nextsh.find('.defaultimg').each(function() {
-				var dimg = jQuery(this);
+				var dimg = $rjq(this);
 
 				if (opt.panZoomDisableOnMobile == "on") {
 					// NO KEN BURNS ON MOBILE DEVICES
@@ -1011,7 +1011,7 @@
 			-	CHECK IF BROWSER IS IE	-
 		********************************/
 		var isIE = function( version, comparison ){
-		    var $div = jQuery('<div style="display:none;"/>').appendTo(jQuery('body'));
+		    var $div = $rjq('<div style="display:none;"/>').appendTo($rjq('body'));
 		    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;</a><![endif]-->');
 		    var ieTest = $div.find('a').length;
 		    $div.remove();
@@ -1055,7 +1055,7 @@
 				});
 			// ADD THE BULLET CLICK FUNCTION HERE
 			bullets.find('.bullet').each(function(i) {
-				var bul = jQuery(this);
+				var bul = $rjq(this);
 				if (i==opt.slideamount-1) bul.addClass('last');
 				if (i==0) bul.addClass('first');
 
@@ -1136,7 +1136,7 @@
 		//////////////////////////////////
 		var createKeyboard = function(container,opt) {
 						// 	THE LEFT / RIGHT BUTTON CLICK !	 //
-						jQuery(document).keydown(function(e){
+						$rjq(document).keydown(function(e){
 							if (opt.transition==0 && e.keyCode == 39) {
 									if (container.data('showus') !=undefined && container.data('showus') != -1)
 										opt.next = container.data('showus')-1;
@@ -1195,11 +1195,11 @@
 										break;
 										case "up":
 											if (aps=="none")
-												jQuery("html, body").animate({scrollTop:(container.offset().top + container.height())+"px"});
+												$rjq("html, body").animate({scrollTop:(container.offset().top + container.height())+"px"});
 										break;
 										case "down":
 											if (aps=="none")
-												jQuery("html, body").animate({scrollTop:(container.offset().top - jQuery(window).height())+"px"});
+												$rjq("html, body").animate({scrollTop:(container.offset().top - $rjq(window).height())+"px"});
 										break;
 									}
 								}
@@ -1339,7 +1339,7 @@
 
 			if (opt.navigationType=="thumb") {
 				bullets.find('.thumb').each(function(i) {
-					var thumb = jQuery(this);
+					var thumb = $rjq(this);
 
 					thumb.css({'width':opt.thumbWidth * opt.bw+"px", 'height':opt.thumbHeight*opt.bh+"px"});
 
@@ -1505,19 +1505,19 @@
 				if (!is_mobile())
 					arr.hover(function() {
 
-						var arr = jQuery(this),
+						var arr = $rjq(this),
 							th = arr.find('.tp-arr-titleholder');
-						if (jQuery(window).width()>767)
+						if ($rjq(window).width()>767)
 							arr.width(th.outerWidth(true)+parseInt(arr.css('minWidth'),0));
 						arr.addClass("itishovered");
 					},function() {
-						var arr = jQuery(this),
+						var arr = $rjq(this),
 							th = arr.find('.tp-arr-titleholder');
 						arr.css({width:parseInt(arr.css('minWidth'),0)});
 						arr.removeClass("itishovered");
 					});
 				else {
-					var arr = jQuery(this),
+					var arr = $rjq(this),
 						th = arr.find('.tp-arr-titleholder');
 						th.addClass("alwayshidden");
 					punchgs.TweenLite.set(th,{autoAlpha:0});
@@ -1569,28 +1569,28 @@
 
 				rar.addClass("hashoveralready");
 				rar.hover(function() {
-					var iw = jQuery(this).find('.tp-arr-iwrapper');
-					var all = jQuery(this).find('.tp-arr-allwrapper');
+					var iw = $rjq(this).find('.tp-arr-iwrapper');
+					var all = $rjq(this).find('.tp-arr-allwrapper');
 					punchgs.TweenLite.fromTo(iw,0.4,{x:iw.width()},{x:0,delay:0.3,ease:punchgs.Power3.easeOut,overwrite:"all"});
 					punchgs.TweenLite.to(all,0.2,{autoAlpha:1,overwrite:"all"});
 
 				},function() {
-					var iw = jQuery(this).find('.tp-arr-iwrapper');
-					var all = jQuery(this).find('.tp-arr-allwrapper');
+					var iw = $rjq(this).find('.tp-arr-iwrapper');
+					var all = $rjq(this).find('.tp-arr-allwrapper');
 					punchgs.TweenLite.to(iw,0.4,{x:iw.width(),ease:punchgs.Power3.easeOut,delay:0.2,overwrite:"all"});
 					punchgs.TweenLite.to(all,0.2,{delay:0.6,autoAlpha:0,overwrite:"all"});
 				});
 
 
 				lar.hover(function() {
-					var iw = jQuery(this).find('.tp-arr-iwrapper');
-					var all = jQuery(this).find('.tp-arr-allwrapper');
+					var iw = $rjq(this).find('.tp-arr-iwrapper');
+					var all = $rjq(this).find('.tp-arr-allwrapper');
 					punchgs.TweenLite.fromTo(iw,0.4,{x:(0-iw.width())},{x:0,delay:0.3,ease:punchgs.Power3.easeOut,overwrite:"all"});
 					punchgs.TweenLite.to(all,0.2,{autoAlpha:1,overwrite:"all"});
 
 				},function() {
-					var iw = jQuery(this).find('.tp-arr-iwrapper');
-					var all = jQuery(this).find('.tp-arr-allwrapper');
+					var iw = $rjq(this).find('.tp-arr-iwrapper');
+					var all = $rjq(this).find('.tp-arr-allwrapper');
 					punchgs.TweenLite.to(iw,0.4,{x:(0-iw.width()),ease:punchgs.Power3.easeOut,delay:0.2,overwrite:"all"});
 					punchgs.TweenLite.to(all,0.2,{delay:0.6,autoAlpha:0,overwrite:"all"});
 				});
@@ -1634,13 +1634,13 @@
 				if (opt.fullScreen=="on") {
 						opt.height = opt.bw * opt.startheight;
 						var cow = opt.container.parent().width();
-						var coh = jQuery(window).height();
+						var coh = $rjq(window).height();
 
 						if (opt.fullScreenOffsetContainer!=undefined) {
 							try{
 								var offcontainers = opt.fullScreenOffsetContainer.split(",");
-								jQuery.each(offcontainers,function(index,searchedcont) {
-									coh = coh - jQuery(searchedcont).outerHeight(true);
+								$rjq.each(offcontainers,function(index,searchedcont) {
+									coh = coh - $rjq(searchedcont).outerHeight(true);
 									if (coh<opt.minFullScreenHeight) coh=opt.minFullScreenHeight;
 								});
 							} catch(e) {}
@@ -1649,7 +1649,7 @@
 
 								 if (opt.fullScreenOffset.split("%").length>1 && opt.fullScreenOffset!=undefined && opt.fullScreenOffset.length>0) {
 
-										coh = coh - (jQuery(window).height()* parseInt(opt.fullScreenOffset,0)/100);
+										coh = coh - ($rjq(window).height()* parseInt(opt.fullScreenOffset,0)/100);
 								 } else {
 								 	if (opt.fullScreenOffset!=undefined && opt.fullScreenOffset.length>0)
 								 		coh = coh - parseInt(opt.fullScreenOffset,0);
@@ -1680,7 +1680,7 @@
 				opt.slotw=Math.ceil(opt.width/opt.slots);
 
 				if (opt.fullScreen=="on")
-					opt.sloth=Math.ceil(jQuery(window).height()/opt.slots);
+					opt.sloth=Math.ceil($rjq(window).height()/opt.slots);
 				else
 					opt.sloth=Math.ceil(opt.height/opt.slots);
 
@@ -1700,7 +1700,7 @@
 		///////////////////////////////////////
 		var prepareSlides = function(container,opt) {
 
-			container.find('.tp-caption').each(function() { jQuery(this).addClass(jQuery(this).data('transition')); jQuery(this).addClass('start') });
+			container.find('.tp-caption').each(function() { $rjq(this).addClass($rjq(this).data('transition')); $rjq(this).addClass('start') });
 
 			// PREPARE THE UL CONTAINER TO HAVEING MAX HEIGHT AND HEIGHT FOR ANY SITUATION
 			container.find('>ul:first').css({overflow:'hidden',width:'100%',height:'100%',maxHeight:container.parent().css('maxHeight')}).addClass("tp-revslider-mainul");
@@ -1711,7 +1711,7 @@
 			 }
 
 			container.find('>ul:first >li').each(function(j) {
-				var li=jQuery(this);
+				var li=$rjq(this);
 				li.addClass("tp-revslider-slidesli");
 
 				// MAKE LI OVERFLOW HIDDEN FOR FURTHER ISSUES
@@ -1727,7 +1727,7 @@
 					if (linktoslide != undefined) {
 						if (linktoslide!="next" && linktoslide!="prev")
 							container.find('>ul:first-child >li').each(function() {
-									var t = jQuery(this);
+									var t = $rjq(this);
 									if (t.data('origindex')+1==checksl) linktoslide = t.index()+1;
 							});
 					}
@@ -1747,7 +1747,7 @@
 
 			container.find('>ul:first >li >img').each(function(j) {
 
-				var img=jQuery(this);
+				var img=$rjq(this);
 
 				img.addClass('defaultimg');
 				if (img.data('lazyload')!=undefined && img.data('lazydone') != 1) {
@@ -2070,7 +2070,7 @@
 		/////////////////////
 		var removeSlots = function(container,opt,where) {
 				where.find('.slot').each(function() {
-					jQuery(this).remove();
+					$rjq(this).remove();
 				});
 				opt.transition = 0;
 		}
@@ -2082,7 +2082,7 @@
 		var loadAllPrepared = function(container,alreadyinload) {
 
 			container.find('img, .defaultimg').each(function(i) {
-				var img = jQuery(this),
+				var img = $rjq(this),
 					ill = img.data('lazyload');
 
 				if (ill!=img.attr('src') && alreadyinload<3 && ill!=undefined && ill!='undefined') {
@@ -2157,7 +2157,7 @@
 				opt.cd=0;
 				 var found = 0;
 				 element.find('img, .defaultimg').each(function(i) {
-				 	if (jQuery(this).data('lazydone')!=1) {
+				 	if ($rjq(this).data('lazydone')!=1) {
 				 		found++;
 
 				 	}
@@ -2415,7 +2415,7 @@
 			if (opt.ffnn>46) opt.ffnn=0;
 			if (opt.ffnn<0) opt.ffnn = 46;
 
-			jQuery('.logo').html('Next Anim:'+comingtransition);
+			$rjq('.logo').html('Next Anim:'+comingtransition);
 
 
 			if (comingtransition=="boxslide" || comingtransition == "boxfade" || comingtransition == "papercut" ||
@@ -2575,7 +2575,7 @@
 
 			function findTransition() {
 				// FIND THE RIGHT TRANSITION PARAMETERS HERE
-				jQuery.each(transitionsArray,function(inde,trans) {
+				$rjq.each(transitionsArray,function(inde,trans) {
 					if (trans[0] == comingtransition || trans[8] == comingtransition) {
 						nexttrans = trans[1];
 						specials = trans[2];
@@ -2625,7 +2625,7 @@
 			// SET THE BULLETS SELECTED OR UNSELECTED  //
 			/////////////////////////////////////////////
 			container.parent().find(".bullet").each(function() {
-				var bul = jQuery(this),
+				var bul = $rjq(this),
 					buli = bul.index();
 				bul.removeClass("selected");
 
@@ -2677,7 +2677,7 @@
 					opt.rotate=Math.round(Math.random()*360);
 				 else
 				    opt.rotate=nextli.data('rotate');
-			if (!jQuery.support.transition  || opt.ie || opt.ie9) opt.rotate=0;
+			if (!$rjq.support.transition  || opt.ie || opt.ie9) opt.rotate=0;
 
 
 
@@ -2714,7 +2714,7 @@
 						var maxz = Math.ceil(opt.height/opt.sloth);
 						var curz = 0;
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							curz=curz+1;
 							if (curz==maxz) curz=0;
 
@@ -2732,7 +2732,7 @@
 							maxj = 0;
 
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this),
+							var ss=$rjq(this),
 								rand=Math.random()*masterspeed+300,
 								rand2=Math.random()*500+200;
 							if (rand+rand2>maxtime) {
@@ -2753,14 +2753,14 @@
 						var subtl = new punchgs.TimelineLite();
 						// ALL OLD SLOTS SHOULD BE SLIDED TO THE RIGHT
 						actsh.find('.slotslide').each(function() {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							subtl.add(punchgs.TweenLite.to(ss,masterspeed/1000,{left:opt.slotw, force3D:"auto",rotation:(0-opt.rotate)}),0);
 							mtl.add(subtl,0);
 						});
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function() {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							subtl.add(punchgs.TweenLite.from(ss,masterspeed/1000,{left:0-opt.slotw, force3D:"auto",rotation:opt.rotate}),0);
 							mtl.add(subtl,0);
 						});
@@ -2776,7 +2776,7 @@
 
 						// ALL OLD SLOTS SHOULD BE SLIDED TO THE RIGHT
 						actsh.find('.slotslide').each(function() {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							subtl.add(punchgs.TweenLite.to(ss,masterspeed/1000,{top:opt.sloth,rotation:opt.rotate,force3D:"auto",transformPerspective:600}),0);
 							mtl.add(subtl,0);
 
@@ -2784,7 +2784,7 @@
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function() {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							subtl.add(punchgs.TweenLite.from(ss,masterspeed/1000,{top:0-opt.sloth,rotation:opt.rotate,ease:punchgs.Power2.easeOut,force3D:"auto",transformPerspective:600}),0);
 							mtl.add(subtl,0);
 						});
@@ -2808,7 +2808,7 @@
 							subtl = new punchgs.TimelineLite();
 
 						actsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							var del = (i*cspeed)/opt.slots;
 							if (nexttrans==5) del = ((opt.slots-i-1)*cspeed)/(opt.slots)/1.5;
 							subtl.add(punchgs.TweenLite.to(ss,cspeed*3,{transformPerspective:600,force3D:"auto",top:0+opt.height,opacity:0.5,rotation:opt.rotate,ease:punchgs.Power2.easeInOut,delay:del}),0);
@@ -2817,7 +2817,7 @@
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							var del = (i*cspeed)/opt.slots;
 							if (nexttrans==5) del = ((opt.slots-i-1)*cspeed)/(opt.slots)/1.5;
 							subtl.add(punchgs.TweenLite.from(ss,cspeed*3,
@@ -2846,7 +2846,7 @@
 						},100);
 
 						actsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							if (i+1<opt.slots/2)
 								var tempo = (i+2)*90;
 							else
@@ -2858,7 +2858,7 @@
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							if (i+1<opt.slots/2)
 								var tempo = (i+2)*90;
@@ -2888,7 +2888,7 @@
 
 						// ALL OLD SLOTS SHOULD BE SLIDED TO THE RIGHT
 						actsh.find('.slotslide').each(function() {
-							var ss=jQuery(this).find('div');
+							var ss=$rjq(this).find('div');
 							subtl.add(punchgs.TweenLite.to(ss,masterspeed/1000,{
 									left:(0-opt.slotw/2)+'px',
 									top:(0-opt.height/2)+'px',
@@ -2906,7 +2906,7 @@
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT //
 						///////////////////////////////////////////////////////////////
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this).find('div');
+							var ss=$rjq(this).find('div');
 
 							subtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 										{left:0,top:0,opacity:0,transformPerspective:600},
@@ -2938,7 +2938,7 @@
 
 						// ALL OLD SLOTS SHOULD BE SLIDED TO THE RIGHT
 						actsh.find('.slotslide').each(function() {
-							var ss=jQuery(this).find('div');
+							var ss=$rjq(this).find('div');
 							subtl.add(punchgs.TweenLite.to(ss,masterspeed/1000,
 										  {left:(0-opt.width/2)+'px',
 										   top:(0-opt.sloth/2)+'px',
@@ -2954,7 +2954,7 @@
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT //
 						///////////////////////////////////////////////////////////////
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this).find('div');
+							var ss=$rjq(this).find('div');
 
 							subtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 										  {left:0, top:0,opacity:0,force3D:"auto"},
@@ -2976,7 +2976,7 @@
 						var ssamount=0;
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							ssamount++;
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,{autoAlpha:0,force3D:"auto",transformPerspective:600},
 																				 {autoAlpha:1,ease:punchgs.Power2.easeInOut,delay:(i*5)/1000}),0);
@@ -2995,7 +2995,7 @@
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(i) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							mtl.add(punchgs.TweenLite.from(ss,masterspeed/1000,{autoAlpha:0,force3D:"auto",ease:punchgs.Power2.easeInOut}),0);
 						});
 			}
@@ -3176,7 +3176,7 @@
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							mtl.add(punchgs.TweenLite.fromTo(ss,(masterspeed)/800,
 											{opacity:0,rotationY:0,scale:0.9,rotationX:-110,force3D:"auto",transformPerspective:600,transformOrigin:"center center"},
@@ -3194,7 +3194,7 @@
 
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							mtl.add(punchgs.TweenLite.fromTo(ss,(masterspeed)/500,
 											{autoAlpha:0,rotationY:310,scale:0.9,rotationX:10,force3D:"auto",transformPerspective:600,transformOrigin:"center center"},
@@ -3239,7 +3239,7 @@
 						punchgs.TweenLite.set(container,{transformStyle:"flat",backfaceVisibility:"hidden",transformPerspective:600});
 
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							subtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 											{transformStyle:"flat",backfaceVisibility:"hidden",left:0,rotationY:opt.rotate,z:10,top:0,scale:1,force3D:"auto",transformPerspective:600,transformOrigin:torig,rotationX:rot},
@@ -3249,7 +3249,7 @@
 						});
 
 						actsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							var rot = -90;
 							if (direction==1) rot = 90;
 
@@ -3288,7 +3288,7 @@
 
 
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1500,
 											{left:ofx,rotationX:40,z:-600, opacity:op,top:0,force3D:"auto",transformPerspective:600,transformOrigin:torig,rotationY:rot},
@@ -3302,7 +3302,7 @@
 
 						});
 						actsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 							if (direction!=1) {
 							   var ofx = -opt.width
@@ -3360,7 +3360,7 @@
 						}
 
 						nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 
 
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
@@ -3396,7 +3396,7 @@
 						}
 
 						actsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 											{left:0,transformStyle:"flat",rotationX:0,z:0, autoAlpha:1,top:0,scale:1,force3D:"auto",transformPerspective:600,transformOrigin:torig,rotationY:0},
 											{left:0,rotationX:rot2,top:0,z:0,autoAlpha:1,force3D:"auto", scale:1,rotationY:rot,ease:punchgs.Power1.easeInOut}),0);
@@ -3430,7 +3430,7 @@
 
 						punchgs.TweenLite.set(container,{transformStyle:"preserve-3d",backfaceVisibility:"hidden",perspective:2500});
 										nextsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 											{left:opx,rotationX:opt.rotate,force3D:"auto",opacity:op,top:0,scale:1,transformPerspective:600,transformOrigin:torig,rotationY:rot},
 											{left:0,rotationX:0,autoAlpha:1,top:0,z:0, scale:1,rotationY:0, delay:(j*50)/500,ease:punchgs.Power2.easeInOut}),0);
@@ -3440,7 +3440,7 @@
 						if (direction==1) rot = -90;
 
 						actsh.find('.slotslide').each(function(j) {
-							var ss=jQuery(this);
+							var ss=$rjq(this);
 							mtl.add(punchgs.TweenLite.fromTo(ss,masterspeed/1000,
 											{left:0,autoAlpha:1,rotationX:0,top:0,z:0,scale:1,force3D:"auto",transformPerspective:600,transformOrigin:torig, rotationY:0},
 											{left:opx,autoAlpha:1,rotationX:opt.rotate,top:0, scale:1,rotationY:rot, delay:(j*50)/500,ease:punchgs.Power2.easeInOut}),0);
@@ -3504,7 +3504,7 @@
 		var  onPlayerStateChange = function(event) {
 
 			 var embedCode = event.target.getVideoEmbedCode();
-			 var ytcont = jQuery('#'+embedCode.split('id="')[1].split('"')[0])
+			 var ytcont = $rjq('#'+embedCode.split('id="')[1].split('"')[0])
 			 var container = ytcont.closest('.tp-simpleresponsive');
 			 var player = ytcont.parent().data('player');
 
@@ -3572,7 +3572,7 @@
 		var vimeoready_auto = function(player_id,autoplay) {
 
 			var froogaloop = $f(player_id),
-				vimcont = jQuery('#'+player_id),
+				vimcont = $rjq('#'+player_id),
 				container = vimcont.closest('.tp-simpleresponsive'),
 				nextcaption = vimcont.closest('.tp-caption');
 
@@ -3613,7 +3613,7 @@
 
 						// PLAY VIDEO IF THUMBNAIL HAS BEEN CLICKED
 						 nextcaption.find('.tp-thumb-image').click(function() {
-							 punchgs.TweenLite.to(jQuery(this),0.3,{autoAlpha:0,force3D:"auto",ease:punchgs.Power3.easeInOut})
+							 punchgs.TweenLite.to($rjq(this),0.3,{autoAlpha:0,force3D:"auto",ease:punchgs.Power3.easeInOut})
 							 froogaloop.api("play");
 						 })
 					});
@@ -3682,7 +3682,7 @@
 				var getAnimDatas = function(frm,data) {
 
 									var customarray = data.split(';');
-									jQuery.each(customarray,function(index,param) {
+									$rjq.each(customarray,function(index,param) {
 
 										param = param.split(":")
 
@@ -3717,7 +3717,7 @@
 						params.animation = getAnimDatas(newAnimObject(),paramarray[1]);
 						var customarray = paramarray[0].split(';');
 
-						jQuery.each(customarray,function(index,param) {
+						$rjq.each(customarray,function(index,param) {
 							param = param.split(":")
 							var w = param[0],
 								v = param[1];
@@ -3759,14 +3759,14 @@
 
 						ctl.pause();
 
-						jQuery.each(allstaticcaptions, function(index,staticcapt) {
+						$rjq.each(allstaticcaptions, function(index,staticcapt) {
 							allcaptions.push(staticcapt);
 						});
 
 						allcaptions.each(function(i) {
 								var internrecalled = recalled,
 							    	staticdirection = -1,	// 1 -> In,  2-> Out  0-> Ignore  -1-> Not Static
-									nextcaption=jQuery(this);
+									nextcaption=$rjq(this);
 
 								if (nextcaption.hasClass("tp-static-layer")) {
 										var nss = nextcaption.data('startslide'),
@@ -3860,7 +3860,7 @@
 										nextcaption.css({'cursor':'pointer'});
 										if (nextcaption.data('linktoslide')!="no") {
 											nextcaption.click(function() {
-												var nextcaption=jQuery(this);
+												var nextcaption=$rjq(this);
 												var dir = nextcaption.data('linktoslide');
 												if (dir!="next" && dir!="prev") {
 													opt.container.data('showus',dir);
@@ -3959,7 +3959,7 @@
 
 
 										nextcaption.find('iframe').each(function() {
-												var ifr=jQuery(this);
+												var ifr=$rjq(this);
 
 												punchgs.TweenLite.to(ifr,0.1,{autoAlpha:1, zIndex:0, transformStyle:"preserve-3d",z:0,rotationX:0,force3D:"auto"});
 												if (is_mobile()) {
@@ -3996,7 +3996,7 @@
 																					"onStateChange": onPlayerStateChange,
 																					'onReady': function(event) {
 																						var embedCode = event.target.getVideoEmbedCode(),
-																							ytcont = jQuery('#'+embedCode.split('id="')[1].split('"')[0]),
+																							ytcont = $rjq('#'+embedCode.split('id="')[1].split('"')[0]),
 																							nextcaption = ytcont.closest('.tp-caption'),
 																							videorate = nextcaption.data('videorate'),
 																							videostart = nextcaption.data('videostart');
@@ -4016,7 +4016,7 @@
 
 																						// PLAY VIDEO IF THUMBNAIL HAS BEEN CLICKED
 																						 nextcaption.find('.tp-thumb-image').click(function() {
-																							 punchgs.TweenLite.to(jQuery(this),0.3,{autoAlpha:0,force3D:"auto",ease:punchgs.Power3.easeInOut})
+																							 punchgs.TweenLite.to($rjq(this),0.3,{autoAlpha:0,force3D:"auto",ease:punchgs.Power3.easeInOut})
 																							 if (!is_mobile()) {
 																								 player.playVideo();
 																							}
@@ -4107,13 +4107,13 @@
 
 										// START OF HTML5 VIDEOS
 										if ((is_mobile() && nextcaption.data('disablevideoonmobile')==1) ||isIE(8)) nextcaption.find('video').remove();
-										//if (is_mobile() && jQuery(window).width()<569)  nextcaption.find('video').remove()
+										//if (is_mobile() && $rjq(window).width()<569)  nextcaption.find('video').remove()
 
 										if (nextcaption.find('video').length>0) {
 											nextcaption.find('video').each(function(i) {
 
 												var video = this,
-													jvideo = jQuery(this);
+													jvideo = $rjq(this);
 
 
 												if (!jvideo.parent().hasClass("html5vid"))
@@ -4517,12 +4517,12 @@
 
 
 												nextcaption.find('.tp-resizeme, .tp-resizeme *').each(function() {
-														calcCaptionResponsive(jQuery(this),opt);
+														calcCaptionResponsive($rjq(this),opt);
 												});
 
 												if (nextcaption.hasClass("tp-resizeme")) {
 													nextcaption.find('*').each(function() {
-														calcCaptionResponsive(jQuery(this),opt);
+														calcCaptionResponsive($rjq(this),opt);
 													});
 												}
 
@@ -4835,8 +4835,8 @@
 													for (var i=0;i<animobject.length;i++) {
 														var obj =new Object();
 														var endobj = new Object();
-														jQuery.extend(obj,frm);
-														jQuery.extend(endobj,endfrm);
+														$rjq.extend(obj,frm);
+														$rjq.extend(endobj,endfrm);
 														frm.scale = Math.random()*3+1;
 														frm.rotation = Math.round(Math.random()*200-100);
 														frm.x = Math.round(Math.random()*200-100);
@@ -4866,7 +4866,7 @@
 										rowtext = rowtext.replace(/\s+/g, '');
 										rowtext = rowtext.replace("{","");
 										var spframes = rowtext.split('}');
-										jQuery.each(spframes,function(index,spframe){
+										$rjq.each(spframes,function(index,spframe){
 											if (spframe.length>0) {
 												var params = getAnimSteps(spframe);
 
@@ -4902,7 +4902,7 @@
 
 							  		if (nextcaption.data('timeline') != undefined) {
 								  		var tweens = nextcaption.data('timeline').getTweensOf();
-								  		jQuery.each(tweens,function(index,tween) {
+								  		$rjq.each(tweens,function(index,tween) {
 									  		if (tween.vars.data != undefined) {
 									  			var newx =  tween.vars.data.oldx * xbw;
 									  			var newy =  tween.vars.data.oldy * xbw;
@@ -4926,7 +4926,7 @@
 
 					})
 
-						var bt=jQuery('body').find('#'+opt.container.attr('id')).find('.tp-bannertimer');
+						var bt=$rjq('body').find('#'+opt.container.attr('id')).find('.tp-bannertimer');
 						bt.data('opt',opt);
 
 
@@ -5059,7 +5059,7 @@
 
 									// SOME LOOPING ANIMATION ON INTERNAL ELEMENTS
 									nextcaption.find('.rs-pendulum').each(function() {
-										var el = jQuery(this);
+										var el = $rjq(this);
 										if (el.data('timeline')==undefined) {
 											el.data('timeline',new punchgs.TimelineLite);
 											var startdeg = el.data('startdeg')==undefined ? -20 : el.data('startdeg'),
@@ -5081,7 +5081,7 @@
 
 									// SOME LOOPING ANIMATION ON INTERNAL ELEMENTS
 									nextcaption.find('.rs-rotate').each(function() {
-										var el = jQuery(this);
+										var el = $rjq(this);
 										if (el.data('timeline')==undefined) {
 											el.data('timeline',new punchgs.TimelineLite);
 											var startdeg = el.data('startdeg')==undefined ? 0 : el.data('startdeg'),
@@ -5102,7 +5102,7 @@
 
 									// SOME LOOPING ANIMATION ON INTERNAL ELEMENTS
 									nextcaption.find('.rs-slideloop').each(function() {
-										var el = jQuery(this);
+										var el = $rjq(this);
 										if (el.data('timeline')==undefined) {
 											el.data('timeline',new punchgs.TimelineLite);
 											var xs = el.data('xs')==undefined ? 0 : el.data('xs'),
@@ -5127,7 +5127,7 @@
 
 									// SOME LOOPING ANIMATION ON INTERNAL ELEMENTS
 									nextcaption.find('.rs-pulse').each(function() {
-										var el = jQuery(this);
+										var el = $rjq(this);
 										if (el.data('timeline')==undefined) {
 											el.data('timeline',new punchgs.TimelineLite);
 											var zoomstart = el.data('zoomstart')==undefined ? 0 : el.data('zoomstart'),
@@ -5144,7 +5144,7 @@
 									})
 
 									nextcaption.find('.rs-wave').each(function() {
-										var el = jQuery(this);
+										var el = $rjq(this);
 										if (el.data('timeline')==undefined) {
 											el.data('timeline',new punchgs.TimelineLite);
 
@@ -5183,7 +5183,7 @@
 				var killCaptionLoops = function(nextcaption) {
 							// SOME LOOPING ANIMATION ON INTERNAL ELEMENTS
 							nextcaption.find('.rs-pendulum, .rs-slideloop, .rs-pulse, .rs-wave').each(function() {
-								var el = jQuery(this);
+								var el = $rjq(this);
 								if (el.data('timeline')!=undefined) {
 										el.data('timeline').pause();
 										el.data('timeline',null);
@@ -5202,7 +5202,7 @@
 							allstaticcaptions = opt.container.find('.tp-static-layers').find('.tp-caption');
 
 
-						jQuery.each(allstaticcaptions, function(index,staticcapt) {
+						$rjq.each(allstaticcaptions, function(index,staticcapt) {
 							allcaptions.push(staticcapt);
 						});
 
@@ -5212,7 +5212,7 @@
 
 							    var staticdirection = -1;	// 1 -> In,  2-> Out  0-> Ignore  -1-> Not Static
 
-								var nextcaption=jQuery(this);
+								var nextcaption=$rjq(this);
 								if (nextcaption.hasClass("tp-static-layer")) {
 
 									if (nextcaption.data('startslide') == -1 || nextcaption.data('startslide') == "-1")
@@ -5272,7 +5272,7 @@
 									if (nextcaption.find('video').length>0) {
 													try{
 														nextcaption.find('video').each(function(i) {
-															var html5vid = jQuery(this).parent();
+															var html5vid = $rjq(this).parent();
 															var videoID =html5vid.attr('id');
 															clearTimeout(html5vid.data('timerplay'));
 															var video = this;
@@ -5290,7 +5290,7 @@
 
 												// WE NEED TO STOP ALL OTHER NIMATIONS
 												var tweens = tl.getTweensOf(nextcaption);
-												jQuery.each(tweens,function(index,tw) {
+												$rjq.each(tweens,function(index,tw) {
 
 													if (index!=0)
 														tw.pause();
@@ -5480,10 +5480,10 @@
 		///////////////////////////
 		var removeAllListeners = function(container,opt) {
 			container.children().each(function() {
-			  try{ jQuery(this).die('click'); } catch(e) {}
-			  try{ jQuery(this).die('mouseenter');} catch(e) {}
-			  try{ jQuery(this).die('mouseleave');} catch(e) {}
-			  try{ jQuery(this).unbind('hover');} catch(e) {}
+			  try{ $rjq(this).die('click'); } catch(e) {}
+			  try{ $rjq(this).die('mouseenter');} catch(e) {}
+			  try{ $rjq(this).die('mouseleave');} catch(e) {}
+			  try{ $rjq(this).unbind('hover');} catch(e) {}
 			})
 			try{ container.die('click','mouseenter','mouseleave');} catch(e) {}
 			clearInterval(opt.cdint);
@@ -5517,7 +5517,7 @@
 
 					// LISTENERS  //container.trigger('stoptimer');
 					container.on('stoptimer',function() {
-						var bt = jQuery(this).find('.tp-bannertimer');
+						var bt = $rjq(this).find('.tp-bannertimer');
 						bt.data('tween').pause();
 						if (opt.hideTimerBar=="on") bt.css({visibility:"hidden"});
 					});
@@ -5535,7 +5535,7 @@
 							if (opt.hideTimerBar=="on") bt.css({visibility:"hidden"});
 					});
 					container.on('restarttimer',function() {
-						var bt = jQuery(this).find('.tp-bannertimer');
+						var bt = $rjq(this).find('.tp-bannertimer');
 						if ((opt.stopLoop=="on" && opt.next==opt.lastslidetoshow-1) || opt.noloopanymore == 1)
 							   	opt.noloopanymore = 1;
 							else {
@@ -5556,7 +5556,7 @@
 
 
 					 var countDownNext = function() {
-						if (jQuery('body').find(container).length==0) {
+						if ($rjq('body').find(container).length==0) {
 							removeAllListeners(container,opt);
 							clearInterval(opt.cdint);
 						}
@@ -5611,7 +5611,7 @@
 								container.trigger('revolution.slide.onpause');
 								var nextsh = container.find('>ul >li:eq('+opt.next+') .slotholder');
 								nextsh.find('.defaultimg').each(function() {
-									var dimg = jQuery(this);
+									var dimg = $rjq(this);
 									if (dimg.data('kenburn')!=undefined) {
 									   dimg.data('kenburn').pause();
 									 }
@@ -5625,7 +5625,7 @@
 
 								var nextsh = container.find('>ul >li:eq('+opt.next+') .slotholder');
 								nextsh.find('.defaultimg').each(function() {
-									var dimg = jQuery(this);
+									var dimg = $rjq(this);
 									if (dimg.data('kenburn')!=undefined) {
 									   dimg.data('kenburn').play();
 									 }
@@ -5743,7 +5743,7 @@
 			}
 
 			nextsh.find('.defaultimg').each(function() {
-				var defimg = jQuery(this);
+				var defimg = $rjq(this);
 				if (nextsh.find('.kenburnimg').length==0)
 					nextsh.append('<div class="kenburnimg" style="position:absolute;z-index:1;width:100%;height:100%;top:0px;left:0px;"><img src="'+defimg.attr('src')+'" style="-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;position:absolute;width:'+imgobj.w+'%;height:'+imgobj.h+'%;"></div>');
 				else {
@@ -5913,7 +5913,7 @@
 			var nextsh = nextli.find('.slotholder');
 
 			container.find('.defaultimg').each(function() {
-				var defimg = jQuery(this);
+				var defimg = $rjq(this);
 				punchgs.TweenLite.killTweensOf(defimg,false);
 				punchgs.TweenLite.set(defimg,{scale:1,rotationZ:0});
 				punchgs.TweenLite.killTweensOf(defimg.data('kenburn img'),false);
@@ -5945,10 +5945,10 @@
 			if (is_mobile() && opt.parallaxDisableOnMobile=="on") return false;
 
 			container.find('>ul:first-child >li').each(function() {
-				var li = jQuery(this);
+				var li = $rjq(this);
 				for (var i = 1; i<=10;i++)
 					li.find('.rs-parallaxlevel-'+i).each(function() {
-						var pw = jQuery(this);
+						var pw = $rjq(this);
 						pw.wrap('<div style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:'+pw.css('zIndex')+'" class="tp-parallax-container" data-parallaxlevel="'+opt.parallaxLevels[i-1]+'"></div>');
 					});
 			})
@@ -5982,7 +5982,7 @@
 											diffv = (mv - (event.pageY - t));
 
 										currslide.find(".tp-parallax-container").each(function() {
-											var pc = jQuery(this),
+											var pc = $rjq(this),
 												pl = parseInt(pc.data('parallaxlevel'),0)/100,
 												offsh =	diffh * pl,
 												offsv =	diffv * pl;
@@ -5995,7 +5995,7 @@
 								break;
 								case "mouseleave":
 										currslide.find(".tp-parallax-container").each(function() {
-											var pc = jQuery(this);
+											var pc = $rjq(this);
 											if (opt.parallax=="scroll+mouse" || opt.parallax=="mouse+scroll")
 												punchgs.TweenLite.to(pc,1.5,{force3D:"auto",x:0,ease:punchgs.Power3.easeOut});
 											else
@@ -6013,7 +6013,7 @@
 							  var currslide = container.find('.current-sr-slide-visible');
 
 
-							  if (jQuery(window).width() > jQuery(window).height()){
+							  if ($rjq(window).width() > $rjq(window).height()){
 							  		var xx = x;
 							  		x = y;
 							  		y = xx;
@@ -6027,7 +6027,7 @@
 
 
 							  currslide.find(".tp-parallax-container").each(function() {
-												var pc = jQuery(this),
+												var pc = $rjq(this),
 													pl = parseInt(pc.data('parallaxlevel'),0)/100,
 													offsh =	curh * pl,
 													offsv =	curv * pl;
@@ -6036,12 +6036,12 @@
 
 							  // y: -90 -> +90,  x:-180 -> +180
 
-							  //jQuery('.logo-container').html("h:"+curh+"  v:"+curv);
+							  //$rjq('.logo-container').html("h:"+curh+"  v:"+curv);
 							  }
 			}
 			if (opt.parallax=="scroll" || opt.parallax=="scroll+mouse" || opt.parallax=="mouse+scroll") {
 
-						jQuery(window).on('scroll',function(event) {
+						$rjq(window).on('scroll',function(event) {
 							scrollParallax(container,opt);
 						});
 			}
@@ -6053,16 +6053,16 @@
 		var scrollParallax = function(container,opt) {
 			if (is_mobile() && opt.parallaxDisableOnMobile=="on") return false;
 			var t = container.offset().top,
-					st = jQuery(window).scrollTop(),
+					st = $rjq(window).scrollTop(),
 					dist = t+container.height()/2,
 					mv = t+container.height()/2 - st,
-					wh = jQuery(window).height()/2,
+					wh = $rjq(window).height()/2,
 					diffv= wh - mv;
 
 			if (dist<wh) diffv = diffv - (wh-dist);
 			var currslide = container.find('.current-sr-slide-visible');
 			container.find(".tp-parallax-container").each(function(i) {
-				var pc = jQuery(this),
+				var pc = $rjq(this),
 					pl = parseInt(pc.data('parallaxlevel'),0)/100,
 					offsv =	diffv * pl;
 				pc.data('parallaxoffset',offsv);
@@ -6121,7 +6121,7 @@
 
 			// ADD THE BULLET CLICK FUNCTION HERE
 			bullets.find('.bullet').each(function(i) {
-				var bul = jQuery(this);
+				var bul = $rjq(this);
 
 				if (i==opt.slideamount-1) bul.addClass('last');
 				if (i==0) bul.addClass('first');
@@ -6149,8 +6149,8 @@
 			// SLIDE TO POSITION  //
 			////////////////////////
 			if (thumbconwidth<max) {
-				jQuery(document).mousemove(function(e) {
-					jQuery('body').data('mousex',e.pageX);
+				$rjq(document).mousemove(function(e) {
+					$rjq('body').data('mousex',e.pageX);
 				});
 
 
@@ -6158,10 +6158,10 @@
 				// ON MOUSE MOVE ON THE THUMBNAILS EVERYTHING SHOULD MOVE :)
 
 				bullets.parent().mouseenter(function() {
-						var $this=jQuery(this);
+						var $this=$rjq(this);
 
 						var offset = $this.offset(),
-							x = jQuery('body').data('mousex')-offset.left,
+							x = $rjq('body').data('mousex')-offset.left,
 							thumbconwidth=$this.width(),
 							minwidth=$this.find('.bullet:first').outerWidth(true),
 							max=minwidth*container.find('>ul:first >li').length,
@@ -6180,9 +6180,9 @@
 
 				bullets.parent().mousemove(function() {
 
-								var $this=jQuery(this),
+								var $this=$rjq(this),
 									offset = $this.offset(),
-									x = jQuery('body').data('mousex')-offset.left,
+									x = $rjq('body').data('mousex')-offset.left,
 									thumbconwidth=$this.width(),
 									minwidth=$this.find('.bullet:first').outerWidth(true),
 									max=minwidth*container.find('>ul:first >li').length-1,
@@ -6202,7 +6202,7 @@
 				});
 
 				bullets.parent().mouseleave(function() {
-								var $this=jQuery(this);
+								var $this=$rjq(this);
 								$this.removeClass("over");
 								moveSelectedThumb(container);
 				});
@@ -6243,7 +6243,7 @@
 		var moveThumbSliderToPosition = function($this,pos,speed) {
 			punchgs.TweenLite.to($this.find('.tp-thumbcontainer'),0.2,{force3D:"auto",left:pos,ease:punchgs.Power3.easeOut,overwrite:"auto"});
 		}
-})(jQuery);
+})($rjq);
 
 
 
@@ -6261,7 +6261,7 @@ function revslider_showDoubleJqueryError(sliderID) {
 	errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
 	errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
 	errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>"
-		jQuery(sliderID).show().html(errorMessage);
+	$rjq(sliderID).show().html(errorMessage);
 }
 
 

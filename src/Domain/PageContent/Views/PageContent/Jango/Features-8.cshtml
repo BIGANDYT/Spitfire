@@ -3,12 +3,12 @@
 @using Habitat.PageContent
 @using Sitecore.Mvc.Presentation
 @model Habitat.PageContent.Models.PageContentModel
-@{ if (Sitecore.Context.PageMode.IsPageEditor && Model.ImageUrl == null)
+<div class="c-content-box c-size-md c-bg-parallax"style="background-image: url(@Model.ImageUrl)">    
+@{ if (Sitecore.Context.PageMode.IsPageEditor)
             {
-        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { @class = "img-responsive" })
+        @Html.Sitecore().Field("ComponentImage", @Model.Item, new { mw = 200, mh = 200, @class = "img-responsive" })
     }
 }
-<div class="c-content-box c-size-md c-bg-parallax"style="background-image: url(@Model.ImageUrl)">    
     <div class="container">        
         <div class="c-content-feature-10">
             <!-- Begin: Title 1 component -->

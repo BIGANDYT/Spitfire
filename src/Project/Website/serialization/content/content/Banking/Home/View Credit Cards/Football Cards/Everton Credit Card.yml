@@ -1,0 +1,32 @@
+﻿---
+ID: 1b1573e4-4369-49bd-92b4-e5040945eab9
+Parent: 47d27225-73fd-4015-b521-5786fbda4e8c
+Template: 8bf8efd4-0e6a-4f11-9c64-c16f79111552
+Path: /sitecore/content/Banking/Home/View Credit Cards/Football Cards/Everton Credit Card
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Everton Credit Card
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160512T093845Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {46DA5376-10DC-4B66-B464-AFDAA29DE84F}
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: The best team liverpool
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Everton Credit Card
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{FEEC537D-B160-4566-ACB1-E3CD24BE9F40}\" />"

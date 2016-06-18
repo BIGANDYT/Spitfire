@@ -1,0 +1,25 @@
+﻿---
+ID: 6bc017b1-6d59-4bb4-8bdb-c43fcbb4032c
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Test1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160614T122153Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}\" />"
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: Descriptionxkcxncknxkcxnkcnkxnckxnckxcn kcnkxnksnskncksncnksnkcnsknkcsnkc
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Title
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{C73FFEB7-8E5D-4F43-9381-0D9DC4B1BD62}\" ></image>"

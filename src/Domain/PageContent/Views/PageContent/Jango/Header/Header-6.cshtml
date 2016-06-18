@@ -5,7 +5,7 @@
 @model Sitecore.Mvc.Presentation.RenderingModel
 <!-- BEGIN: LAYOUT/HEADERS/HEADER-6 -->
 <!-- BEGIN: HEADER 6 -->
-<header class="c-layout-header c-layout-header-6 @(!Sitecore.Context.PageMode.IsPageEditor ? "header-live" : "")" style="@(Sitecore.Context.PageMode.IsPageEditor ? "position:relative;" : "")" data-minimize-offset="80">
+<header class="c-layout-header c-layout-header-6 @(!Sitecore.Context.PageMode.IsPageEditor && !Sitecore.Context.PageMode.IsPreview ? "header-live" : "")" data-minimize-offset="80">
     @Html.Sitecore().Placeholder("topbar") 
     <div class="c-navbar">
         <div class="container">
@@ -13,10 +13,7 @@
             <div class="c-navbar-wrapper clearfix">
                 <!-- END: BRAND -->
                 <!-- BEGIN: QUICK SEARCH -->
-                <form class="c-quick-search" action="#">
-                    <input type="text" name="query" placeholder="Type to search..." value="" class="form-control" autocomplete="off">
-                    <span class="c-theme-link">&times;</span>
-                </form>
+                @Html.Sitecore().Rendering("{CA474A46-8B0F-449A-A86F-541A1E82784F}")
                 <!-- END: QUICK SEARCH -->
                 @Html.Sitecore().Placeholder("menu")
             </div>

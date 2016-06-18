@@ -1,0 +1,16 @@
+﻿---
+ID: 36e23150-433f-45ad-9d89-d786c6f60b05
+Parent: 97328513-256d-49b2-a0b8-aa52485fce02
+Template: 327468ab-0a78-4eb1-9113-34592ce923d0
+Path: /sitecore/content/Shared/Spitfire/TeaserGroup/renderingtest
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160617T225051Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

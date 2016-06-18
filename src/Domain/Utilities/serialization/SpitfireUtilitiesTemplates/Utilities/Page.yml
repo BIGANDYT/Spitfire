@@ -1,0 +1,30 @@
+﻿---
+ID: 460b24e6-4e20-46fd-b485-ed237f6f6b70
+Parent: aa9c1562-7f37-43b8-8ca3-fdeaf4d3951c
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Domain/Utilities/Page
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: applications/16x16/document.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {183C062E-190A-40AB-891E-4D9D09E9B6BF}
+    {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {053173B0-67D8-448C-B677-BD84830838DA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T162640Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

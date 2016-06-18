@@ -1,0 +1,19 @@
+﻿---
+ID: ba3b0d56-bf5d-4edf-a5fc-cacdc5875fd9
+Parent: b643d2ae-1c3f-4d55-92a1-edcf5c70c04e
+Template: 3fc1259d-2bfd-4f4d-9b4c-bc1cfb13eb1a
+Path: /sitecore/content/Shared/Spitfire/Teasers/Gas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160526T083031Z
+    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
+      # Link
+      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{C3EBB092-DEC6-4502-8FBB-3413078089C6}\" />"
+    - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
+      # ComponentImage
+      Value: "<image mediaid=\"{E159596C-2808-4968-BF09-C01939DBDCEF}\" alt=\"\" height=\"878\" width=\"1200\" hspace=\"\" vspace=\"\" />"

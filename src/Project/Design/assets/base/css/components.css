@@ -2350,7 +2350,7 @@ h1 {
     z-index: 9000;
     width: 100%; }
   .c-layout-header-fixed .c-layout-page {
-    margin-top: 100px; }
+    margin-top: 180px; }
   .c-layout-header-fixed.c-layout-header-topbar .c-layout-page {
     margin-top: 145px; }
   .c-layout-header-fullscreen .c-layout-page,
@@ -2477,7 +2477,7 @@ h1 {
   .c-layout-header-topbar-collapse .c-layout-header .c-brand > .c-topbar-toggler {
     display: inline-block; }
   .c-layout-header-fixed.c-layout-header-mobile-fixed .c-layout-page {
-    margin-top: 65px; }
+    margin-top: 140px; }
   .c-layout-header-fixed.c-layout-header-mobile-fixed .c-layout-header-topbar .c-layout-page {
     margin-top: 110px; }
   .c-layout-header-fullscreen.c-layout-header-mobile-fixed .c-layout-page,
@@ -11661,3 +11661,20 @@ h1 {
 @media (max-width: 991px) {
   .c-page-faq-2 .c-content-title-1 {
     margin-top: 40px; } }
+
+.ResponsiveIframe {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: auto; 
+-webkit-overflow-scrolling:touch;
+border: solid black 1px;
+} 
+.ResponsiveIframe iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

@@ -4,9 +4,6 @@ Parent: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Path: /sitecore/templates/Spitfire/Pages/News Article/__Standard Values
 SharedFields:
-- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
-  # __Workflow
-  Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
 - ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
   # __Default workflow
   Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
@@ -28,9 +25,12 @@ Languages:
       Value: |
         <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{DF9D127F-B388-4746-89E7-7E6D78D35186}">
-            <r uid="{67DF7949-08F3-41A0-ABD3-9C6CB14B65F9}" id="{A390B6F3-277E-4A68-AF79-53E11CE9B313}" ph="/page-content/news-body" />
-            <r uid="{39667A0D-151E-4CB3-82A0-E00929A562FA}" id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" ph="/page-content/news-body" />
-            <r uid="{7447EA83-BBEA-4B8F-95C7-904CA04EB8CB}" id="{4AA50E91-823B-4B06-BAA0-71C30C220725}" ph="page-content" />
+            <r uid="{F2073FE7-F922-407A-9331-F9A56507E5BB}" id="{A390B6F3-277E-4A68-AF79-53E11CE9B313}" ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{C5F51B0D-1D92-4015-95DA-4AF17B215EF8}" id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{3273D66D-F633-4ADF-B09A-F8E187067AE1}" id="{DDCC4FC7-7F04-48C5-BADD-0696A0376152}" ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{95FAEA08-CDC0-4401-B441-4CC63171FBDA}" id="{D758B534-5996-4160-AED9-24A7B56AFCAE}" ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{D792AB9E-7EF8-4936-8A06-197CCCF37F6D}" id="{EC85F344-CC40-4E56-B1A0-E9B748995F11}" ph="page-content" />
+            <r uid="{0256E025-9C32-49B8-A451-50B976774111}" id="{7D05D05D-26DA-4018-93CC-589AD43E6AB6}" ph="page-content" />
             <r uid="{7E1A9056-DFFE-4E9D-ABFB-ECED589CDD55}" id="{5B08C51D-2BAE-4284-BC9A-A3FD12C0F06B}" ph="/header/menu/menu-widgets" />
             <r uid="{608D02D2-7FEA-4495-9468-1E1205ED7EE4}" id="{5ABEAD4D-A364-4205-A11D-54A68DAE9545}" ph="/header/menu/menu-widgets" />
             <r uid="{7B399C87-1B29-4AB2-B0A5-98A6BD41E25D}" id="{A8C0A950-4534-4037-9AD2-999F5FEAEE62}" ph="/header/menu" />
@@ -41,12 +41,9 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151121T130457Z
-    - ID: 3c7a0205-b583-4b5f-8f02-47f1fc6a1aba
-      # Author
-      Value: Andrew Thompson
     - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
       # __Workflow state
-      Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
+      Value: {88324960-CBAA-4816-8476-4D522212B4FD}
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin

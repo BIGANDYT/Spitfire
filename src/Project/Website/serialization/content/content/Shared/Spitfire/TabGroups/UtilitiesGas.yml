@@ -1,0 +1,26 @@
+﻿---
+ID: 2e27c98f-e53a-4ce7-a825-7686f8845498
+Parent: ad61cc3f-abeb-4687-b861-2ea9c45937ba
+Template: f1a07e22-1319-4579-8ec2-2546755d5d13
+Path: /sitecore/content/Shared/Spitfire/TabGroups/UtilitiesGas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 23be27f5-8d60-4d41-bfba-50f7897bf551
+      # Active Tab
+      Value: Gas
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160526T084106Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: ba5ffac8-22e1-42f1-91d1-1ff265e2fb1e
+      # Tabs
+      Type: Multilist
+      Value: |
+        {C3EA4E79-B827-4C02-B0BB-4E39A2BCEE16}
+        {6BF7DFB4-648B-46BC-8386-F1DADAD2B6B7}
+        {82E7DCFF-AD2E-4B1F-BA9A-F34913115E4D}

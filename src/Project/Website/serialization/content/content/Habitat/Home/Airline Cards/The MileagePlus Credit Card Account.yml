@@ -1,0 +1,23 @@
+﻿---
+ID: 18b0310b-9a2b-45ba-aeca-f63f9ad18fd0
+Parent: be50c584-2350-4e4f-a1db-e3a808ab37f6
+Template: 62230b9a-25d2-436f-adac-55c2fcbd0448
+Path: /sitecore/content/Habitat/Home/Airline Cards/The MileagePlus Credit Card Account
+SharedFields:
+- ID: 19b597d3-2edd-4ae2-aefe-4a94c7f10e31
+  # __Source Item
+  Value: sitecore://master/{8B8BC83E-C448-49C9-9092-398D0E91340C}
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B4C6626A-C69F-45E6-AE4C-F1156C30C1BA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b86697d-60ca-4d80-83fb-7555a2e6ce1c
+      # __Source
+      Value: sitecore://master/{8B8BC83E-C448-49C9-9092-398D0E91340C}?lang=en&ver=1
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160512T093702Z

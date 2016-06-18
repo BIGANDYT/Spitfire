@@ -1,5 +1,35 @@
-﻿<div>
-    <p style="text-align: center; ">
-        <iframe src="https://www.synthetix-ec1.com/clients/veolia_water/veolia_w/faqtAgent.html" width="720px;" height="540px;" frameborder="0"></iframe>
-    </p>
+﻿@using System.Web.Mvc.Html
+@using Habitat.Framework.SitecoreExtensions.Extensions
+@using Habitat.PageContent
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var iframeHeight = "300";
+    var iframeWidth = "455";
+
+    var iframeSrcParam = Model.Rendering.Parameters["Source"];
+    var iframeHeightParam = Model.Rendering.Parameters["Height"];
+    var iframeWidthParam = Model.Rendering.Parameters["Width"];
+    var iframeTitleParam = Model.Rendering.Parameters["Title"];
+
+    if (!String.IsNullOrEmpty(iframeHeightParam))
+    {
+        iframeHeight = iframeHeightParam;
+    }
+
+    if (!String.IsNullOrEmpty(iframeWidthParam))
+    {
+        iframeWidth = iframeWidthParam;
+    }
+}
+<!--TODO: Move the above to a model class-->
+<div class='ResponsiveIframe'>
+    @if (!String.IsNullOrEmpty(iframeSrcParam))
+    {
+        <iframe src="@iframeSrcParam" height="@iframeHeight" width="@iframeWidth" title="@iframeTitleParam" frameborder="0"></iframe>
+    }
+    else
+    {
+        <p>Select iframe source...</p>
+    }
 </div>

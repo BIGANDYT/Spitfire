@@ -7,6 +7,15 @@ SharedFields:
 - ID: 51b435bc-f7b9-478a-9c51-52916af96ff5
   # Path
   Value: /Views/PageContent/Jango/Iframe.cshtml
+- ID: 7d24e54f-5c16-4314-90c9-6051aa1a7da1
+  # Parameters Template
+  Value: {DEA86580-C678-401C-934D-58C5164849B5}
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{AEE9C64F-8D18-4307-9816-5F3B8DEC7F42}\" />"
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: 1
 Languages:
 - Language: en
   Versions:

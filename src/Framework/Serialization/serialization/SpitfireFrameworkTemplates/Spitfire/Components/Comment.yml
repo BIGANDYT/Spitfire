@@ -1,0 +1,32 @@
+﻿---
+ID: d8287d58-67bf-456f-b09e-6a1180819833
+Parent: 8339e0a2-52bd-4932-9d5d-949a92642135
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Spitfire/Components/Comment
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Office/16x16/speech_balloon.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {183C062E-190A-40AB-891E-4D9D09E9B6BF}
+    {73B12910-F114-43DD-8010-ACF68E9A6062}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 900
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {1BD2987B-B650-440E-AC3B-82E333B8823D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151107T120529Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -12,40 +12,97 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{C5BD11E9-54D7-4241-9618-74563E401AEA}" name="Water Interest" presets="laura|100||">
-        <key name="Supply" value="1" />
-        <key name="Services" value="1" />
-        <key name="Saving" value="0" />
+      <profile id="{DF790885-D80D-432C-A629-9B9A21922D2F}" name="Utilities Interest" presets="chris|100||">
+        <key name="Gas" value="1" />
+        <key name="Electricity" value="1" />
         <key name="Charity" value="5" />
-        <key name="Self Service" value="0" />
+        <key name="Land Owner" value="0" />
+        <key name="Property" value="0" />
       </profile>
     </tracking>
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
   Value: 100
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{F2073FE7-F922-407A-9331-F9A56507E5BB}">
+          <p:d />
+        </r>
+        <r uid="{C5F51B0D-1D92-4015-95DA-4AF17B215EF8}">
+          <p:d />
+        </r>
+        <r uid="{3273D66D-F633-4ADF-B09A-F8E187067AE1}">
+          <p:d />
+        </r>
+        <r uid="{67DF7949-08F3-41A0-ABD3-9C6CB14B65F9}" p:before="r[@uid='{39667A0D-151E-4CB3-82A0-E00929A562FA}']" s:id="{A390B6F3-277E-4A68-AF79-53E11CE9B313}" s:ph="/page-content/news-body" />
+        <r uid="{39667A0D-151E-4CB3-82A0-E00929A562FA}" p:before="r[@uid='{7447EA83-BBEA-4B8F-95C7-904CA04EB8CB}']" s:id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" s:ph="/page-content/news-body" />
+        <r uid="{7447EA83-BBEA-4B8F-95C7-904CA04EB8CB}" p:before="r[@uid='{7E1A9056-DFFE-4E9D-ABFB-ECED589CDD55}']" s:id="{4AA50E91-823B-4B06-BAA0-71C30C220725}" s:ph="page-content" />
+        <r uid="{95FAEA08-CDC0-4401-B441-4CC63171FBDA}">
+          <p:d />
+        </r>
+        <r uid="{D792AB9E-7EF8-4936-8A06-197CCCF37F6D}">
+          <p:d />
+        </r>
+        <r uid="{0256E025-9C32-49B8-A451-50B976774111}">
+          <p:d />
+        </r>
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{67DF7949-08F3-41A0-ABD3-9C6CB14B65F9}">
+              <p:d />
+            </r>
+            <r uid="{39667A0D-151E-4CB3-82A0-E00929A562FA}">
+              <p:d />
+            </r>
+            <r uid="{7447EA83-BBEA-4B8F-95C7-904CA04EB8CB}">
+              <p:d />
+            </r>
+            <r uid="{F2073FE7-F922-407A-9331-F9A56507E5BB}" p:before="r[@uid='{C5F51B0D-1D92-4015-95DA-4AF17B215EF8}']" s:id="{A390B6F3-277E-4A68-AF79-53E11CE9B313}" s:ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{C5F51B0D-1D92-4015-95DA-4AF17B215EF8}" p:before="r[@uid='{3273D66D-F633-4ADF-B09A-F8E187067AE1}']" s:id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" s:ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{3273D66D-F633-4ADF-B09A-F8E187067AE1}" p:before="r[@uid='{D792AB9E-7EF8-4936-8A06-197CCCF37F6D}']" s:id="{DDCC4FC7-7F04-48C5-BADD-0696A0376152}" s:ph="/page-content/col-content_0256e025-9c32-49b8-a451-50b976774111" />
+            <r uid="{D792AB9E-7EF8-4936-8A06-197CCCF37F6D}" p:before="r[@uid='{0256E025-9C32-49B8-A451-50B976774111}']" s:id="{EC85F344-CC40-4E56-B1A0-E9B748995F11}" s:ph="page-content" />
+            <r uid="{0256E025-9C32-49B8-A451-50B976774111}" p:before="r[@uid='{7E1A9056-DFFE-4E9D-ABFB-ECED589CDD55}']" s:id="{7D05D05D-26DA-4018-93CC-589AD43E6AB6}" s:ph="page-content" />
+          </d>
+        </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151130T203532Z
     - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
       # __Workflow state
       Value: {C0022DC6-CA35-46C5-B6BD-BCDE29847B28}
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Predicting the future is uncertain, but the more data available, the better the forecast tends to be. National Grid's new framework aims to improve the outlook further.
     - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
       # Description
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur. Nam vulputate nunc purus, a tempus velit mollis ac. Duis nibh libero, consequat ut lectus et, accumsan imperdiet lectus. Vestibulum laoreet tellus ac finibus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc auctor purus augue, eu ultricies turpis dignissim nec. Fusce ex purus, volutpat vitae neque vel, consectetur tristique felis. Ut congue ante justo, sit amet auctor ligula feugiat et. Sed vel ipsum egestas, congue lorem scelerisque, auctor purus. Suspendisse suscipit augue tortor, in dignissim sem vulputate ac. Sed ut leo nisi.
+      Value: test
     - ID: 6c42ebec-b83f-4514-ad6c-5bebc3afc82f
       # Date
       Value: 20151130T000000Z
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
-      Value: Auction for WaterAid
+      Value: Ensuring future electricity network’s operability
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{8F54E8AD-FCDE-4185-B8BA-5A55511F3B6B}\" />"
+    - ID: ad7c2e08-26c7-4038-a3ce-088ceb9dfd96
+      # Image
+      Value: "<image mediaid=\"{3F8EC1B0-0094-44EA-A264-AC91395D359F}\" height=\"\" hspace=\"\" width=\"\" alt=\"\" vspace=\"\" />"
     - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
       # Summary
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur.

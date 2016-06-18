@@ -1,13 +1,6 @@
 /*********************
 THEME COLOR - DEFAULT
 *********************/
-a {
-  color: #fff; }
-  a:active,
-  a:hover,
-  a:focus {
-    color: #006BB6; }
-
  .c-layout-header.c-layout-header-6 {    
      background-color:#006BB6 !important;
  }

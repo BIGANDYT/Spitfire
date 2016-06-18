@@ -1,0 +1,16 @@
+﻿---
+ID: 30db9ab6-1032-4831-a960-26b163865003
+Parent: 460b24e6-4e20-46fd-b485-ed237f6f6b70
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Spitfire/Domain/Utilities/Page/Product
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160508T162929Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

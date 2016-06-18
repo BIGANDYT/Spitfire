@@ -1,0 +1,67 @@
+﻿---
+ID: c3ebb092-dec6-4502-8fbb-3413078089c6
+Parent: 04f3d834-299f-4992-9332-22a63e5f0d47
+Template: 460b24e6-4e20-46fd-b485-ed237f6f6b70
+Path: /sitecore/content/Utilities/Home/Gas/NTS Connections
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{DF790885-D80D-432C-A629-9B9A21922D2F}" name="Utilities Interest" presets="henry|100||">
+        <key name="Gas" value="5" />
+        <key name="Electricity" value="0" />
+        <key name="Careers" value="1" />
+        <key name="Land Owner" value="1" />
+        <key name="Property" value="0" />
+      </profile>
+    </tracking>
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}" p:before="r[@uid='{C6F3F0CB-425B-43CA-A316-7488F737620B}']" s:id="{CB2FD1C3-CDB1-4809-BB30-61AAF730644A}" s:ph="page-content" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2BDACA24-283B-4034-8870-B6E271A58EF7}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: NTS Connections
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160525T230213Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Information about NTS Connections
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p>Lorem ipsum dolor sit amet, ex duo falli clita ornatus, an facilis liberavisse ius. In hinc iuvaret cum, his adhuc praesent te. In vidit ludus nostrud usu, id laudem dolores convenire vix. Choro audiam invidunt mea ne, est graeco necessitatibus cu. Mundi mediocrem his eu, eum ut habeo fugit. Vis ad dicta possit mediocritatem.</p>
+        <p>Usu an timeam appetere. An eirmod incorrupte cum. Utinam nostrum temporibus ex duo, duo iisque insolens indoctum cu. Natum summo ex sed, molestie scaevola partiendo te vel, eam et vocent appetere prodesset. Ea qui tractatos conceptam, mutat officiis electram no nam, ei volumus contentiones vim. Est vidit errem ad, admodum fuisset eam at, corpora deleniti omittantur ea ius.</p>
+        <p>Offendit pertinacia pro no, ius sumo iisque invenire no, has meliore detracto repudiare ad. Mei no summo graece oportere, at per libris labores. Ei eam debet melius adolescens. Sed prima solet ut. Verear inciderint ex vix, alii case no mea, porro audire tractatos sed no. Munere facilisis scribentur cu eum, dicta eirmod usu ne.</p>
+        <p>Brute velit id per, at duo alterum offendit. Ne clita facete dissentiunt duo, et admodum laboramus qui, recusabo tractatos nam ut. Te mel labores platonem, eam ut equidem debitis, impetus torquatos vituperata vis id. Ei nominavi accusata quo, vix at suscipit temporibus consequuntur. An vim wisi placerat. Duo blandit detraxit signiferumque at.</p>
+        <p>Pri et brute dolore pertinax, id eius deleniti mea. Debet antiopam assentior ne duo. Case civibus at duo, invenire explicari delicatissimi duo et. Ei qui cetero vulputate. Facer scaevola honestatis an has. Te soleat audiam vim, integre fierent temporibus an pro. Novum choro oratio cum ei.</p>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: NTS Connections
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      # Image
+      Value: "<image mediaid=\"{35272486-D566-4B38-A1BB-177277906BAE}\" />"

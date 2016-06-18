@@ -1,0 +1,44 @@
+﻿---
+ID: a6406e0a-3fba-41d1-8aac-50f6283f7e4d
+Parent: ae8f8a4f-4200-44e1-b9b3-b0fa1a948e02
+Template: 460b24e6-4e20-46fd-b485-ed237f6f6b70
+Path: /sitecore/content/Utilities/Home/Electricity/Windfarm
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{DF790885-D80D-432C-A629-9B9A21922D2F}" name="Utilities Interest" presets="heidi|100||">
+        <key name="Gas" value="0" />
+        <key name="Electricity" value="5" />
+        <key name="Careers" value="1" />
+        <key name="Land Owner" value="0" />
+        <key name="Property" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Windfarm
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160525T232439Z
+    - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
+      # SubTitle
+      Value: Information about Windfarms
+    - ID: 6bb1b2f0-7fc0-4a6d-98f6-973690bf723c
+      # Description
+      Value: |
+        <p>Lorem ipsum dolor sit amet, ex duo falli clita ornatus, an facilis liberavisse ius. In hinc iuvaret cum, his adhuc praesent te. In vidit ludus nostrud usu, id laudem dolores convenire vix. Choro audiam invidunt mea ne, est graeco necessitatibus cu. Mundi mediocrem his eu, eum ut habeo fugit. Vis ad dicta possit mediocritatem.</p>
+        <p>Usu an timeam appetere. An eirmod incorrupte cum. Utinam nostrum temporibus ex duo, duo iisque insolens indoctum cu. Natum summo ex sed, molestie scaevola partiendo te vel, eam et vocent appetere prodesset. Ea qui tractatos conceptam, mutat officiis electram no nam, ei volumus contentiones vim. Est vidit errem ad, admodum fuisset eam at, corpora deleniti omittantur ea ius.</p>
+        <p>Offendit pertinacia pro no, ius sumo iisque invenire no, has meliore detracto repudiare ad. Mei no summo graece oportere, at per libris labores. Ei eam debet melius adolescens. Sed prima solet ut. Verear inciderint ex vix, alii case no mea, porro audire tractatos sed no. Munere facilisis scribentur cu eum, dicta eirmod usu ne.</p>
+        <p>Brute velit id per, at duo alterum offendit. Ne clita facete dissentiunt duo, et admodum laboramus qui, recusabo tractatos nam ut. Te mel labores platonem, eam ut equidem debitis, impetus torquatos vituperata vis id. Ei nominavi accusata quo, vix at suscipit temporibus consequuntur. An vim wisi placerat. Duo blandit detraxit signiferumque at.</p>
+        <p>Pri et brute dolore pertinax, id eius deleniti mea. Debet antiopam assentior ne duo. Case civibus at duo, invenire explicari delicatissimi duo et. Ei qui cetero vulputate. Facer scaevola honestatis an has. Te soleat audiam vim, integre fierent temporibus an pro. Novum choro oratio cum ei.</p>
+    - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
+      # Title
+      Value: Windfarm

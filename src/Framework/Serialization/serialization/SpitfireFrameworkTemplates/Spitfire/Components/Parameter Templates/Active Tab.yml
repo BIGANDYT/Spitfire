@@ -4,6 +4,9 @@ Parent: 59e70d39-c02b-4870-9ca0-18074ed246d7
 Template: ab86861a-6030-46c5-b394-e8f99e8b87db
 Path: /sitecore/templates/Spitfire/Components/Parameter Templates/Active Tab
 SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Control/16x16/tabs_b.png
 - ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
   # __Base template
   Type: tree list
