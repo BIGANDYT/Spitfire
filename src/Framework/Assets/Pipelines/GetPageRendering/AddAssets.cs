@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using Habitat.Framework.Assets.Models;
-using Habitat.Framework.SitecoreExtensions.Extensions;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 using Sitecore.Mvc.Presentation;
-using Sitecore.Xml;
+using Habitat.Framework.SitecoreExtensions.Extensions;
 
 namespace Habitat.Framework.Assets.Pipelines.GetPageRendering
 {

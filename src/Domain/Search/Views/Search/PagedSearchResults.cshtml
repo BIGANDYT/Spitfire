@@ -1,0 +1,49 @@
+﻿@model Habitat.Framework.Indexing.Models.IPageble
+@{
+  var prevButtonAttributes = "";
+  var nextButtonAttributes = "";
+  var nextPageUrl = $"{Request.Url.AbsolutePath}?query={Model.Query}&page={Model.Page + 1}";
+  if (Model.Page >= Model.TotalPagesCount)
+  {
+    nextPageUrl = "#";
+    nextButtonAttributes = "class=disabled";
+  }
+
+  var prevPageUrl = $"{Request.Url.AbsolutePath}?query={Model.Query}&page={Model.Page - 1}";
+  if (Model.Page <= 1)
+  {
+    prevPageUrl = "#";
+    prevButtonAttributes = "class=disabled";
+  }
+}
+@Html.Partial("../Search/SearchResults", Model.Results)
+@if (Model.TotalResults > 0 && Model.LastPage > Model.FirstPage)
+{
+  <nav class="text-center">
+    <ul class="c-content-pagination c-square c-theme">
+      <li class="c-prev" @prevButtonAttributes>
+        <a href="@prevPageUrl" aria-label="Previous">
+            <i class="fa fa-angle-left"></i>
+        </a>
+      </li>
+      @for (int i = Model.FirstPage; i <= Model.LastPage; i++)
+      {
+        if (Model.Page == i)
+        {
+          <li class="active"><a href="@Request.Url.AbsolutePath?query=@Model.Query&page=@i">@i</a></li>
+        }
+        else
+        {
+          <li><a href="@Request.Url.AbsolutePath?query=@Model.Query&page=@i">@i</a></li>
+        }
+
+      }
+      <li class="c-next" @nextButtonAttributes>
+        <a href="@nextPageUrl" aria-label="Next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+}
+

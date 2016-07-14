@@ -1,0 +1,16 @@
+﻿---
+ID: a281f091-86a9-4d51-a295-c69c6f7cd917
+Parent: 75bc9ee3-894a-4e87-bcde-2a7443807f60
+Template: 14e452ca-064d-48a8-9ff2-2744d10437a1
+Path: /sitecore/content/Shared/SearchSettings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160619T140645Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

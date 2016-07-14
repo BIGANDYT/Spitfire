@@ -11,9 +11,6 @@
   <File Include="Model\NewsList.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{4FAC1849-FD50-4A5E-BA7D-615A386791DD}</Item>
   </File>
-  <File Include="Views\News\Jango\SearchNews.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-    <Item DatabaseName="master">{F2671C8D-FB22-44E5-BA87-F5D7BC727073}</Item>
-  </File>
   <File Include="Views\News\Jango\RecentNews.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{7ECAFBD7-B872-45CC-8E99-13D3738C4BC9}</Item>
   </File>

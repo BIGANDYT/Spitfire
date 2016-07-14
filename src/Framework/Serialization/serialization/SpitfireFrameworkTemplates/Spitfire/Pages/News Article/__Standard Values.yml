@@ -4,6 +4,9 @@ Parent: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Template: b3b2a02b-0ef5-4e71-8e39-a771745073be
 Path: /sitecore/templates/Spitfire/Pages/News Article/__Standard Values
 SharedFields:
+- ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
+  # NewsDate
+  Value: 20160621T132500Z
 - ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
   # __Default workflow
   Value: {B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
@@ -49,4 +52,7 @@ Languages:
       Value: sitecore\admin
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
+      Value: $name
+    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+      # NewsTitle
       Value: $name

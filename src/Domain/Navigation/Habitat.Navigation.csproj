@@ -44,14 +44,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Framework\Indexing\Habitat.Framework.Indexing.csproj">
-      <Project>{80213F24-577F-4F0B-A3B8-62485EA4D2F3}</Project>
-      <Name>Habitat.Framework.Indexing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Framework\SitecoreExtensions\Habitat.Framework.SitecoreExtensions.csproj">
-      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Habitat.Framework.SitecoreExtensions</Name>
-    </ProjectReference>
     <Reference Include="DynamicPlaceholders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\DynamicPlaceholders.1.1.0.1\lib\net45\DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
@@ -59,6 +51,14 @@
     <Reference Include="DynamicPlaceholders.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\DynamicPlaceholders.Mvc.1.1.0.1\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Habitat.Framework.Indexing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework\Indexing\obj\Debug\Habitat.Framework.Indexing.dll</HintPath>
+    </Reference>
+    <Reference Include="Habitat.Framework.SitecoreExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework\SitecoreExtensions\obj\Debug\Habitat.Framework.SitecoreExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>

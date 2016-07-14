@@ -1,0 +1,33 @@
+﻿@model Habitat.Framework.Indexing.Models.ISearchResults
+<div class="c-layout-sidebar-content ">
+    @foreach (var result in Model.Results)
+    {
+        if (result.ViewName != null)
+        {
+            @Html.Partial(result.ViewName, result);
+        }
+        else
+        {
+            <div class="row c-margin-b-20">
+                <div class="c-content-product-2 c-bg-white">
+                    <div class="col-md-12">
+                        <a href="@result.Url" class="btn btn-sm btn-default c-btn-square c-btn-uppercase c-btn-bold">@result.ContentType</a>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="c-info-list">
+                            <h3 class="c-title c-font-bold c-font-22 c-font-dark">
+                                <a class="c-theme-link" href="@result.Url">@Html.Raw(result.Title)</a>
+                            </h3>
+                            <p class="c-desc c-font-16 c-font-thin">
+                                @if (!string.IsNullOrWhiteSpace(result.Description))
+                                {
+                                    @Html.Raw(result.Description)
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

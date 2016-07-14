@@ -1,35 +1,88 @@
-﻿using System.Web.Mvc;
-using Habitat.Framework.SitecoreExtensions.Extensions;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Mvc.Controllers;
-using Habitat.Search.Model;
-using Sitecore.SecurityModel;
-using Sitecore.Data;
-using Sitecore.Data.Items;
-using System;
-using Sitecore.ContentSearch;
-using Sitecore.ContentSearch.SearchTypes;
-using Habitat.Search;
-using Sitecore.ContentSearch.Linq;
-
-namespace Habitat.News.Controller
+﻿namespace Habitat.Search.Controllers
 {
-    public class SearchController : SitecoreController
-    {
+    using Framework.Indexing.Models;
+    using Models;
+    using Repositories;
+    using Habitat.Framework.SitecoreExtensions.Repositories;
+    using System.Web.Mvc;
 
-        [HttpPost]
-        public ActionResult DoSearch(SearchModel commentModel)
-        {
-            SearchService ss = new SearchService();
-            Sitecore.Data.ID templateId = new Sitecore.Data.ID("{4E4C2EB4-F7A5-403B-A80E-44146C66A42A}");           
-            ss.TemplateRestrictions.Add(templateId);
-            // Add a facet
-            //peopleSearch.Facets.Add("role_sm");
-            // get results
-            SearchResults<SearchResultItem> searchResults = ss.Search(commentModel.SearchTerm);
-            //searchResults.Hits;
-            //hit.Document.Firstname
-            return base.Index();
-        }
+    public class SearchController : Controller
+  {
+    private readonly ISearchServiceRepository searchServiceRepository;
+    private readonly ISearchSettingsRepository searchSettingsRepository;
+    private readonly QueryRepository queryRepository;
+    private readonly IRenderingPropertiesRepository renderingPropertiesRepository;
+
+    public SearchController(): this(new SearchServiceRepository(), new SearchSettingsRepository(), new QueryRepository(), new RenderingPropertiesRepository())
+    {
     }
+
+    public SearchController(ISearchServiceRepository serviceRepository, ISearchSettingsRepository settingsRepository, QueryRepository queryRepository, IRenderingPropertiesRepository renderingPropertiesRepository)
+    {
+      this.searchServiceRepository = serviceRepository;
+      this.queryRepository = queryRepository;
+      this.searchSettingsRepository = settingsRepository;
+      this.renderingPropertiesRepository = renderingPropertiesRepository;
+    }
+
+    public ActionResult SearchResults(string query)
+    {
+      return this.View("SearchResults", this.GetSearchResults(new SearchQuery {Query = query}));
+    }
+
+    public ActionResult GlobalSearch()
+    {
+      return this.View("GlobalSearch", GetSearchSettings());
+    }
+
+    public ActionResult SearchResultsHeader(string query)
+    {
+      return this.View("SearchResultsHeader", GetSearchSettings());
+    }
+
+    public ActionResult PagedSearchResults(string query, int? page)
+    {
+      var pagingSettings =  this.renderingPropertiesRepository.Get<PagingSettings>();
+      var pageNumber = page ?? 1;
+      var resultsOnPage = pagingSettings.ResultsOnPage <= 1 ? Search.Models.PagedSearchResults.DefaultResultsOnPage : pagingSettings.ResultsOnPage;
+      var results = this.GetSearchResults(new SearchQuery { Query = query, Page = pageNumber, ResultsOnPage =  resultsOnPage});
+      var pageble = new PagedSearchResults(pageNumber, results.TotalNumberOfResults, pagingSettings.PagesToShow, resultsOnPage);
+      pageble.Query = query;
+      pageble.Results = results;
+      return this.View(pageble);
+    }
+
+    private ISearchResults GetSearchResults(SearchQuery searchQuery)
+    {
+      ISearchResults results = null;
+      if (this.HttpContext != null)
+      {
+        results = this.HttpContext.Items["SearchResults"] as ISearchResults;
+      }
+
+      if (results != null)
+      {
+        return results;
+      }
+
+      var query = this.CreateQuery(searchQuery);
+      results = this.searchServiceRepository.Get().Search(query);
+      if (this.HttpContext != null)
+      {
+        this.HttpContext.Items.Add("SearchResults", results);
+      }
+
+      return results;
+    }
+
+    private IQuery CreateQuery(SearchQuery query)
+    {
+      return this.queryRepository.Get(query);
+    }
+
+    private SearchSettings GetSearchSettings(string query = null)
+    {
+      return this.searchSettingsRepository.Get(query);
+    }
+  }
 }

@@ -21,10 +21,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{755F9E42-1707-4E1A-AE6D-3FD8A25118C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Framework.Assets", "src\Framework\Assets\Habitat.Framework.Assets.csproj", "{7E46FF93-EE05-412C-AC47-2A59A13DA73C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B535703F-8D07-4F23-A533-2974BB4CC7B1} = {B535703F-8D07-4F23-A533-2974BB4CC7B1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{D2CBE02E-6AA7-4343-9A01-891F971A17F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.News", "src\Domain\News\Habitat.News.csproj", "{1AAD6F22-9B6D-4688-8EA5-1AE7044031F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F} = {0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Metadata", "src\domain\Metadata\Habitat.Metadata.csproj", "{2BBD157C-AD28-4055-A208-48A2DA93BD04}"
 EndProject
@@ -53,6 +59,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Accounts", "src\Domain\Accounts\Habitat.Accounts.csproj", "{3F61C57D-50D9-4194-8196-EF5F7AA4CCE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Framework.Indexing", "src\Framework\Indexing\Habitat.Framework.Indexing.csproj", "{80213F24-577F-4F0B-A3B8-62485EA4D2F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B535703F-8D07-4F23-A533-2974BB4CC7B1} = {B535703F-8D07-4F23-A533-2974BB4CC7B1}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Teasers", "src\Domain\Teasers\Habitat.Teasers.csproj", "{64C1C1EF-71CB-47BD-92F9-4E50CE35BD9F}"
 EndProject
@@ -111,6 +120,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Utilities", "src\Domain\Utilities\Habitat.Utilities.csproj", "{9FD1A129-582D-4169-9E30-C77BA3D539BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Banking", "src\Domain\Banking\Habitat.Banking.csproj", "{56A46C6E-EE17-470B-97F5-9980AA2A3670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.Framework.Dictionary", "src\Framework\Dictionary\Habitat.Framework.Dictionary.csproj", "{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -430,6 +441,14 @@ Global
 		{56A46C6E-EE17-470B-97F5-9980AA2A3670}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56A46C6E-EE17-470B-97F5-9980AA2A3670}.Release|x64.ActiveCfg = Release|Any CPU
 		{56A46C6E-EE17-470B-97F5-9980AA2A3670}.Release|x64.Build.0 = Release|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -477,5 +496,6 @@ Global
 		{45131906-F048-4FB3-97D7-7DC7CE9C59C4} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 		{9FD1A129-582D-4169-9E30-C77BA3D539BC} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 		{56A46C6E-EE17-470B-97F5-9980AA2A3670} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
 	EndGlobalSection
 EndGlobal

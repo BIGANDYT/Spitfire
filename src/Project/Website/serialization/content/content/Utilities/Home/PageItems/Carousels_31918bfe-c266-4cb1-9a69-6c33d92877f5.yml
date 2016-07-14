@@ -1,0 +1,16 @@
+﻿---
+ID: 31918bfe-c266-4cb1-9a69-6c33d92877f5
+Parent: d5faa46c-bcfe-4fa9-9ff6-b05276056703
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Utilities/Home/PageItems/Carousels
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160623T144312Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

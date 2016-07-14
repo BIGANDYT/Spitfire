@@ -1,9 +1,13 @@
-using Sitecore.Data.Items;
-
 namespace Habitat.Framework.Indexing.Models
 {
-    public interface ISearchSettings
-    {
-        Item Root { get; set; }
-    }
+  using System.Collections.Generic;
+  using Sitecore.Data;
+  using Sitecore.Data.Items;
+
+  public interface ISearchSettings
+  {
+    Item Root { get; set; }
+
+    IEnumerable<ID> Templates { get; set; }
+  }
 }

@@ -11,4 +11,13 @@
   <File Include="Model\SearchModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{2F7A804D-4A3D-4A2E-9C34-2F4DA642A3A3}</Item>
   </File>
+  <File Include="Models\SearchResult.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B1222CA4-4FC1-4B98-B6D2-6FC5041FE673}</Item>
+  </File>
+  <File Include="Models\SearchResults.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6E9BF387-A64B-4406-883D-6D6CB82DE2DF}</Item>
+  </File>
+  <File Include="Models\SearchSettings.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{44081E4C-C12D-44D4-B9ED-7FAA6FBC4EC5}</Item>
+  </File>
 </Project>

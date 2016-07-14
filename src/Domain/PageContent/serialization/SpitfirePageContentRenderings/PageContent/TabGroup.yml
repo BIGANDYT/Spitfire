@@ -15,7 +15,7 @@ SharedFields:
   Value: {C1B117E3-9320-4C08-9A77-2C7A67C02096}
 - ID: b5b27af1-25ef-405c-87ce-369b3a004016
   # Datasource Location
-  Value: /sitecore/content/Shared/Spitfire/TabGroups
+  Value: ./PageItems/TabGroups
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
   Value: 1200
@@ -25,6 +25,9 @@ SharedFields:
 - ID: ddab263e-b42e-419a-aa6f-081b7393ca38
   # Model
   Value: /sitecore/layout/Models/Spitfire/Domain/PageContent/TabGroupModel
+- ID: ef7c5528-7307-4e19-863b-da19eed6a9ed
+  # Open Properties after Add
+  Value: -
 Languages:
 - Language: en
   Versions:

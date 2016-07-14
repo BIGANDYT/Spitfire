@@ -1,8 +1,7 @@
 ﻿namespace Habitat.Framework.SitecoreExtensions.Model
 {
+    using Constant;
     using Sitecore.Mvc.Presentation;
-
-    using Constants;
     using Habitat.Framework.SitecoreExtensions.Extensions;
 
     /// <summary>

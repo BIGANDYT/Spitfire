@@ -1,30 +1,40 @@
 ﻿namespace Habitat.Framework.SitecoreExtensions.Extensions
 {
     using System;
+    using Sitecore;
     using Sitecore.Data;
     using Sitecore.Data.Items;
     using Sitecore.Sites;
+    using Sitecore.ExperienceEditor.Utils;
+    using Sitecore.ExperienceExplorer.Business.Managers;
 
     public static class SiteExtensions
     {
         public static Item GetContextItem(this SiteContext site, ID derivedFromTemplateID)
         {
             if (site == null)
-            {
                 throw new ArgumentNullException(nameof(site));
-            }
 
-            var startItem = site.Database.GetItem(Sitecore.Context.Site.StartPath);
+            var startItem = site.GetStartItem();
             return startItem?.GetAncestorOrSelfOfTemplate(derivedFromTemplateID);
         }
-        public static Item GetRoot(this SiteContext site)
+
+        public static Item GetRootItem(this SiteContext site)
         {
             if (site == null)
-            {
                 throw new ArgumentNullException(nameof(site));
-            }
 
-            return site.Database.GetItem(Sitecore.Context.Site.RootPath);
+            return site.Database.GetItem(Context.Site.RootPath);
         }
+
+        public static Item GetStartItem(this SiteContext site)
+        {
+            if (site == null)
+                throw new ArgumentNullException(nameof(site));
+
+            return site.Database.GetItem(Context.Site.StartPath);
+        }
+
+        public static bool NoOverlay(this SiteContext siteContext) => siteContext.DisplayMode == DisplayMode.Normal && !ModuleManager.IsExpViewModeActive && !WebEditUtility.IsDebugActive(siteContext);
     }
 }
