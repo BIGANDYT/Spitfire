@@ -24,7 +24,7 @@ Languages:
       # Title
       Value: Car Insurance
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediapath=\"\" alt=\"London Bus\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"\" mediaid=\"{0C90B1F5-459B-4DE9-9D8A-8E3DB6EC9269}\" ></image>"
     - ID: a3fb17df-ab94-4881-a381-1ed1e630f7a9
       # ClassColour

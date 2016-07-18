@@ -1,0 +1,23 @@
+﻿---
+ID: 61a488b7-ff39-487f-adce-7fbd15aa3769
+Parent: 31918bfe-c266-4cb1-9a69-6c33d92877f5
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Utilities/Home/PageItems/Carousels/Gas Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: |
+        {C85FB7BD-7709-4DA5-997F-6CBA75DD0B68}
+        {FD120C55-BA8D-417E-AD5C-ECD41A61B719}
+        {DEC352C2-6455-4339-AF8A-4DD4AA562256}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160525T203740Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

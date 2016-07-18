@@ -1,0 +1,98 @@
+﻿---
+ID: 3d435132-1979-4e5a-9514-d4ee0c2112b0
+Parent: 0caf9b0e-cfeb-4861-aa5e-09883bc3f692
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Workbox
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1100
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: ar|sitecore\Sitecore Client Translating|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Users|pe|!*|pd|!*|ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  # Icon
+  Value: Apps/16x16/workbox.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r id="{4448646E-510C-4D35-B3B1-220029823620}" par="Id=QuickbarButton&amp;Click=trigger%3abutton%3aclick&amp;Command=WorkBox&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fWorkBox.js" uid="{AB59A8BE-458E-400B-89AC-25D15F16B5A8}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T031053Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Åbn arbejdsboks.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Arbejdsboks
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Arbejdsboks
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T030807Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Workbox öffnen
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Workbox
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Workbox
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080215T101800
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Open the workbox.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Workbox
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T030934Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: ワークボックスを起動します
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ワークボックス
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: ワークボックス

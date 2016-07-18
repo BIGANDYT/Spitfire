@@ -15,5 +15,5 @@ Languages:
       # Link
       Value: "<link linktype=\"internal\" text=\"Donate Now\" querystring=\"\" target=\"\" id=\"{11111111-1111-1111-1111-111111111111}\" />"
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{0C649C70-458D-4519-882E-BAD9D9D810C1}\" />"

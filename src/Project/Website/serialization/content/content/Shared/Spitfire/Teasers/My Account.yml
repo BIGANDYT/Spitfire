@@ -30,5 +30,5 @@ Languages:
       # Title
       Value: My ACCOUNT
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{1D180D42-9683-4EB1-8485-C952766D24CC}\" alt=\"\" height=\"120\" width=\"120\" hspace=\"\" vspace=\"\"></image>"

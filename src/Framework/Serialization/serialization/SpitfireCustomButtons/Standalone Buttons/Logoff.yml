@@ -1,0 +1,93 @@
+﻿---
+ID: 084ea9ee-9938-44f8-bef5-76cd4aad7903
+Parent: 0caf9b0e-cfeb-4861-aa5e-09883bc3f692
+Template: 02404208-46d4-49bf-988b-eb363a52a1c9
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Logoff
+SharedFields:
+- ID: 1bb289d6-44d7-4fcc-af15-db32b841f957
+  # Click
+  Value: webedit:logout
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
+- ID: e8cc41c7-c304-4282-b782-e21ca32d324c
+  # Icon
+  Value: Office/16x16/keys.png
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: <r />
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T031045Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Log af.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Log af
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Log af
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T030758Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Abmelden.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Abmeldung
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Abmelden
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20100809T173700
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: Log off.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\Admin
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: Log Off
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151003T030925Z
+    - ID: 371e0d96-4f00-4b80-ad14-6284e00493ba
+      # Tooltip
+      Value: ログオフ
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ログオフ
+    - ID: c523aba8-d1a1-4dcb-aeee-52635a4ab2ae
+      # Header
+      Value: ログオフ

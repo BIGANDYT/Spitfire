@@ -15,5 +15,5 @@ Languages:
       # Link
       Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{4760BF94-7BDA-43C4-B34A-73114A44A102}\" />"
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{BF2B64C0-A584-4267-B755-5261F3EAE89E}\" ></image>"

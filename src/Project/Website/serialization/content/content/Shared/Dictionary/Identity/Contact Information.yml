@@ -3,3 +3,11 @@ ID: 4886ce4c-36b6-47e8-b4b7-77784dad9616
 Parent: 70718e48-d922-45c2-ad67-f866435dfde5
 Template: 98e4bdc6-9b43-4eb2-baa3-d4303c35852e
 Path: /sitecore/content/Shared/Dictionary/Identity/Contact Information
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160406T232644Z

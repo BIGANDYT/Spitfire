@@ -24,7 +24,7 @@ Languages:
       # Title
       Value: Home Insurance
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{7A569A92-25A9-4FC0-930B-2013DCCC3D2D}\" alt=\"Home Insurance\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" ></image>"
     - ID: a3fb17df-ab94-4881-a381-1ed1e630f7a9
       # ClassColour

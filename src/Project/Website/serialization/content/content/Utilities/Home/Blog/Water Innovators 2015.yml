@@ -46,6 +46,3 @@ Languages:
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # ComponentImage
       Value: "<image mediaid=\"{486C9114-7ED4-4B41-9C0D-DE074CE6A935}\" />"
-    - ID: df016ddc-96d7-4454-b107-e7f4e878a15b
-      # Summary
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tortor faucibus odio ultricies sodales id suscipit purus. Fusce bibendum enim non dolor auctor, ac lobortis urna blandit. Donec non lorem semper lacus viverra efficitur.&nbsp;

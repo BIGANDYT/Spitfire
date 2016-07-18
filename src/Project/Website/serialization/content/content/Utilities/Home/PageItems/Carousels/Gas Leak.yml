@@ -1,0 +1,20 @@
+﻿---
+ID: e09f0f3e-871a-46d1-8c0f-e2405a792efd
+Parent: 31918bfe-c266-4cb1-9a69-6c33d92877f5
+Template: f7e2f214-99ee-4240-9a1c-f362a33fe4fe
+Path: /sitecore/content/Utilities/Home/PageItems/Carousels/Gas Leak
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
+      # Slides
+      Type: Multilist
+      Value: {D89272AA-5D9C-4E8B-972E-9D7719F333BC}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160526T092601Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

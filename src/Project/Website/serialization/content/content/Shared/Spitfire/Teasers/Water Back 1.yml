@@ -17,5 +17,5 @@ Languages:
         <br>SAVE WATER
         <br>SAVE ENERGY<br><br><br><br><br><br>SAVE MONEY<br><br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{41F524BF-46C0-448B-84B8-F45CFB2AC68F}\" />"

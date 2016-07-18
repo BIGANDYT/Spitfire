@@ -15,5 +15,5 @@ Languages:
       # Description
       Value: "<a class=\"c-font-white\" href=\"http://www.wateraid.org/uk/\" target=\"_blank\">Donate to WaterAID now</a><br><br><br><br><br><br><br><br><br><br><br>"
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{486C9114-7ED4-4B41-9C0D-DE074CE6A935}\" alt=\"\" height=\"368\" width=\"551\" hspace=\"\" vspace=\"\" />"

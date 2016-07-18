@@ -28,5 +28,5 @@ Languages:
       # Title
       Value: Pay Your Bill online
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{0C649C70-458D-4519-882E-BAD9D9D810C1}\" ></image>"

@@ -15,7 +15,7 @@ Languages:
       # Description
       Value: <br><br><br><br><br><br><br><br>Summer holiday time&nbsp;brings high demand on water<br>this may cause lower water pressure <br>at peak times<br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{7B52A5A3-9A6E-4F51-982D-F08D26C9BA4E}\" alt=\"summer\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
   - Version: 2
     Fields:
@@ -44,7 +44,7 @@ Languages:
         <br>
         <br>
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
-      # Image
+      # ComponentImage
       Value: "<image mediaid=\"{0EFC7CC4-6908-47B0-A624-3C72996B47CF}\" alt=\"snow\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
     - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
       # __Valid from
