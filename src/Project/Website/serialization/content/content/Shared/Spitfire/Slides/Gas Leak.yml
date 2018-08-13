@@ -3,6 +3,10 @@ ID: d89272aa-5d9c-4e8b-972e-9d7719f333bc
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Gas Leak
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 2100
 Languages:
 - Language: en
   Versions:

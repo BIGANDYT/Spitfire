@@ -3,6 +3,10 @@ ID: 9e5a8bca-a7bd-4c9a-bd71-b3f05d665c5a
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Social
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 3800
 Languages:
 - Language: en
   Versions:

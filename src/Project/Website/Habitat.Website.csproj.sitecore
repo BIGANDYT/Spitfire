@@ -14,4 +14,7 @@
   <File Include="Views\Website\Layouts\Jango\BingEducation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{4FB31731-CE3A-40CA-87C3-84B3C45D2C9D}</Item>
   </File>
+  <File Include="Views\Website\Layouts\Jango\TripAdvisor.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{27E4F63E-E215-4295-9F72-D419864FD875}</Item>
+  </File>
 </Project>

@@ -11,9 +11,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151215T134139Z
-    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
-      # Link
-      Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{4760BF94-7BDA-43C4-B34A-73114A44A102}\" />"
     - ID: a1f852a7-c28e-4046-ac0c-9f0072950b9d
       # ComponentImage
       Value: "<image mediaid=\"{BF2B64C0-A584-4267-B755-5261F3EAE89E}\" ></image>"

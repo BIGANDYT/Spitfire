@@ -11,9 +11,7 @@ Languages:
     - ID: 0f8ee1c0-8bea-4bea-9aa9-da4af2134166
       # Slides
       Type: Multilist
-      Value: |
-        {2F66ADBF-4819-457F-9890-13E8881D2038}
-        {75FB2CAA-8C32-45D4-897A-9D7D03F038F1}
+      Value: {2F66ADBF-4819-457F-9890-13E8881D2038}
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20160122T082522Z

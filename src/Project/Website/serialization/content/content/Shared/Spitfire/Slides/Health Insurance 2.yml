@@ -3,6 +3,10 @@ ID: a87d542b-e1fe-4cf5-a561-c6c6f2866b8e
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Health Insurance 2
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 2600
 Languages:
 - Language: en
   Versions:
@@ -11,9 +15,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151115T103257Z
-    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
-      # Link
-      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{9155919E-3CEC-4AED-90EF-0A9C3C8D51D0}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin

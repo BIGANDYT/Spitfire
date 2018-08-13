@@ -1,22 +1,31 @@
 ﻿---
-ID: ed54f30b-3810-410e-9aaa-eef01878b935
+ID: 7452cfd1-10d5-4700-8185-560dca09480d
 Parent: 105063f2-c600-46bc-95eb-15c7db8f6541
 Template: a46b7e45-26de-4fa9-8650-61ead2226b61
 Path: /sitecore/content/Banking/Home/About Us
+SharedFields:
+- ID: 19b597d3-2edd-4ae2-aefe-4a94c7f10e31
+  # __Source Item
+  Value: sitecore://master/{7B9391A3-EC03-4DF6-BA13-E0110AA28DD5}
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
-      Value: About Us
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{8DC9D333-C1F4-4135-8DA5-93B72411FD36}" p:before="r[@uid='{06B8DA34-F842-4D41-85BE-F3530B1681C6}']" s:ds="{2399C929-E57B-4EBC-8D21-7A2A755AA4CE}" s:id="{20D45655-BFE5-4521-ABD7-16324CC6F13A}" s:par="" s:ph="/page-content/col-sidebar_f063a932-2b3a-438c-abcf-a62f1f00fdd8" />
+            <r uid="{06B8DA34-F842-4D41-85BE-F3530B1681C6}" p:before="r[@uid='{F063A932-2B3A-438C-ABCF-A62F1F00FDD8}']" s:id="{8355CEF1-BD86-43B4-B995-24EA6828CE4C}" s:ph="/page-content/col-content_f063a932-2b3a-438c-abcf-a62f1f00fdd8" />
+            <r uid="{F063A932-2B3A-438C-ABCF-A62F1F00FDD8}" p:before="r[@uid='{4BF3D46A-D503-4152-A526-77D9F1616424}']" s:id="{7D05D05D-26DA-4018-93CC-589AD43E6AB6}" s:ph="page-content" />
+          </d>
+        </r>
+    - ID: 1b86697d-60ca-4d80-83fb-7555a2e6ce1c
+      # __Source
+      Value: sitecore://master/{7B9391A3-EC03-4DF6-BA13-E0110AA28DD5}?lang=en&ver=1
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20160505T075041Z
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
-      Value: About Us
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
-      Value: About Us
+      Value: 20170313T121521Z

@@ -206,6 +206,7 @@
     <Content Include="Views\Website\Layouts\Jango\BingEducation.cshtml" />
     <Content Include="Views\Form\EditorTemplates\FormViewModel.cshtml" />
     <Content Include="Views\Website\Layouts\Jango\BingWater.cshtml" />
+    <Content Include="Views\Website\Layouts\Jango\TripAdvisor.cshtml" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

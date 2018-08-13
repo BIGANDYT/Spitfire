@@ -3,6 +3,10 @@ ID: 282749ff-96d6-4186-87d6-3f27114eefe0
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Spanish
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 3900
 Languages:
 - Language: en
   Versions:
@@ -14,9 +18,6 @@ Languages:
     - ID: 4701ca14-c06d-4df8-a569-704cb890ee5b
       # SubTitle
       Value: GCSE specifications
-    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
-      # Link
-      Value: "<link text=\"Spanish\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{F0633693-A16D-44C3-8D08-0A73101B9EDE}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin

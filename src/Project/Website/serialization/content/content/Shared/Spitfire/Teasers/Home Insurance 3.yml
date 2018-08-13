@@ -11,9 +11,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151107T121348Z
-    - ID: 4fa77757-4add-4539-bd9f-1fbbfeb872e4
-      # Link
-      Value: "<link text=\"Get a Quote\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6648661B-D262-4F30-BA35-DFEF1CF6D4B8}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin

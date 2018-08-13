@@ -32,4 +32,10 @@
   <File Include="Model\Image.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{2096222B-71C2-4037-830A-C661454527B2}</Item>
   </File>
+  <File Include="Views\Media\Jango\Slide - Dropdown.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D545372B-D327-4D1A-AF96-9F45A1A3673E}</Item>
+  </File>
+  <File Include="Views\Media\Jango\Dropdown-Slider.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E8603BE8-7367-48A7-8B76-694AA7521ABE}</Item>
+  </File>
 </Project>

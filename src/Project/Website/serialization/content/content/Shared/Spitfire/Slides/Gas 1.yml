@@ -3,6 +3,10 @@ ID: c85fb7bd-7709-4da5-997f-6cba75dd0b68
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Gas 1
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1800
 Languages:
 - Language: en
   Versions:

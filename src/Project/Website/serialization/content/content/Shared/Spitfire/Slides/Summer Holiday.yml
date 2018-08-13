@@ -3,6 +3,10 @@ ID: a5f0ebff-a27c-4650-9909-ade9c8423270
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Summer Holiday
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 4000
 Languages:
 - Language: en
   Versions:

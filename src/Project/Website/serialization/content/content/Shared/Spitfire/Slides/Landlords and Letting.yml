@@ -3,6 +3,10 @@ ID: d0b15ec6-ddd3-4ea2-924d-b2fb480e3f95
 Parent: d8b4b9eb-cc30-4be7-b169-409d99238968
 Template: b667aca4-1478-4fed-aedb-f456d4a53ff1
 Path: /sitecore/content/Shared/Spitfire/Slides/Landlords and Letting
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 3300
 Languages:
 - Language: en
   Versions:
@@ -21,7 +25,7 @@ Languages:
       # Description
       Value: |
         <p>Manage multiple properties and update<br>
-        tenancies instantly!! In&nbsp;<a href="~/link.aspx?_id=F3EF6F6459BC444282EF3724B46250B0&amp;_z=z">Home</a></p>
+        tenancies instantly!! In&nbsp;Home</p>
     - ID: 852b4791-9c5d-42bb-a5dd-1f734b53c42f
       # Title
       Value: Landlord and Letting Agents
